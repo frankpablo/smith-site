@@ -1,7 +1,36 @@
 ---
-title: Home
 layout: home
+title: Home
+nav_order: 1
 ---
+
+# Brief
+
+I am a Lecturer in the Computer Science department at Smith College. I received my PhD. from the George Washington University under the direction of Professor Rahul Simha. I currently teach a variety of undergraduate courses and have taught graduate courses in the past.
+
+My research is currently focused on STEM, especially on the areas of identifying misconceptions, creating scalable and informative assessments, and in the use of active learning techniques such as learning-by-teaching, and peer learning.
+
+In addition, I work on Human-Computer Interaction and how it might allow us to interact with virtual worlds and robots.
+
+I enjoy collaborating with colleagues in other fields where I get to combine CS with Biology or Physics and play with their data.
+
+Topics of interest include:
+
+*   Flipped Classroom techniques to teach programming
+*   The benefits of games and puzzles in learning
+*   Construction of fair, scalable assessments
+*   Multimodal teaching with an emphasis on getting students to articulate their understanding
+*   3D-Shape reconstruction and analysis
+*   The use of Embedded Systems and Machine Learning to automate (Biology) Laboratory tasks.
+
+Miscellaneous:
+
+# More info
+
+If you are looking for the courses I teach or the Research I do, please select the appropriate sections in the side bar.
+
+<!-- 
+### Extra below
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
@@ -28,3 +57,4 @@ To get started with creating a site, just click "[use this template]"!
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+ -->
