@@ -3,7 +3,7 @@ layout: default
 title: CSC110calendar-S03
 parent: CSC110
 grand_parent: Teaching
-nav_order: 4
+nav_order: 3
 #permalink: /docs/teaching/csc110/
 ---
 

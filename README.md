@@ -90,6 +90,13 @@ You're free to customize sites that you create with this template, however you l
 
 [Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
+
+## PFB Notes:
+
+Finding the Just the Docs bundle for customization: 
+
+Location: /Users/pfrank/.gem/ruby/3.1.3/gems/just-the-docs-0.4.0.rc4
+
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
