@@ -31,7 +31,7 @@ Classes will be recorded and uploaded but Attendance is mandatory.
 
 Location of OHs:
 
-![OH location](../../assets/images/Office-OHs.png){: width=60%}
+![OH location](../../../assets/images/Office-OHs.png){: width=60%}
 
 **Office Hour Rules**:
 

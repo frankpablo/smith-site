@@ -9,8 +9,8 @@ has_children: true
 
 # Current Courses
 
-  *   Spring, 2023: - [CSC 110 Introduction to Computer Science Through Programming](./classes/csc111/class-info.html)
-  *   Spring, 2023: - [CSC 250 - Theory of Computation](./classes/csc250/class-info.html)
+  *   Spring, 2023: - [CSC 110 Introduction to Computer Science Through Programming]({% link docs/teaching/csc110/csc110home.md %})
+  <!-- *   Spring, 2023: - [CSC 250 - Theory of Computation](#) -->
 
 
 # Past Courses 
