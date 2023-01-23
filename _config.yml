@@ -7,3 +7,4 @@ logo: "/assets/images/pabloFaceIcon.png"
 favicon_ico: "/assets/images/favicon.ico"
 #color_scheme: dark
 color_scheme: smith
+markdown: kramdown
