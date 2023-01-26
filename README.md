@@ -96,6 +96,11 @@ You're free to customize sites that you create with this template, however you l
 Finding the Just the Docs bundle for customization: 
 
 Location: /Users/pfrank/.gem/ruby/3.1.3/gems/just-the-docs-0.4.0.rc4
+Check tese guides:
+https://jekyllrb.com/docs/
+https://jekyllrb.com/docs/themes/
+https://just-the-docs.github.io/just-the-docs/docs
+https://github.com/just-the-docs/just-the-docs/tree/main/docs
 
 ## Licensing and Attribution
 

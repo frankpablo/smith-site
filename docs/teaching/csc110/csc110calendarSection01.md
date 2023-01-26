@@ -22,7 +22,7 @@ nav_order: 1
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 01/30             | Data and Programs            | Readings + Video | <a href="https://greenteapress.com/thinkpython2/html/thinkpython2002.html" target="_blank">Book-Ch1</a> and <a href="https://greenteapress.com/thinkpython2/html/thinkpython2003.html" target="_blank">Book-Ch2</a> + Understanding Check: Syntax (Moodle)|                    |
 | 02/01             | Intro Basic Syntax           | Book Ch1 and Ch2 |                                       |                    |
-| 02/03             | Practice with Basic Syntax   |                  | Homework 01: Syntax Basics + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2004.html" target="_blank">Book-Ch3</a> + Understanding Check: Functions (Moodle)            | HW01 Due 02/10     |
+| 02/03             | Practice with Basic Syntax <br> Pair-Programming  |                  | Homework 01: Syntax Basics + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2004.html" target="_blank">Book-Ch3</a> + Understanding Check: Functions (Moodle)            | HW01 Due 02/10     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 3**        | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |

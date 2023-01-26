@@ -4,7 +4,7 @@ title: CSC110
 parent: Teaching
 nav_order: 3
 has_children: true
-permalink: /docs/teaching/
+permalink: /docs/teaching/csc110home/
 ---
 
 
@@ -26,7 +26,7 @@ Classes will be recorded and uploaded but Attendance is mandatory.
 
 **Office Hours**: 
 
-  - Wednesday/Friday (By Appointment) 1:00 PM to 4:00 PM Ford 316 or the Study Nook (both shown below)
+  - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below)
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs:
@@ -42,17 +42,19 @@ Location of OHs:
   * Show up on time! and Have your question/program ready, otherwise your time will not be enough.
   * You cant book an appointment fewer than 2 hours before the desired time.
 
-**In-Class TA (Time: TBD)**: TBD
+**Class TA**:
 
-**TA Hours**: (TBD)
+  * Section 01: M/W/F 8:00am: Thu Tran; tntran@smith.edu
+  * Section 02: M/W/F 9:25am: Larissa Savitsky; lsavitsky@smith.edu
+  * Slack (both sections): Thu Tran; tntran@smith.edu
+  * Feedback Giver (both sections): Dakota Mallen; kmallen@smith.edu
 
-  * Sunday 1pm-3pm: TBD
-  * Sunday 7pm-9pm: TBD
-  * Monday 7pm-9pm: TBD
-  * Tuesday 7pm-9pm: TBD
-  * Wednesday 7pm-9pm: TBD
-  * Thursday 7pm-9pm: TBD
-  * Slack: TBD
+**TA Hours (Help Room)**: At Ford 241
+
+  * Sunday 1pm-3pm: Jingwen
+  * Monday 7pm-9pm: Larissa
+  * Tuesday 7pm-9pm: Dakota
+  * Wednesday 7pm-9pm: Megan and Jingwen
 
 
 ## Objectives and Structure 

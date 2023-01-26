@@ -48,13 +48,14 @@ Location of OHs (Ford Hall, Third Floor):
 
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
 
-**In-Class TA**: Skye Worster
+**Class TA**: Skye Worster; sworster@smith.edu
 
 **TA Hours**:
 
-  * Sunday 1pm-3pm: Skye
-  * Wednesday 7pm-9pm: Skye
-  * Tuesday 7pm-9pm: Mariem
+  * Sunday 1pm - 3pm: Ford 241
+  * Wednesday 7pm - 9pm: Ford 241
+  * In class TA Fridays 11:05am - 12:05pm: Ford 241
+  * You can also reach Skye over Slack
 
 
 
