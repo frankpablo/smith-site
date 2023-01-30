@@ -169,6 +169,8 @@ The following grade calculation may be modified slightly depending on how the se
 Participation will be actually graded based on my memory of your active involvement in
 Class/Office-Hours/Slack.
 
+**HW Grading**: The Demo will count 25% of your grade and I will base it mostly on your presentation of the answers. Then, I will give you live feedback AND let you submit a corrected version of the Homework due the following Monday.
+
 **Late Submissions**:
 
 We will accept no late submissions without a valid excuse (see exceptions). The homework and projects are designed to have "checkpoints" so that you MUST show your progress at every point so starting late is actively discouraged. 

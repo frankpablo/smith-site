@@ -21,7 +21,7 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 2**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 01/30             | Logic and Proofs             	|  				  	| Overleaf Tutorial Video (Moodle)	  	|                     	|
+| 01/30             | Logic and Proofs             	|  				  	| Overleaf Tutorial [Video](https://smith.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a8745bf-b479-4875-848a-af910180359c) (Moodle)	  	|                     	|
 | 02/01             | More Logic and Proofs           |  | [Reading 2](http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/240%20Guide%20to%20Induction.pdf)  |                     |
 | 02/03             | Work on HW01   				|              		| Homework 01: Logic and Proofs        	| HW01 Due 02/10  		|
 

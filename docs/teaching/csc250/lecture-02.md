@@ -37,7 +37,7 @@ Bird's eye view
 
 **Remember**: we will have to convert real-life problems to language (symbols, operators, delimiters, quantifiers,...) so we can talk about them, and hopefully solve them, in the abstract.  
   
-So... we must agree on some rules about symbol manipulation and drawing conclussions. That is why we'll discuss how to argue a point in such a way that it leaves no room for "comebacks"/"clapbacks"/"retaliation", etc ... in short: in such a way it does not leave the door open for a counter argument.
+So... we must agree on some rules about symbol manipulation and drawing conclussions. That is why we'll discuss how to argue a point in such a way that it leaves no room for "comebacks" / "clapbacks" / "retaliation", etc ... in short: in such a way it does not leave the door open for a counter argument.
 
   
 
@@ -108,8 +108,8 @@ You could answer: "Yes".
   
 Where is the _linguistic issue_ in this exchange?  
   
-Other issues: language artifacts, like [contronyms](https://en.wikipedia.org/wiki/Auto-antonym) (_dust_, _clip_, _fast_), or  
-[homonyms](https://en.wikipedia.org/wiki/Homonym) ( "Buffalo buffalo buffalo Buffalo buffalo").
+Other issues: language artifacts, like [contronyms](https://en.wikipedia.org/wiki/Auto-antonym){:target="_blank"} (_dust_, _clip_, _fast_), or  
+[homonyms](https://en.wikipedia.org/wiki/Homonym){:target="_blank"} ( "Buffalo buffalo buffalo Buffalo buffalo").
 
   
   
@@ -174,7 +174,15 @@ with which we can detect errors in the logical computation and refute a conclusi
   
 **Activity 3** \[2 minutes\]: how do we combine propositions?  
   
-
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>One possible answer: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+          <i>Logical Operators!... yes. The answer was the next title :)</i><br>
+        </p>
+      </details>
+    </span>
+  </div>
   
 
 * * *
@@ -327,7 +335,17 @@ We can combine these building blocks to make arbitrarily complicated proposition
   
 **Activity 4** \[2 minutes\]: What is this saying?  
   
+Hint: if you build its table, you'll realize it looks llike something...
 
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>One possible answer: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+          <i>same as XOR</i><br>
+        </p>
+      </details>
+    </span>
+  </div>
   
   
 
@@ -346,10 +364,19 @@ We can show the effect of this operator using a table:
 | True | False | False |
 | True | True | True |
 
+
+<!-- 6f439a -->
+ 
+   <div class="container mx-lg-5"> 
+    <span style='color:#207cb1'>      
+        <p>
+          Think of the whole statement as a <b>promise</b>; <br>  
+          You only "tag" it as FALSE when you break the promise.  
+        </p>
+      </span>
+  </div>
   
-  
-Think of the **whole statement** as a promise;  
-You only "tag" it as FALSE when you break the promise.  
+
   
 Rows 3 and 4 are the "normal" ones:
 
@@ -376,16 +403,19 @@ Rows 1 and 2 are True because they "technically" are not breaking the promise. W
 * Another example would be:  
     "All living people in the world are resistant to moonlight"  
     This can be written as:  
-    if \\( \\text{P: living person} \\quad \\text{and M: resistant to moonlight} \\), then the statement is:  
+    
+    \\( \\text{if P: living person} \\quad \\text{and M: resistant to moonlight} \\), then the statement is:  
     \\(P \\rightarrow M\\)  
       
     The combination when \\( \\neg P \\text{ (not P, or P:False) and } \\neg M \\text{ (not M, or M:False) } \\)  
       
     Would be True: \\(\\neg P \\rightarrow \\neg M\\)  
+    
+    and since a vampire is "undead" and "not living", then...
+
+    the sentence:  
       
-    So the sentence:  
-      
-    **All the vampires in the world are susceptible to moonlight**"  
+    **If there are vampires in the world, they are susceptible to moonlight**"  
       
     Is (vacuously) True (I hope).  
       
@@ -467,16 +497,24 @@ Let's use an example:
 ![Honk](../../../assets/images/csc250/lecture02/honk.png){: width="60%"}
 
   
-  
-**Activity 7** \[2 minutes\]: What can you infer if you do not hear a honk?  
-  
-You can assume that  
-we have a driver behind us;  
-the driver saw the sign;  
-they have a working horn  
-people in this town take bumper stickers seriously
 
   
+**Activity 7** \[2 minutes\]: What can you infer if you do not hear a honk?  
+
+
+
+You can assume that:  
+
+  * we have a driver behind us;  
+  * the driver saw the sign;  
+  * they have a working horn  
+  * people in this town take bumper stickers seriously
+
+Hint: maybe restructure the statement as a proper implication:
+
+\\( \text{if you love formal logic } \rightarrow  \text{ Honk} \\)
+
+... Now, do logic    
   
 
 ### Symbolic manipulation
@@ -517,19 +555,76 @@ when several of the same operator are in a row (i.e. \\(a ∧ b ∧ c\\)), evalu
 **Answer below**
 
 
-  
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>One possible answer: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">p</th>
+    <th class="tg-0pky">q</th>
+    <th class="tg-0pky">p ∨ q</th>
+    <th class="tg-0pky">¬q</th>
+    <th class="tg-0pky">(p ∨ q) ∧ (¬q)</th>
+    <th class="tg-0pky">(p ∨ q) ∧ (¬q) →p</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">1</td>
+  </tr>
+</tbody>
+</table>
 
-| p   | q   | p ∨ q | ¬q  | (p ∨ q) ∧ (¬q) | (p ∨ q) ∧ (¬q) →p |
-| --- | --- | --- | --- | --- | --- |
-| 0   | 0   | 0   | 1   | 0   | 1   |
-| 0   | 1   | 1   | 0   | 0   | 1   |
-| 1   | 0   | 1   | 1   | 1   | 1   |
-| 1   | 1   | 1   | 0   | 1   | 1   |
 
-  
-  
 A Tautology is an assertion that is always true.  
-In its most basic form, it is: \\\[ q \\lor \\neg q \\\]
+In its most basic form, it is: 
+<br>
+q &or; p
+        </p>
+      </details>
+    </span>
+  </div>
+
+
 
   
   
@@ -600,7 +695,7 @@ We will see a _very high-level intro_ to three types of proofs:
   
   
 
-#### Direct proof [](https://en.wikipedia.org/wiki/Deductive_reasoning)deduction
+#### Direct proof [](https://en.wikipedia.org/wiki/Deductive_reasoning){:target="_blank"} Deduction
 
 To quote Wikipedia: "Deductive reasoning goes in the same direction as that of the conditionals, and links premises with conclusions. If all premises are true, the terms are clear, and the rules of deductive logic are followed, then the conclusion reached is necessarily true."  
   
@@ -613,7 +708,7 @@ Example:
   
   
 
-#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contradiction)Contradiction
+#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contradiction){:target="_blank"} Contradiction
 
 Start by assuming (taking as a true proposition) the opposite of what you wish to prove.  
 Follow the normal rules of propositional logic and if:
@@ -635,7 +730,7 @@ Using proof by contradiction, we say:
   
   
 
-#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contrapositive)Contrapositive
+#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contrapositive){:target="_blank"} Contrapositive
 
 If we take an implication proposition as true, there is another proposition we can extract from it by performing some manipulations:  
   
@@ -764,10 +859,10 @@ Then, read the overleaf guide and check the tutorials mentioned below.
 
 ### Submitting Assignments in Latex using Overleaf
 
-[Overleaf](https://www.overleaf.com/) is an online LaTeX editor.  
+[Overleaf](https://www.overleaf.com/){:target="_blank"} is an online LaTeX editor.  
   
 _What is LaTeX?_ you ask.  
-From [https://www.latex-project.org/](https://www.latex-project.org/):  
+From [https://www.latex-project.org/](https://www.latex-project.org/){:target="_blank"}:  
 
 > _"LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents."_
 > 
@@ -779,22 +874,9 @@ From [https://www.latex-project.org/](https://www.latex-project.org/):
 
 I will provide templates for every Assignment where you only need to fill-in what your answer is. Whether it is text-only, text with mathematical symbols, equations, or even diagrams, there is a way to do it in overleaf.  
   
-Follow this [Oveleaf guide to learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes).  
+Follow this [Oveleaf guide to learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes){:target="_blank"}.  
   
-Overleaf has a set of quicklinks on the right side that have most (if not all) of what you'll need. Some of the most important things are the [symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)!.  
+Overleaf has a set of quicklinks on the right side that have most (if not all) of what you'll need. Some of the most important things are the [symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols){:target="_blank"}!.  
   
-Later on, we'll use the [FSM designer](https://madebyevan.com/fsm/) to make nice digrams like the ones shown below.  
+Later on, we'll use the [FSM designer](https://madebyevan.com/fsm/){:target="_blank"} to make nice digrams like the ones shown below.  
   
-
-#### How to get started with HW1?
-
-I will give you a template in Moodle. The template is a Zip of a tex file, which holds the latex source code for HW01. What you do is 
-
-  1) download the zip, and 
-  2) without unzipping, upload it to Overleaf (additional help/tutorials will be linked in Moodle).  
-  
-  
-Overleaf lets you add a little bit of metadata info to a document to make it look better:  
-  
-
-![](../../../assets/images/csc250/lecture02/latex.png){: width="60%"}

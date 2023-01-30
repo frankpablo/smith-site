@@ -36,7 +36,7 @@ nav_order: 3
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 02/13             | Strings Intro                |                  |                                       |                    |
 | 02/15             | More Strings                 |                  |                                       |                    |
-| 02/17             | Practice with Strings        | Homework 02      | Homework 03: Strings + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2006.html" target="_blank">Book-Ch5 (except 5.8-5.10)</a> + Understanding Check: Conditionals (Moodle)                 | HW02 Due 02/24     |
+| 02/17             | Practice with Strings        | Homework 02      | Homework 03: Strings + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2006.html" target="_blank">Book-Ch5 (except 5.8-5.10)</a> + Understanding Check: Conditionals (Moodle)                 | HW03 Due 02/24     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 5**        | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |

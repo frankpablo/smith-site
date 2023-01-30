@@ -183,7 +183,7 @@ We will see a _very high-level intro_ to three types of proofs:
   
   
 
-#### Direct proof: [Deduction](https://en.wikipedia.org/wiki/Deductive_reasoning)
+#### Direct proof: [Deduction](https://en.wikipedia.org/wiki/Deductive_reasoning){:target="_blank"}
 
 To quote Wikipedia: "Deductive reasoning goes in the same direction as that of the conditionals, and links premises with conclusions. If all premises are true, the terms are clear, and the rules of deductive logic are followed, then the conclusion reached is necessarily true."  
   
@@ -198,7 +198,7 @@ Example:
   
   
 
-#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contradiction)Contradiction
+#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contradiction){:target="_blank"} Contradiction
 
 Start by assuming (taking as a true proposition) the opposite of what you wish to prove.  
 Follow the normal rules of propositional logic and if:
@@ -223,7 +223,7 @@ Using proof by contradiction, we say:
   
   
 
-#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contrapositive)Contrapositive
+#### Proof by [](https://en.wikipedia.org/wiki/Proof_by_contrapositive){:target="_blank"} Contrapositive
 
 If we take an implication proposition as true, there is another proposition we can extract from it by performing some manipulations:  
   
@@ -438,19 +438,16 @@ If you choose Latex, you should start very simply; learn:
 * List Environments
 * Math Environment and symbols
 
-[//]: # You can copy-paste the contents of [latex_basics.tex](../resources/latex_basics.tex) into Overleaf and see the tex source as well as the resulting pdf.
-  
-[//]: # You can also **Import a Zip file with the necessary info**. Try this one: [CSC250s22-A01.zip](../resources/CSC250s22-A01.zip)  
-  
+
 here are some links to help you with:
 
-* [Mathematical Expressions](https://www.overleaf.com/learn/latex/Mathematical_expressions)
-* [Mathematical symbols in Latex](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols).
-* [Subscripts and Superscripts](https://www.overleaf.com/learn/latex/Subscripts_and_superscripts)
-* [Brackets and Parentheses](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses)
-* [Fractions and Binomials](https://www.overleaf.com/learn/latex/Fractions_and_Binomials)
-* [Aligning equations or statements](https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath)
-* [Tables](https://www.overleaf.com/learn/latex/Tables)
+* [Mathematical Expressions](https://www.overleaf.com/learn/latex/Mathematical_expressions){:target="_blank"}
+* [Mathematical symbols in Latex](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols){:target="_blank"}
+* [Subscripts and Superscripts](https://www.overleaf.com/learn/latex/Subscripts_and_superscripts){:target="_blank"}
+* [Brackets and Parentheses](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses){:target="_blank"}
+* [Fractions and Binomials](https://www.overleaf.com/learn/latex/Fractions_and_Binomials){:target="_blank"}
+* [Aligning equations or statements](https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath){:target="_blank"}
+* [Tables](https://www.overleaf.com/learn/latex/Tables){:target="_blank"}
 
   
   
@@ -467,13 +464,16 @@ I am happy to help with the formatting during office hours.
 
 #### Homework
 
+Read the folowing Primer on proofs: [Proof Techniques](https://cs.stanford.edu/~jtysu/proofs.pdf){:target="_blank"}
+
 **\[Team Assignments and Submissions]**: 
 
 * Problem Sets can be worked in teams of 3 students. (1 team of 4 MAX, with previous approval)  
-    If you already have a team, fill out [this form](https://forms.gle/fp9hzaCueWo2iZMD9) to indicate one of two things:  
+    If you already have a team, fill out [this form](https://forms.gle/fp9hzaCueWo2iZMD9){:target="_blank"} to indicate one of two things:  
     * The names of the member of the team (2 or 3 teammates in addition to yourself)
     * Indicate that you are OK being assignmed to a random team of 3 or 4 people
 * **A single person in the team submits** a write-up (a pdf) to Moodle
+
 * 2 pieces of information required for all submissions:
 
 1.  The names of all collaborating students be listed at the top of the submission.
@@ -483,22 +483,16 @@ I am happy to help with the formatting during office hours.
 
 * * *
 
-  
-
-#### Homework
-
-  
-**\[Due for everyone\]**: Go over any exercises we did not do in class (participation opportunity next class!)  
-Bring me questions and be ready to work in groups.  
 
   
 
 ### Submitting Assignments in Latex using Overleaf
 
-[Overleaf](https://www.overleaf.com/) is an online LaTeX editor.  
+
+<a href="https://www.overleaf.com/" target="_blank" rel="noopener noreferrer">Overleaf</a> is an online LaTeX editor.  
   
 _What is LaTeX?_ you ask.  
-From [https://www.latex-project.org/](https://www.latex-project.org/):  
+From [https://www.latex-project.org/](https://www.latex-project.org/){:target="_blank"}:  
 
 > _"LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents."_
 > 
@@ -510,12 +504,13 @@ From [https://www.latex-project.org/](https://www.latex-project.org/):
 #### How to Learn LaTeX?
 
 I will provide templates for every Assignment where you only need to fill-in what your answer is. Whether it is text-only, text with mathematical symbols, equations, or even diagrams, there is a way to do it in overleaf.  
+
+
+Follow this [Oveleaf guide to learn LTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes){:target="_blank"}.  
   
-Follow this [Oveleaf guide to learn LTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes).  
+Overleaf has a set of quicklinks on the right side that have most (if not all) of what you'll need. Some of the most important things are the [symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols){:target="_blank"}!.  
   
-Overleaf has a set of quicklinks on the right side that have most (if not all) of what you'll need. Some of the most important things are the [symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)!.  
-  
-Later on, we'll use the [FSM designer](https://madebyevan.com/fsm/) to make nice digrams like the ones shown below.  
+Later on, we'll use the [FSM designer](https://madebyevan.com/fsm/){:target="_blank"} to make nice digrams like the ones shown below.  
   
 
 #### How to get started with HW1?

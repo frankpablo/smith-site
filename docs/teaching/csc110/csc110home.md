@@ -19,6 +19,7 @@ permalink: /docs/teaching/csc110home/
 **Class Schedule**:
 
 - M/W/F (Sec 01) 8:00 AM -- 9:15 AM at Ford 241
+- M/W/F (Sec 02) 9:25 AM -- 10:40 AM at Ford 241
 
 Classes will be recorded and uploaded but Attendance is mandatory.
 
@@ -55,6 +56,7 @@ Location of OHs:
   * Monday 7pm-9pm: Larissa
   * Tuesday 7pm-9pm: Dakota
   * Wednesday 7pm-9pm: Megan and Jingwen
+  * Thursdays 7pm-9pm: Mariem 
 
 
 ## Objectives and Structure 
