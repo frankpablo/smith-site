@@ -16,3 +16,4 @@ nav_order: 4
   * [https://www.pythoncheatsheet.org/](https://www.pythoncheatsheet.org/)
   * [https://quickref.me/python](https://quickref.me/python)
   * [https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
+  * [Python Expressions](https://www.scaler.com/topics/expression-in-python/)

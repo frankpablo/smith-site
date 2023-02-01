@@ -77,7 +77,7 @@ nav_order: 1
 
 
 |:---:|
-| 03/24-36 **Weekend** |
+| 03/24-26 **Weekend** |
 |:---:|
 |   **Midterm**{: .label .label-purple } |
 |   Up to TMs; self-scheduled Test |
