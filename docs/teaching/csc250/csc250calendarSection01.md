@@ -21,23 +21,23 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 2**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 01/30             | Logic and Proofs             	|  				  	| Overleaf Tutorial [Video](https://smith.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a8745bf-b479-4875-848a-af910180359c) (Moodle)	  	|                     	|
-| 02/01             | More Logic and Proofs           |  | [Reading 2](http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/240%20Guide%20to%20Induction.pdf)  |                     |
-| 02/03             | Work on HW01   				|              		| Homework 01: Logic and Proofs        	| HW01 Due 02/10  		|
+| 01/30             | [Logic and Proofs](lecture-02.html)             	|  				  	| Overleaf Tutorial [Video](https://smith.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a8745bf-b479-4875-848a-af910180359c) (Moodle)	  	|                     	|
+| 02/01             | [More Logic and Proofs](lecture-03.html)           |  | [Reading 2](http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/240%20Guide%20to%20Induction.pdf)  |                     |
+| 02/03             | [Work on HW01](lecture-04.html)   |              		| Homework 01: Logic and Proofs + <a href="https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's" target="_blank">Reading 3 (only 3.1 and 3.2)</a>        	| HW01 Due 02/10  		|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 3**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/06             | Intro Regular Expressions    	|                  	|                                       |                    	|
-| 02/08             | More REs and FAs             	|                  	|                                       |                    	|
-| 02/10             | Work on HW02; **Demo HW01**{: .label .label-yellow } | Homework 01| Homework 02: REs and FAs| HW02 Due 02/17 		|
+| 02/06             | [Intro Regular Expressions](lecture-05.html)|                  	|<a href="https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's" target="_blank">Reading 4 (only 3.3)</a>                                       |                    	|
+| 02/08             | [More REs and FAs](lecture-06.html)|                  	|                                       |                    	|
+| 02/10             | [Work on HW02](lecture-07.html); **Demo HW01**{: .label .label-yellow } | Homework 01| Homework 02: REs and FAs| HW02 Due 02/17 		|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 4**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/13             | Nondeterminism and Properties	|                  	|                                       |                    	|
-| 02/15             | DFA-NFA equivalence          	|                  	|                                       |                    	|
-| 02/17             | Work on HW03; **Demo HW02**{: .label .label-yellow }| Homework 02| Homework 03: DFAs vs NFAs| HW03 Due 02/24 		|
+| 02/13             | [Nondeterminism](lecture-08.html)|                  	|                                       |                    	|
+| 02/15             | [DFA-NFA equivalence](lecture-09.html)|                  	|                                       |                    	|
+| 02/17             | [Work on HW03](lecture-10.html); **Demo HW02**{: .label .label-yellow }| Homework 02| Homework 03: DFAs vs NFAs| HW03 Due 02/24 		|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 5**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|

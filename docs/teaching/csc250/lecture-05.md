@@ -489,10 +489,6 @@ Answer the following questions:
 * Are all finite languages regular?
 * Are all regular languages finite?
 
-  
-(Wait; then Click)
-
-
 
 <div class="container mx-lg-5">
     <span style='color:#6f439a'>answer: 
