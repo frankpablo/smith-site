@@ -18,19 +18,19 @@ nav_order: 4
   * [https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
   * [Python Expressions](https://www.scaler.com/topics/expression-in-python/)
 
-## Look-Ahead Cheatsheet
+## Look-Ahead Cheat sheet
 
 The following are SUPER SHORT looks at subjects we'll see  throughout the course
 
 Subjects:
 
-  * Variables
-  * Expressions
-  * Strings
-  * Consitionals
-  * File I/O
-  * Loops
-  * Lists
+  * [Variables](#variables)
+  * [Expressions](#expressions)
+  * [Strings](#strings)
+  * [Conditionals](#conditionals)
+  * [File IO](#file-io)
+  * [Loops](#loops)
+  * [Lists](#lists)
 
 The code snippets are not complete programs so assume the code is correct (necessary declarations were made)
 
@@ -126,13 +126,47 @@ The dot operator means "look inside this object and employ the next thing I ment
 Examples:
 
 ```python
-st = "three word phrase" # this is an empty string
+st = "three word phrase" 
 st2 = st.capitalize() # st2 contains "Three word phrase"
 num_hr = st.count("hr") # num_hr has a 2 (times "hr" is in "three word phrase")
 # Below, ind has a 6, the index where substring "wo" is in the string
 ind = st.find("wo")
 # ... and many more
 ```
+
+#### Slicing strings
+
+One can slice a string by indicating a sliced access with the notation:
+
+`<string name>[<start> : <stop> : <step>]`
+
+With:
+
+  * `<stop>` is the ending value but it is excluded! (not counting that value)
+  * `<start>` and `<step` are optional. 
+
+
+```python
+st = "three word phrase" # this is an empty string
+st2 = st[0:8]
+print(st2) # prints "three wo"
+```
+Note the slice excludes the end index!
+
+If you specify a different `<start>`, it will begin in the indicated spot:
+```python
+st = "three word phrase" # this is an empty string
+st2 = st[2:8]
+print(st2) # prints "ree wo"
+```
+
+If you indicate a `<step>` it will skip that many characters until it reaches (but does not include) the `<stop>` index:
+```python
+st = "three word phrase" # this is an empty string
+st2 = st[4:15:3]
+print(st2) # prints "eo r"
+```
+Note this starts at index `4`, then goes to `7` (skip of `3`), then `10`, then `13`, and since `16` is after `15`, it stops at index `13`.
 
 
 ### Conditionals
@@ -280,4 +314,242 @@ st = f.readline() # st now contains "line1\n"
 st = f.readline() # st now contains "line2\n"
 ```
 
-### To Be Continued
+#### The with notation
+
+instead of opening a file, working with it, and closing it later, one can encapsulate the work done on a file (or a set of files) inside a with block. The benefit is that it is nice and localized, and that it closes the file(s) for you at the end.
+
+The notation is:
+
+```python
+# using with statement
+with open('myfile.txt', 'w') as file:
+    file.write('hello world !')
+```
+
+The example shown above opens the file `myfile.txt` for writing, writes `hello world !` into it, and then automatically closes it for you.
+
+You can do multiple things inside a with block but it is recommended to keep it short and precise. 
+
+### Loops
+
+A loop is a block of inside of which one can add code that will be run over and over again.
+
+The two basic types are the `while` loop and the `for` loop.
+
+#### while
+
+The `while` is a loop that has content that is run until a condition resolves to False. These are good for repeated execution "until" something happens or something stops happening. 
+
+An excellent example is a menu:
+
+```python
+do_it_again = True # the condition is initialized
+iteration = 0
+# the while loop statement
+while do_it_again:
+  print("loop count: ",iteration+=1)
+  reply = input("continue menu (y/n)?")
+  if (reply == "n"):
+    print("ending loop")
+    do_it_again = False
+  else:
+    print("continuing loop")
+
+```
+The output of this when replying first `y`, then `y`, and then `n` is:
+
+```
+loop count:  1
+continue menu (y/n)?y
+continuing loop
+loop count:  2
+continue menu (y/n)?y
+continuing loop
+loop count:  3
+continue menu (y/n)?n
+ending loop
+```
+
+#### range
+
+Before we discuss the `for` loop I'd like to discuss the `range` function. this function returns a sequence of numbers. These can be used to define the number of iterations in a loop.
+
+The notation is `range(<start>, <stop>, <step>)` where 
+
+  * `<stop>` is the ending value but it is excluded! (not counting that value)
+  * `<start>` and `<step` are optional. 
+
+We'll see an example use below.
+
+
+#### for
+
+The `for` loop is a loop that has content that is run for a set sequence of iterations. The iterations can be defined in many ways (some discussed above). These are good for repeated execution for each element in a set or for a known number of iterations. 
+
+
+An excellent example is the scan of all the characters in a String:
+
+```python
+my_str = "abcdefg"
+for i in range(4):
+  print(my_str[i])
+
+```
+
+Here, the variable `i` will take the following sequence of values: `0,1,2,3`, one each time the body of the loop is executed. If not specified, the start value is always 0.
+
+The result of running this block of code is:
+
+```
+a
+b
+c
+d
+
+```
+If we were to change the range, this would affect the loop:
+```python
+my_str = "abcdefg"
+for i in range(6):
+  print(my_str[i])
+
+```
+
+produces:
+
+```
+a
+b
+c
+d
+e
+f
+
+```
+Note that, since the last valid index of `my_str` is `7`, the variable `i` should not take any value after `7`.
+
+Specifying the start allows a start different than 0:
+```python
+my_str = "abcdefg"
+for i in range(2,6):
+  print(my_str[i])
+
+```
+
+produces:
+
+```
+c
+d
+e
+f
+
+```
+
+The step indicates by how much to change (increase/decrease) each number in the sequence. For example, 
+```python
+my_str = "abcdefg"
+for i in range(1,7,2):
+  print(my_str[i])
+
+```
+
+produces:
+
+```
+b
+d
+f
+
+```
+because the rane sequence will be `1,3,5` (remember, the `<stop>` vallue is excluded); That means the indices printed are: `my_str[1]` or `b`, `my_str[3]` or `d`, and `my_str[5]` or `f`.
+
+#### for each member of a container
+
+One can use a `for` loop for each element in a set, list, string, and other containers.
+
+Example:
+
+```python
+my_str = "abcdefg"
+for c in my_str:
+  print(c)
+
+```
+
+Note the slightly different notation!
+
+This produces:
+
+```
+a
+b
+c
+d
+e
+f
+g
+
+```
+
+
+### Lists
+
+A list is a group of elements stored inside a container. This list can have repeated elements (of different types), order matters, it is mutable (you can modify it in place), and it has member methods.
+
+The notation to construct it in one go is:
+
+```python
+my_list = [3, 5, 7, 9]
+```
+One can combine elements of different types!
+```python
+my_list = [3, "hi", True, 2.4142]
+```
+
+You can even put lists inside lists!
+```python
+my_list = ["element 1", [3, "hi", True, 2.4142], "element 3"]
+```
+The example above has three elements in the top-level list, and it has four elements in the nested list that is the second element of the top-level list.
+
+
+One can access list elements in the same way we accessed characters in a string, using their index:
+
+
+```python
+my_list = [3, 5, 7, 9]
+elem2 = my_list[2]
+print(elem2) # prints a 7
+```
+
+if we access a list element inside another list, one can access elements inside the nested list with a second index specification, for example:
+
+```python
+my_list = ["element 1", [3, "hi", True, 2.4142], "element 3"]
+elem1 = my_list[1]
+print(elem1) # prints [3, "hi", True, 2.4142]
+elem1_3 = elem1[3]
+print(elem1_3) # prints 2.4142
+# you can access the inner element directly:
+elem1_3 = my_list[1][3]
+print(elem1_3) # prints 2.4142
+```
+
+check it out [here](https://pythontutor.com/visualize.html#code=my_list%20%3D%20%5B%22element%201%22,%20%5B3,%20%22hi%22,%20True,%202.4142%5D,%20%22element%203%22%5D%0Aelem1%20%3D%20my_list%5B1%5D%0Aprint%28elem1%29%20%23%20prints%20%5B3,%20%22hi%22,%20True,%202.4142%5D%0Aelem1_3%20%3D%20elem1%5B3%5D%0Aprint%28elem1_3%29%20%23%20prints%202.4142%0A%23%20you%20can%20access%20the%20inner%20element%20directly%3A%0Aelem1_3%20%3D%20my_list%5B1%5D%5B3%5D%0Aprint%28elem1_3%29%20%23%20prints%202.4142&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+
+#### Slicing lists
+
+One can slice a list to make copies of sub-parts of a list. For example:
+
+```python
+my_list = [10,11,12,13,14,15,16]
+list_b = my_list[0:3]
+print(list_b) # prints [10, 11, 12]
+```
+
+You can choose not to specify the start or add a step, same as with string slicing.
+
+#### List methods
+
+##### TODO
