@@ -31,13 +31,13 @@ This class we'll discuss:
 A Map of what we'll be doing in class
 -------------------------------------
 
-#### What are we going to do?
+### What are we going to do?
 
   
 As we mentioned last class, We are going to analyze what types of problems can be solved with minimal "machinery".  
 
 * what can we do with a specific type of "machine", or in other words: "what types of problems can we solve?"
-* Another way to look at it is: "Giva problem A, what is the minimal "machine" that can help me solve it.
+* Another way to look at it is: "Given problem A, what is the minimal "machine" that can help me solve it.
 
   
   
@@ -46,7 +46,7 @@ We are going to work up from basic machines up to the modern computer.
   
   
 
-#### How are we going to do? it
+### How are we going to do? it
 
   
 Since we are not really going to build those machines in hardware, we will need to "represent" them symbolically.  
@@ -56,7 +56,7 @@ We will be _building symbolic machines_ to solve problems of greater and greater
   
   
 
-#### A candidate "simple" problem:
+### A candidate "simple" problem:
 
 $$ 
 \begin{align*} 
@@ -80,7 +80,7 @@ In other words, performing **Arithmetic operations** is a few "machines" away.
   
   
 
-#### Step 1: recognizing a pattern
+### Step 1: recognizing a pattern
 
   
 You can think of a machine that recognizes things and can clasify them as being in a set of known elements or being outside that set of know elements.  
@@ -88,7 +88,7 @@ You can think of a machine that recognizes things and can clasify them as being 
 With our _symbolic_ replicas, a first task would be to be able to specify the structure or pattern of a set of symbols that we would like to be able to recognize.  
   
 
-#### How to build a "recognizing" machine
+### How to build a "recognizing" machine
 
   
 **Activity 1** \[1 minute\]:  
@@ -156,7 +156,7 @@ The value of a resolved arithmetic expression is a _number_, in this case \\(42\
   
 A **Reglar Expression** (RE or RegEx) is an algebraic way to describe a set of words.  
   
-In reglar expressions, we also have objects and symbols, which can be combined to form an expression that might look like this: \\\[ 0^*(101 + 11011)0^* \\\]
+In reglar expressions, we also have objects and symbols, which can be combined to form an expression that might look like this: $$ 0^*(101 + 11011)0^* $$
 
 The value of a resolved regular expression is a _Language_ (or a set of possible _words_), or  
 **"the set of words that follow the pattern of the regular expression"**.  
@@ -170,17 +170,17 @@ a sequence that _starts_ with any number of sequential zeroes (zero or more 0s);
 Another way you'll see this written is as: \\( \\mathrm{L} (R) \\), (for some RE \\(R\\))  
 which refers to the _Language_ (set of words) described by the expression ( \\(R\\) ) inside parenthesis.  
   
-We sometimes refer to the Language with some symbol like \\(\\mathrm{L}_A\\), where language \\(L\\) has some property \\(A\\).
+We sometimes refer to the Language with some symbol like $\mathrm{L}_A$, where language $L$ has some property $A$.
 
   
   
 
-### Defining a Regular Expression
+## Defining a Regular Expression
 
 We will follow a sequence of steps to understand how to build regular expressions.  
 First, we'll need some basic definitions
 
-#### RE Definitions
+### RE Definitions
 
 * A **set** is a group of items under the same property.  
     We'll use set operations like union (\\(\\cup\\)), concatenation, and complement ( of \\(A\\) is \\( \\bar{A} \\));
@@ -205,7 +205,7 @@ The following are some examples:
   
   
 
-#### Regular Operations
+### Regular Operations
 
 * The **Union** of two sets \\(A\\) and \\(B\\): \\(A\\cup B\\) is the set that has both the members of \\(A\\) and from \\(B\\)  
     For example: If \\(A: \\{ white \\text{, } blue\\}\\), and \\(B: \\{ duck \\text{, } rabbit\\}\\),  
@@ -224,18 +224,18 @@ The following are some examples:
     Another example: If \\(A: \\{ 0 \\text{, } 1\\}\\), and \\(B: \\{ x \\text{, } y\\}\\),  
     \\(AB: \\{ 0x \\text{, } 0y \\text{, } 1x \\text{, } 1y \\}\\).
   
-* The **Star** (or **Kleene Star**) operator \\(A^*\\) is a _unary_ operator that returns the set of sequences that have zero or more symbols from a set \\(A\\):  
-    \\(A^*: \\{ \\epsilon \\text{, } white \\text{, } blue \\text{, } whiteblue \\text{, } bluewhite \\text{, } whitewhiteblue \\text{, } whitebluewhite \\text{, } \\dots\\}\\)  
+* The **Star** (or **Kleene Star**) operator $A^{\*}$ is a _unary_ operator that returns the set of sequences that have zero or more symbols from a set $A$:  
+    $A^\*: \{ \epsilon \text{, } white \text{, } blue \text{, } whiteblue \text{, } bluewhite \text{, } whitewhiteblue \text{, } whitebluewhite \text{, } \dots\}$  
       
     Another example: If \\(A: \\{ 0 \\text{, } 1\\}\\),  
-    $$ A^*: \\{ \\epsilon \\text{, } 0 \\text{, } 1 \\text{, } 01 \\text{, } 10 \\text{, } 001 \\text{, } 010 \\text{, } \\dots\\} $$  
+    $$ A^*: \{ \epsilon \text{, } 0 \text{, } 1 \text{, } 01 \text{, } 10 \text{, } 001 \text{, } 010 \text{, } \dots\} $$  
       
     You can think of it as a zero or more concatenation operator.
 
   
   
 
-#### Definition of Regular Expressions (Recursively)
+### Definition of Regular Expressions (Recursively)
 
 **Basic (axiomatic) definitions:**
 
@@ -324,7 +324,7 @@ The following are some examples:
     
     If $$ \mathrm{R}_1$$ is a regular expression,  
     then $$ \mathrm{R}^*_1 $$ is a regular expression,  
-    and $$ \mathrm{L} (\mathrm{R}\_1^*) = \big( \mathrm{L} (\mathrm{R}\_1) \big)^* $$ 
+    and $$ \mathrm{L} (\mathrm{R}_1^*) = \big( \mathrm{L} (\mathrm{R}_1) \big)^* $$ 
       
     **Example:**  
     If $$ R_5 = (0 + 1)1 $$,  
@@ -350,6 +350,7 @@ The following are some examples:
     <span style='color:#6f439a'>answer: 
       <details><summary>(Wait; then Click)</summary>
         <p>
+
           $$ \mathrm{L} (\mathrm{R}_5^* ) = \mathrm{L} ( \; ((0 + 1)1)^* \; ) = (\mathrm{L} ( \; (0 + 1)1 \;))^* = ( \; \{ 01, 11\} \; )^* $$
 
           $$ = \{ \epsilon, \quad 01, \quad 11, \quad 0101, \quad 0111, \quad 1101, \quad 1111, \quad 010101, \quad \dots \} $$
@@ -372,7 +373,7 @@ What is the expression that gives us **all binary strings**?
 Describe it in words or with any notation you find useful. We'll develop the rigorous notation later.  
 Hints:  
 1) what is the alphabet \\(\\Sigma\\)?  
-2)Which operator might help us expand this into the correct language $$ \\mathrm{L}_b $$?
+2)Which operator might help us expand this into the correct language $$ \mathrm{L}_b $$?
 
   
   
@@ -503,7 +504,7 @@ Answer the following questions:
     </div>
   
 
-#### Properties
+### Properties
 
 The following properties are true about regular languages:
 
@@ -517,7 +518,7 @@ The following properties are true about regular languages:
   
   
 
-#### Practice Proof!
+### Practice Proof!
 
 Claim: Regular languages are closed under union  
   
@@ -533,7 +534,7 @@ In particular:
 
   
 
-#### Next Class: Overleaf + Latex, Regex Recap, and Intro to Finite Automata!!
+### Next Class: Overleaf + Latex, Regex Recap, and Intro to Finite Automata!!
 
   
 
@@ -541,7 +542,7 @@ In particular:
 
   
 
-#### Homework
+### Homework
 
   
 
