@@ -107,31 +107,21 @@ The answer is **YES**.
   
   
   
-  
-  
-  
-How do we find out if a language is regular or not?  
+How do we find out if a language is regular or not? WHat properties must a NON-regular language have? 
   
 * First thing first: **It MUST BE INFINITE**... why?
   
-  
-  
-  
 * But, is an infinite language non-regular? ... NO, because (1*) is a RE that generatea an infinit RL!
   
+* What else distinguishes a RL from a NRL?
   
-  
-  
-* Would we need infinite states to express the result???
-  
-  
-Intuition is not enough (some Langs that appear to need infinite states don't actually).  
+
   
 Proving that a whole language is not regular because you can't find the RE or FA to generate it is not a valid argument.  
   
 But also, using a proof by construction to show that something does NOT have a property is not the right path.  
   
-We would like to have a proof that finds a contradiction but that would require showing that a language does not have some property! (That is the right way).  
+We would like to have a proof that finds a <b>contradiction</b> but that would require showing that a language does not have some property! (That is the right way).  
   
 
 ### Proof Idea
@@ -148,53 +138,6 @@ We would like to have a proof that finds a contradiction but that would require 
 Defining a property all Regular Languages have
 ----------------------------------------------
 
-  
-  
-![example](../../../assets/images/csc250/lecture09/runningExample.png){: width="50%"} 
-  
-**Activity 3** \[2 minutes\]:  
-
-What do you see in the following sequences of states (for accepted and rejected strings?)  
-  
-![example](../../../assets/images/csc250/lecture09/patterns.png){: width="50%"} 
-  
-
-   <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-            <ul>
-                <li>$ \texttt{1}: A^{\prime} \vdash B \rightarrow \text{Accepted}$</li>
-                <li>$ \texttt{010}: A^{\prime} \vdash A \vdash B \vdash B \rightarrow \text{Accepted}$</li>
-                <li>$ \texttt{01000}: A^{\prime} \vdash A \vdash B \vdash B \vdash B \vdash B \rightarrow \text{Accepted}$</li>
-                <li>$ \texttt{11}: A^{\prime} \vdash B \vdash C \rightarrow \text{Rejected}$</li>
-                <li>$ \texttt{0101}: A^{\prime} \vdash A \vdash B \vdash B \vdash C \rightarrow \text{Rejected}$</li>
-                <li>$ \texttt{11111}: A^{\prime} \vdash B \vdash C \vdash C \vdash C \vdash C \rightarrow \text{Rejected}$</li>                              
-            </ul>             
-        </p>
-      </details>
-    </span>
-  </div> 
-  
-
-
-
-  
-  
-Notation:
-
-1.  $A^{\prime}$ is just the "Start State A before consuming any symbols"
-2.  The Turnsile symbol $\vdash$ means: "yields", "proves", "satisfies" or "entails".
-
-  
-It is saying: "Then it follows that..."  
-  
-
-  
-  
-  
-  
-  
 
 ### Intuition First :
 
@@ -212,27 +155,34 @@ $ L = \{ a, \; ak,\; afgh,\; afghk,\; afghfgh,\; afghfghk,\; afghfghfgh,\; afghf
 
 Can you come up with more words in this Language just from the observed pattern?  
 Can you think of the FA that recognizes this language?  
-Can you come up with the RE that spits generates this language?
+Can you come up with the RE that generates this language?
 
    <div class="container mx-lg-5">
     <span style='color:#6f439a'>answer: 
       <details><summary>(Wait; then Click)</summary>
         <p>
-The pattern must have, as a **prefix**, the pattern a  
+The pattern must have, as a <b>prefix</b>, the pattern a  
 followed by any number of repetitions of the sequences fgh,  
-and optionally terminate with a k or $\epsilon$  
+and optionally terminate with a k or nothing else ($\epsilon$), which acts like a <b>suffix</b>.
   
 Notice that this infinite language could be made like this:  
+<br>
 
-<img class="img-fluid" src="../../../assets/images/csc250/lecture09/afghz.png" alt="fgh*" style="width:50%"><br>
+<img class="img-fluid" src="../../../assets/images/csc250/lecture09/afghk-DFA.png" alt="afghk-DFA" style="width:50%"><br>
+
+Another version is:
+<br>
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture09/afghk-NFA.png" alt="afghk-NFA" style="width:60%"><br>
   
   
 An RE ( with $\Sigma = \text{english alphabet} $) that works is: $a(fgh)^*(k+\epsilon)$  
   
   
   
-The Important thing to note is that after a specific size (let's call it N), any new words that we generate MUST come from a repeated pattern!  
-<br>  
+The Important thing to note is that after a specific size (let's call it N), any new words that we generate 
+<b>MUST come from a repeated pattern</b>!  
+<br> <br>
 
 As words get longer, we have to traverse loops more and more often.  
   <br>
@@ -246,7 +196,36 @@ Turns out that <b>there’s a precise way to articulate this property, which wil
   
 
 
-  
+Before we do this, let's see more examples of this property:
+
+FOr each example: say words this machine accepts:
+
+1) \\
+![example](../../../assets/images/csc250/lecture09/small1.png){: width="20%"} 
+
+
+2) \\
+![example](../../../assets/images/csc250/lecture09/small2.png){: width="25%"} 
+
+
+3) \\
+![example](../../../assets/images/csc250/lecture09/medium1.png){: width="40%"} 
+
+
+4) \\
+![example](../../../assets/images/csc250/lecture09/medium2.png){: width="40%"} 
+
+
+5) \\
+![example](../../../assets/images/csc250/lecture09/big0.png){: width="65%"} 
+
+
+6) \\
+![example](../../../assets/images/csc250/lecture09/big1.png){: width="65%"} 
+
+
+7) \\
+![example](../../../assets/images/csc250/lecture09/big2.png){: width="65%"} 
   
 
   
