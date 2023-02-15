@@ -198,19 +198,53 @@ Turns out that <b>there’s a precise way to articulate this property, which wil
 
 Before we do this, let's see more examples of this property:
 
-FOr each example: say words this machine accepts:
+### Predicting words based on a pattern
+
+For each example: say some words each of these machine accepts (and rejects)...
+
+Then, think if you can predict what other words might belong to the same language, just from the pattern you see.
+
+As you do these, keep track of 1) the size of the word, and 2) if you employed any loops
 
 1) \\
 ![example](../../../assets/images/csc250/lecture09/small1.png){: width="20%"} 
 
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            The machine shown above could accept $\epsilon$ or use a loop.
+        </p>
+      </details>
+    </span>
+  </div> 
 
 2) \\
 ![example](../../../assets/images/csc250/lecture09/small2.png){: width="25%"} 
 
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            The machine shown above could accept $\epsilon$ or use a loop... So if it accepts a word, and that word is not $\epsilon$... what is the pattern for that word?
+        </p>
+      </details>
+    </span>
+  </div> 
 
 3) \\
 ![example](../../../assets/images/csc250/lecture09/medium1.png){: width="40%"} 
 
+
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            This machine has a before-the-first-loop part ($0$) and an after-the first-loop-part (also $0$). So if we decide NOT to take the loop, the smallest word we can accept has two symbols. But if we do, what is the pattern?
+        </p>
+      </details>
+    </span>
+  </div> 
 
 4) \\
 ![example](../../../assets/images/csc250/lecture09/medium2.png){: width="40%"} 
@@ -223,11 +257,43 @@ FOr each example: say words this machine accepts:
 6) \\
 ![example](../../../assets/images/csc250/lecture09/big1.png){: width="65%"} 
 
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            This machine could have a single symbol (a $1$)... but if it has any more, then it MUST have at least 4 symbols! ... if it has more than 4 symbols, what is the pattern?
+        </p>
+      </details>
+    </span>
+  </div> 
+
 
 7) \\
 ![example](../../../assets/images/csc250/lecture09/big2.png){: width="65%"} 
-  
 
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            This machine could have a single symbol (a $1$)... but if it has any more, then it MUST ALSO have at least 4 symbols! ... if it has more than 4 symbols, what is the pattern THIS TIME?
+        </p>
+      </details>
+    </span>
+  </div> 
+
+
+8) \\
+![example](../../../assets/images/csc250/lecture09/huge2.png){: width="75%"} 
+  
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>Note: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            This machine could have a single symbol (an $a$)... but if it has any more, then it MUST have at least 4 symbols! ... Note that even if we completely ignore the second loop (we never take it), the first loop is enough to build an infinite number of words in the language!
+        </p>
+      </details>
+    </span>
+  </div> 
   
 
 * * *
