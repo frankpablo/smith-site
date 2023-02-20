@@ -42,9 +42,9 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 5**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/20             | Regular and Non-Regular Langs and Pumping Lemma 	|                                       |                    	|
-| 02/22             | More Pumping Lemma Proofs    	|                  	|                                       |                    	|
-| 02/24             | Work on HW04; **Demo HW03**{: .label .label-yellow}| Homework 03| Homework 04: Non-RLs and PL| HW04 Due 03/03 	|
+| 02/20             | [Regular and Non-Regular Langs and Pumping Lemma](lecture-11.html)|                                       |                    	|
+| 02/22             | [More Pumping Lemma Proofs](lecture-12.html)    	|                  	|                                       |                    	|
+| 02/24             | [Work on HW04; **Demo HW03**{: .label .label-yellow}](lecture-13.html)| Homework 03| Homework 04: Non-RLs and PL| HW04 Due 03/03 	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 6**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
