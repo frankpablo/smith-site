@@ -22,7 +22,7 @@ nav_order: 3
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 01/30             | Data and Programs            | Readings + Video | <a href="https://greenteapress.com/thinkpython2/html/thinkpython2002.html" target="_blank">Book-Ch1</a> and <a href="https://greenteapress.com/thinkpython2/html/thinkpython2003.html" target="_blank">Book-Ch2</a> + Understanding Check: Syntax (Moodle)|                    |
 | 02/01             | Intro Basic Syntax           | Book Ch1 and Ch2 |                                       |                    |
-| 02/03             | Practice with Basic Syntax   |                  | Homework 01: Syntax Basics + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2004.html" target="_blank">Book-Ch3</a> + Understanding Check: Functions (Moodle)            | HW01 Due 02/10     |
+| 02/03             | Practice with Basic Syntax <br> Pair-Programming  |                  | Homework 01: Syntax Basics + <a href="https://greenteapress.com/thinkpython2/html/thinkpython2004.html" target="_blank">Book-Ch3</a> + Understanding Check: Functions (Moodle)            | HW01 Due 02/10     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 3**        | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
@@ -50,14 +50,14 @@ nav_order: 3
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 02/27             | Intro to File I/O            |                  |                                       |                    |
 | 03/01             | More File I/O                |                  |                                       |                    |
-| 03/03             | Practice with File I/O       | Homework 04      | Homework 05: File I/O                 | HW05 Due 03/10     |
+| 03/03             | Practice with File I/O       | Homework 04      | Homework 05: File I/O                 | HW05 Due 03/24     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 7**        | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 03/06             | **Partial Test 1**{: .label .label-yellow } 		   |                  |                                       | Up to Conditionals |
 | 03/08             | Intro to Loops               |                  |                                       |                    |
-| 03/10             | Practice with Basic Loops    | Homework 05      | Homework 06: Basic Loops              | HW06 Due 03/24     |
+| 03/10             | Practice with Basic Loops    |       |               | HW05 Due 03/24     |
 
 
 
@@ -72,21 +72,21 @@ nav_order: 3
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 03/20             | More advanced Loops          |                  |                                       |                    |
 | 03/22             | Nested Loops                 |                  |                                       |                    |
-| 03/24             | Practice with advanced Loops | Homework 06      | Homework 07: Advanced Loops           | HW07 Due 03/31     |
+| 03/24             | Practice with advanced Loops | Homework 05      | Homework 06:  Loops           | HW06 Due 03/31     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 9**        | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 03/27             | Intro to Lists               |                  |                                       |                    |
 | 03/29             | Lists and Loops              |                  |                                       |                    |
-| 03/31             | Practice with Lists          | Homework 07      | Homework 08: Lists                    | HW08 Due 04/07     |
+| 03/31             | Practice with Lists          | Homework 06      | Homework 07: Lists with loops         | HW07 Due 04/07     |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 10**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 04/03             | Intro to Other Containers    |                  |                                       |                    |
 | 04/05             | More about Containers        |                  |                                       |                    |
-| 04/07             | Practice with Containers     | Homework 08      | Final Project: Ideas                  | Ideas Due 04/12    |
+| 04/07             | Practice with Containers     | Homework 07      | Final Project: Ideas                  | Ideas Due 04/12    |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 11**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
