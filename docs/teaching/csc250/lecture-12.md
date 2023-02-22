@@ -145,7 +145,7 @@ Proving a language is not Regular
 
 Prove that
 
-$$ {\large{OneMoreOne}} = \{  w \in \{ 0, 1\}^* \vert w = 0^k1^{k+1}\text{ for some k } \leq 0 \}$$
+$$ {\large{OneMoreOne}} = \{  w \in \{ 0, 1\}^* \vert w = 0^k1^{k+1}\text{ for some k } \geq 0 \}$$
 
 is not regular:
 
