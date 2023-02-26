@@ -49,9 +49,9 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 6**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/27             | Context-Free Grammars        	|                  	|                                       |                    	|
-| 03/01             | CFGs and Intro to Push-Down Automata|           	|                                       |                    	|
-| 03/03             | Work on HW05; **Demo HW04**{: .label .label-yellow}| Homework 04| Homework 05: CFGs and PDAs| HW05 Due 03/10 		|
+| 02/27             | [Context-Free Grammars](lecture-14.html)         	|                  	|                                       |                    	|
+| 03/01             | [CFGs and Intro to Push-Down Automata](lecture-15.html)|           	|                                       |                    	|
+| 03/03             | [Work on HW05](lecture-16.html); **Demo HW04**{: .label .label-yellow}| Homework 04| Homework 05: CFGs and PDAs| HW05 Due 03/10 		|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 7**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
