@@ -56,9 +56,9 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 7**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/06             | Turing Machines             	|                  	|                                       |                    	|
-| 03/08             | More on Turing Machines      	|                  	|                                       |                    	|
-| 03/10             | Work on HW06; **Demo HW05**{: .label .label-yellow}| Homework 05| Homework 06: TMs	  	| HW06 Due 03/24.    	|
+| 03/06             | [Turing Machines](lecture-17.html) |                  	|                                       |                    	|
+| 03/08             | [More on Turing Machines](lecture-18.html) |                  	|                                       |                    	|
+| 03/10             | [Work on HW06](lecture-19.html) ; **Demo HW05**{: .label .label-yellow}| Homework 05| Homework 06: TMs	  	| HW06 Due 03/24.    	|
 
 
 

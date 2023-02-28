@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Lecture16
+title: Lecture19
 parent: CSC250
 grand_parent: Teaching
-nav_order: 16
+nav_order: 19
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 16: Practice and Homework04 Demo
+Lecture Notes 19: Practice and Homework05 Demo
 =============================================================
 
   
@@ -18,8 +18,8 @@ Lecture Notes 16: Practice and Homework04 Demo
 This class we'll discuss:
 
 * PL Recap
-* Group work on HW05
-* Demo on HW04
+* Group work on HW06
+* Demo on HW05
 
  
 
@@ -28,10 +28,10 @@ This class we'll discuss:
 Work on HW04
 -------------------------------------
 
-  * Download the Zip file from Moodle (lecture 16)
+  * Download the Zip file from Moodle (lecture 19)
   * Upload to Overleaf
   * Work in teams
-  * We work together on the HW05
+  * We work together on the HW06
 
 
 * * *
@@ -40,7 +40,7 @@ Demos for HW03
 -------------------------------------
 
   * I will wshow a randomized order of Demos by team number
-  * Each Team: Open your HW04 PDF in one computer
+  * Each Team: Open your HW05 PDF in one computer
   * Choose who presents what BEFORE I show up
   * Each problem/person: 
      * Give a 10-20 second intro to the problem
@@ -50,4 +50,4 @@ Demos for HW03
 #### Homework
 
 
-**Homework 05** is due 03/10. Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 06** is due 03/24. Today, just make sure you understand all the questions. You may start working on them too.
