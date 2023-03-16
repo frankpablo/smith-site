@@ -64,11 +64,6 @@ Let's watch the following video to see what could go wrong with such a machine *
 [Halting Problem Video](https://www.youtube.com/watch?v=92WHN-pAFCs)  
   
   
-  
-  
-  
-  
-  
 
 ### Proof Sketch
 
@@ -241,22 +236,58 @@ Where we left off...
   
 
 
-1.  How about an example problem:  
-      
-    Assume we have a turing machine H that decides (Accept AND Reject) **HALT** : 
+#### How about an example problem:  
 
-    $$ 
-    \begin{align*} 
-    &M_{HALT}: \\ 
-    & \text{On INPUT $< M, w >$} \\ 
-    & \quad \text{ if M HALTS on w, ACCEPT } \\ 
-    & \quad \text{ if M FLOOPS on w, REJECT } 
-    \end{align*} 
-    $$  
+  Assume we have a turing machine H that decides (Accept AND Reject) **HALT** : 
 
-    Since there are no restrictions on what w looks like, it’s possible that w could be the description of another machine.  
-    (this is actually pretty familiar: that’s exactly what a compiler is, right? A program that takes another program as input)  
-      
+  $$ 
+  \begin{align*} 
+  &M_{HALT}: \\ 
+  & \text{On INPUT $< M, \hat{w} >$} \\ 
+  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \\ 
+  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
+  \end{align*} 
+  $$  
+
+
+  Note that this is the same as:
+
+  $$ 
+  \begin{align*} 
+  &M_{HALT}: \\ 
+  & \text{On INPUT $< M, \hat{w} >$} \\ 
+  & \quad \text{ if M ACCEPTS $\hat{w}$, ACCEPT } \\
+  & \quad \text{ if M REJECTS $\hat{w}$, ACCEPT } \\ 
+  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
+  \end{align*} 
+  $$  
+
+
+  Since there are no restrictions on what w looks like, it’s possible that w could be the description of another machine.  
+  (this is actually pretty familiar: that’s exactly what a compiler is, right? A program that takes another program as input)  
+
+  Let’s use this machine to define a new **helper** machine called **$M_X$**: 
+
+  $$ 
+  \begin{align*} 
+  &M_X: \\ 
+  & On \; INPUT \; < M > \\ 
+  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\\
+  & \quad \text{run $M_{HALT} ( < M , \hat{w}>)$}
+  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \\     
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \\ 
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \\ 
+  \end{align*} 
+  $$  
+  
+  1.  This machine just takes in the description of a machine $ < M > $ as input (no w)
+  2.  It then creates an input word $\hat{w}$ with its own description
+  3.  Lastly, it calls $M_{HALT}$ to check if the input machine HALTS on its own description and:
+
+      1. If $M_{HALT}$ predicts that the input machine HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose (imagine a $While(True)$ Loop);
+      2. If $M_{HALT}$ predicts that the input machine FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!
+
+<!-- 
     Let’s use this machine to define a new **helper** machine called **$M_{\text{TEST_ON_ITSELF}}$**: 
 
     $$ 
@@ -287,15 +318,40 @@ Where we left off...
     & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \text{ (if Rej->Rej; if Floop -> Floop)) } \\ 
     \end{align*} 
     $$  
-      
-    So, **What happens if we run $ M_{X} ( < M_{X} > ) $?**  
-      
-    Inside $M_{X}$, we call $M_{\text{TEST_ON_ITSELF}}( < M_{X} > )$, which calls $M_{HALT} ( < M_{X} , < M_{X} > >)$.  
-    If $M_{X}$ halts when fed $M_{X}$ as input then the call $M_{X} ( < M_{X} >)$ loops forever.  
-    If $M_{X}$ doesn't halt when fed $M_{X}$ as input, then the call $M_{X} ( < M_{X} >)$ halts.  
-    $M_{X} ( < M_{X} >)$ can neither halt nor loop forever.  
-    This is a contradiction! Since our only assumption was the existence of HALTS, procedure HALTS cannot exist.
+       -->
 
+  So, **What happens if we run $ M_{X} ( < M_{X} > ) $?**  
+
+  I'll replace $< M >$ with $< M_X >$ in the pseudocode shown above
+  (and use that explicitly instead of $\hat{w}$):
+
+  $$ 
+  \begin{align*} 
+  &M_X: \\ 
+  & On \; INPUT \; < M_x > \\ 
+  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\\
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \\ 
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \\ 
+  \end{align*} 
+  $$ 
+
+  1.  This run of $M_X$ takes in the description of itself $< M_X >$ as input
+  2.  It calls $M_{HALT}$ to check if it HALTS on its own description (remember that $M_{HALT}$ should always have a consistent answer!):
+
+      1. If $M_{HALT}$ predicts that $M_{X}$ HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose... But that means that we just FLOOPED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
+      2. If $M_{HALT}$ predicts that $M_{X}$ FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!... But that means that we just HALTED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
+
+ **A CONTRADICTION**
+
+ Since the ONLY assumption was that $M_{HALT}$ exists, then **that means that $M_{HALT}$ cannot exist!** 
+
+<!-- 
+  Inside $M_{X}$, we call $M_{\text{TEST_ON_ITSELF}}( < M_{X} > )$, which calls $M_{HALT} ( < M_{X} , < M_{X} > >)$.  
+  If $M_{X}$ halts when fed $M_{X}$ as input then the call $M_{X} ( < M_{X} >)$ loops forever.  
+  If $M_{X}$ doesn't halt when fed $M_{X}$ as input, then the call $M_{X} ( < M_{X} >)$ halts.  
+  $M_{X} ( < M_{X} >)$ can neither halt nor loop forever.  
+  This is a contradiction! Since our only assumption was the existence of HALTS, procedure HALTS cannot exist.
+ -->
   
 
 
