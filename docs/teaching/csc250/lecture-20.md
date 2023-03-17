@@ -115,9 +115,9 @@ Suppose it exists:
 
   $$ 
   \begin{align*} 
-  &M_{HALT}: \ 
-  & \text{On INPUT $< M, \hat{w} >$} \ 
-  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \ 
+  &M_{HALT}: \\
+  & \text{On INPUT $< M, \hat{w} >$} \\
+  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \\
   & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
   \end{align*} 
   $$  
@@ -126,13 +126,13 @@ If we build the helper machine $M_X$:
 
   $$ 
   \begin{align*} 
-  &M_X: \ 
-  & On \; INPUT \; < M > \ 
-  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\
+  &M_X: \\
+  & On \; INPUT \; < M > \\ 
+  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\\
   & \quad \text{run $M_{HALT} ( < M , \hat{w}>)$}
-  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \     
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \ 
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \ 
+  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \\
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \\
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \\
   \end{align*} 
   $$  
 
@@ -140,11 +140,11 @@ And run $M_X$ with input equal to itself, we get:
 
   $$ 
   \begin{align*} 
-  &M_X: \ 
-  & On \; INPUT \; < M_x > \ 
-  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \ 
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \ 
+  &M_X: \\
+  & On \; INPUT \; < M_x > \\
+  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\\
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \\
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \\
   \end{align*} 
   $$ 
 

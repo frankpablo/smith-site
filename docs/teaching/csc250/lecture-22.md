@@ -162,8 +162,9 @@ If you want to disprove a statement like
 
 “There is NO $something$ that has the property $\text{some property}$” 
 
-(Like there is no Regular Expression that can describe language 
-$L = {w \vert w \text{ has alternating 1s and 0s} }$),
+<b>Example</b>: there is no Regular Expression that can describe language 
+
+$$L = {w \vert w \text{ has alternating 1s and 0s} }$$
 
 * you only need to ﬁnd an example.
 

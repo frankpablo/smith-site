@@ -49,7 +49,7 @@ Again, **answering a question** means building a machine that recognizes the lan
 So, a problem like:  
 "Find the set of Turing Machines that have up to 5 states",  
 can be rephrased as finding the Language: 
-\ 
+
 $$ L = \{ < M > | M \text{ is a TM and } M \text{ has fewer than 5 states} \} $$  
   
   
@@ -60,6 +60,7 @@ $$ L = \{ < M > | M \text{ is a TM and } M \text{ has fewer than 5 states} \} $$
 
   
 How would you "Solve" the problem for:  
+
 $$ L = \{ < M > | M \text{ is a TM and } M \text{ has fewer than 5 states} \} $$  
   
 
@@ -139,8 +140,6 @@ $$L = { < M, w > | TM \; M \text{ accepts } w \text{ in fewer than 10 steps} }$$
   
   
   
-  
-  
 ### Discuss if you could build $D_L$ for the following language:  
 
 $$ L = \{ < A > | \text{DFA $A$ accepts an infinite number of words (L(A) is infinite)} \} $$  
@@ -196,7 +195,8 @@ Can we come up with a simple proof?
     <details><summary>(Wait; then Click)</summary>
       <p>
 
-**Proof by construction**:  
+<b>Proof by construction</b>:  
+
 $$ 
 \begin{align*} 
 &R_{ATM}:\\ 
@@ -217,6 +217,7 @@ Is ATM **decidable**?
   
   
 Discuss if you could build $D_L$ for the following language:  
+
 $$ A_{TM} = \{ < M, w> | \text{TM $M$ accepts } w \} $$  
   
 Can a $D_{ATM}$ be constructed such that:
@@ -261,7 +262,13 @@ Step 1: Assume Is ATM is **Decidable** Now try to use this "fact" to arrive at a
   
 Consider the Machine $M_{OPPOSITE} ( < M> )$  
   
-$$ \begin{align*} &M_{OPPOSITE}:\\ & \text{ On input $ < M > $ }:\\ & \text{ Simulate $D_{ATM} \; on \; < M , < M > > $}\\ & \text{ If $D_{ATM}$ accepts, REJECT. }\\ & \text{ If $D_{ATM}$ rejects, ACCEPT. }\\ \end{align*} $$  
+$$ \begin{align*} &M_{OPPOSITE}:\\ 
+& \quad \text{ On input $ < M > $ }:\\ 
+& \quad \text{ Simulate $D_{ATM} \; on \; < M , < M > > $}\\ 
+& \quad \text{ If $D_{ATM}$ accepts, REJECT. }\\ 
+& \quad \text{ If $D_{ATM}$ rejects, ACCEPT. }\\ 
+\end{align*} 
+$$  
   
   
   
@@ -308,11 +315,11 @@ We'll design the Machine $D_{ATM} $ as follows:
   
 $$ 
 \begin{align*} &D_{ATM}:\\ 
-& \text{ On input $ < M, w > $ }:\\ 
-& \text{ Simulate $D_{HALT} \; on \; < M, w > $}\\ 
-& \text{ If $D_{HALT}$ rejects, $M$ doesn't halt, so it did not accept: REJECT. }\\ 
-& \text{ If $D_{HALT}$ accepts, we know $M$ won't loop forever, so }\\ 
-& \quad \text{ Simulate $M$ on $w$ ADWID }\\ 
+& \quad \text{ On input $ < M, w > $ }:\\ 
+& \quad \text{ Simulate $D_{HALT} \; on \; < M, w > $}\\ 
+& \quad \text{ If $D_{HALT}$ rejects, $M$ doesn't halt, so it did not accept: REJECT. }\\ 
+& \quad \text{ If $D_{HALT}$ accepts, we know $M$ won't loop forever, so }\\ 
+& \quad \quad \text{ Simulate $M$ on $w$ ADWID }\\ 
 \end{align*} 
 $$  
   

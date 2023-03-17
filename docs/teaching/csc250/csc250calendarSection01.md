@@ -71,9 +71,9 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 8**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/20             | Decidability vs Undecidability|                 	|                                       | Study for Midterm		|
-| 03/22             | Undecidability and Reductions	|                  	|                                       | Study for Midterm		|
-| 03/24             | Q&A for Midterm; **Demo HW06**{: .label .label-yellow}| Homework 06 |                     | Study for Midterm		|
+| 03/20             | [Decidability vs Undecidability](lecture-20.html)|                 	|                                       | Study for Midterm		|
+| 03/22             | [Undecidability and Intro to Reductions](lecture-21.html)	|                  	|                                       | Study for Midterm		|
+| 03/24             | [Q&A for Midterm](lecture-22.html); **Demo HW06**{: .label .label-yellow}| Homework 06 |                     | Study for Midterm		|
 
 
 |:---:|
@@ -86,41 +86,41 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 9**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/27             | Reductions + Enumeration	   	|                  	|                                       |                    	|
-| 03/29             | Mapping Reducibitlity        	|                  	|                                       |                    	|
-| 03/31             | Work on HW07;										| Homework 07: Reductions			  	| HW07 Due 04/07     	|
+| 03/27             | [Recap: Reductions](lecture-23.html) 	   	|                  	|                                       |                    	|
+| 03/29             | [More on Reductions](lecture-24.html)       	|                  	|                                       |                    	|
+| 03/31             | [Work on HW07](lecture-25.html);							|			| Homework 07: Reductions			  	| HW07 Due 04/07     	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 10**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/03             | Intro to Rice theorem		   	|                  	|                                       |                    	|
-| 04/05             | Unrecognizibility Practice with Reductions     	|  |                                    |                    	|
-| 04/07    		| Work on HW08; **Demo HW07**{: .label .label-yellow}	|Homework 07|Homework 08: More Reductions and RT| HW08 Due 04/14|
+| 04/03             | [Reductions + Enumeration](lecture-26.html)	   	|                  	|                                       |                    	|
+| 04/05             | [Mapping Reducibitlity](lecture-27.html)        	|                  	|                                       |                    	|
+| 04/07    		| [Work on HW08](lecture-28.html); **Demo HW07**{: .label .label-yellow}	|Homework 07|Homework 08: Enumeration and Mapping Reducibility| HW08 Due 04/14|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 11**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/10             | Intro to Complexity     		|                  	|                                       |                    	|
-| 04/12             | P Vs NP Vs NPC     			|                  	|                                       |                    	|
-| 04/14     | Work on HW09; **Demo HW08**{: .label .label-yellow}|Homework 08| Homework 09: Complexity, P Vs NP Vs NPC | HW09 Due 04/21|
+| 04/10             | Intro to Rice theorem		   	|                  	|                                       |                    	|
+| 04/12             | Unrecognizibility Practice with Reductions     	|  |                                    |                    	|
+| 04/14     | Work on HW09; **Demo HW08**{: .label .label-yellow}	|Homework 08|Homework 09: More Reductions and Rice Theorem| HW08 Due 04/21|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 12**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/17             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
-| 04/19             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/21             | Work on HW10; **Demo HW09**{: .label .label-yellow}|Homework 09| Homework 10: PolyT Reductions| HW10 Due 05/03    |
+| 04/17             | Intro to Complexity     		|                  	|                                       |                    	|
+| 04/19             | P Vs NP Vs NPC     			|                  	|                                       |                    	|
+| 04/21             | Work on HW10; **Demo HW09**{: .label .label-yellow}|Homework 09| Homework 10: Complexity, P Vs NP Vs NPC | HW09 Due 04/28|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 13**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/24             | Bonus Lecture (TBD) 			|     				|                                       |                    	|
-| 04/26             | Bonus Lecture (TBD) 			|     				|                                       |                    	|
-| 04/28             | Bonus Lecture (TBD) 			|     				|                                       |                    	|
+| 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
+| 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
+| 04/28             | **Make-up Demo**{: .label .label-green} **Demo HW10**{: .label .label-yellow}|Homework 10|     |                    	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 05/01             | Recap and Study for Final Exam|                  	|                                       |                    	|
-| 05/03             | **Demo HW10**{: .label .label-yellow}	|Homework 10| Homework 10: PolyT Reductions	|Final will be Self-Scheduled	|
+| 05/01             | **Mock Final**{: .label .label-purple}|                  	|                                       |                    	|
+| 05/03             | Recap and Study for Final Exam	|Homework 10| Homework 10: PolyT Reductions	|Final will be Self-Scheduled	|
 
