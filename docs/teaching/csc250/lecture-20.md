@@ -107,7 +107,9 @@ In other words, you just say: If I say "YES", I'm sure it is "YES" (ACCEPT), but
 ### Recap: A Decider for HALT?
 
 
-if we define HALT as: $\{ w \vert w = < M, \hat{w}> \text{ where M is a TM and M HALTS on } \hat{w} \}$
+if we define HALT as: 
+
+$$\{ w \vert w = < M, \hat{w}> \text{ where M is a TM and M HALTS on } \hat{w} \}$$
 
 We can prove a Decider for HALT cannot exist by contradiction:
 

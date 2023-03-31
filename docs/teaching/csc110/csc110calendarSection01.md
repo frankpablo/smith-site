@@ -85,8 +85,8 @@ nav_order: 1
 | **WEEK 10**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 04/03             | Intro to Other Containers    |                  |                                       |                    |
-| 04/05             | More about Containers        |                  |                                       |                    |
-| 04/07             | Practice with Containers     | Homework 07      | Final Project: Ideas                  | Ideas Due 04/12    |
+| 04/05             | More about Containers        |   Homework 07                |                                       |                    |
+| 04/07             | Practice with Containers     |      | Final Project: Ideas                  | Ideas Due 04/12    |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 11**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |

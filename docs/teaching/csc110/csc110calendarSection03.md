@@ -3,7 +3,7 @@ layout: default
 title: CSC110calendar-S03
 parent: CSC110
 grand_parent: Teaching
-nav_order: 3
+nav_order: 1
 #permalink: /docs/teaching/csc110/
 ---
 
@@ -85,8 +85,8 @@ nav_order: 3
 | **WEEK 10**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | 04/03             | Intro to Other Containers    |                  |                                       |                    |
-| 04/05             | More about Containers        |                  |                                       |                    |
-| 04/07             | Practice with Containers     | Homework 07      | Final Project: Ideas                  | Ideas Due 04/12    |
+| 04/05             | More about Containers        |   Homework 07                |                                       |                    |
+| 04/07             | Practice with Containers     |      | Final Project: Ideas                  | Ideas Due 04/12    |
 
 |-------------------|------------------------------|------------------|---------------------------------------|--------------------|
 | **WEEK 11**       | **Topic**                    | **Due**          | **Issued**                            | **Notes**          |

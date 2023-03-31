@@ -136,7 +136,7 @@ What could you use to "Solve" (Decide/Recognize) $L$?
   
 ### Discuss if you could build $D_L$ for the following language: 
 
-$$L = { < M, w > | TM \; M \text{ accepts } w \text{ in fewer than 10 steps} }$$  
+$$L = \{ < M, w > | TM \; M \text{ accepts } w \text{ in fewer than 10 steps} \}$$  
   
   
   
@@ -149,7 +149,7 @@ $$ L = \{ < A > | \text{DFA $A$ accepts an infinite number of words (L(A) is inf
 ### Discuss if you could build $D_L$ for the following language:  
 
 $$ A_{TM} = \{ < M, w> | \text{TM $M$ accepts } w \} $$  
-  
+
 
 
 
