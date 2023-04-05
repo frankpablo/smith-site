@@ -202,3 +202,15 @@ Note that $D_{EQ}$ tells whether $\; < M, TM_{\emptyset} > \; \in \; EQ \;$ , th
 <br><br>
   
 
+<!-- 
+  Sipser
+ATM = {⟨M,w⟩| M is a TM and M accepts w}. P202, 207
+THE DIAGONALIZATION METHOD P202  
+ATM is not Turing-recognizable. P210
+HALTTM ={⟨M,w⟩|MisaTMandMhaltsoninputw}. P216
+ETM ={⟨M⟩|M isaTMandL(M)=∅}. P217
+EQTM = {⟨M1,M2⟩| M1 and M2 are TMs and L(M1) = L(M2)}. P220
+f: Σ∗−→Σ∗ is a computable function P234
+EQTM is neither Turing-recognizable nor co-Turing-recognizable. P238
+TURING REDUCIBILITY P261 
+-->
