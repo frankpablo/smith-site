@@ -100,27 +100,27 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 11**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/10             | Intro to Rice theorem		   	|                  	|                                       |                    	|
-| 04/12             | Unrecognizibility Practice with Reductions     	|  |                                    |                    	|
-| 04/14     | Work on HW08; **Demo HW07**{: .label .label-yellow}	|Homework 07|Homework 08: More Reductions and Rice Theorem| HW08 Due 04/21|
+| 04/10             | [Intro to Rice theorem](lecture-29.html)		   	|                  	|                                       |                    	|
+| 04/12             | [Intro to Complexity](lecture-30.html)     	|  |                                    |                    	|
+| 04/14     | [More COmplexity](lecture-31.html)  **Demo HW07**{: .label .label-yellow}	|Homework 07| | |
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 12**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/17             | Intro to Complexity     		|                  	|                                       |                    	|
-| 04/19             | P Vs NP Vs NPC     			|                  	|                                       |                    	|
-| 04/21             | Work on HW9; **Demo HW08**{: .label .label-yellow}|Homework 08| Homework 9: Complexity, P Vs NP Vs NPC | HW09 Due 04/28|
+| 04/17             | [P Vs NP Vs NPC](lecture-32.html)       		|                  	|                                       |                    	|
+| 04/19             | [More P Vs NP Vs NPC](lecture-33.html)       			|                  	|                                       |                    	|
+| 04/21             | Work on HW8; || Homework 08: More Reductions and Rice Theorem| HW08 Due 04/28 |
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 13**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
 | 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/28             | **Demo HW9**{: .label .label-yellow}|Homework 9|  Homework 10: PolyT Reductions   |                    	|
+| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 9: PolyT Reductions   |                    	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 05/01             | **Mock Final**{: .label .label-purple}|                  	|                                       |                    	|
-| 05/03             | **Demo HW10**{: .label .label-yellow} Recap and Study for Final Exam	|Homework 10| 	|Final will be Self-Scheduled	|
+| 05/03             | **Demo HW9**{: .label .label-yellow} Recap and Study for Final Exam	|Homework 9| 	|Final will be Self-Scheduled	|
 
