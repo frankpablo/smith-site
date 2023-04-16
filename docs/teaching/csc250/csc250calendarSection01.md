@@ -102,21 +102,21 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/10             | [Intro to Rice theorem](lecture-29.html)		   	|                  	|                                       |                    	|
 | 04/12             | [Intro to Complexity](lecture-30.html)     	|  |                                    |                    	|
-| 04/14     | [More COmplexity](lecture-31.html)  **Demo HW07**{: .label .label-yellow}	|Homework 07| | |
+| 04/14     | [More Complexity](lecture-31.html)  **Demo HW07**{: .label .label-yellow}	|Homework 07| | |
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 12**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/17             | [P Vs NP Vs NPC](lecture-32.html)       		|                  	|                                       |                    	|
-| 04/19             | [More P Vs NP Vs NPC](lecture-33.html)       			|                  	|                                       |                    	|
-| 04/21             | Work on HW8; || Homework 08: More Reductions and Rice Theorem| HW08 Due 04/28 |
+| 04/17             | [Even More Complexity](lecture-32.html)       		|                  	|                                       |                    	|
+| 04/19             | [P Vs NP](lecture-33.html)       			|                  	|                                       |                    	|
+| 04/21             | [P Vs NP Vs NPC](lecture-34.html); || Homework 08: PolyT Reductions | HW08 Due 04/28 |
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 13**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
 | 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 9: PolyT Reductions   |                    	|
+| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 9: More PolyT Reductions   |                    	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
