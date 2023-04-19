@@ -108,8 +108,12 @@ Recap: Computational Complexity
 ![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
   
 
-**Activity 1** \[2 minutes\] How would you Prove this?: (Wait; then Click)  
+**Activity 1** \[2 minutes\] How would you Prove this?:  
   
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
 To show a language is in NP using a verifier:  
 
   <ul>
@@ -120,6 +124,10 @@ To show a language is in NP using a verifier:
 
 
 <b>Certificate</b>: a graph and a set of k vertices we claim is a cliquebr Verifier: loop over all pairs in the set and check to make sure there’s an edge between them, and if so: ACCEPT - O(k^2) (can’t be bigger than n^2)
+      </p>
+    </details>
+  </span>
+</div> 
 
 <br><br>
   
