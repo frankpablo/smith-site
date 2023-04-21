@@ -206,7 +206,7 @@ Suppose B is NP-complete and B ∈ P.
   
 <ul>
  <li> Let A be any language in NP; </li>
- <li> We know \\( A \\leq_p B\\) since B is NP-complete. </li>
+ <li> We know $A \leq_p B$ since B is NP-complete. </li>
  <li> Then A ∈ P, since B ∈ P and “easiness propagates downward”. </li>
  <li> Since every A in NP is also in P, this means NP ⊆ P. </li>
  <li> Since we also know P ⊆ NP, it follows that P = NP. </li>
@@ -263,16 +263,18 @@ A deterministic TM can easily verify that the assignment satisfies all clauses, 
     <li> We must show that any language A in NP is efficiently reducible to SAT. <br>
         That is, if we could solve SAT, we could solve any problem A that’s in NP.</li>
     <li> Since AND, OR and NOT form a universal system, i.e, a basis for Boolean logical operators, we know we can can construct a boolean formula that simulates the transitions of a Turing Machine.</li>
-    <li> Since A is in NP, there must be some nondeterministic TM \\(M_A\\) that decides it.</li>
-    <li> The reduction function, given \\(M\_A\\) (the NP-machine for A), receives a string w and produces a Boolean formula \\(\\Phi\_{M_{A,w}}\\) that simulates the run of \\(M_A\\) on the input w</li>
-    <li> An assignment to \\(\\Phi_{M_{A,w}}\\) could represent a computational path of the NP machine,</li>
-    <li> And if we’re clever, we can set it up so that \\(\\Phi_{M_{A,w}}\\) will be satisfiable iff the machine \\(M_A\\) accepts w.</li>
+    <li> Since A is in NP, there must be some nondeterministic TM $M_A$ that decides it.</li>
+    <li> The reduction function, given $M_A$ (the NP-machine for A), receives a string w and produces a Boolean formula $\Phi_{M_{A,w}}$ that simulates the run of $M_A$ on the input w</li>
+    <li> An assignment to $\Phi_{M_{A,w}}$ could represent a computational path of the NP machine,</li>
+    <li> And if we’re clever, we can set it up so that $\Phi_{M_{A,w}}$ will be satisfiable iff the machine $M_A$ accepts w.</li>
 <br><br>
   
 This is called the <b>Cook-Levin Theorem</b>  
 
 <br><br>
-The full proof of this theorem is a little beyond the scope of this video, but if check out the original publication on Moodle if you want all the gory details. The important takeaway is that if we had some efficient decider for SAT, we’d be able to efficiently decide anything.  
+The full proof of this theorem is a little beyond the scope of this video, but if check out the original publication on Moodle if you want all the gory details. 
+<br>
+The important takeaway is that if we had some efficient decider for SAT, we’d be able to efficiently decide anything.  
 </ul>
       </p>
     </details>
@@ -296,7 +298,8 @@ The full proof of this theorem is a little beyond the scope of this video, but i
   
 3SAT is in NP for the same reason that regular SAT was: given a set of T/F values, it’s easy to check whether the formula evaluates to T  
   
-  
+
+<br><br>
   
   
   
@@ -308,7 +311,7 @@ Reduce it to SAT (SAT ≤p 3SAT)
 It turns out that ANY propositional formula can be converted into an equivalent 3CNF version by splitting it into pieces and adding some dummy variables as necessary  
   
   
-  
+<br><br>
   
   
   
