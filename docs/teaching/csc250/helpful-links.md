@@ -3,7 +3,7 @@ layout: default
 title: Helpful-Links
 parent: CSC250
 grand_parent: Teaching
-nav_order: 35
+nav_order: 40
 #permalink: /docs/teaching/csc110/
 ---  
 
