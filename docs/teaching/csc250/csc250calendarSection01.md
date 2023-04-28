@@ -109,18 +109,18 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/17             | [Even More Complexity](lecture-32.html)       		|                  	|                                       |                    	|
 | 04/19             | [P Vs NP](lecture-33.html)       			|                  	|                                       |                    	|
-| 04/21             | [P Vs NP Vs NPC](lecture-34.html); || Homework 08: PolyT Reductions | HW08 Due 04/28 |
+| 04/21             | [P Vs NP Vs NPC](lecture-34.html); ||  |  |
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 13**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
 | 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 9: More PolyT Reductions   |                    	|
+| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 8: PolyT Reductions   |                    	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 05/01             | **Mock Final**{: .label .label-purple}|                  	|                                       |                    	|
-| 05/03             | **Demo HW9**{: .label .label-yellow} Recap and Study for Final Exam	|Homework 9| 	|Final will be Self-Scheduled	|
+| 05/03             | **Demo HW8**{: .label .label-yellow} Recap and Study for Final Exam	|Homework 8| 	|Final will be Self-Scheduled	|
 
