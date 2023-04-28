@@ -116,7 +116,7 @@ nav_order: 1
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
 | 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/28             | **Demo HW8**{: .label .label-yellow}|Homework 8|  Homework 8: PolyT Reductions   |                    	|
+| 04/28             | Even More Poly-Time Reductions |Homework 8|  Homework 8: PolyT Reductions   |                    	|
 
 |-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
 | **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
