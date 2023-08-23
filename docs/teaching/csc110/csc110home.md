@@ -18,8 +18,7 @@ permalink: /docs/teaching/csc110home/
 
 **Class Schedule**:
 
-- M/W/F (Sec 01) 8:00 AM -- 9:15 AM at Ford 241
-- M/W/F (Sec 02) 9:25 AM -- 10:40 AM at Ford 241
+- M/W/F (Sec 05) 9:25 AM -- 10:40 AM at Bass 204
 
 Classes will be recorded and uploaded but Attendance is mandatory.
 
@@ -27,7 +26,8 @@ Classes will be recorded and uploaded but Attendance is mandatory.
 
 **Office Hours**: 
 
-  - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below)
+  - TBD : Fill this [5-minute intro poll](ASAP: https://forms.gle/NdAV3WGBnHieEsiE9)
+  <!-- - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below) -->
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs:
@@ -36,15 +36,20 @@ Location of OHs:
 
 **Office Hour Rules**:
 
-  * If you and a group of people want to review a topic, schedule a Topic review session with multiple people (up to ~10) and a single appointment slot.
-  * If you need coding help, schedule an individual appointment but bring your question/bug prepared.
-  * If you solve your question before the appointment, cancel the appointment. No-Shows are bad!
-  * Check the class notes / Slack before to see if this was already answered
-  * Show up on time! and Have your question/program ready, otherwise your time will not be enough.
+  * "open office hours" (TBD) are available to everyone, in groups or individually. 
+  * "appointment slots" (TBD) are by request (usually reserved for 1-on-1 and to deal with acute issues)
+  * If you need coding help, bring your question/bug prepared.
+  * If you solve your issue before a scheduled appointment, cancel the appointment. No-Shows are bad!
+  * Check the class notes / Slack before to see if questions have been already answered
+  * Show up on time! and have your question/program ready, otherwise your time will not be enough.
   * You cant book an appointment fewer than 2 hours before the desired time.
+
 
 **Class TA**:
 
+TBD
+
+<!-- 
   * Section 01: M/W/F 8:00am: Thu Tran; tntran@smith.edu
   * Section 02: M/W/F 9:25am: Larissa Savitsky; lsavitsky@smith.edu
   * Slack (both sections): Thu Tran; tntran@smith.edu
@@ -57,7 +62,7 @@ Location of OHs:
   * Tuesday 7pm-9pm: Dakota
   * Wednesday 7pm-9pm: Megan and Jingwen
   * Thursdays 7pm-9pm: Mariem 
-
+ -->
 
 ## Objectives and Structure 
 
@@ -80,8 +85,22 @@ no prior experience in computer science at the high school, AP, or college level
     lists, simple input-output).
 -   Demonstrate foundational development techniques, including top-down
     design, program documentation, modular design, and library usage.
+<!--     
 -   Understand the high-level internal operation of a computer,
     including the central processing unit, simple memory management.
+ -->
+
+**Setting Expectations**: This class is an introductory class. This means it is designed to start with little to no prior experience and cover the basics. This does not mean it is necessarily easy. The course is a 4-credit course, which means you should expect to work around **12 hours per week**. 
+
+The recommended distribution is: 
+
+  * approximately 4 hours of class time
+  * approximately 5 hours every week on homework assignments
+  * approximately 3 hours every week reading or studying (before and after class).
+
+If you follow this general routine, the class should not be too challenging and it will tend to "feel" easy. If you do not follow this time investment, you will feel accumulating pressure. 
+
+Summary: Please put the time in to make sure you don't feel unnecessary stress.
 
 
 **Course Topics**: In CSC110 we will cover the following topics, but not necessarily in
@@ -121,9 +140,7 @@ no prior experience in computer science at the high school, AP, or college level
 Not open to students who have taken CSC 111. May not be taken concurrently
 with CSC 120.
 
-**Prerequisites**:
-
-**This course does not have any prerequisites**. In this class, we will not
+**Prerequisites**: *This course does not have any prerequisites*. In this class, we will not
 assume that you have prior computer science or programming experience.
 If initially you find the pace of class too slow and homework too easy,
 then you are invited to help your peers in the lab, until everyone has
@@ -133,51 +150,39 @@ this course and work to help one another.
 
 **Responsibilities**:
 
-
--   Attendance: You should attend all classes unless you have a valid
-    excuse. I will use Moodle Quizzes and Google forms to take attendance at least once
-    a week. Unexcused missed classes mean a loss of points in
-    "Attendance and Participation".
+  -  **Attendance**: You should attend all classes unless you have a valid excuse. I will use Moodle/Qualtrics Quizzes and Google forms to take attendance at least once a week. Unexcused missed classes mean a loss of points in "Attendance and Participation".
+  - **START EARLY**: the hardest part of any assignment is starting it. This is doubly so in programming, since the assignments have a lot of instructions and moving parts. I recommend starting assignments the same day they are issued so that you "break the ice". I promise that if you develop this habit, you will see the results immediately.
+  - **Communication**: The college and your instructor will really try to be there for you. We want you to succeed and enjoy your experience. To do so, we need to know how you are doing. So: please see me in office hours, participate in class (asking questions is the best way!), and keep an eye out for discussions on Slack. 
 
 
 ## Course Materials
 
--   **Moodle**: Course full name "CSC110-03: Introduction to Computer Science"
+-   **Moodle**: Course full name "CSC110-05: Introduction to Computer Science"
 -   **Repl.it**: Repl.it is a cloud based platform that allows the creation,
     assigning, completion, testing, and grading (manual or automatic) of
     programming assignments. You need to register for it (you\'ll
     receive an invitation from the instructor) so you can complete
     readings, exercises, and assignments.
 -   **Slack**: You\'ll receive an invitation to the workspace:
-    *CSC-110-03-202301*
+    *CSC-110-05-202401*
 
 
 **Books:**
 
 You do not need to buy any textbook to be successful. The readings will be from free online sources.
-
 Below are textbooks that you may want to review as a resource and some
-students have found helpful in the past: % few recommended books that
-some students may find helpful:
+students have found helpful in the past:
 
-
-1.  Allen B. Downey. Think Python; 2nd edition (2015). ISBN:
-    978-1491939369 \[Note: eBook available for
-    **FREE**\](http://greenteapress.com/thinkpython2/thinkpython2.pdf).
-2.  John M. Zelle. \[Python Programming: An Introduction to Computer
-    Science\](https://www.amazon.com/Python-Programming-Introduction-Computer-Science/dp/1590282752).
+  1.  [How to Think Like a Computer Scientist: Interactive Edition](https://runestone.academy/ns/books/published/thinkcspy/index.html) (**FREE**) . Runestone Interactive Project at Luther College, led by Brad Miller and David Ranum. 
+  2.  [Think Python; 2nd edition (2015)](http://greenteapress.com/thinkpython2/thinkpython2.pdf). Allen B. Downey. ISBN: 978-1491939369 (Note: eBook available for **FREE**).
+  3.  [Python Programming: An Introduction to Computer
+    Science](https://www.amazon.com/Python-Programming-Introduction-Computer-Science/dp/1590282752). John M. Zelle.
     Franklin, Beedle & Associates; 3rd edition (August 8, 2016). ISBN:
-    978-1590282755 \*Note: This is the newer edition, but the 2nd
-    edition is also fine as a reference.
+    978-1590282755 (Note: This is the newer edition, but the 2nd
+    edition is also fine as a reference)
 
 
-
-The Downey and Zelle books have been put on course reserve at the
-Library.
-
-If you need help covering the cost of textbooks or other academic
-supplies (for this or any of your courses!) please fill out the Academic
-Funding Application found at
+The Downey and Zelle books have been put on course reserve at the Library. If you need help covering the cost of textbooks or other academic supplies (for this or any of your courses!) please fill out the Academic Funding Application found at
 [socialnetwork.smith.edu/forms](http://socialnetwork.smith.edu/forms)
 (you must login before the forms will appear).
 
@@ -196,28 +201,24 @@ grading scheme and converting grades the following way:
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments (6 to 8): **25%**
-  - Attendance and Participation **15%**
-     - Understanding Checks/Quizzes (5%)
+  - Homework Assignments: **30%**
+  - Attendance and Participation **20%**
+     - Quiz completion (10%)
      - participation (10%)
-         - in-class Q/A
-         - attendance/work in OHs/Slack
+         - in-class Q/A (just ask questions!!)
+         - OHs/Slack Q/A
          - attend talks/events
          - answer polls/surveys
-  - Partial Test 1: **15%**
-  - Partial Test 2: **15%**
-  - Final Exam:     **15%**
-  - Final Project:  **15%**
+  - Weekly Quiz Grades: **20%**
+  - Final Exam:     **10%**
+  - Final Project:  **20%**
 
-**Notes**: Completing the Understanding Checks/Quizzes will be used as an attendance metric; 
-Participation will be graded based on my memory of your active involvement in Class/Office-Hours/Slack, your attendance to events, or your replies to polls/surveys. The only two mechanisms that keep track of participation are the Understanding Checks and any in-class Polls so those are recommended.
 
 **Late Submissions**:
 
 We will accept no late submissions without a valid excuse. 
 The homework and projects are designed to have "checkpoints"
-so that you MUST show your progress at every point so starting late
-is actively discouraged. If you have a valid excuse, then you will be granted small extensions.
+so that you MUST show your progress at every point. Most homework assignments have "tests" that let you see exactly what is missing. If you have a valid excuse, then you will be granted small extensions.
 
 Also, for Office Hours, you must show progress up to the point where you got stuck. 
 
