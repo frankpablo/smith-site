@@ -31,7 +31,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 3** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/18      | **W3-QUIZ**{: .label .label-yellow }<br>Turtles and (first view of) Loops |    | [chapter 5 (5.1 to 5.4)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 6 (6.1 to 6.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html) |    |
+| 09/18      | **W3-QUIZ**{: .label .label-yellow }<br>Turtles and (first view of) Loops | Ch 4  | [chapter 5 (5.1 to 5.4)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 6 (6.1 to 6.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html) |    |
 | 09/20      | Control Flow, Modules, and Intro to Functions  |  Ch 5 and Ch 6   |     |    |
 | 09/22      | Practice Functions | Ch 6 and **Homework 01**{: .label .label-purple}  | Homework 02: Functions<br>[chapter 7 (7.1 to 7.10)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW02 Due 09/29  |
 
