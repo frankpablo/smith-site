@@ -33,14 +33,14 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 09/18      | **W3-QUIZ**{: .label .label-yellow }<br>Turtles and (first view of) Loops | Ch 4  | [chapter 5 (5.1 to 5.4)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 6 (6.1 to 6.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html) |    |
 | 09/20      | Control Flow, Modules, and Intro to Functions  |  Ch 5 and Ch 6   |     |    |
-| 09/22      | Practice Functions | Ch 6 and **Homework 01**{: .label .label-purple}  | Homework 02: Functions<br>[chapter 7 (7.1 to 7.10)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW02 Due 09/29  |
+| 09/22      | Practice Functions | **Homework 01**{: .label .label-purple}  | Homework 02: Functions<br>[chapter 7 (7.1 to 7.10)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW02 Due 09/29  |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 4** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/25      | **W4-QUIZ**{: .label .label-yellow }<br>Intro to Conditionals  |    |    |     |
+| 09/25      | **W4-QUIZ**{: .label .label-yellow }<br>Intro to Conditionals  | Ch 7   |    |     |
 | 09/27      | More Conditionals  |     |      |     |
 | 09/29      | Practice with Conditionals  | **Homework 02**{: .label .label-purple} | Homework 03: Conditionals<br>[chapter 8-A (8.1 to 8.9)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW03 Due 10/06   |
 
@@ -49,7 +49,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 5** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/02      | **W5-QUIZ**{: .label .label-yellow }<br>Intro to Loops	|      |     |     |
+| 10/02      | **W5-QUIZ**{: .label .label-yellow }<br>Intro to Loops	| Ch 8-A   |     |     |
 | 10/04      | More basic Loops      |    |    |    |
 | 10/06      | Practice with basic Loops    |  **Homework 03**{: .label .label-purple} | Homework 04:  Basic Loops<br>[chapter 8-B (8.10 to 8.14)](https://runestone.academy/ns/books/published/thinkcspy/index.html)     | HW04 Due 10/13   |
 
@@ -59,7 +59,7 @@ nav_order: 1
 | **WEEK 6** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/09      |  **NO CLASSES** AUTUM RECESS |  |  |  |
-| 10/11      | **W6-QUIZ**{: .label .label-yellow }<br>Nested Loops  |      |       |      |
+| 10/11      | **W6-QUIZ**{: .label .label-yellow }<br>Nested Loops  |  Ch 8-B   |       |      |
 | 10/13      | Practice with advanced Loops | **Homework 04**{: .label .label-purple} | Homework 05: Fancy Loops<br>[chapter 9 (9.1 to 9.22)](https://runestone.academy/ns/books/published/thinkcspy/index.html) | HW05 Due 10/20 |
 
 
@@ -67,7 +67,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 7** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/16      | **W7-QUIZ**{: .label .label-yellow }<br>Strings Intro  |    |    |    |
+| 10/16      | **W7-QUIZ**{: .label .label-yellow }<br>Strings Intro  |  Ch 9  |    |    |
 | 10/18      | More Strings  |    |    |     |
 | 10/20      | Practice with Strings    | **Homework 05**{: .label .label-purple}  | Homework 06: Strings<br>[chapter 10-A (10.1 to 10.16)](https://runestone.academy/ns/books/published/thinkcspy/index.html) | HW06 Due 10/27     |
 
@@ -76,8 +76,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 8** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/23      | **W8-QUIZ**{: .label .label-yellow }<br>Intro to Lists        |             | [chapter 10-B (10.17 to 10.26)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  |      |
-| 10/25      | Lists and Loops       |             |            |      |
+| 10/23      | **W8-QUIZ**{: .label .label-yellow }<br>Intro to Lists        | Ch 10-A | [chapter 10-B (10.17 to 10.26)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  |      |
+| 10/25      | Lists and Loops       |  Ch 10-B   |            |      |
 | 10/27      | Practice with Lists   | **Homework 06**{: .label .label-purple} | Homework 07: Lists with loops<br>[chapter 10-C (10.27 to 10.31)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 12 (12.1 to 12.7)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW07 Due 11/03     |
 
 
@@ -85,8 +85,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 9** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/30      | **W9-QUIZ**{: .label .label-yellow }<br>Intro to Other Containers |    |  [chapter 11 (11.1 to 11.10)](https://runestone.academy/ns/books/published/thinkcspy/index.html) |       |
-| 11/01      |   File I/O  |     |     |     |
+| 10/30      | **W9-QUIZ**{: .label .label-yellow }<br>Intro to Other Containers |  Ch 10-C and Ch 12 |  [chapter 11 (11.1 to 11.10)](https://runestone.academy/ns/books/published/thinkcspy/index.html) |       |
+| 11/01      |   File I/O  |  Ch 11  |     |     |
 | 11/03      | Practice with Dictionaries and File I/O   | **Homework 07**{: .label .label-purple}  | Homework 08: Dictionaries and File I/O  | HW08 Due 11/10  |
 
 
