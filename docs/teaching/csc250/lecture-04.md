@@ -18,7 +18,7 @@ Lecture Notes 04: Practice with Logic and Proofs, and work on Homework 01
 
 This class we'll discuss:
 
-* Practice Logic and Proofs
+* Catch-Up: Practice Logic and Proofs
 * Group work on HW01
 
   
@@ -57,7 +57,7 @@ Work on HW01
 #### Homework
 
 
-**Homework 01** is due 02/10. You can find it on Moodle.  
+**Homework 01**: You can find it on Moodle.  
 
   
 

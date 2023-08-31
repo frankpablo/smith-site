@@ -17,9 +17,9 @@ Lecture Notes 16: Practice and Homework04 Demo
 
 This class we'll discuss:
 
-* PL Recap
+* Catch-Up: PL Recap
 * Group work on HW05
-* Demo on HW04
+<!-- * Demo on HW04 -->
 
  
 
@@ -33,7 +33,7 @@ Work on HW04
   * Work in teams
   * We work together on the HW05
 
-
+<!-- 
 * * *
 
 Demos for HW03
@@ -46,8 +46,8 @@ Demos for HW03
      * Give a 10-20 second intro to the problem
      * Give a 30-to-60-second explanation of your answer
 
-
+ -->
 #### Homework
 
 
-**Homework 05** is due 03/10. Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 05** Today, just make sure you understand all the questions. You may start working on them too.

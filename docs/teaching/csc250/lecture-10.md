@@ -18,9 +18,10 @@ Lecture Notes 10: Practice and Homework02 Demo
 
 This class we'll discuss:
 
-* NFA recap + REs Vs FAs
+* Catch-Up: NFA recap + REs Vs FAs
 * Group work on HW03
-* Demo on HW02
+
+<!-- * Demo on HW02 -->
 
  
 
@@ -29,12 +30,12 @@ This class we'll discuss:
 Work on HW03
 -------------------------------------
 
-  * Download the Zip file from Moodle (lecture 10)
+  * Download the Zip file from Moodle
   * Upload to Overleaf
   * Work in teams
   * We work together on the HW03
 
-
+<!-- 
 * * *
 
 Demos for HW02
@@ -47,10 +48,10 @@ Demos for HW02
      * Give a 10-20 second intro to the problem
      * Give a 30-to-60-second explanation of your answer
 
-
+ -->
 #### Homework
 
 
-**Homework 03** is due 02/24. Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 03** Today, just make sure you understand all the questions. You may start working on them too.
 
   

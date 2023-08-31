@@ -141,3 +141,4 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 12/11       |  **Final Project Demo**{: .label .label-green }  |  |  |  |
 | 12/13       | Wrap-Up  |      |   Complete Final Project   |  Complete Final Project Due 12/18    |
+

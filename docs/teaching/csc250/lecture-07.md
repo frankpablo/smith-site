@@ -18,7 +18,7 @@ Lecture Notes 07: Practice with REs, FAs, and Homework01 Demo
 
 This class we'll discuss:
 
-* REs and FAs
+* Catch-Up: REs and FAs
 * Group work on HW02
 * Demo on HW01
 
@@ -34,7 +34,7 @@ Work on HW02
   * Work in teams
   * We work together on the HW02
 
-
+<!-- 
 * * *
 
 Demos for HW01
@@ -47,10 +47,10 @@ Demos for HW01
      * Give a 10-20 second intro to the problem
      * Give a 30-to-60-second explanation of your answer
 
-
+ -->
+ 
 #### Homework
 
-
-**Homework 02** is due 02/17. Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 02** Today, just make sure you understand all the questions. You may start working on them too.
 
   

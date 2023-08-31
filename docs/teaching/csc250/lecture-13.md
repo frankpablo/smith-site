@@ -17,10 +17,12 @@ Lecture Notes 13: Practice and Homework03 Demo
 
 This class we'll discuss:
 
-* PL Recap
+* Catch-Up: PL Recap
 * Group work on HW04
-* Demo on HW03
 
+<!-- * Demo on HW02 -->
+
+ 
  
 
 * * *
@@ -32,7 +34,7 @@ Work on HW04
   * Upload to Overleaf
   * Work in teams
   * We work together on the HW04
-
+<!-- 
 
 * * *
 
@@ -45,9 +47,9 @@ Demos for HW03
   * Each problem/person: 
      * Give a 10-20 second intro to the problem
      * Give a 30-to-60-second explanation of your answer
-
+ -->
 
 #### Homework
 
 
-**Homework 04** is due 03/03. Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 04** Today, just make sure you understand all the questions. You may start working on them too.
