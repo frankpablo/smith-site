@@ -15,7 +15,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 1** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/07      | Class Intro  |      | **compulsory**:<br>[chapter 1 (1.1 to 1.14)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 2 (2.1 to 2.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>**optional**:<br>[CS History](historyOfComputing.html);<br>[How is data stored?](dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> |  Ch 1 Due Monday 09/11;<br>Ch 2 Due Wednesday 09/13 |
+| 09/08      | Class Intro  |      | **compulsory**:<br>[chapter 1 (1.1 to 1.14)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 2 (2.1 to 2.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>**optional**:<br>[CS History](historyOfComputing.html);<br>[How is data stored?](dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> |  Ch 1 Due Monday 09/11;<br>Ch 2 Due Wednesday 09/13 |
 
 
 
@@ -58,7 +58,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 6** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/09      |  **NO CLASSES** AUTUM RECESS |  |  |  |
+| 10/09      |  **NO CLASSES**: AUTUM RECESS |  |  |  |
 | 10/11      | **W6-QUIZ**{: .label .label-yellow }<br>Nested Loops  |  Ch 8-B   |       |      |
 | 10/13      | Practice with advanced Loops | **Homework 04**{: .label .label-purple} | Homework 05: Fancy Loops<br>[chapter 9 (9.1 to 9.22)](https://runestone.academy/ns/books/published/thinkcspy/index.html) | HW05 Due 10/20 |
 
@@ -99,13 +99,13 @@ nav_order: 1
 | 11/10       | Practice with Graphics |   |   |    |
 
 
-
+<!-- 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
 | 11/13       | Randomness and Recursion     |  **FP: Teams and Ideas**{: .label .label-purple}   |  FP: Draft | Draft Due 11/22 |
-| 11/15       | **NO CLASS**  Thanksgiving  |   |    |    |
-| 11/17       | **NO CLASS**  Thanksgiving  |   |    |    |
+| 11/15       | **NO CLASSES**:  Thanksgiving  |   |    |    |
+| 11/17       | **NO CLASSES**:  Thanksgiving  |   |    |    |
 
 
 
@@ -115,6 +115,26 @@ nav_order: 1
 | 11/20       | Work on Final Project  | **Final Project: Draft**{: .label .label-purple} |  FP: Functions and Tests | FP: Functions and Tests Due 11/27 |
 | 11/22       | Work on Final Project  |     |     |     |
 | 11/24       | Work on Final Project  |     |     |     |
+
+ -->
+
+
+
+|-------------|-----------|---------|------------|-----------|
+| **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
+|-------------|-----------|---------|------------|-----------|
+| 11/13       | Randomness and Recursion | **FP: Teams and Ideas**{: .label .label-purple} |    |    |
+| 11/15       | Designing the final project  |   | FP: Draft | Draft Due 11/20 |
+| 11/17       | Work on Final Project (Design for draft) |   |    |    |
+
+
+
+|-------------|-----------|---------|------------|-----------|
+| **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
+|-------------|-----------|---------|------------|-----------|
+| 11/20       | Work on Final Project<br>Draft tweaks<br>Modules and Testing  | **Final Project: Draft**{: .label .label-purple} |  FP: Functions and Tests | FP: Functions and Tests Due 11/27 |
+| 11/22       | **NO CLASSES**:  Thanksgiving  |     |     |     |
+| 11/24       | **NO CLASSES**:  Thanksgiving  |     |     |     |
 
 
 
