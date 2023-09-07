@@ -9,65 +9,61 @@ nav_order: 1
 
 # IN CONSTRUCTION
 
-# Schedule for CSC 250 Fall 2023
-
-
-  * Read the whole Syllabus (in Moodle)
-  * Complete the first reading: From chapter 1.2 to the end of chapter 1 in the [Maheshwari-Smoid book](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)
+# Schedule for CSC 353 Fall 2023
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 1** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/07      | Class Intro<br>Teleoperation<br>Misty Intro |  |  |  |
+| 09/07      | Class Intro<br>Definitions and Funny videos |  | R1a: [Ch1 1: Introduction to Robotics and Perception (Dellaert)] (https://www.roboticsbook.org/intro.html) <br> R1b: [Ch 1-3: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)  | R1a ~ 45min; R1b ~ 3h  |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/14      | Kinematics<br>Misty FW+BW Kinematics |  |  |  |
+| 09/14      | Mobile Robotics Theory | R1a and R1b | R2a: [Ch 6-7: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0) <br> R2b: TBD | R2a ~ 1h; R2b TBD |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 3** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/21     | Perception in Robotics I |  |  |  |
+| 09/21     | Sensing and Actuation | R2a and R2b |  |  |
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 4** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/28     | Perception in Robotics II |  |  |  |
+| 09/28     | Perception |  |  |  |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 5** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/05     | ??? |  |  |  |
+| 10/05     | Computer Vision I  |  |  |  |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 6** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/12     | ??? |  |  |  |
+| 10/12     | Computer Vision II |  |  |  |
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 7** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/19     | ??? |  |  |  |
+| 10/19     | Mapping in Robotics |  |  |  |
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 8** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/26     | ??? |  |  |  |
+| 10/26     | Dealing with Uncertainty |  |  |  |
 
 
 
@@ -81,14 +77,14 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/09     | ??? |  |  |  |
+| 11/09     | Navigation in Robotics  |  |  |  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/16     | ??? |  |  |  |
+| 11/16     | Simultaneous Localization and Mapping (SLAM) |  |  |  |
 
 
 
@@ -102,135 +98,17 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 13** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/30     | ??? |  |  |  |
+| 11/30     | Learning |  |  |  |
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 14** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 12/07     | ??? |  |  |  |
+| 12/07     | Additional Topics |  |  |  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 12/14     | ??? |  |  |  |
-
-
-
-<!-- 
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 1**        | **Topic**                     | **Due**           | **Issued**                          	| **Notes**        		|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 01/27            	| Class Info                   	|                	| [Reading 1](https://medium.com/how-to-build-an-asi/how-to-do-propositional-logic-503576b28bd2) up to (excluding) Propositional logic: example proofs;				 | 30 min total   		 |
-
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 2**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 01/30             | [Logic and Proofs](lecture-02.html)             	|  				  	| Overleaf Tutorial [Video](https://smith.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a8745bf-b479-4875-848a-af910180359c) (Moodle)	  	|                     	|
-| 02/01             | [More Logic and Proofs](lecture-03.html)           |  | [Reading 2](http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/240%20Guide%20to%20Induction.pdf)  |                     |
-| 02/03             | [Work on HW01](lecture-04.html)   |              		| Homework 01: Logic and Proofs + <a href="https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's" target="_blank">Reading 3 (only 3.1 and 3.2)</a>        	| HW01 Due 02/10  		|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 3**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/06             | [Intro Regular Expressions](lecture-05.html)|                  	|<a href="https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's" target="_blank">Reading 4 (only 3.3)</a>                                       |                    	|
-| 02/08             | [More REs and FAs](lecture-06.html)|                  	|                                       |                    	|
-| 02/10             | [Work on HW02](lecture-07.html); **Demo HW01**{: .label .label-yellow } | Homework 01| Homework 02: REs and FAs| HW02 Due 02/17 		|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 4**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/13             | [Nondeterminism](lecture-08.html)|                  	|                                       |                    	|
-| 02/15             | [DFA-NFA equivalence](lecture-09.html)|                  	|                                       |                    	|
-| 02/17             | [Work on HW03](lecture-10.html); **Demo HW02**{: .label .label-yellow }| Homework 02| Homework 03: DFAs vs NFAs| HW03 Due 02/24 		|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 5**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/20             | [Regular and Non-Regular Langs and Pumping Lemma](lecture-11.html)|                                       |                    	|
-| 02/22             | [More Pumping Lemma Proofs](lecture-12.html)    	|                  	|                                       |                    	|
-| 02/24             | [Work on HW04; **Demo HW03**{: .label .label-yellow}](lecture-13.html)| Homework 03| Homework 04: Non-RLs and PL| HW04 Due 03/03 	|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 6**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 02/27             | [Context-Free Grammars](lecture-14.html)         	|                  	|                                       |                    	|
-| 03/01             | [CFGs and Intro to Push-Down Automata](lecture-15.html)|           	|                                       |                    	|
-| 03/03             | [Work on HW05](lecture-16.html); **Demo HW04**{: .label .label-yellow}| Homework 04| Homework 05: CFGs and PDAs| HW05 Due 03/10 		|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 7**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/06             | [Turing Machines](lecture-17.html) |                  	|                                       |                    	|
-| 03/08             | [More on Turing Machines](lecture-18.html) |                  	|                                       |                    	|
-| 03/10             | [Work on HW06](lecture-19.html) ; **Demo HW05**{: .label .label-yellow}| Homework 05| Homework 06: TMs	  	| HW06 Due 03/24.    	|
-
-
-
-|:---:|
-| **SPRING RECESS** |
-|:---:|
-|   No Work During The Break  |
-
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 8**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/20             | [Decidability vs Undecidability](lecture-20.html)|                 	|                                       | Study for Midterm		|
-| 03/22             | [Undecidability and Intro to Reductions](lecture-21.html)	|                  	|                                       | Study for Midterm		|
-| 03/24             | [Q&A for Midterm](lecture-22.html); **Demo HW06**{: .label .label-yellow}| Homework 06 |                     | Study for Midterm		|
-
-
-|:---:|
-| 03/24-26 **Weekend** |
-|:---:|
-|   **Midterm**{: .label .label-purple } |
-|   Up to TMs; self-scheduled Test |
-
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 9**        | **Topic**                    	| **Due**          	| **Issued**                           	| **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 03/27             | [Recap: Reductions](lecture-23.html) 	   	|                  	|                                       |                    	|
-| 03/29             | [More on Reductions](lecture-24.html)       	|                  	|                                       |                    	|
-| 03/31             | [Even More Reductions](lecture-25.html);							|			| 		  	|    	|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 10**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/03             | [Reductions + Enumeration](lecture-26.html)	   	|                  	|                                       |                    	|
-| 04/05             | [Mapping Reducibitlity](lecture-27.html)        	|                  	|                                       |                    	|
-| 04/07    		| [Work on HW07](lecture-28.html); 	| |Homework 07: Reductions| HW07 Due 04/14|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 11**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/10             | [Intro to Rice theorem](lecture-29.html)		   	|                  	|                                       |                    	|
-| 04/12             | [Intro to Complexity](lecture-30.html)     	|  |                                    |                    	|
-| 04/14     | [More Complexity](lecture-31.html)  **Demo HW07**{: .label .label-yellow}	|Homework 07| | |
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 12**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/17             | [Even More Complexity](lecture-32.html)       		|                  	|                                       |                    	|
-| 04/19             | [P Vs NP](lecture-33.html)       			|                  	|                                       |                    	|
-| 04/21             | [P Vs NP Vs NPC](lecture-34.html); ||  |  |
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 13**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 04/24             | More P Vs NP Vs NPC and Poly-Time Reductions  |  	|                                       |                    	|
-| 04/26             | More Poly-Time Reductions     |                  	|                                       |                    	|
-| 04/28             | Even More Poly-Time Reductions |Homework 8|  Homework 8: PolyT Reductions   |                    	|
-
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| **WEEK 14**       | **Topic**                    	| **Due**          	| **Issued**                            | **Notes**          	|
-|-------------------|-------------------------------|-------------------|---------------------------------------|-----------------------|
-| 05/01             | **Mock Final**{: .label .label-purple}|                  	|                                       |                    	|
-| 05/03             | **Demo HW8**{: .label .label-yellow} Recap and Study for Final Exam	|Homework 8| 	|Final will be Self-Scheduled	|
-
- -->
+| 12/14     | Final Presentations |  |  |  |

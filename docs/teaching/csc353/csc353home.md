@@ -115,16 +115,19 @@ Throughout the class, students should focus on adhering to the following general
 
 ## Course Materials
 
--   **Moodle**: Course full name "CSC353pm-01: Seminar: Topics in Robotics-Robotics Perception and Mapping"
--   **Slack**: You\'ll receive an invitation to the workspace:
+  - Webpage for the course: [Course Webpage](https://frankpablo.github.io/smith-site/docs/teaching/csc353/csc353home.html)
+  - Schedule for the course: [Course-Schedule](https://frankpablo.github.io/smith-site/docs/teaching/csc353/csc353calendarSection01.html)
+  - **Moodle**: Course full name "CSC353pm-01: Seminar: Topics in Robotics-Robotics Perception and Mapping"
+  - **Slack**: You\'ll receive an invitation to the workspace:
     *csc-353pm-01-202401.slack.com*
 
 
 **Books:**
 
-There is no required textbook for the course. We will assign readings from academic journals and publicly available robotics textbooks.
+There is no required textbook for the course. We will assign readings from academic journals and publicly available robotics textbooks. That said, many readings will come from the following freely available books:
 
-  * Webpage for the course: [Course-Schedule](https://frankpablo.github.io/classes/csc353/schedule.html)
+  * Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone. Introduction to Autonomous Robots: Mechanisms, Sensors, Actuators, and Algorithms, MIT Press, 2022. [Git  Repo for the Book](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)
+  * Notebook-based book "Introduction to Robotics and Perception" by Frank Dellaert and Seth Hutchinson. [Online Book] (https://www.roboticsbook.org/intro.html)
 
 
 
