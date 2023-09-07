@@ -7,7 +7,6 @@ nav_order: 1
 #permalink: /docs/teaching/csc250/
 ---
 
-# IN CONSTRUCTION
 
 # Schedule for CSC 353 Fall 2023
 
