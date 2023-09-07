@@ -15,7 +15,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 1** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/07      | Class Intro<br>Definitions and Funny videos |  | R1a: [Ch1 1: Introduction to Robotics and Perception (Dellaert)] (https://www.roboticsbook.org/intro.html) <br> R1b: [Ch 1-3: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)  | R1a ~ 45min; R1b ~ 3h  |
+| 09/07      | Class Intro<br>Definitions and Funny videos |  | R1a: [Ch1 1: Introduction to Robotics and Perception (Dellaert)](https://www.roboticsbook.org/intro.html) <br> R1b: [Ch 1-3: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)  | R1a ~ 45min; R1b ~ 3h  |
 
 
 

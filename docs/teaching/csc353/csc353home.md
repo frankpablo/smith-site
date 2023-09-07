@@ -127,7 +127,7 @@ Throughout the class, students should focus on adhering to the following general
 There is no required textbook for the course. We will assign readings from academic journals and publicly available robotics textbooks. That said, many readings will come from the following freely available books:
 
   * Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone. Introduction to Autonomous Robots: Mechanisms, Sensors, Actuators, and Algorithms, MIT Press, 2022. [Git  Repo for the Book](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)
-  * Notebook-based book "Introduction to Robotics and Perception" by Frank Dellaert and Seth Hutchinson. [Online Book] (https://www.roboticsbook.org/intro.html)
+  * Notebook-based book "Introduction to Robotics and Perception" by Frank Dellaert and Seth Hutchinson. [Online Book](https://www.roboticsbook.org/intro.html)
 
 
 
