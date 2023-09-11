@@ -22,8 +22,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/11      | **W2-QUIZ**{: .label .label-yellow }<br>Data and Programs  | Ch 1 |  |      |
-| 09/13      | Intro to Basic Syntax   | Ch 2 | [chapter 3 (3.1 to 3.6)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br> |      |
+| 09/11      | Data and Programs  | Ch 1 |  |      |
+| 09/13      | **W2-QUIZ**{: .label .label-yellow }<br>Intro to Basic Syntax   | Ch 2 | [chapter 3 (3.1 to 3.6)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br> |      |
 | 09/15      | Practice with Basic Syntax <br> Pair-Programming  |   Ch 3   | Homework 01: Syntax Basics<br>[chapter 4 (4.1 to 4.11)](https://runestone.academy/ns/books/published/thinkcspy/index.html)  | HW01 Due 09/22   |
 
 
