@@ -26,7 +26,7 @@ Classes will be recorded and uploaded but Attendance is mandatory.
 
 **Office Hours**: 
 
-  - TBD : Fill this [5-minute intro poll](ASAP: https://forms.gle/NdAV3WGBnHieEsiE9)
+  - TBD : Fill this [5-minute intro poll ASAP:](https://forms.gle/NdAV3WGBnHieEsiE9)
   <!-- - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below) -->
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
