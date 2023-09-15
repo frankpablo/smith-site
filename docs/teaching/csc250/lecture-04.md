@@ -8,7 +8,7 @@ nav_order: 4
 ---  
 
 
-Lecture Notes 04: Practice with Logic and Proofs, and work on Homework 01  
+Lecture Notes 04: Practice with Logic and Proofs, and work on Oveleaf  
 =============================================================
 
   
@@ -19,7 +19,7 @@ Lecture Notes 04: Practice with Logic and Proofs, and work on Homework 01
 This class we'll discuss:
 
 * Catch-Up: Practice Logic and Proofs
-* Group work on HW01
+* We'll complete the Test Assignment and then the Peer-Review Workshop
 
   
 
@@ -45,19 +45,20 @@ Practice Logic and Proofs
 
 * * *
 
-Work on HW01
+Work on Overleaf
 -------------------------------------
 
-  * Download the Zip file from Moodle (lecture 04)
+  * Download the Zip file from Moodle (Test Assignment)
   * Upload to Overleaf
-  * Work in teams
-  * We work together on the HW01
+  * Work on it in teams of 2 or 3 (with your instructor's help on Overleaf)
+  * We Upload to the submission link
+  * Then we move on to the Peer-Review Workshop
 
 
 #### Homework
 
 
-**Homework 01**: You can find it on Moodle.  
+**Homework 01**: You will find it on Moodle.  
 
   
 

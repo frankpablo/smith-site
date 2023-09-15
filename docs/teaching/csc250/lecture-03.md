@@ -468,23 +468,21 @@ Read the folowing Primer on proofs: [Proof Techniques](https://cs.stanford.edu/~
 
 **\[Team Assignments and Submissions]**: 
 
-* Problem Sets can be worked in teams of 3 students. (1 team of 4 MAX, with previous approval)  
-    If you already have a team, fill out [this form](https://forms.gle/fp9hzaCueWo2iZMD9){:target="_blank"} to indicate one of two things:  
-    * The names of the member of the team (2 or 3 teammates in addition to yourself)
-    * Indicate that you are OK being assignmed to a random team of 3 or 4 people
-* **A single person in the team submits** a write-up (a pdf) to Moodle
+* Problem Sets can be worked in teams of 3 students (with previous approval).
+    <!-- If you already have a team, fill out [this form](https://forms.gle/fp9hzaCueWo2iZMD9){:target="_blank"} to indicate one of two things: -->
+* **Every person in the team submits** a write-up (a pdf output from Overleaf) to Moodle.
 
-* 2 pieces of information required for all submissions:
+* Follow these requirements for all submissions:
 
 1.  The names of all collaborating students be listed at the top of the submission.
+    * The FIRST name should be the submitting student
+    * The NEXT names are those of the OTHER members of the team
 2.  A “References” section, with in-line citations to any resources you used.  
     If you did not use any resources, please state:  
     “I did not use any external resources in completing this assignment.”
 
 * * *
 
-
-  
 
 ### Submitting Assignments in Latex using Overleaf
 
