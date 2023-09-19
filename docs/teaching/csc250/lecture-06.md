@@ -229,7 +229,7 @@ These are some properties that can help you deduce, generalize, or analyze FSMs 
 
 ### Complement
 
-IF a Language $$L\_1$$ is recognizable by an FA $$ M\_1$$,  
+IF a Language $$L_1$$ is recognizable by an FA $$ M_1$$,  
 is language $$ (L_1)^{c} $$ also recognizable by some FA?  
   
 Or in other words, $$\exists M_2  \quad \vert \quad L(M_2) = L(M_1)^{c}$$  
@@ -253,7 +253,7 @@ How would you prove this (by construction)?
   <details><summary>(Wait; then Click)</summary>
     <p>
       1.  run both machines “in parallel” <br>
-	  2.  accept <b>if (and only if) both</b> reach an accepting state
+	    2.  accept <b>if (and only if) both</b> reach an accepting state
     </p>
   </details>
 </span>
@@ -278,21 +278,33 @@ Example:
   
   
 
-**The set of possible states  
-$$ Q_3 = \\{ AD, BD, CD, AE, BE, CE \\}$$**  
+**The set of possible states** 
+
+$$ Q_3 = \{ AD, BD, CD, AE, BE, CE \}$$  
   
 **Look at the rule for the transition function**:  
-\\\[ \\delta\_3 ( (q\_1, q\_2), a ) = (\\delta\_1(q\_1,a), \\delta\_2(q_2,a)) \\\ \\\] That means:  
+
+$$ \delta_3 ( (q_1, q_2), a ) = (\delta_1(q_1,a), \delta_2(q_2,a)) $$ 
+
+That means:  
   
-$$ \\mathbf{ \\delta\_3 ( (q\_1, q\_2), a ) }$$ : the transition for $$M\_3$$ starting at the combo state: $$q\_1q\_2$$ and input symbol $$a$$.  
-the combo state resulting from the output of $$M\_1$$ when starting at state $$q\_1$$ and input symbol $$a$$,  
-and the state resulting from the output of $$M\_2$$ when starting at state $$q\_2$$ and input symbol $$a$$  
-or $$ \\mathbf{ \\delta\_1(q\_1,a), \\delta\_2(q\_2,a)) }$$  
+$$ \mathbf{ \delta_3 ( (q_1, q_2), a ) }$$
+
+the transition for $$M_3$$ starting at the combo state: $$q_1q_2$$ and input symbol $$a$$.  
+the combo state resulting from the output of $$M_1$$ when starting at state $$q_1$$ and input symbol $$a$$,  
+and the state resulting from the output of $$M_2$$ when starting at state $$q_2$$ and input symbol $$a$$  
+or $$ \mathbf{ \delta_1(q_1,a), \delta_2(q_2,a)) }$$  
   
-**The set of starting states $$ q_{03} = (q\_1,q\_2) $$**  
-Which is the combination state of the starting states of each of the machines: $$q\_1$$ from $$M\_1$$ and $$q\_2$$ from $$M\_2$$.  
+**The set of starting states**  
+
+$$ q_{03} = (q_1,q_2) $$ 
+
+Which is the combination state of the starting states of each of the machines: $$q_1$$ from $$M_1$$ and $$q_2$$ from $$M_2$$.  
   
-**The set of Accepting states $$ F\_3 = (q\_1,q_2) $$**  
+**The set of Accepting states** 
+
+$$ F_3 = (q_1,q_2) $$  
+
 Where **each one** is the combination state of states where **both** are accepting states in each of the machines:  
 $$C$$ from $$M_1$$ **AND** $$E$$ from $$M_2$$.  
   
@@ -301,7 +313,8 @@ $$C$$ from $$M_1$$ **AND** $$E$$ from $$M_2$$.
 ![inX Exmpl!](../../../assets/images/csc250/lecture05/intersectionSolution.png){: width="50%"}  
   
 Notice that for the example word $$ w = 0111 $$ , the sequence of states is:  
-$$ AD \\xrightarrow{0} BD \\xrightarrow{1} CE \\xrightarrow{1} CD \\xrightarrow{1} CE $$ (Accept)  
+
+$$ AD \xrightarrow{0} BD \xrightarrow{1} CE \xrightarrow{1} CD \xrightarrow{1} CE $$ (Accept)  
   
   
 
@@ -333,7 +346,7 @@ Example:
   
 ![union Exmpl!](../../../assets/images/csc250/lecture05/unionExample.png){: width="50%"} 
 
-**NOW, the set of Accepting states $$ F\_3 = (q\_1,q_2) $$**  
+**NOW, the set of Accepting states $$ F_3 = (q_1,q_2) $$**  
 Where **each one** is the combination state of states where **either** are accepting states in each of the machines:  
 $$C$$ from $$M_1$$ **OR** $$E$$ from $$M_2$$.  
   
@@ -358,7 +371,7 @@ Example: word $$ w = 0111 $$
 
 ### Set Difference
 
-\\\[ L\_3 = L\_1 - L_2 \\\]  
+$$ L_3 = L_1 - L_2 $$ 
   
 ![union!](../../../assets/images/csc250/lecture05/setDif.png)  
   
@@ -405,7 +418,7 @@ How would you prove this (by construction)?
     <p>
 1.  Let’s say we have two FAs $M_1$ and $M_2$, both with the same $\Sigma$
 <br>
-2.  Want to build another FA $M_3$ with $$ L(M_3)=L(M_1) \circ L(M_2) \texttt{, which is } \{ x_1 x_2 | x_1 \in 𝐿(𝑀_1) \texttt{ and } 𝑥\_2 \in 𝐿(𝑀\_2) \} $$<br>
+2.  Want to build another FA $M_3$ with $$ L(M_3)=L(M_1) \circ L(M_2) \texttt{, which is } \{ x_1 x_2 | x_1 \in 𝐿(𝑀_1) \texttt{ and } 𝑥_2 \in 𝐿(𝑀_2) \} $$<br>
 3.  Just need to attach the accepting states of $M_1$ to the start state of $M_2$<br>
 4.  Caution: since we don’t know when we’re done with the L($M_1$) part of the string; could go through accepting states of $M_1$ several times!
     </p>

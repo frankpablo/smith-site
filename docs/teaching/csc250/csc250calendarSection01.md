@@ -34,9 +34,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 3** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/18      | **W3-QUIZ**{: .label .label-yellow }<br>[Intro Regular Expressions](lecture-05.html) | Reading: [Regular Expressions](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's/3.02%3A_Regular_Expressions) | Reading: [Ch 2.1 to 2.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  |
+| 09/18      | [Intro Regular Expressions](lecture-05.html) | Reading: [Regular Expressions](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/03%3A_Regular_Expressions_and_FSA's/3.02%3A_Regular_Expressions) | Reading: [Ch 2.1 to 2.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  |
 | 09/20      | [More REs and FAs](lecture-06.html)  | Reading: Reading: [Ch 2.1 to 2.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 2.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  |
-| 09/22      | Catch-up + [Work on HW02](lecture-07.html) | **Homework 01**{: .label .label-purple}<br>Reading: [Ch 2.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 2.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW02 Due 09/29 | |
+| 09/22      | **W3-QUIZ**{: .label .label-yellow }<br>Catch-up + [Work on HW02](lecture-07.html) | **Homework 01**{: .label .label-purple}<br>Reading: [Ch 2.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 2.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW02 Due 09/29 | |
 
 
 
