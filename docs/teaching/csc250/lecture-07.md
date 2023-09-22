@@ -20,19 +20,19 @@ This class we'll discuss:
 
 * Catch-Up: REs and FAs
 * Group work on HW02
-* Demo on HW01
+* Grading on HW01
 
  
 
 * * *
-
+<!-- 
 Work on HW02
 -------------------------------------
 
   * Download the Zip file from Moodle (lecture 07)
   * Upload to Overleaf
   * Work in teams
-  * We work together on the HW02
+  * We work together on the HW02 -->
 
 <!-- 
 * * *
@@ -51,6 +51,6 @@ Demos for HW01
  
 #### Homework
 
-**Homework 02** Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 02** Read it Today, just make sure you understand all the questions. You may start working on them too.
 
   
