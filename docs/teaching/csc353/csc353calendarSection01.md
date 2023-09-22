@@ -29,13 +29,13 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 3** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/21     | Sensing and Actuation | R2a and R2b |  |  |
+| 09/21     | Sensing and Actuation | R2a and R2b | Tactile Perception Assignment in Perusall |  |
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 4** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/28     | Perception |  |  |  |
+| 09/28     | Perception |  Tactile Perception Assignment in Perusall |  |  |
 
 
 
