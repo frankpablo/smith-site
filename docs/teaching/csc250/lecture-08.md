@@ -14,6 +14,14 @@ Lecture Notes 08: Nondeterminism and Properties
 Outline
 -------
 
+Recap: Closure properties for Finite Automata
+
+  * Union
+  * Complement
+  * Intersection
+  * Reversal (....in HW2...)
+
+
 Nondeterminism
 --------------
 
