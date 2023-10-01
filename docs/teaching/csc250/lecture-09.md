@@ -123,6 +123,10 @@ A summary of recommended steps is:
 3.  **Induction Step**: Prove that, for a word \\(z\\) that has a length \\( \\vert z \\vert = k+1 \\), (or which we can represent as a concatenation of a word \\(w\\) of size \\(k\\) and one more symbol \\(a\\)), that \\( \\hat{\\delta}^\\prime(q\_0^{\\prime} , z)) = \\hat{\\delta}(q\_0, z)\\)
 
 
+
+### Full proof here:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4gXLGKRHOY89egIRruvkDBdz9MfmAQ4RSjCjUtJiJpfMw_QxjdXMrGN4KFs3pjUYYR65Q3QrTIO9p/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   
 
 * * *
