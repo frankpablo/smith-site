@@ -83,6 +83,11 @@ Answer below, so don;t peek if you wanna do it yourself.
 Non Regular Languages
 ---------------------
 
+
+## Step-by-Step explanation:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSMr1r0hrl9s6oZCxQe3FERLOIzz1P5n-CXhj30ShwCzpLLp5S5eloCll79CMHk4axyCSjp-VJH_TmD/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 What are the limits of the REs and FAs we've seen?  
   
 In other words, are there are some languages that cannot be described with them?  
