@@ -442,7 +442,7 @@ Proving a language is not Regular
     
 Some Perspective
 ----------------
-    
+
 Why am I asking you all of these questions about regularity of languages, etc.?  
   
 REs and FAs are really simple computational machines.  

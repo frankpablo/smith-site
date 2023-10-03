@@ -25,6 +25,51 @@ This class we'll discuss:
 
 * * *
 
+
+
+Proving a Language is Not Regular (summary in English)
+-----------------  
+
+  * If a Language is Regular, it must have come from a RegEx
+      * Example $L_1 = \\{ w \vert w \text{ is a 1 followed by an even number of zeros and ending in 1} \\}$
+      * Then RegEx $E_1$ such that $L(E_1) = L_1$ is $1(00)^*1$
+  * If it has a RegEx, it has a Finite Automaton 
+      * Example FA $A_1$: \
+        ![FA A1](../../../assets/images/csc250/lecture12/FA_1_regular.png){: width="40%"}   
+  * The finite automaton has a finite numnber of states, let's call that number N
+      * Example: for FA $A_1$ above, N is 4     
+  * If the Language is infinite, then it must accept words of increasing length
+      * Example: for FA $A_1$ above, it accepts: 11, 1001, 100001, etc  
+  * Any word with $N$ or more symbols must have been generated (or accepted) by passing through a loop!
+      * Example: FA $A_1$ above accepts word $w = 1001$ which is impossible to do without using a loop
+      * Note that if I let you draw ANY FA with 4 states that accepts a word with 4 symbols, it MUST have a loop!   
+  * Any of these words $\vert w\vert \geq N$ can be written as $w = xyz$, where 
+      * $x$ is the part of the word read before a loop (if the loop is at the start, $x = \epsilon$)
+      * $y$ is the part of the word read through the loop (the loop must account for at least 1 symbol or $\vert y\vert \geq 1$)
+      * $z$ is the part of the word read after the loop (this could have no symbols, symbols that are fixed, or some that passed through a loop)
+      * Example: for FA $A_1$ above, it accepts $w = 1001$ where the $1$ did not use the loop, and the $00$ did. In this case, the part $z$ is $1$.
+  * Note that the $xy$ part of the word MUST have AT MOST $N$ symbols (when $z = \epsilon$)
+      * Example FA $A_2$ has $N = 4$ states (with the loop at the end, meaning accepted words have $z = \epsilon$): \
+        ![FA A1](../../../assets/images/csc250/lecture12/FA_2_regular.png){: width="40%"}
+      * Note that all accepted words $\vert w\vert \geq N$ can be written as $w = xyz$ with $z = \epsilon$.
+          * Examples: 1000, 1000000, etc
+      * Then, any accepted words $\vert w\vert \geq N$ have the $xy$ part with exactly $N$ symbols.
+      * If the loop happens earlier, then the  $xy$ part has fewer than $N$ symbols, so the rule is:
+          * $\mathbf{\vert xy\vert \leq N}$
+  * Summing up: any infinite Regular Language $L_R$ 
+      * accepts words $\vert w\vert \geq N$ which can be written as $w = xyz$ such that
+      * $\vert y\vert \geq 1$
+      * $\vert xy\vert \leq N$
+      * And repeating the $y$ part of the word (or removing it) generates another word that MUST also be in the Language!
+          * This is indicated like this:  $w^{\prime} = xy^iz$ with $i \geq 0$ with $w^{\prime} \in L_R$
+
+
+
+
+
+
+* * *
+
   
 
 The Pumping Lemma
@@ -201,9 +246,9 @@ is not regular:
   </div> 
 
 
----
 
 
+<!-- 
 ![example 3!](../../../assets/images/csc250/lecture09/NonRegExample3.png){: width="60%"}  
   
 **Proof sketch**  
@@ -217,7 +262,7 @@ The technical part is: simply choose a way to express the fact that $HALF$ is a 
 4.  Because regular languages are closed under intersection, this language would also have to be regular: $ EQ \cap 0^\*1^\* = \{ w \in \{0,1\}^* : w = 0^i1^i, \text{for some }i \geq 0 \} = HALF $
 5.  We just proved the non-regularity of HALF, which is a contradiction.
 6.  Therefore EQ cannot be regular.
-
+ -->
 * * *
 
 
@@ -241,6 +286,16 @@ Let’s take a look at some questions we might ask.
   
 
   
+
+## Why are RegExes or FAs useful?
+
+Think about these problems:
+
+  1. You have written a long essay and you realize that you misspelled a name in all of it! The name **Theodore** should be replaced for the name **Teodoro**: How do you tell a program to find all the words tnhat should be changed!
+  2. You want to design a deck-building card game where players accumulate cards and can gain points by making groups of cards and playing them. How do you define the rules for the game and print out all the combinations that are allowed or check if a combination is allowed?
+  3. In terms of programming, you can use regular expressions to indicate password-rule matching, smart character replacement, email format checkers, etc.
+
+
 
 * * *
 
