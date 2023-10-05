@@ -18,7 +18,7 @@ Lecture Notes 13: Practice and Homework03 Demo
 This class we'll discuss:
 
 * Catch-Up: PL Recap
-* Group work on HW04
+
 
 <!-- * Demo on HW02 -->
 
@@ -27,27 +27,14 @@ This class we'll discuss:
 
 * * *
 
-Work on HW04
+Visualization of PL and proof of non-regularity
 -------------------------------------
 
-  * Download the Zip file from Moodle (lecture 13)
-  * Upload to Overleaf
-  * Work in teams
-  * We work together on the HW04
-<!-- 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRRZfm1ifYjenbt6e3KsWhHmh9A8cdwSXOR7WxPr06WBGRRHrW0H3Hv8IpCACNWru7GXo0lDsle49mK/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 * * *
 
-Demos for HW03
--------------------------------------
-
-  * I will wshow a randomized order of Demos by team number
-  * Each Team: Open your HW03 PDF in one computer
-  * Choose who presents what BEFORE I show up
-  * Each problem/person: 
-     * Give a 10-20 second intro to the problem
-     * Give a 30-to-60-second explanation of your answer
- -->
 
 #### Homework
 
