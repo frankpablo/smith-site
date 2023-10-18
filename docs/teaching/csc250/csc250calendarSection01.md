@@ -70,9 +70,10 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 7** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/16      | **W7-QUIZ**{: .label .label-yellow }<br>[CFG+PDA Recap](lecture-16.html)|  Reading: [Ch 3.6 and 3.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |    |
+| 10/16      | [CFG+PDA Recap](lecture-16.html)|  Reading: [Ch 3.6 and 3.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |    |
 | 10/18      | [Turing Machines](lecture-17.html)  and [More on Turing Machines](lecture-18.html) |  Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
-| 10/20      | Catch-up + [Work on HW06](lecture-19.html)   | **Homework 05**{: .label .label-purple}<br> Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW06 Due 10/27  |   |
+| 10/20      | **W7-QUIZ**{: .label .label-yellow }<br>Catch-up + [Work on HW06](lecture-19.html)   | **Homework 05**{: .label .label-purple}<br> Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW06 Due 10/27  |   |
+
 
 
 
