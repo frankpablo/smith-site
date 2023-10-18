@@ -63,9 +63,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/09      |  **NO CLASSES**: AUTUM RECESS |  |  |  |
 | 10/11      | **W6-QUIZ**{: .label .label-yellow }<br>[Context-Free Grammars](lecture-14.html) |  Reading: [Ch 3.1 and 3.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 3.3 and 3.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br> | (Skip Ch 3.4) |
-| 10/13      | Catch-up + [CFGs and Intro to Push-Down Automata](lecture-15.html) | **Homework 04**{: .label .label-purple}<br>Reading: [Ch 3.3 and 3.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  Reading: [Ch 3.6 and 3.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>
-<!-- HW05 Due 10/20  -->
-| |
+| 10/13      | Catch-up + [CFGs and Intro to Push-Down Automata](lecture-15.html) | **Homework 04**{: .label .label-purple}<br>Reading: [Ch 3.3 and 3.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  Reading: [Ch 3.6 and 3.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW05 Due 10/20 | |
 
 
 
@@ -83,14 +81,8 @@ nav_order: 1
 | **WEEK 8** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/23      | **W8-QUIZ**{: .label .label-yellow }<br>[Turing Machines](lecture-17.html)  and [More on Turing Machines](lecture-18.html) |  Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
-| 10/25      | Catch-up + [Work on HW06](lecture-19.html)   | 
-<!-- **Homework 05**{: .label .label-purple}<br>  -->
-Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>
-<!-- HW06 Due 10/27   -->
-|   |
-| 10/27      | Catch-up + [Q&A for Midterm](lecture-22.html) | 
-<!-- **Homework 06**{: .label .label-purple}  -->
-|   |  (No HW, Just Study) |
+| 10/25      | Catch-up + [Work on HW06](lecture-19.html)   | **Homework 05**{: .label .label-purple}<br> Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW06 Due 10/27  |   |
+| 10/27      | Catch-up + [Q&A for Midterm](lecture-22.html) | **Homework 06**{: .label .label-purple} |   |  (No HW, Just Study) |
 
 
 |:---:|
