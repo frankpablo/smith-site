@@ -7,7 +7,8 @@ nav_order: 35
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 35: More NP-Completeness, P v NP, and Poly-Time-Reductions
+
+Lecture Notes 35: NP-Completeness, P v NP, and Poly-Time-Reductions
 ===================================================================
 
   

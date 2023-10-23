@@ -7,8 +7,8 @@ nav_order: 34
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 34: NP-Completeness, P v NP, and Poly-Time-Reductions
-===================================================================
+Lecture Notes 34: Complexity and NP-Completeness
+==========================================================
 
   
 
@@ -18,17 +18,55 @@ Outline
 This class we'll discuss:
 
 * NP-Completeness
-* P-vs-NP
 
   
 
 * * *
 
+
+Recap: Computational Complexity
+-------------------------------
+
   
-
-NP and P vs NP
---------------
-
+  
+![](../../../assets/images/csc250/lecture31/NPC-02.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-03.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-04.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-05.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-06.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-07.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-08.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-09.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-10.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-11.png){: width="80%"}   
+  
   
   
 ![](../../../assets/images/csc250/lecture31/NPC-12.png){: width="80%"}   
@@ -70,8 +108,8 @@ NP and P vs NP
 ![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
   
 
-**Activity 1** \[2 minutes\] How would you Prove this?: 
-
+**Activity 1** \[2 minutes\] How would you Prove this?:  
+  
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
@@ -129,230 +167,10 @@ What would happen if we tried to serialize all the branches?
   
 ![](../../../assets/images/csc250/lecture31/NPC-23.png){: width="80%"}   
   
- 
-  
   
   
 ![](../../../assets/images/csc250/lecture31/NPC-24.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-26.png){: width="80%"}   
-  
-
-**Activity 3** \[2 minutes\] How would you Prove this?: 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-Draw graph with a clique  
-<br>
-Invert the graph  
-<br>
-Point out that a clique in the graph is an independent set in the inverse  
-<br>
-How long does it take to invert a graph?  
-
-  <li> how many edges could there possibly be? O(n^2) </li>
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>
-
-  
-![](../../../assets/images/csc250/lecture31/NPC-27.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-28.png){: width="80%"}   
-  
-So what can we say about the relative difficulty of these problems?  
-  
-  
-This means that they are essentially equivalent  
-Either both CLIQUE and INDEPENDENT−SET are in 𝒫 or neither is  
-  
-  
-<br><br>
-
-## NP-Completeness
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-29.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-30.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-31.png){: width="80%"}   
-  
-
-**Activity 4** \[2 minutes\] How would you Prove this?:  
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-
-Suppose B is NP-complete and B ∈ P.  
-  
-<ul>
- <li> Let A be any language in NP; </li>
- <li> We know $A \leq_p B$ since B is NP-complete. </li>
- <li> Then A ∈ P, since B ∈ P and “easiness propagates downward”. </li>
- <li> Since every A in NP is also in P, this means NP ⊆ P. </li>
- <li> Since we also know P ⊆ NP, it follows that P = NP. </li>
-</ul>
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>
-
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-32.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-33.png){: width="80%"}   
-  
-
-**Activity 5** \[2 minutes\] How would you Prove this?: 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-
-Our witness (certificate) would be a satisfying assignment x1, x2, ..., xn s.t xi ∈ T/F.  
-<br>
-A deterministic TM can easily verify that the assignment satisfies all clauses, in polynomial (even linear) time in n, m.
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>
-
-
-  
-  
-  
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-34.png){: width="80%"}   
-  
-
-**Activity 6** \[2 minutes\] How would you Prove this?: (Wait; then Click)  
-  
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-<ul>
-    <li> We must show that any language A in NP is efficiently reducible to SAT. <br>
-        That is, if we could solve SAT, we could solve any problem A that’s in NP.</li>
-    <li> Since AND, OR and NOT form a universal system, i.e, a basis for Boolean logical operators, we know we can can construct a boolean formula that simulates the transitions of a Turing Machine.</li>
-    <li> Since A is in NP, there must be some nondeterministic TM $M_A$ that decides it.</li>
-    <li> The reduction function, given $M_A$ (the NP-machine for A), receives a string w and produces a Boolean formula $\Phi_{M_{A,w}}$ that simulates the run of $M_A$ on the input w</li>
-    <li> An assignment to $\Phi_{M_{A,w}}$ could represent a computational path of the NP machine,</li>
-    <li> And if we’re clever, we can set it up so that $\Phi_{M_{A,w}}$ will be satisfiable iff the machine $M_A$ accepts w.</li>
-<br><br>
-  
-This is called the <b>Cook-Levin Theorem</b>  
-
-<br><br>
-The full proof of this theorem is a little beyond the scope of this video, but if check out the original publication on Moodle if you want all the gory details. 
-<br>
-The important takeaway is that if we had some efficient decider for SAT, we’d be able to efficiently decide anything.  
-</ul>
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>
-
-  
-  
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-35.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-36.png){: width="80%"}   
-  
-3CNF = conjunctive normal form with no more than three variables per conjunct  
-  
-3SAT is in NP for the same reason that regular SAT was: given a set of T/F values, it’s easy to check whether the formula evaluates to T  
-  
-
-<br><br>
-  
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-37.png){: width="80%"}   
-  
-Reduce it to SAT (SAT ≤p 3SAT)  
-  
-It turns out that ANY propositional formula can be converted into an equivalent 3CNF version by splitting it into pieces and adding some dummy variables as necessary  
-  
-  
-<br><br>
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-38.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-39.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-40.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-41.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-42.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-43.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-44.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-45.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-46.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-47.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-48.png){: width="80%"} 
+![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"} 

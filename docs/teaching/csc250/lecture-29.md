@@ -7,195 +7,388 @@ nav_order: 29
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 29: Mapping Reducibility and Intro to Rice's Theorem
-==================================================================
+Lecture Notes 29: Mapping Reducibility
+=============================================================
 
-  
 
 Outline
 -------
 
 This class we'll discuss:
 
-* Rice's Theorem
+* Recap: Enumeration and Recognizers
+* Mapping reducibility
+
+  
+
+* * *
+
+
+  
+![](../../../assets/images/csc250/lecture24/Enum-36.png){: width="80%"}{: width="80%"}
+
+
+
+
+# Mapping Reducibility
+
+
+
+* * *
+
+  
+
+Recap: Reductions
+-----------------
+
+  
+  
+<!-- ![](../../../assets/images/csc250/lecture25/MAP-01.png){: width="80%"}   -->
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-02.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-03.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-04.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-05.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-06.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-07.png){: width="80%"}  
+  
+
+**Activity 1** \[2 minutes\] How would you do this reduction?: 
+
+<br><br> 
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-08.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-09.png){: width="80%"}  
+  
+  
+  
+
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-10.png){: width="80%"}  
+  
+
+**Activity 2** \[2 minutes\] How would you do this reduction?: (Wait; then Click)  
+  
+  
+  
+Assume EQTM is decidable, and so there exists some $D_{EQTM}$ that decides, for any input $< M\_1, M\_2>$, whether $M\_1$ Accepts the same language as $M\_2$.  
+  
+We'll design the Machine $D_{EmptyTM} $ as follows:  
+  
+$$ \begin{align*} &D_{EmptyTM}:\\ & \text{ On input $ < M > $ }:\\ & \text{ Create (but don't run) $HELPER_{\emptyset}$ such that}\\ & \quad \text{ On input $ < X > $ }:\\ & \quad \quad \text{ Ignore $ < X > $ }\\ & \quad \quad \text{ Reject}\\ & \text{ Now Run $D_{EQTM}$ on input $ < M, HELPER_{\emptyset} $ ADWID}\\ & \text{ If $D_{EQTM}$ accepts, it is only because M accepts no words so our machine ACCEPTS}\\ & \text{ If $D_{EQTM}$ rejects, , it is only because M accepts some w so our machine REJECTS}\\ \end{align*} $$  
+  
+
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-11.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-12.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-13.png){: width="80%"}  
+  
+
+**Activity 3** \[2 minutes\] How would you do this reduction?: (Wait; then Click)  
+  
+  
+  
+* Reject if: $D_{EMPTY}$ accepts $M_{M,w}$
+* Accept if: $D_{EMPTY}$ rejects $M_{M,w}$
+
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-14.png){: width="80%"}  
+  
+  
+  
+<!-- ![](../../../assets/images/csc250/lecture25/MAP-14b.png){: width="80%"}   -->
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-15.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-16.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-17.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-18.png){: width="80%"}  
+  
+  
+  
+The Emptiness Problem  
+  
+* Theorem: $\overline{EMPTY-TM}$ is recognizable
+* Theorem: $EMPTY-TM$ is undecidable
+* Corollary: $EMPTY-TM$is **unrecognizable**
+* Proof: If $\overline{EMPTY-TM}$ and $EMPTY-TM$ recognizable,
+* that would imply $EMPTY-TM$ is decidable  
+  
+  
+  
+This means our Turing Reduction can't catch the ordering between languages... nor can we really use it to establish, from its results a clear idea of the class of languages they belong to. 
+  
+Issue with EMPTY ≤ ¬EMPTY is that the “Domain” of one is complement of the “Domain” of the other!  
+  
+  
+However, we've actually seen a STRONGER type of reduction  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-19.png){: width="80%"}  
+  
+Here, The “Domain” of EMPTY corresponds to the “Domain” of EQ!  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-20.png){: width="80%"}  
+  
+We could rewrite this as a simple conversion from any word in EmptyTM to a word in EQ\_TM (and similarly a word not in EmptyTM to a word not in EQ\_TM).  
+  
+We call this a mapping reduction, and denote it $ \leq_m$
 
   
 
 * * *
 
   
-  
 
-Rice's Theorem
--------------------------
-
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-02.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-03.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-04.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-05.png){: width="80%"}  
-  
-Our previous example:  
-  
-![](../../../assets/images/csc250/lecture26/Rice-06.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-07.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-08.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-09.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-10.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-11.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-12.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-13.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-14.png){: width="80%"}  
-  
+Mapping Reductions
+------------------
 
   
   
-![](../../../assets/images/csc250/lecture26/Rice-15.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture25/MAP-21.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-16.png){: width="80%"}  
-  
-Remember, we have to be able to deal with any input, but we don’t necessarily have to map them all to unique outputs.  
-This is why a mapping reduction is sometimes called a “many-one” reduction.  
+![](../../../assets/images/csc250/lecture25/MAP-22.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture26/mapping.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture25/MAP-23.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-17.png){: width="80%"}  
-  
-Let’s start by assuming that ∅ ∉ P (that is, it doesn’t exhibit the non-trivial property we care about).  
-Because we’re trying to prove undecidability, I claim that we can assume this WLOG.  
-Why? (otherwise, just work with the complement of P).  
-  
-Let M1 be any TM such that L(M1) = ∅, so < M1 > ∉ MP.  
-Cool, so now we’ve got something we could map not-in-ATM words to.  
+![](../../../assets/images/csc250/lecture25/MAP-24.png){: width="80%"}  
   
   
   
-  
-![](../../../assets/images/csc250/lecture26/Rice-18.png){: width="80%"}  
-  
-Next let M2 be any TM such that L(M2) ∈ P, so < M1 > ∈ MP.  
-How do we know M2 exists?  
-Because P is nontrivial.  
+![](../../../assets/images/csc250/lecture25/MAP-25.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture26/mapping2.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture25/MAP-26.png){: width="80%"}  
+  
+They’re a way for us to relate problems to one another  
+If A reduces to B and B is easy => A is easy too  
+More common: if A reduces to be and A is hard => B is hard too  
+  
+We started with ATM (which we proved was undecidable using a big ugly contradiction )  
+Reduced ATM to HALT (ATM ≤ HALT): we showed that if we had a decider HALT, we could use that to decide ATM (so that means HALT must also be undecidable)  
+  
+We did the same thing with ATM-01  
+And EmptyTM  
+Later, we also showed that if we had a decider for HALT, we could use that to decide EmptyTM  
+And that if we had a decider for EQ_TM, we could yet again decide EmptyTM (mapping)  
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-19.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture25/MAP-27.png){: width="80%"}  
   
-We have M1 not in P, M2 in P  
   
-<!-- Goal:  
-on any input x:  
-if $x = < M,w >$ $\in$ ATM, map to something in MP  
-otherwise, map to something not in MP (like M1)   -->
-
-$$
-\begin{align*}
-\text{Goal:}&\\
-\quad & \text{On any input x:  }\\
-\quad & \quad \text{if } x = < M,w >\in ATM \text{, map to something in MP}\\
-\quad & \quad \text{otherwise, map to something not in MP (like M1)}\\
-\end{align*}
-$$
+  
+![](../../../assets/images/csc250/lecture25/MAP-28.png){: width="80%"}  
+  
 
 
-Easy part: If x isn’t of the form $< M,w >$ return something $\notin$ MP, like $< M1 >$.  
-  
-Harder part: If x IS of the form $< M,w >$ , we have two cases: if it’s in ATM, we want to map it to a machine in MP and if it’s NOT in ATM, we want to map it to something not in MP.  
-  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-20.png){: width="80%"}  
-  
-Time to get tricksy: if x is of the form $< M,w >$ , then return the following machine: $< M^{\prime}_{M,w} >$  
+<!-- 
+  Sipser
+ATM = {⟨M,w⟩| M is a TM and M accepts w}. P202, 207
+THE DIAGONALIZATION METHOD P202  
+ATM is not Turing-recognizable. P210
+HALTTM ={⟨M,w⟩|MisaTMandMhaltsoninputw}. P216
+ETM ={⟨M⟩|M isaTMandL(M)=∅}. P217
+EQTM = {⟨M1,M2⟩| M1 and M2 are TMs and L(M1) = L(M2)}. P220
+f: Σ∗−→Σ∗ is a computable function P234
+EQTM is neither Turing-recognizable nor co-Turing-recognizable. P238
+TURING REDUCIBILITY P261 
+-->
 
-$$
-\begin{align*}
-<M^{\prime}_{M,w}>:&\\
-\quad & \text{On any input y:  }\\
-\quad & \quad \text{Run M on w. #(If stuck on a loop, this is M1!)}\\
-\quad & \quad \quad \text{If M accepts w then run M2 on y ADWID}\\
-\quad & \quad \quad \text{If M rejects w, REJECT.}\\
-\end{align*}
-$$
+
+Mapping Reducibility and Reductions Conclussion
+================================================================== 
+
+
+* * *
+
+  
+
+A Reduction Issuue
+------------------
+
+  
+  
+The Emptiness Problem
+
+* Theorem: $\overline{EMPTY-TM}$ is recognizable
+* Theorem: $EMPTY-TM$ is undecidable
+* Corollary: $EMPTY-TM$is **unrecognizable**
+* Proof: If $\overline{EMPTY-TM}$ and $EMPTY-TM$ recognizable,
+* that would imply $EMPTY-TM$ is decidable
+  
+  
+  
+  
+This means our Turing Reduction Can't catch if the fact that we're reducing outside the same class of languages  
+  
+Issue with EMPTY ≤ ¬EMPTY is that the “Domain” of one is complement of the “Domain” of the other!  
+  
+  
+  
+However, we've actually seen a STRONGER type of reduction  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-19.png){: width="80%"}  
+  
+Here, The “Domain” of EMPTY corresponds to the “Domain” of EQ!  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-20.png){: width="80%"}  
+  
+We could rewrite this as a simple conversion:  
+from any word in EmptyTM to a word in EQ_TM (and similarly a word not in EmptyTM to a word not in EQ_TM).  
+  
+We call this a **mapping reduction**, and denote it $ \leq_m$
+
+  
+
+* * *
+
+  
+
+Mapping Reductions
+------------------
+
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-21.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-22.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-23.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-24.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-25.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-26.png){: width="80%"}  
+  
+They’re a way for us to relate problems to one another  
+  
+If A reduces to B and B is easy => A is easy too  
+More common: if A reduces to be and A is hard => B is hard too  
+  
+We started with ATM (which we proved was undecidable using a big ugly contradiction )  
+Reduced ATM to HALT (ATM ≤ HALT): we showed that if we had a decider HALT, we could use that to decide ATM  
+(so that means HALT must also be undecidable)  
+  
+We did the same thing with ATM-01  
+And EmptyTM  
+  
+Later, we also showed that if we had a decider for HALT, we could use that to decide EmptyTM  
+And that if we had a decider for EQ_TM, we could yet again decide EmptyTM (mapping)  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture25/MAP-27.png){: width="80%"}  
+  
+
+**Activity 1** \[2 minutes\] How would you do this reduction?: (Wait; then Click)  
+
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+  
+$$HALT \leq_m SOMETIMES-HALTS$$ 
+  
+We want to show that we can take any input and transform it such that:  
+if the input was a word in HALT $(< M,w>)$, the output is a word $(< M>)$ in SOMETIMES-HALTS  
+  
+if the input was NOT a word in HALT, the output is NOT a word in SOMETIMES-HALTS  
+  
+This suggests that we want to build a helper machine that “amplifies” the behavior of M on w:  
+  
+$$ \begin{align*} &D_{HALT}:\\ & \text{ On input $ < M,w > $ }:\\ & \text{ Create (but don't run) $HELPER_{M,w}$ such that}\\ & \quad \text{ On input $ < X > $ }:\\ & \quad \quad \text{ Ignore $ < X > $ }\\ & \quad \quad \text{ Run M on w ADWID}\\ & \text{ Now Run $D_{S-H}$ on input $ < HELPER_{M,w} > $ ADWID}\\ \end{align*} $$  
+  
+The only way the helper halts is if M halts on w (if this is the case, it halts on EVERY input). Otherwise, it loops.  
+In other words, if $< M,w>$ was in HALT, then the helper will be in SOMETIMES-HALTS,  
+and if $< M,w>$ is NOT in HALT, then the helper won’t be in SOMETIMES-HALT.  
+  
+Thus, we’ve defined a mapping that from problems in HALT to problems in SOMETIMES-HALTS, proving that SOMETIMES-HALTS is at least as difficult as HAL, and so must be undecidable.  
+      </p>
+    </details>
+  </span>
+</div> 
+
 <br><br>
-  
-  
-
-If M accepts w, what is $<M^{\prime}_{M,w}>$’s language?  
-
-exactly the same as M2’s, which means this machine is in MP  
-(If M accepts w, then $< M^{\prime}_{M,w} >$ is just the result of M2)  
-  
-If M doesn’t accept w, what is its language?  
-the empty language, exactly like M1, which means NOT in MP  
-(If M doesn't accept w,$< M^{\prime}_{M,w} >$ is just M1)  
-  
-Therefore, ATM $\leq_m$ MP using this process.  
-This implies that MP is undecidable  
-  
-<br><br>
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-23.png){: width="80%"}
-
 
   
-  
-![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}
+
+* * *
+
+

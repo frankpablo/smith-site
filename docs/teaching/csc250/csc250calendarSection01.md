@@ -82,7 +82,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/23      | [Midterm study](lecture-19.html)   |    |  |   |
 | 10/25      | [Midterm study](lecture-20.html)    |   |   |   |
-| 10/27      |**W8-QUIZ**{: .label .label-yellow }<br> Catch-up + [Q&A for Midterm](lecture-22.html) | | Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) and \[optionally: Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)\]  |   |
+| 10/27      |**W8-QUIZ**{: .label .label-yellow }<br> Catch-up + [Q&A for Midterm](lecture-21.html) | | Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) and \[optionally: Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)\]  |   |
 
 
 |:---:|
@@ -96,18 +96,18 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 9** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/30      | [Turing Machines](lecture-17.html) and [More on Turing Machines](lecture-18.html) | Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) and \[optionally: Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)\]  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | |
-| 11/01      | [Decidability vs Undecidability](lecture-20.html)| Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |    |   | 
-| 11/03      | **W9-QUIZ**{: .label .label-yellow }<br>[Undecidability and Intro to Reductions](lecture-21.html) |  | HW05 Due 11/10 |   | 
+| 10/30      | [Turing Machines](lecture-22.html) and [More on Turing Machines](lecture-18.html) | Reading: [Ch 4.1 and 4.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) and \[optionally: Reading: [Ch 4.3 and 4.4](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)\]  | Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | |
+| 11/01      | [Decidability vs Undecidability](lecture-23.html)| Reading: [Ch 5.1](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |    |   | 
+| 11/03      | **W9-QUIZ**{: .label .label-yellow }<br>[Undecidability and Intro to Reductions](lecture-24.html) |  | HW05 Due 11/10 |   | 
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/06       | [Recap: Reductions](lecture-23.html)  |   | Reading: [Ch 5.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
-| 11/08       | [More on Reductions](lecture-24.html)  | Reading: [Ch 5.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |   |
-| 11/10       | **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + [Even More Reductions](lecture-25.html)   |  **Homework 05**{: .label .label-purple}  |  Reading: [Ch 5.4 to 5.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW06 Due 11/17  |  |
+| 11/06       | [Recap: Reductions](lecture-25.html)  |   | Reading: [Ch 5.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
+| 11/08       | [More on Reductions](lecture-26.html)  | Reading: [Ch 5.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |   |
+| 11/10       | **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + [Even More Reductions](lecture-27.html)   |  **Homework 05**{: .label .label-purple}  |  Reading: [Ch 5.4 to 5.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW06 Due 11/17  |  |
 
 
 
@@ -115,16 +115,16 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/13       | [Reductions + Enumeration](lecture-26.html) |  Reading: [Ch 5.4 to 5.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |   |   |
-| 11/15       | [Mapping Reducibitlity](lecture-27.html)|  |  |   |
-| 11/17       | **W11-QUIZ**{: .label .label-yellow }<br>Catch-up + [Work on HW07](lecture-28.html) | **Homework 06**{: .label .label-purple}   |  Reading: [Ch 5.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW07 Due 12/01   |    |
+| 11/13       | [Reductions + Enumeration](lecture-28.html) |  Reading: [Ch 5.4 to 5.7](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |   |   |
+| 11/15       | [Mapping Reducibitlity](lecture-29.html)|  |  |   |
+| 11/17       | **W11-QUIZ**{: .label .label-yellow }<br>Catch-up + [Work on HW07](lecture-30.html) | **Homework 06**{: .label .label-purple}   |  Reading: [Ch 5.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)<br>HW07 Due 12/01   |    |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/20       | [Intro to Rice theorem](lecture-29.html) |  Reading: [Ch 5.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 6.1 and 6.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  |
+| 11/20       | [Intro to Rice theorem](lecture-31.html) |  Reading: [Ch 5.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  | Reading: [Ch 6.1 and 6.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) |  |
 | 11/22       | **NO CLASSES**:  Thanksgiving  |     |     |     |
 | 11/24       | **NO CLASSES**:  Thanksgiving   |     |      |     |
 
@@ -133,25 +133,25 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 13** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/27       | [Intro to Complexity](lecture-30.html)  | Reading: [Ch 6.1 and 6.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |    |    |
-| 11/29       | [More Complexity](lecture-31.html)  |   |    |    |
-| 12/01       | **W13-QUIZ**{: .label .label-yellow }<br>[Even More Complexity](lecture-32.html) |  **Homework 07**{: .label .label-purple} | HW08 Due 12/08 <br> Reading: [Ch 6.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
+| 11/27       | [Intro to Complexity](lecture-32.html)  | Reading: [Ch 6.1 and 6.2](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |    |    |
+| 11/29       | [More Complexity](lecture-33.html)  |   |    |    |
+| 12/01       | **W13-QUIZ**{: .label .label-yellow }<br>[Even More Complexity](lecture-34.html) |  **Homework 07**{: .label .label-purple} | HW08 Due 12/08 <br> Reading: [Ch 6.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |   |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 14** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 12/04       | [P Vs NP](lecture-33.html)  |  Reading: [Ch 6.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 6.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  |
-| 12/06       |  [P Vs NP Vs NPC](lecture-34.html)  |   Reading: [Ch 6.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |     |     |
-| 12/08       |  **W14-QUIZ**{: .label .label-yellow }<br>Catch-up +[More P Vs NP Vs NPC and Poly-Time Reductions](lecture-35.html)  | **Homework 08**{: .label .label-purple} |    |     |
+| 12/04       | [P Vs NP](lecture-35.html)  |  Reading: [Ch 6.3](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) | Reading: [Ch 6.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |  |
+| 12/06       |  [P Vs NP Vs NPC](lecture-36.html)  |   Reading: [Ch 6.5](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)  |     |     |
+| 12/08       |  **W14-QUIZ**{: .label .label-yellow }<br>Catch-up +[More P Vs NP Vs NPC and Poly-Time Reductions](lecture-37.html)  | **Homework 08**{: .label .label-purple} |    |     |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 12/11       | [More Poly-Time Reductions](lecture-36.html))  |     |     |     |
+| 12/11       | [More Poly-Time Reductions](lecture-37.html))  |     |     |     |
 | 12/13       | Wrap-Up  |   |   |    |
 
 

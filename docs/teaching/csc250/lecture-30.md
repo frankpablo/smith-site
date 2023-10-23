@@ -7,8 +7,8 @@ nav_order: 30
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 30: Computational Complexity
-==========================================
+Lecture Notes 30: Mapping Reducibility and Intro to Rice's Theorem
+==================================================================
 
   
 
@@ -17,316 +17,185 @@ Outline
 
 This class we'll discuss:
 
-* Recap: Can we do it?
-* Computational Complexity
+* Rice's Theorem
 
   
 
 * * *
 
   
+  
 
-Recap: Is this problem doable?
-------------------------------
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-09.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-10.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-11.png){: width="80%"}    
-  
-The problem: Is there some way to set these boolean values so the whole thing evaluates to TRUE?  
-  
-![](../../../assets/images/csc250/lecture29/Complex-12.png){: width="80%"}    
-  
-The problem: Pattern matching  
-  
-![](../../../assets/images/csc250/lecture29/Complex-13.png){: width="80%"}    
-  
-The problem: More powerful pattern matching  
-  
-![](../../../assets/images/csc250/lecture29/Complex-14.png){: width="80%"}    
-  
-Restricted notion of “computation”
-
-* no memory
-* only get to read once
-* exactly the same class of languages as REs
+Rice's Theorem
+-------------------------
 
   
   
-![](../../../assets/images/csc250/lecture29/Complex-15.png){: width="80%"}    
-  
-Very general notion of computation
-
-1.  unlimited storage
-2.  multiple passes over the input
-3.  can compute for as long as you like (doesn’t even have to be guaranteed to stop)
-4.  Large, sweeping language classes: turing decidable, turing recognizable = enumerable
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-16.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture26/Rice-02.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-17.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture26/Rice-03.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-18.png){: width="80%"}    
-  
-Here’s the thing: just knowing that it is POSSIBLE to compute a solution to a problem doesn’t give us any information about how difficult that problem is. The only information we have is… it is not impossible.  
-  
-That level of **resolution** is not great.  
+![](../../../assets/images/csc250/lecture26/Rice-04.png){: width="80%"}  
   
   
   
-What else would be useful to know (in addition to the fact that a problem is solvable)?
-
+![](../../../assets/images/csc250/lecture26/Rice-05.png){: width="80%"}  
+  
+Our previous example:  
+  
+![](../../../assets/images/csc250/lecture26/Rice-06.png){: width="80%"}  
   
   
   
-
-* * *
-
+![](../../../assets/images/csc250/lecture26/Rice-07.png){: width="80%"}  
   
   
   
-  
-Complexity
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-19.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture26/Rice-08.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-20.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture26/Rice-09.png){: width="80%"}  
   
-
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-$HALF = \{w | w = 0^i1^i, i \leq 0\}$
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br> 
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-10.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-11.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-12.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-13.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-14.png){: width="80%"}  
   
 
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-15.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-16.png){: width="80%"}  
+  
+Remember, we have to be able to deal with any input, but we don’t necessarily have to map them all to unique outputs.  
+This is why a mapping reduction is sometimes called a “many-one” reduction.  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/mapping.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-17.png){: width="80%"}  
+  
+Let’s start by assuming that ∅ ∉ P (that is, it doesn’t exhibit the non-trivial property we care about).  
+Because we’re trying to prove undecidability, I claim that we can assume this WLOG.  
+Why? (otherwise, just work with the complement of P).  
+  
+Let M1 be any TM such that L(M1) = ∅, so < M1 > ∉ MP.  
+Cool, so now we’ve got something we could map not-in-ATM words to.  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-18.png){: width="80%"}  
+  
+Next let M2 be any TM such that L(M2) ∈ P, so < M1 > ∈ MP.  
+How do we know M2 exists?  
+Because P is nontrivial.  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/mapping2.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-19.png){: width="80%"}  
+  
+We have M1 not in P, M2 in P  
+  
+<!-- Goal:  
+on any input x:  
+if $x = < M,w >$ $\in$ ATM, map to something in MP  
+otherwise, map to something not in MP (like M1)   -->
 
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-21.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-22.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-Depends on the particular input.
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br> 
-
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-23.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-24.png){: width="80%"}    
-  
-How long will it take for this input?  
-  
-How about for "01", "0011", "00001111" ... ?  
-  
-![](../../../assets/images/csc250/lecture29/Complex-25.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-26.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-27.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-28.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-29.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-30.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-Initial check (steps 1 and 2) takes 2n steps (n to read, and n to get back)  
-We could have at most n/2 passes over step 3 (because we mark off two letters each time)  
-And to make things easier, let’s say we read the whole string each pass  
-$2n + (n/2)*2n = 2n + n^2$ steps to accept
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>  
+$$
+\begin{align*}
+\text{Goal:}&\\
+\quad & \text{On any input x:  }\\
+\quad & \quad \text{if } x = < M,w >\in ATM \text{, map to something in MP}\\
+\quad & \quad \text{otherwise, map to something not in MP (like M1)}\\
+\end{align*}
+$$
 
 
+Easy part: If x isn’t of the form $< M,w >$ return something $\notin$ MP, like $< M1 >$.  
+  
+Harder part: If x IS of the form $< M,w >$ , we have two cases: if it’s in ATM, we want to map it to a machine in MP and if it’s NOT in ATM, we want to map it to something not in MP.  
   
   
-![](../../../assets/images/csc250/lecture29/Complex-31.png){: width="80%"}    
   
+  
+![](../../../assets/images/csc250/lecture26/Rice-20.png){: width="80%"}  
+  
+Time to get tricksy: if x is of the form $< M,w >$ , then return the following machine: $< M^{\prime}_{M,w} >$  
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-$\mathcal{O}( n^2 )$
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>  
-  
-
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-32.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-33.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-34.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-35.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-36.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-37.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-38.png){: width="80%"}    
-  
-Try modifying the algorithm with a more **efficient** one  
-  
-![](../../../assets/images/csc250/lecture29/Complex-39.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-  3. Copy all the 0s to a second tape  
-  4. Move the two heads together, counting off a 1 and a 0 each step  
-  5. If you hit the end of both tapes at the same time ACCEPT, otherwise REJECT”  
-  
-2n steps for lines 1 and 2  
-n steps for line 3  
-n steps for line 4  
-$= 4n = \mathcal{O}(n)$    
-      </p>
-    </details>
-  </span>
-</div> 
-
+$$
+\begin{align*}
+<M^{\prime}_{M,w}>:&\\
+\quad & \text{On any input y:  }\\
+\quad & \quad \text{Run M on w. #(If stuck on a loop, this is M1!)}\\
+\quad & \quad \quad \text{If M accepts w then run M2 on y ADWID}\\
+\quad & \quad \quad \text{If M rejects w, REJECT.}\\
+\end{align*}
+$$
 <br><br>
+  
+  
+
+If M accepts w, what is $<M^{\prime}_{M,w}>$’s language?  
+
+exactly the same as M2’s, which means this machine is in MP  
+(If M accepts w, then $< M^{\prime}_{M,w} >$ is just the result of M2)  
+  
+If M doesn’t accept w, what is its language?  
+the empty language, exactly like M1, which means NOT in MP  
+(If M doesn't accept w,$< M^{\prime}_{M,w} >$ is just M1)  
+  
+Therefore, ATM $\leq_m$ MP using this process.  
+This implies that MP is undecidable  
+  
+<br><br>
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture26/Rice-23.png){: width="80%"}
+
 
   
-
   
-![](../../../assets/images/csc250/lecture29/Complex-40.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-41.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-42.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-43.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-44.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-45.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-46.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-47.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-48.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-49.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-50.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-51.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-52.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-53.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-54.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}

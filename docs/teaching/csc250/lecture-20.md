@@ -7,303 +7,133 @@ nav_order: 20
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 20: Decidability
-==============================
+Lecture Notes 20: Midterm Study
+=============================================================
 
+## Outline ##
 
-Outline
--------
 
 This class we'll discuss:
 
-* Recap: TMs
-* Decidability
+* Group work on in-class problems
+* In-class OHs
+* Prep for the Midterm
+ 
 
+* * *
+
+Prep For Midterm
+-------------------------------------
+
+  * The midterm is Self-Scheduled starting today
+  * The link with the info: [SS-Exams](https://www.science.smith.edu/self-scheduled-exam-printing/#students)
+  * The exam is individual, and will contain multiple-choice as well as free-answer questions.
+  * It will be designed for 1.5 hours and you'll have 3 hours to complete it.
+  * A single (double sided) aid-sheet will be allowed and you must turn it in.
+  * The subjects covered are:
+
+
+
+### Topics  
+  
+
+1.  **Regular Languages**  
+    * Regular Expressions: from set description to RE
+    * Regular Expressions: from RE to set description
+    * Finite Automata: Interpreting an FA (parts, equivalent RE, and accepted Language)
+    * Finite Automata: Building a FA given a language set description
+  
+2.  **Regular vs Non-Regular Languages**  
+    * Short Proofs: using definitions
+    * Short Proofs: using closure
+    * Short Proofs: finding a simple RE or FA
+  
+3.  **Non-Regular Languages (NRLs)**  
+    * Understand the difference/relation between regular and non-regular languages
+    * Prove a given Language is NOT regular (Pumping Lemma is useful here)
+  
+4.  **Context-Free Languages (CFLs)**  
+    * Understand the definition of CFGs and Push-Down Automata
+    * Understand the difference/relation between regular and CFG-languages
+    * Understand the relation between Push-Down Automata and CFG-languages
+    * Prove a given Language IS context free
+    * Understand how one WOULD Prove a given Language is NOT context free
+    * Short Proofs: using definitions
+    * Short Proofs: using closure
+    * Short Proofs: finding a simple CFG or PDA
 
 * * *
 
   
 
-Turing Machines and Decidability
---------------------------------
+### Exam Info  
+  
+
+* **Where/How to take the exam**:  
+    Please read the full instructions in [self-scheduled-exams](https://www.science.smith.edu/self-scheduled-exam-printing/#students)
+  
+* **Cheat-Sheet**  
+    
+    * A single approved cheatsheet will be distributed. You can ONLY bring that single page *AND* you must submit it with your exam at the end!
+    
+    Note that the exam is designed so that you must use your reasoning rather than memory or copied notes.
+  
+* **Exam Structure and Requirements**  
+    * The exam will have 7 questions covering the topics mentioned above
+    * it is graded on 50 points but there are 60 points available to you (you keep any extra points you earn towards HW grades)
+    * It is designed to be completed in 1 hour and 30 minutes but you'll have up to 3 hours to complete it
+    * You may scribble notes and practice answers anywhere in the exam but MUST indicate your final reply clearly, otherwise the whole scribbling will be taken as your reply
+    * You MUST use clear sentences and logic. Rambling answers do not grant partial credit so be concise and precise (think before you answer)
+
+
+* * *
+
+  
+### General tips  
+  
+
+* See the examples solved in class and those solved in the Problem Sets. Any questions that come in the exam will be VERY similar to those.
+  
+* You will be asked to do proofs, but they will be rather straightforward.  
+    Examples:  
+    - show an example of an RE that disprooves a statement that there can be none  
+    - use a Pumping Lemma proof on a question that is VERY similar to one seein in class (HALF)  
+    - show a CFG to generate a certain Language
+
+  
+
+* * *
+
+  
+
+### Tips on Proofs  
+  
+If you want to prove a statement like “This $ something $ is NOT in the category $ category $” (Like this Language L is NOT a Regular Language), you can use the following approaches:  
+
+* by contradiction (assume it IS and ﬁnd a contradiction. . . for example, using the Pumping Lemma)
+* by construction (show all elements follow some structure that precludes them from falling inside the $ category $)
 
   
   
-![](../../../assets/images/csc250/lecture16/computation.gif)  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec01.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec02.png){: width="80%"}  
-  
+If you want to disprove a statement like 
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-     	  <ol>
-					<li>move both left and right</li>
-					<li>write new symbols to the tape</li>
-					<li>stop at any point and return an answer</li>
-				</ol>
-      </p>
-    </details>
-  </span>
-</div> 
-  
+“There is NO $something$ that has the property $\text{some property}$” 
 
-  
-![](../../../assets/images/csc250/lecture16/Dec03.png){: width="80%"}  
-  
+<b>Example</b>: there is no Regular Expression that can describe language 
 
-## Recognizing vs Deciding  
-  
-  
-  
-**Recognizing** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Recognize".  
-  
-Note: If you are trying to **Recognize** a word, but you are not done checking, .... how long do you wait?  
-  
-In other words, you just say: If I say "YES", I'm sure it is "YES" (ACCEPT), but I don't promise anything else.  
-  
-  
-  
-**Deciding** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Decide", AND "NO, this one is NOT one of mine" for ALL words that are not in the Language you are able to "Decide" (called the complement of $L$, or $L^c$ or $\bar{L}$.  
-  
-<br><br>
+$$L = {w \vert w \text{ has alternating 1s and 0s} }$$
 
-## Examples
-
-### A Decider for PAL
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec04.png){: width="80%"}  
-  
-
-  
-![](../../../assets/images/csc250/lecture16/Dec05.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec06.png){: width="80%"}  
-  
-
-
-```    
-    On input w:
-    while there are symbols left in the tape:
-        i. note whether 1st letter is a 0 or a 1 and erase it
-        ii. go all the way to the last symbol
-        iii. if this symbol doesn't match the one we just erased, REJECT; 
-            otherwise erase it and go back to the start.
-    ACCEPT. 
-```
-
-<br><br>
-
-### Recap: A Decider for HALT?
-
-
-if we define HALT as: 
-
-$$\{ w \vert w = < M, \hat{w}> \text{ where M is a TM and M HALTS on } \hat{w} \}$$
-
-We can prove a Decider for HALT cannot exist by contradiction:
-
-Suppose it exists:
-
-  $$ 
-  \begin{align*} 
-  &M_{HALT}: \\
-  & \text{On INPUT $< M, \hat{w} >$} \\
-  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \\
-  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
-  \end{align*} 
-  $$  
-
-If we build the helper machine $M_X$:
-
-  $$ 
-  \begin{align*} 
-  &M_X: \\
-  & On \; INPUT \; < M > \\ 
-  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\\
-  & \quad \text{run $M_{HALT} ( < M , \hat{w}>)$}
-  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \\
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \\
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \\
-  \end{align*} 
-  $$  
-
-And run $M_X$ with input equal to itself, we get:
-
-  $$ 
-  \begin{align*} 
-  &M_X: \\
-  & On \; INPUT \; < M_x > \\
-  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\\
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \\
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \\
-  \end{align*} 
-  $$ 
-
-  1.  This run of $M_X$ takes in the description of itself $< M_X >$ as input
-  2.  It calls $M_{HALT}$ to check if it HALTS on its own description (remember that $M_{HALT}$ should always have a consistent answer!):
-
-      1. If $M_{HALT}$ predicts that $M_{X}$ HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose... But that means that we just FLOOPED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
-      2. If $M_{HALT}$ predicts that $M_{X}$ FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!... But that means that we just HALTED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
-
- **A CONTRADICTION**
-
- Since the ONLY assumption was that $M_{HALT}$ exists, then **that means that $M_{HALT}$ cannot exist!** 
-
-  
-![](../../../assets/images/csc250/lecture16/Dec15.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec16.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec17.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec18.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec19.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec20.png){: width="80%"}  
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-     	  <ol>
-					<li>Run both machines in parallel</li>
-					<li> $\qquad$ Accept if either accepts</li>
-				</ol>
-      </p>
-    </details>
-  </span>
-</div>  
-  
-
-<br><br>
+* you only need to ﬁnd an example.
 
   
   
-![](../../../assets/images/csc250/lecture16/Dec21.png){: width="80%"}  
-  
+If you want to prove that a set of elements follows some property (like saying “these two languages are equivalent” or “This language L is Context-Free”), you might want to use one of the following approaches:
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-     	  <ol>
-					<li>Run both machines in parallel</li>
-					<li> $\qquad$ Accept if both accept</li>
-				</ol>
-      </p>
-    </details>
-  </span>
-</div>  
-  
-
-<br><br>
+* using closure properties
+* by construction (show how you can generate the rules that produce the set)
+* by induction
 
   
-  
-![](../../../assets/images/csc250/lecture16/Dec22.png){: width="80%"}  
-  
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-     	  <ol>
-					<li>Suppose that M decides L.</li>
-					<li> Design a new machine $M^\prime$ that behaves just like M, but: 
-						<ul>
-							<li>If M accepts, $M^{\prime}$ rejects</li>
-							<li>If M rejects, $M^{\prime}$ accepts</li>
-						</ul>
-					</li>
-					<li>Formally, can do this by interchanging $q_{acc}$ and $ q_{rej}$</li>
-					<li>Then $M^{\prime}$ decides $L^c$</li>
-<!-- 						
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul> 
--->
-				</ol>
-      </p>
-    </details>
-  </span>
-</div>  
-  
+* * *
 
-<br><br>
-  
-
-  
-![](../../../assets/images/csc250/lecture16/Dec23.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec24.png){: width="80%"}  
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-     	  <ol>
-					<li>Run both M1 and M2 on w</li>
-					<li>One must accept</li>
-					<li> 
-						<ul>
-							<li>If M1 accepts, then M accepts</li>
-							<li>If M 2 accepts, then M rejects</li>
-						</ul> 						
-					</li>
-				</ol>
-How? In sequence? <b>What if M1 loops?</b>  <br>
-What can we do?	<br><br>
-
-![](../../../assets/images/csc250/lecture16/Dec25.png){: width="80%"}  
-      </p>
-    </details>
-  </span>
-</div>  
-  
-<br><br><br>
-  
-![](../../../assets/images/csc250/lecture16/Dec26.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec27.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec28.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec29.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec30.png){: width="80%"}
