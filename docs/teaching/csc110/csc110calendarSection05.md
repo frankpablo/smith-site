@@ -99,25 +99,6 @@ nav_order: 1
 | 11/10       | L27: Practice with Graphics |   |   |    |
 
 
-<!-- 
-|-------------|-----------|---------|------------|-----------|
-| **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
-|-------------|-----------|---------|------------|-----------|
-| 11/13       | Randomness and Recursion     |  **FP: Teams and Ideas**{: .label .label-purple}   |  FP: Draft | Draft Due 11/22 |
-| 11/15       | **NO CLASSES**:  Thanksgiving  |   |    |    |
-| 11/17       | **NO CLASSES**:  Thanksgiving  |   |    |    |
-
-
-
-|-------------|-----------|---------|------------|-----------|
-| **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
-|-------------|-----------|---------|------------|-----------|
-| 11/20       | Work on Final Project  | **Final Project: Draft**{: .label .label-purple} |  FP: Functions and Tests | FP: Functions and Tests Due 11/27 |
-| 11/22       | Work on Final Project  |     |     |     |
-| 11/24       | Work on Final Project  |     |     |     |
-
- -->
-
 
 
 |-------------|-----------|---------|------------|-----------|
@@ -126,6 +107,7 @@ nav_order: 1
 | 11/13       | L28: Randomness and Recursion |   |    |    |
 | 11/15       | L29: Designing the final project  |   |  | FP: Draft Due 11/16 |
 | 11/17       | L30: Work on Final Project (Design for draft) |   |    |    |
+
 <!-- **FP: Teams and Ideas**{: .label .label-purple} -->
 
 
@@ -144,6 +126,7 @@ nav_order: 1
 | 11/27       | L32: Work on Final Project  |  |  |  |
 | 11/29       | L33: Work on Final Project  |     |     |     |
 | 12/01       | L34: **Final Project: Prototype I**{: .label .label-purple}  |     |     |     | 
+
 <!-- **Final Project: Functions and Tests**{: .label .label-purple} -->
 
 
