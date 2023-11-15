@@ -80,7 +80,8 @@ Again, this means that $D_{ATM}$ <b>exists and it always replies with a consiste
   
 Consider the Machine $M_{OPPOSITE} ( < M> )$  
   
-$$ \begin{align*} &M_{OPPOSITE}:\\ 
+$$ 
+\begin{align*} &M_{OPPOSITE}:\\ 
 & \quad \text{ On input $ < M > $ }:\\ 
 & \quad \text{ Simulate $D_{ATM} \; on \; < M , < M > > $}\\ 
 & \quad \text{ If $D_{ATM}$ accepts, REJECT. }\\ 
@@ -90,7 +91,8 @@ $$
   
 And run $M_{OPPOSITE}$ with input equal to itself, we get:
 
-$$ \begin{align*} &M_{OPPOSITE}:\\ 
+$$ 
+\begin{align*} &M_{OPPOSITE}:\\ 
 & \quad \text{ On input $ < M_{OPPOSITE} > $ }:\\ 
 & \quad \text{ Simulate $D_{ATM} \; on \; < M_{OPPOSITE} , M_{OPPOSITE} > $}\\ 
 & \quad \text{ If $D_{ATM}$ accepts, REJECT. }\\ 

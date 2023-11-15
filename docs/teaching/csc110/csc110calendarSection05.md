@@ -123,28 +123,28 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/13       | L28: Randomness and Recursion | **FP: Teams and Ideas**{: .label .label-purple} |    |    |
-| 11/15       | L29: Designing the final project  |   | FP: Draft | Draft Due 11/20 |
+| 11/13       | L28: Randomness and Recursion |   |    |    |
+| 11/15       | L29: Designing the final project  |   |  | FP: Draft Due 11/16 |
 | 11/17       | L30: Work on Final Project (Design for draft) |   |    |    |
-
+<!-- **FP: Teams and Ideas**{: .label .label-purple} -->
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/20       | L31: Work on Final Project<br>Draft tweaks<br>Modules and Testing  | **Final Project: Draft**{: .label .label-purple} |  FP: Functions and Tests | FP: Functions and Tests Due 11/27 |
+| 11/20       | L31: Work on Final Project<br>Draft tweaks<br>Modules and Testing  |  |  |  |
 | 11/22       | **NO CLASSES**:  Thanksgiving  |     |     |     |
 | 11/24       | **NO CLASSES**:  Thanksgiving  |     |     |     |
 
-
+<!-- **Final Project: Draft**{: .label .label-purple} -->
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 13** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 11/27       | L32: Work on Final Project  | **Final Project: Functions and Tests**{: .label .label-purple} | FP: Prototype | FP: Prototype Due 12/08 |
+| 11/27       | L32: Work on Final Project  |  |  |  |
 | 11/29       | L33: Work on Final Project  |     |     |     |
-| 12/01       | L34: Work on Final Project  |     |     |     | 
-
+| 12/01       | L34: **Final Project: Prototype I**{: .label .label-purple}  |     |     |     | 
+<!-- **Final Project: Functions and Tests**{: .label .label-purple} -->
 
 
 |-------------|-----------|---------|------------|-----------|
@@ -152,13 +152,13 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 12/04       | L35: Work on Final Project  |     |     |     |
 | 12/06       | L36: **Final Exam**{: .label .label-yellow }  |     |     |     |
-| 12/08       | L37: **Final Project: Prototype**{: .label .label-purple}  | FP: Proto     |  | Demo Due 12/11 |
+| 12/08       | L37: **Final Project: Prototype II**{: .label .label-purple}   |      |  |  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 12/11       | L38: **Final Project Demo (practice)**{: .label .label-green }  |  |  |  |
-| 12/13       | L39: Wrap-Up  |      |   Complete Final Project   |  Complete Final Project Due 12/18    |
+| 12/11       | L38: **Final Project Demo (practice)**{: .label .label-green }  |  |  | Demo Day 12/12 |
+| 12/13       | L39: Wrap-Up  |      |   Complete Final Project   |  Complete Final Project Due 12/20    |
 
