@@ -134,10 +134,10 @@ nav_order: 1
 | **WEEK 14** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
 | 12/04       | L35: Work on Final Project  |     |     |     |
-| 12/06       | L36: **Final Exam**{: .label .label-yellow }  |     |     |     |
+| 12/06       | L36: Work on Final Project  |     |     |     |
 | 12/08       | L37: **Final Project: Prototype II**{: .label .label-purple}   |      |  |  |
 
-
+<!-- | 12/06       | L36: **Final Exam**{: .label .label-yellow }  |     |     |     | -->
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
