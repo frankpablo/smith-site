@@ -3,7 +3,7 @@ layout: default
 title: Lecture01
 parent: CSC250
 grand_parent: Teaching
-nav_order: 1
+nav_order: 2
 #permalink: /docs/teaching/csc110/
 ---  
   
@@ -32,7 +32,7 @@ A Slideshow:
 ---------------
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpX0V2gbeXOFn5I10MqmQ6oF7vwjEQwz1DqRDeQo8BCPiUyDwpKawCbR2H5j27oQTbNB8DG56YnQhx/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1055" height="623" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpX0V2gbeXOFn5I10MqmQ6oF7vwjEQwz1DqRDeQo8BCPiUyDwpKawCbR2H5j27oQTbNB8DG56YnQhx/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   
 
   
@@ -47,5 +47,5 @@ A Slideshow:
 **\[Due for everyone\]**: 
 
   * Read the whole Syllabus (in Moodle)
-  * Complete the first reading: From chapter 1.2 to the end of chapter 1 in the [Maheshwari-Smoid book](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf)
+  <!-- * Complete the first reading: From chapter 1.2 to the end of chapter 1 in the [Maheshwari-Smoid book](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf) -->
 

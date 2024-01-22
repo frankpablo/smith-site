@@ -3,24 +3,61 @@ layout: default
 title: Lecture05
 parent: CSC250
 grand_parent: Teaching
-nav_order: 5
+nav_order: 6
 #permalink: /docs/teaching/csc110/
 ---  
 
 
-Lecture Notes 05: Regular Languages and Regular Expressions
-=============================================================
+Lecture Notes 05: Finite Automata
+=====================================================
 
-  
 
-## Outline ##
-
+Outline
+-------
 
 This class we'll discuss:
 
-* What are we doing?
-* Regular Expressions
-* Regular Languages
+* RE power
+* Algorithms: Code, RegExes, and Diagrams
+* Intro to Finite Automatons
+
+
+
+* * *
+
+A Slideshow:
+---------------
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRF_Ii-Avhe-1eycg5yW9P6FEd27DlNPuzghFn4el9lQinvcVQGdaPk4mNNTLsP-BjGKuv2OGULjiYj/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+* * *
+
+
+GUIDED NOTES (Optional)
+=======================
+
+
+
+Recap: RegExes, how powerful are they?
+--------------------------------------
+
+For the the Machine Abstraction of Regular Expressions, we can ask:  
+  
+what problems can they solve?  
+  
+In other words: Which Language sets can they generate/accept?  
+  
+Regular Languages are more powerful than Finite Languages (can encompass more)  
+![more descriptive power!](../../../assets/images/csc250/lecture04/regLangs.png){: width="50%"}
+
+
+
+Still confused about RExs? Go to Office Hours with Winnie!! (and with me)
 
   
 
@@ -28,505 +65,88 @@ This class we'll discuss:
 
   
 
-A Map of what we'll be doing in class
--------------------------------------
+Algorithms: Code, RegExes, and Diagrams
+---------------------------------------
 
-### What are we going to do?
+As we saw above, an algorithm can be _encoded_ as:
 
-  
-As we mentioned last class, We are going to analyze what types of problems can be solved with minimal "machinery".  
-
-* what can we do with a specific type of "machine", or in other words: "what types of problems can we solve?"
-* Another way to look at it is: "Given problem A, what is the minimal "machine" that can help me solve it.
-
-  
-  
-We are going to work up from basic machines up to the modern computer.  
-  
-  
-  
-
-### How are we going to do? it
-
-  
-Since we are not really going to build those machines in hardware, we will need to "represent" them symbolically.  
-  
-We will be _building symbolic machines_ to solve problems of greater and greater complexity.  
-  
-  
-  
-
-### A candidate "simple" problem:
-
-$$ 
-\begin{align*} 
-& 1001011 \\ 
-& + \\ 
-& 0111011 \\
-\end{align*} 
-$$
-  
-While this might look simple, this is really a very advanced problem, it requires that the machine know:
-
-* what 1001011 is
-* what + means
-* what 0111011 is, and
-* How to do it
-
-  
-  
-In other words, performing **Arithmetic operations** is a few "machines" away.  
-  
-  
-  
-
-### Step 1: recognizing a pattern
-
-  
-You can think of a machine that recognizes things and can clasify them as being in a set of known elements or being outside that set of know elements.  
-  
-With our _symbolic_ replicas, a first task would be to be able to specify the structure or pattern of a set of symbols that we would like to be able to recognize.  
-  
-
-### How to build a "recognizing" machine
-
-  
-**Activity 1** \[1 minute\]:  
-Can you think of a super simple (mechanical) machine that "recognizes" things?
-
-Think before revealing some examples: 
-
-   <div class="container mx-lg-5">
-    <span style='color:#6f439a'>One possible answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          think of a sieve: <br>
-          <img class="img-fluid" src="../../../assets/images/csc250/lecture04/sieve.png" alt="Implication" style="width:30%"><br>
-			It "recognizes" small particles and lets them through!          
-        </p>
-      </details>
-    </span>
-  </div>
-
-
-
-  
-  
-**Activity 2** \[1 minute\]:  
-Can you think of a super simple (mechanical) machine that "recognizes" a pattern (sequence of things)?
-
-Think before revealing some examples: 
-
-   <div class="container mx-lg-5">
-    <span style='color:#6f439a'>One possible answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>            
-think of a  <a href="https://youtu.be/1NUu0PiM-YI" target="_blank" rel="noopener noreferrer">locking mechanism</a>:  It "recognizes" a key!
-        </p>
-      </details>
-    </span>
-  </div>
-
-
-
-  
-  
-**Regular Expressions** are like lock mechanisms that can be built to recognize one or many "keys".
-
-  
-  
-
-  
-
-* * *
-
-  
-
-Regular Expressions
--------------------
-
-An expression is a combination of objects and operators that can be "resolved" into a value.  
-  
-In **Arithmetic**, the objects are numbers, and the operators are: \\( + \\text{, } - \\text{, } * \\text{, } ÷ \\text{, }\\) etc.  
-A (correct) arithmetic expression looks like this: \\\[ (27 - 6)* 2\\\]
-
-The value of a resolved arithmetic expression is a _number_, in this case \\(42\\).
-
-  
-  
-A **Reglar Expression** (RE or RegEx) is an algebraic way to describe a set of words.  
-  
-In reglar expressions, we also have objects and symbols, which can be combined to form an expression that might look like this: $$ 0^*(101 + 11011)0^* $$
-
-The value of a resolved regular expression is a _Language_ (or a set of possible _words_), or  
-**"the set of words that follow the pattern of the regular expression"**.  
-  
-in this case:  
-  
-a sequence that _starts_ with any number of sequential zeroes (zero or more 0s); followed by either the exact sequence **101** or the exact sequence **11011**; and concluding with any number of zeros (zero or more 0s)"
-
-  
-  
-Another way you'll see this written is as: \\( \\mathrm{L} (R) \\), (for some RE \\(R\\))  
-which refers to the _Language_ (set of words) described by the expression ( \\(R\\) ) inside parenthesis.  
-  
-We sometimes refer to the Language with some symbol like $\mathrm{L}_A$, where language $L$ has some property $A$.
-
-  
-  
-
-## Defining a Regular Expression
-
-We will follow a sequence of steps to understand how to build regular expressions.  
-First, we'll need some basic definitions
+1.  RegEx
+2.  (pseudo) Code
 
-### RE Definitions
-
-* A **set** is a group of items under the same property.  
-    We'll use set operations like union (\\(\\cup\\)), concatenation, and complement ( of \\(A\\) is \\( \\bar{A} \\));
-* \\( \\emptyset \\) : the set with no members is called the **empty set**: \\( \\emptyset \\) or \\(\\{ \\} \\) ;
-* \\(\\Sigma\\): an **alphabet** \\(\\Sigma\\) is a nonempty set of symbols (letters), for example:
-    * \\(\\Sigma = \\{a \\text{, } b \\text{, } c \\text{, } \\dots\\}\\), or
-    * \\(\\Sigma = \\{0,1\\}\\)
-* \\(w\\): a **string** (or word) \\(w\\) is a sequence of symbols from an alphabet.
-* \\(\\epsilon\\): a string with no letters is the **empty string** \\(\\epsilon\\);
-* a **Language** is a _set_ of words.
-
-  
-  
-The following are some examples:  
-
-* The set with no elements: \\( \\emptyset \\) or \\(\\{ \\} \\)
-* The set with the the empty string as its **single element** : \\(\\{ \\epsilon \\} \\)
-* the set with three words: \\(\\{ Larry \\quad , \\quad Curly \\quad , \\quad Moe \\} \\)
-* The Language with all two-bit binary words: \\(\\{ 00 \\quad , \\quad 01 \\quad , \\quad 10 \\quad , \\quad 11\\} \\)
-* In the last example, the alphabet \\(\\Sigma = \\{0,1\\}\\)
-
-  
-  
-
-### Regular Operations
-
-* The **Union** of two sets \\(A\\) and \\(B\\): \\(A\\cup B\\) is the set that has both the members of \\(A\\) and from \\(B\\)  
-    For example: If \\(A: \\{ white \\text{, } blue\\}\\), and \\(B: \\{ duck \\text{, } rabbit\\}\\),  
-    The union would be: \\(A\\cup B: \\{ white \\text{, } blue \\text{, } duck \\text{, } rabbit\\}\\)  
-      
-    Another example: If \\(A: \\{ 0 \\text{, } 1\\}\\), and \\(B: \\{ x \\text{, } y\\}\\),  
-    The union would be: \\(A\\cup B: \\{ 0 \\text{, } 1 \\text{, } x \\text{, } y\\}\\)
-  
-* The **Concatenation** of two sets \\(A\\) and \\(B\\): \\(A\\circ B\\) or simply \\(AB\\) is **a set**.  
-    This is the set that has a sequences of two symbols: a member of \\(A\\) before a member of \\(B\\): \\(AB: \\{ whiteduck \\text{, } whiterabbit \\text{, } blueduck \\text{, } bluerabbit \\}\\).  
-      
-    
-    Note that in the expression \\(AB\\), we're saying "any element from \\(A\\) followed by any element from \\(B\\)", not "all of \\(A\\) followed by all of \\(B\\)"!
-    
-      
-    Another example: If \\(A: \\{ 0 \\text{, } 1\\}\\), and \\(B: \\{ x \\text{, } y\\}\\),  
-    \\(AB: \\{ 0x \\text{, } 0y \\text{, } 1x \\text{, } 1y \\}\\).
-  
-* The **Star** (or **Kleene Star**) operator $A^{\*}$ is a _unary_ operator that returns the set of sequences that have zero or more symbols from a set $A$:  
-    $A^\*: \{ \epsilon \text{, } white \text{, } blue \text{, } whiteblue \text{, } bluewhite \text{, } whitewhiteblue \text{, } whitebluewhite \text{, } \dots\}$  
-      
-    Another example: If \\(A: \\{ 0 \\text{, } 1\\}\\),  
-    $$ A^*: \{ \epsilon \text{, } 0 \text{, } 1 \text{, } 01 \text{, } 10 \text{, } 001 \text{, } 010 \text{, } \dots\} $$  
-      
-    You can think of it as a zero or more concatenation operator.
-
-  
-  
-
-### Definition of Regular Expressions (Recursively)
-
-**Basic (axiomatic) definitions:**
-
-* Basis 1: \\(\\emptyset\\) is a regular expression, and \\( \\mathrm{L} (\\emptyset) = \\emptyset\\)
-* Basis 2: \\(\\epsilon\\) is a regular expression, and \\( \\mathrm{L} (\\epsilon) = \\{\\epsilon\\} \\)
-* Basis 3: \\(a\\) is a symbol, then \\(a\\) is a regular expression, and \\( \\mathrm{L} (a) = \\{a\\} \\)
-
-  
-**Recursive extensions:**
-
-* **Alternation**:  
-    One expression **or** another,
-    
-    If \\(\\mathrm{R}\_1\\) and \\(\\mathrm{R}\_2\\) are regular expressions,  
-    then \\(\\mathrm{R}\_1 + \\mathrm{R}\_2\\) is a regular expression,  
-    and \\( \\mathrm{L} (\\mathrm{R}\_1 + \\mathrm{R}\_2) = \\mathrm{L} (\\mathrm{R}\_1) \\cup \\mathrm{L} (\\mathrm{R}\_2)\\)  
-      
-    **Example:**  
-    If \\( R\_1 = 0\\) and \\( R\_2 = 1\\),  
-    what is \\( R\_3 = R\_1 + R_2\\) ?  
-
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          $$ R_3 = 0 + 1 $$
-        </p>
-      </details>
-    </span>
-  </div>
-      
-    what is \\( \\mathrm{L} (\\mathrm{R}\_1 + \\mathrm{R}\_2) \\)?
-    
-    Think before revealing the answer:
-
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          $$ \mathrm{L} (\mathrm{R}_3 ) = \{ 0, 1\} $$
-        </p>
-      </details>
-    </span>
-  </div>
-    
-  
-  
-* **Concatenation**:
-    
-    If \\(\\mathrm{R}\_1\\) and \\(\\mathrm{R}\_2\\) are regular expressions,  
-    then \\(\\mathrm{R}\_1 \\mathrm{R}\_2\\) is a regular expression,  
-    and \\( \\mathrm{L} (\\mathrm{R}\_1 \\mathrm{R}\_2) = \\mathrm{L} (\\mathrm{R}\_1) \\mathrm{L} (\\mathrm{R}\_2)\\)  
-      
-    **Example:**  
-    If \\( R\_3 = (0 + 1)\\) and \\( R\_4 = 1\\),  
-    what is \\( R\_5 = R\_3 R_4\\) ?  
-    
-    Think before revealing the answer:
-    
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          $$ R_5 = (0 + 1)1 $$
-        </p>
-      </details>
-    </span>
-    </div>
-      
-    what is \\( \\mathrm{L} (\\mathrm{R}\_3 \\mathrm{R}\_4) \\)?
-    
-    Think before revealing the answer: 
-    
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          $$ \mathrm{L} (\mathrm{R}_5 ) = \mathrm{L} ( \; (0 + 1)1 \; ) = \{ 01, 11\} $$
-        </p>
-      </details>
-    </span>
-    </div>
-  
-  
-* **Kleene star**:
-    
-    If $$ \mathrm{R}_1$$ is a regular expression,  
-    then $$ \mathrm{R}^*_1 $$ is a regular expression,  
-    and $$ \mathrm{L} (\mathrm{R}_1^*) = \big( \mathrm{L} (\mathrm{R}_1) \big)^* $$ 
-      
-    **Example:**  
-    If $$ R_5 = (0 + 1)1 $$,  
-    what is $$ R_5^* $$ ?  
-    
-    Think before revealing the answer: 
-    
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          $$ R_5^* = ( \; (0 + 1)1 \; )^* $$
-        </p>
-      </details>
-    </span>
-    </div>
-      
-    what is $$ \mathrm{L} (\mathrm{R}_5^*) $$?
-    
-    Think before revealing the answer: 
-    
-    <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-
-          $$ \mathrm{L} (\mathrm{R}_5^* ) = \mathrm{L} ( \; ((0 + 1)1)^* \; ) = (\mathrm{L} ( \; (0 + 1)1 \;))^* = ( \; \{ 01, 11\} \; )^* $$
-
-          $$ = \{ \epsilon, \quad 01, \quad 11, \quad 0101, \quad 0111, \quad 1101, \quad 1111, \quad 010101, \quad \dots \} $$
-        </p>
-      </details>
-    </span>
-    </div>
-
-  
-  
-**Precedence** rules are: do parenthesis first, then do star first, then concatenation, then union.
-
-  
-  
-Let's trt some exercises:  
-  
-
-**Activity 4** \[2 minutes\]:  
-What is the expression that gives us **all binary strings**?  
-Describe it in words or with any notation you find useful. We'll develop the rigorous notation later.  
-Hints:  
-1) what is the alphabet \\(\\Sigma\\)?  
-2)Which operator might help us expand this into the correct language $$ \mathrm{L}_b $$?
-
+But we know that a piece of code can also be drawn using things like a "Flow Diagram"!  
   
+In this section, we'll use a special type of diagram called a **State Diagram**.  
   
 
-**Activity 5** \[2 minutes\]:  
-What is the expression that gives us **all binary strings that begin with a 1**?
+### State Diagram
 
+A State diagram looks like this:  
   
+![not a map](../../../assets/images/csc250/lecture05/stateDiagram.png){: width="80%"} 
   
-
-**Activity 6** \[2 minutes\]:  
-What is the expression that gives us **all binary strings that begin with a 1, end with a 0, and have an even number of digits**?
-
-  
-  
-
-The RegEx Minigolf!
--------------------
-
-  
-![golf](../../../assets/images/csc250/lecture04/RegExMinigolf.png)  
-  
-
-**Activity 7** \[5-10 minutes!!\]:  
-Make teams of 2 or 3 and complete the following challenges.  
-Let me know when your team is done.
-
-**Hole 1**:  
-What is the expression that gives us:  
-
-\\(\\{w \\mid w \\text{ contains a single 1}\\}\\)
-
-  
-  
-
-**Hole 2**:  
-What is the expression that gives us:  
-
-\\(\\{w \\mid w \\text{ contains at least one 1}\\}\\)
-
   
   
 
-**Hole 3**:  
-What is the expression that gives us:  
+### Finite Automaton AKA: Finite State Machine (FSM)
 
-\\(\\{w \\mid w \\text{ contains 001 as a substring}\\}\\)
+1.  Finite number of states
+2.  Follows Rules that have been programmed beforehand
 
   
-  
-
-**Hole 4**:  
-What is the expression that gives us:  
-
-\\(\\{w \\mid \\text{ every 0 in w is followed by at least one 1}\\}\\)
-
   
+![phsm](../../../assets/images/csc250/lecture05/FSM.png){: width="80%"}  
   
 
-**Hole 5**:  
-What is the expression that gives us:  
+### Operation Examples
 
-\\(\\{w \\mid w \\text{ w is a string of even length}\\}\\)
+#### Example 01: Processing a String
 
   
-  
-
-**Hole 6**:  
-What is the expression that gives us:  
-
-\\(\\{w \\mid w \\text{ w is a string of odd length}\\}\\)
-
   
+![proc 1!](../../../assets/images/csc250/lecture05/processingString01.png){: width="80%"}  
   
 
-**Hole 7**:  
-What is the expression that gives us:  
+#### Example 02: Processing a String
 
-\\(\\{w \\mid w \\text{ the length of w is a multiple of 3}\\}\\)
-
   
-  
-
-**Hole 8**:  
-What is the expression that gives us:  
-
-How do we search for this set exactly: \\( \\{ 01 \\text{, } 10\\} \\)?
-
   
+![proc 2!](../../../assets/images/csc250/lecture05/processingString02.png){: width="80%"}  
   
 
-**Hole 9**:  
-If \\( \\Sigma={0,1} \\), how do we get the following expression?  
+#### Example 03: Processing a String
 
-\\( \\{w \\mid w \\text{ w starts and ends with the same symbol} \\} \\)
-
   
   
-
+![proc 3!](../../../assets/images/csc250/lecture05/processingString03.png){: width="80%"}  
   
-
-* * *
+**Activity 1** \[2 minutes\]:  
 
+Try to build your own machine. One that "Accepts" this set:  
   
-
-Regular Languages
------------------
-
-A **regular language** is one that can be generated using a regular expression.
-
-**Activity 8** \[1 minute\]:  
-Answer the following questions:
-
-* Are all finite languages regular?
-* Are all regular languages finite?
-
+![zero 1 zero 1!](../../../assets/images/csc250/lecture05/zeroFollowedBy1.png)  
 
 <div class="container mx-lg-5">
-    <span style='color:#6f439a'>answer: 
-      <details><summary>(Wait; then Click)</summary>
-        <p>
-          Regular Languages are more powerful!  
-          <br>
-          <img class="img-fluid" src="../../../assets/images/csc250/lecture04/regLangs.png" alt="more descriptive power!" style="width:60%">
-        </p>
-      </details>
-    </span>
-    </div>
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+      <img class="img-fluid" src="../../../assets/images/csc250/lecture05/zeroFollowedBy1FSM.png" alt="0 one 0 one!" style="width:50%"><br>
+    </p>
+  </details>
+</span>
+</div>
+
+
+* * *
+
   
 
-### Properties
-
-The following properties are true about regular languages:
-
-* Claim: Regular languages are closed under union
-* Claim: Regular languages are closed under concatenation
-* Claim: Regular languages are closed under intersection
-* Claim: Regular languages are closed under complement
-* Claim: Regular languages are closed under difference
-* Claim: Regular languages are closed under reversal
+Alphabets and languages
+-----------------------
 
   
   
-
-### Practice Proof!
-
-Claim: Regular languages are closed under union  
+![Alphabeast!](../../../assets/images/csc250/lecture05/alphabetsAndLangs.png){: width="80%"}  
   
-Tips: Use the axioms defined above!  
-In particular:
-
-* A regular language is, by definition, the language generated by a regular expression.
-* The Alternation rule
 
   
 
@@ -534,7 +154,83 @@ In particular:
 
   
 
-### Next Class: Overleaf + Latex, Regex Recap, and Intro to Finite Automata!!
+Formal Definition
+-----------------
+
+  
+  
+![very formal](../../../assets/images/csc250/lecture05/formalDef.png){: width="80%"}  
+  
+
+### Our Last Example:
+
+  
+  
+![DEFINE!](../../../assets/images/csc250/lecture05/defLastExample.png){: width="80%"}  
+  
+
+### Operators in FSMs: OR
+
+How might we handle a language that contains an or?  
+  
+Example:
+
+$$\{w \vert w \text{ doesn’t contain either 00 or 11 as a substring}\}$$
+
+  
+  
+![ORRRRRR!](../../../assets/images/csc250/lecture05/orFSM.png){: width="80%"}  
+  
+Let's try one basic example:  
+  
+![Yak is a good dog!](../../../assets/images/csc250/lecture05/exampleString00.png){: width="80%"} 
+  
+**Activity 2** \[2 minutes\]:  
+
+Explain the sequence of states for these words:
+
+* 101010
+* 010110
+* 110011
+
+  
+  
+**Activity 3** \[2 minutes\]:  
+
+Answer the following questions:
+
+* What is the descriptive power of Finite Automata?
+(Wait; then Click)  
+  
+
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+      We need to compare it with regular expressions... we'll do that bit by bit.  <br>
+      <img class="img-fluid" src="../../../assets/images/csc250/lecture04/regLangs.png" alt="Reg Lang descriptive power!" style="width:50%"><br>
+    </p>
+  </details>
+</span>
+</div>
+  
+
+  
+* Are there languages that **Cannot** be described by a finite automaton?
+  
+(try to come up with a counter example) 
+  
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+      YES! NON Regular Languages!<br>
+      <img class="img-fluid" src="../../../assets/images/csc250/lecture05/nonRegularExample.png" alt="Can't do it!" style="width:70%"><br>
+    </p>
+  </details>
+</span>
+</div>
+ 
 
   
 
@@ -542,16 +238,261 @@ In particular:
 
   
 
-### Homework
+Useful Properties
+-----------------
 
+These are some properties that can help you deduce, generalize, or analyze FSMs with respect to their RegEx and Regular Languages.  
   
 
-Review today's class and keep working on the Problem Set 1!  
+### Complement
+
+IF a Language $$L_1$$ is recognizable by an FA $$ M_1$$,  
+is language $$ (L_1)^{c} $$ also recognizable by some FA?  
+  
+Or in other words, $$\exists M_2  \quad \vert \quad L(M_2) = L(M_1)^{c}$$  
+  
+![complement!](../../../assets/images/csc250/lecture05/complement.png){: width="80%"} 
+  
+  
+  
+
+### Intersection
 
   
-**\[Optional\]** How would you build a "flowchart" to solve this regex:
+![interX!](../../../assets/images/csc250/lecture05/intersection.png){: width="60%"}   
+  
+**Activity 4** \[2 minutes\]:  
 
-Given a \\(\\Sigma = \\{0,1\\}\\), get the regex that gets the language \\( \\{w \\mid w \\text{ contains at least one 1} \\}\\)
+How would you prove this (by construction)?
+
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+      1.  run both machines “in parallel” <br>
+	    2.  accept <b>if (and only if) both</b> reach an accepting state
+    </p>
+  </details>
+</span>
+</div>
+  
+
+Example:  
+  
+![interX Exmpl!](../../../assets/images/csc250/lecture05/intersectionExample.png){: width="50%"} 
+  
+  
+  
+![inX Exmpl!](../../../assets/images/csc250/lecture05/intersectionSolution.png){: width="50%"}   
+  
+  
+  
+#### Intersection: General Rule
+
+  
+  
+![inX rule!](../../../assets/images/csc250/lecture05/intersectionRule.png){: width="60%"}  
+  
+  
+
+**The set of possible states** 
+
+$$ Q_3 = \{ AD, BD, CD, AE, BE, CE \}$$  
+  
+**Look at the rule for the transition function**:  
+
+$$ \delta_3 ( (q_1, q_2), a ) = (\delta_1(q_1,a), \delta_2(q_2,a)) $$ 
+
+That means:  
+  
+$$ \mathbf{ \delta_3 ( (q_1, q_2), a ) }$$
+
+the transition for $$M_3$$ starting at the combo state: $$q_1q_2$$ and input symbol $$a$$.  
+the combo state resulting from the output of $$M_1$$ when starting at state $$q_1$$ and input symbol $$a$$,  
+and the state resulting from the output of $$M_2$$ when starting at state $$q_2$$ and input symbol $$a$$  
+or $$ \mathbf{ \delta_1(q_1,a), \delta_2(q_2,a)) }$$  
+  
+**The set of starting states**  
+
+$$ q_{03} = (q_1,q_2) $$ 
+
+Which is the combination state of the starting states of each of the machines: $$q_1$$ from $$M_1$$ and $$q_2$$ from $$M_2$$.  
+  
+**The set of Accepting states** 
+
+$$ F_3 = (q_1,q_2) $$  
+
+Where **each one** is the combination state of states where **both** are accepting states in each of the machines:  
+$$C$$ from $$M_1$$ **AND** $$E$$ from $$M_2$$.  
+  
+  
+  
+![inX Exmpl!](../../../assets/images/csc250/lecture05/intersectionSolution.png){: width="50%"}  
+  
+Notice that for the example word $$ w = 0111 $$ , the sequence of states is:  
+
+$$ AD \xrightarrow{0} BD \xrightarrow{1} CE \xrightarrow{1} CD \xrightarrow{1} CE $$ (Accept)  
+  
+  
+
+
+### Union
+
+  
+  
+![union!](../../../assets/images/csc250/lecture05/union.png){: width="80%"}
+  
+**Activity 5** \[2 minutes\]:  
+
+How would you prove this (by construction)?
+
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+      1.  run both machines “in parallel” <br>
+	  2.  accept <b>if either</b> reach an accepting state
+    </p>
+  </details>
+</span>
+</div> 
+  
+  
+
+Example:  
+  
+![union Exmpl!](../../../assets/images/csc250/lecture05/unionExample.png){: width="50%"} 
+
+**NOW, the set of Accepting states $$ F_3 = (q_1,q_2) $$**  
+Where **each one** is the combination state of states where **either** are accepting states in each of the machines:  
+$$C$$ from $$M_1$$ **OR** $$E$$ from $$M_2$$.  
+  
+  
+![union Sol](../../../assets/images/csc250/lecture05/unionSolution.png){: width="50%"}
+  
+  
+  
+
+#### Union: General Rule
+
+  
+![union rule](../../../assets/images/csc250/lecture05/unionRule.png){: width="80%"}
+
+
+
+Example: word $$ w = 0111 $$  
+  
+![interX Exmpl!](../../../assets/images/csc250/lecture05/intersectionExample.png){: width="50%"}  
+  
+  
+
+### Set Difference
+
+$$ L_3 = L_1 - L_2 $$ 
+  
+![union!](../../../assets/images/csc250/lecture05/setDif.png)  
+  
+**Activity 1** \[2 minutes\]:  
+
+How would you prove this (draw the Venn Diagram and use previous properties)?
+
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+$$ L_3 = L_1 - L_2 = L_1 \cap (L_2)^c $$  
+<img class="img-fluid" src="../../../assets/images/csc250/lecture05/differenceExample1.png" alt="L1 - L2" style="width:30%">
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture05/differenceExample2.png" alt="L1 - L2" style="width:30%">
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture05/differenceExample3.png" alt="L1 - L2" style="width:30%">
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture05/differenceExample4.png" alt="L1 - L2" style="width:30%">       
+    </p>
+  </details>
+</span>
+</div> 
+  
+  
+  
+
+  
+  
+
+### Concatenation
+
+  
+  
+![con Kat](../../../assets/images/csc250/lecture05/Concatenation.png){: width="80%"}  
+  
+**Activity 2** \[2 minutes\]:  
+
+How would you prove this (by construction)?
+
+<div class="container mx-lg-5">
+<span style='color:#6f439a'>answer: 
+  <details><summary>(Wait; then Click)</summary>
+    <p>
+1.  Let’s say we have two FAs $M_1$ and $M_2$, both with the same $\Sigma$
+<br>
+2.  Want to build another FA $M_3$ with $$ L(M_3)=L(M_1) \circ L(M_2) \texttt{, which is } \{ x_1 x_2 | x_1 \in 𝐿(𝑀_1) \texttt{ and } 𝑥_2 \in 𝐿(𝑀_2) \} $$<br>
+3.  Just need to attach the accepting states of $M_1$ to the start state of $M_2$<br>
+4.  Caution: since we don’t know when we’re done with the L($M_1$) part of the string; could go through accepting states of $M_1$ several times!
+    </p>
+  </details>
+</span>
+</div>  
+  
+
+  
+Example: word $$ w = 000 $$  
+  
+![concat Exmpl!](../../../assets/images/csc250/lecture05/concatenationExample.png)  
+  
+Notice that for the example word $$ w = 000 $$ , the sequence of states might be:  
+$$ A \xrightarrow{0}$$ "invisible reject state" (Reject)  
+or  
+$$ A \rightarrow B \xrightarrow{0} C \xrightarrow{0} C \xrightarrow{0} C$$ (Accept)  
+  
+  
+
+#### How to combine them?
+
+We seem to need to be able to “guess” when to shift to the second machine.  
+  
+And we can't do that yet.  
+  
+Another example of the logic and the issue:
+
+1.  Say we have: $$M_1$$: all strings with an odd number of 1's
+2.  And $$M_2$$: all strings with alternating 0s and 1s
+3.  Is $$L(M_3) = L(M_1) \circ L(M_2)$$ FA-recognizable?
+4.  Say we have the string $$101001101010101$$
+5.  is this recognizable if we split the string into $$x_1$$ and $$x_2$$
+6.  such that $$M_1$$ recognizes $$x_1$$, and
+7.  such that $$M_2$$ recognizes $$x_2$$
+8.  What happens if $$x_1 = 101001101$$ and $$x_2 = 010101$$?
+9.  What happens if $$x_1 = 1010011$$ and $$x_2 = 01010101$$?
+
+  
+  
+
+### Kleene Star
+
+  
+  
+![Kleeeeeeneeee](../../../assets/images/csc250/lecture05/KleeneClosure.png)  
+  
+
+1.  Start with FA $$M_1$$
+2.  Build another FA $$M_2$$, with $$L(M_2) = L(M_1 )^∗$$
+3.  Same problem as with concatenation: we need to guess...
+
+
+#### Homework
+
+
+Prep to Demo **Homework 01** next lecture. Every team presents 4 problems, 1 each and one randomly chosen to present the last problem. Practice to demo in a maximum of 5 minutes (about 1 minute per question).
 
   
 

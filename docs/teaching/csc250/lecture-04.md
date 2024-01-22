@@ -3,23 +3,24 @@ layout: default
 title: Lecture04
 parent: CSC250
 grand_parent: Teaching
-nav_order: 4
+nav_order: 5
 #permalink: /docs/teaching/csc110/
 ---  
 
 
-Lecture Notes 04: Practice with Logic and Proofs, and work on Oveleaf  
+Lecture Notes 04: Catch-UP  
 =============================================================
 
-  
 
 ## Outline ##
 
 
 This class we'll discuss:
 
-* Catch-Up: Practice Logic and Proofs
-* We'll complete the Test Assignment and then the Peer-Review Workshop
+* Catch-Up: 
+    * Practice Logic and Proofs
+    * Regular Expressions
+    * Regular Languages
 
   
 
@@ -45,14 +46,15 @@ Practice Logic and Proofs
 
 * * *
 
-Work on Overleaf
+Practice REs and RLs
 -------------------------------------
+#### What would you like to review?
 
-  * Download the Zip file from Moodle (Test Assignment)
-  * Upload to Overleaf
-  * Work on it in teams of 2 or 3 (with your instructor's help on Overleaf)
-  * We Upload to the submission link
-  * Then we move on to the Peer-Review Workshop
+  * Symbol vs Word(string) vs Language
+  * Difference between a Set/Language and a Regular Expression
+  * Get RE from Language description
+  * Get Language description from RE
+
 
 
 #### Homework
