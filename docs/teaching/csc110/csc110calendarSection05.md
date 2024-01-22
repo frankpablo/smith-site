@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSC110calendar-S05
+# title: CSC110calendar-S05
 parent: CSC110
 grand_parent: Teaching
 nav_order: 1
