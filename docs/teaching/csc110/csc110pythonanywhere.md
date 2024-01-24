@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSC110_PythonAnywhere
+title: CSC110pythonAnywhere
 parent: CSC110
 grand_parent: Teaching
 nav_order: 3
@@ -33,6 +33,6 @@ has_children: false
   ![account](../../../assets/images/csc110/lecture01/add_pfrank.png){:width="900px"}<br><br>
   1. Once you have done this, look for the "Dashboard" link on the top (below the blue line) and click it:<br>
   ![account](../../../assets/images/csc110/lecture01/dashboard.png){:width="900px"}<br><br>
-  1. We will go over this in class. For now, feel free to do the tutorial (green box that might appear in the top), but do not make any additional test accounts (even if that's a thing to try in the tutorial).
+  1. We will go over this in class. For now, feel free to do the tutorial (green box that might appear in the top), but do not do the steps that say "Now it's time to check out some of the Education-specific features". At that point, press the button to "**Close this tutorial**"
 
 
