@@ -18,7 +18,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 01** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 01/26      | L1: Class Intro  |      | **compulsory**:<br>[chapter 1 (1.1 to 1.14)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 2 (2.1 to 2.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>**optional**:<br>[CS History](historyOfComputing.html);<br>[How is data stored?](dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> |  Ch 1 Due Monday 09/11;<br>Ch 2 Due Wednesday 09/13 |
+| 01/26      | L1: Class Intro  |      | **compulsory**:<br>[chapter 1 (1.1 to 1.14)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>[chapter 2 (2.1 to 2.13)](https://runestone.academy/ns/books/published/thinkcspy/index.html)<br>**optional**:<br>[CS History](historyOfComputing.html);<br>[How is data stored?](dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> |  Ch 1 Due Monday 01/29;<br>Ch 2 Due Wednesday 01/31 |
 
 
 
@@ -107,17 +107,17 @@ nav_order: 1
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
 | 04/01       | L26: Intro to Graphics  |   |   |   |
-| 04/03       | L27: Intro to Graphics |   |  |  |
-| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Practice with Graphics | **Homework 08**{: .label .label-purple}  | Final Project: Teams and Ideas |FP: Teams and Ideas Due 04/12  | 
+| 04/03       | L27: Practice with Graphics |   |  |  |
+| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **Homework 08**{: .label .label-purple}  | Final Project: Teams and Ideas |FP: Teams and Ideas Due 04/12  | 
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/08       | L29: Randomness and Recursion |   |    |    |
-| 04/10       | L30: Designing the final project  |   | Final Project (Design for draft) | FP: Draft Due 04/15  |
-| 04/12       | L31: Work on Final Project (Design for draft) |   |   |    |
+| 04/08       | L29: Math-Time-and-Randomness |   |    |    |
+| 04/10       | L30: List Comprehension and Recursion  |   | Final Project (Design for draft) | FP: Draft Due 04/15  |
+| 04/12       | L31: Fancy Functions and Work on Final Project (Design for draft) |   |   |    |
 
 
 

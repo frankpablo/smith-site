@@ -2,7 +2,7 @@
 layout: default
 title: CSC110
 parent: Teaching
-nav_order: 3
+nav_order: 1
 has_children: true
 permalink: /docs/teaching/csc110home/
 ---
@@ -18,15 +18,15 @@ permalink: /docs/teaching/csc110home/
 
 **Class Schedule**:
 
-- M/W/F (Sec 05) 9:25 AM -- 10:40 AM at Bass 204
+- M/W/F (Sec 01) 10:50 AM -- 12:05 PM at Ford 342
 
-Classes will be recorded and uploaded but Attendance is mandatory.
+Attendance is mandatory and will be recorded using lists and quizzes.
 
 **Contact for Class stuff**: Use *Slack* (fastest), office hours (most detailed), or can also email me (slowest).
 
 **Office Hours**: 
 
-  - TBD : Fill this [5-minute intro poll ASAP:](https://forms.gle/NdAV3WGBnHieEsiE9)
+  - TBD : Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA)
   <!-- - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below) -->
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
@@ -158,13 +158,14 @@ this course and work to help one another.
 ## Course Materials
 
 -   **Moodle**: Course full name "CSC110-05: Introduction to Computer Science"
--   **Repl.it**: Repl.it is a cloud based platform that allows the creation,
-    assigning, completion, testing, and grading (manual or automatic) of
+-   **PythonAnywhere** (PA): PA is a cloud based platform that allows the creation,
+    assigning, completion, testing, and grading (manually) of
     programming assignments. You need to register for it (you\'ll
     receive an invitation from the instructor) so you can complete
     readings, exercises, and assignments.
 -   **Slack**: You\'ll receive an invitation to the workspace:
-    *CSC-110-05-202401*
+    *CSC-110-01-202403*
+-   **Online Book**: We'll use the book **How to Think Like a Computer Scientist: Interactive Edition** (**FREE**) for readings and exercises. The book is linked to a Runestone Academy "course" called **smithcollege_thinkcspy_s24**. The instructions for registering are found in Moodle.
 
 
 **Books:**
@@ -187,6 +188,18 @@ The Downey and Zelle books have been put on course reserve at the Library. If yo
 (you must login before the forms will appear).
 
 
+## Course Dynamics
+
+In this course, the best way to learn is by applying the concepts into exercises and projects. 
+We will therefore try to reduce the "lecture" time and increase the "practice" time in every class. To achieve this,  we will have students read before every class. Readings are compulsory and are necessary to be able to achieve the objectives in every class. The readings will have exercises which will form part of your grades. 
+
+The first class of every week will start with a concept quiz (~10 minutes) where we will ask about concepts from the previous week's readings and activities. Monday and Wednesday classes will include concept recaps, Q&A, and some exercises to nail down the concepts, whicle Friday classes will mostly focus on in-class labs (longer exercises).
+
+Attendance is extremely important. You should always inform the teacher before missing a class (through direct Slack message) and schedule an OHs meeting before returning to the next class.
+
+Individual work will comprise most of the assignments but you will have at least two group projects, including the final project.
+
+
 ## Grading
 
 The final grade for this course is S/U (Satisfactory/Unsatisfactory);
@@ -201,24 +214,23 @@ grading scheme and converting grades the following way:
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments: **30%**
-  - Attendance and Participation **20%**
-     - Quiz completion (10%)
-     - participation (10%)
+  - Homework Assignments: **25%**
+  - Weekly Quiz Grades: **20%**
+  - Weekly Book Exercises: **10%** 
+  - Attendance **10%**
+  - Quiz/Book-Exercise completion **5%**
+  - Participation **10%**
          - in-class Q/A (just ask questions!!)
          - OHs/Slack Q/A
          - attend talks/events
          - answer polls/surveys
-  - Weekly Quiz Grades: **20%**
-  - Final Exam:     **10%**
   - Final Project:  **20%**
 
 
 **Late Submissions**:
 
 We will accept no late submissions without a valid excuse. 
-The homework and projects are designed to have "checkpoints"
-so that you MUST show your progress at every point. Most homework assignments have "tests" that let you see exactly what is missing. If you have a valid excuse, then you will be granted small extensions.
+The homework and projects are designed to have "checkpoints" so that you MUST show your progress at every point. Most homework assignments have "tests" that let you see exactly what is missing. If you have a valid excuse, then you will be granted small extensions.
 
 Also, for Office Hours, you must show progress up to the point where you got stuck. 
 
@@ -284,6 +296,28 @@ can let us know if there is anything getting in the way of your
 learning.
 
 
+## Comments from previous semesters
+
+  * I would say to a student who is considering taking it in the future to definitely take this class \[...\]. Walking into CSC110, I was worried that I wouldn't be able to grasp computer science concepts, and was worried that it'd be very difficult, but the class is extremely fun. Moreover, the professor is happy to be there, which boosts the environment of the class, and it also creates a class where students are excited to show up to class. The workload isn't too harsh, but I think the readings definitely help the course, as I write down the definition of terms when doing the readings, which greatly aided my memorization of concepts. The concepts are implemented well within the classes, so the coding doesn't feel too difficult or like a reach, but also tests the students' knowledge on each section. I would recommend doing the homework as soon as it's published, as it's nice to not be rushed and go to office hours to understand the concepts peacefully. Furthermore, \[the instructor\] emphasizes planning out your code before you start typing, which has been a great help, and provides a strong foundation for those who aim to continue in computer science.
+  * When \[the instructor\] says plan before coding – do it
+  * Do your reading, it is necessary for understanding what is being taught in class. Going to office hours is really helpful and I recommend just getting your homework/projects done there so you can ask questions as they come up. Following up on class activities in office hours is also helpful to furthering your understanding of the topics gone over in class.
+make sure to start your work ahead of time and don't be afraid to go to office hours/TA hours!
+  * I would advise a future student to take advantage of office hours! It is very useful to receive feedback from your professor and, especially with computer science, to get help with debugging.
+  * Challenge yourself the way you used to "think" and try position yourself in our friend–computer's shoes.
+  * I would recommend future students to really pay attention and do the in class activities since I feel like they really helped with the final project.
+  * Please attend classes and office hours
+  * Don't procrastinate on the homeworks. Start them early so you can go to TA hours. Pick something that you really like, so you're not hating yourself by the end of the course.
+  * If you need clarification on materials taught in class, do the reading. it will help you to learn it fully. even though the materail is repeated in class it is always good to relearn and refresh
+  * This is a fun and rewarding course. To get the most out of this class, make sure to participate and ask questions. Help is always available if you need it and ask for it.
+  * Ask questions,! The earlier, the better
+  * I would recommend to get ahead of work early rather than wait till the last second and to not be afraid to ask as many questions as needed.
+  * Take it. It is worth it! it might be challenging at the beginning to figure out what is going on but make sure to ask for help!!!
+  * PLAN! Always plan ahead on paper, never just start coding, unless you want to fall into the pit of doom. And go to office hours, they are very helpful!!
+  * Don't get discouraged immediately. Things blow up with python, but see it as a good thing: you are getting feedback and using logic you can debug. I never thought I would be a coder, and even now I'm not fluent in python, but it's much more important to go in with the mindset that you will take away other things from this course. Such as how to reason and think logically/mathematically, how to plan, teamwork, etc. a lot of transferable skils.
+  * do the reading, listen to the examples in class. if you feel like you are behind schedules, ask your partner or peers, go to \[the instructor\]'s office hour
+  * start everything early and pay attention in class even if something doesn't seem super important. it will be important later
+
+
 #### Acknowledgement
 
 Some of the materials used in this course and this syllabus are derived
@@ -307,7 +341,3 @@ You can find the source code for Jekyll at GitHub:
 
 
  -->
-
- ## CLASS SLIDES (Moodle not working)
-
- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwOS7EZIpbmVru-JxPW_LEegbk7toC68Vq-MbWtMgdR-KjGtaVZjHMErJ56ZUk-oNVfwKnVoHV9gy0/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1055" height="623" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
