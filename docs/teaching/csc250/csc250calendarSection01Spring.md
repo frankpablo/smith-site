@@ -93,7 +93,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/25      | L23: [Recap: Reductions](lecture-25.html) |  |  |  | 
+| 03/25      | L23: [Midterm Review/Start](lecture-25.html) |  |  |  | 
+<!-- | 03/25      | L23: [Recap: Reductions](lecture-25.html) |  |  |  |  -->
 | 03/27      | L24: [Practice: Reductions](lecture-25.html) |  |  |  | 
 | 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + Work on HW08 | **Homework 07**{: .label .label-purple} | HW08 Due 04/05 | | 
 

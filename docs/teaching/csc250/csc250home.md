@@ -192,9 +192,9 @@ Class/Office-Hours/Slack.
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments: **25%**
-  - Weekly Quiz Grades: **20%**
-  - Quiz completion (regardless of grade) **5%**  
+  - Homework Assignments: **35%**
+  - Weekly Quiz Grades: **10%**
+  - Quiz completion (regardless of grade) **5%**
   - Attendance **10%**
   - Participation **10%**
          - in-class Q/A (just ask questions!!)
