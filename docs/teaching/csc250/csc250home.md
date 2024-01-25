@@ -18,7 +18,7 @@ These sections contain information about how the class is run
 
 **Research interests**: *Human-Robot Interaction, Robotic Perception, STEM education*
 
-**Class Schedule**: Monday, Wednesday, Friday 10:50 AM -- 12:05 PM at Ford 241
+**Class Schedule**: Monday, Wednesday, Friday 9:25 AM -- 10:40 PM at Ford 342
 
 Attendance is mandatory.
 
@@ -37,7 +37,7 @@ detailed), or can also email me (slowest).
 
 Location of OHs (Ford Hall, Third Floor):
 
-![OH location](../../../assets/images/Office-OHs.png)
+![OH location](../../../assets/images/Office-OHs.png){: width=60%}
 
 **Office Hour Rules**:
 
@@ -54,7 +54,7 @@ Location of OHs (Ford Hall, Third Floor):
 
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
 
-**In-Class TA**: TBD
+**In-Class TA**: Skye Worster
 
 <!-- 
 **TA Hours**:
@@ -97,8 +97,8 @@ Summary: Please put the time in to make sure you don't feel unnecessary stress.
 
 **Class mechanics**:
 
-  * We will discuss concepts using blackboard annotations as well as proyected presentations and animations;
-  * Readings will be assigned and should be completed before each designated lecture. This will help prepare you for the day's discussion.
+  * We will discuss concepts using blackboard annotations as well as proyected presentations, animations, and videos;
+  * Optional readings will be available and are recommended material before each designated lecture. This will help prepare you for the day's discussion.
   * Friday classes will be used to practice the techniques seen during the week by solving exercises and discussing subjects that remain confusing. Note: class participation is important, as the class will include discussion and debate about many of these topics.
 
 **Assignments**:
@@ -149,7 +149,7 @@ Throughout the class, students should focus on adhering to the following general
 
 -   **Moodle**: Course full name "CSC250-01: Theory of Computation"
 -   **Slack**: You\'ll receive an invitation to the workspace:
-    *csc-250-01-202401.slack.com*
+    *CSC-250-01-202403.slack.com*
 
 
 **Books:**
@@ -192,32 +192,25 @@ Class/Office-Hours/Slack.
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments: **30%**
-     - your own grade: 10%
-     - your peer grade: 10%
-     - my grade: 10%
-  - Attendance and Participation **20%**
-     - Quiz completion (not grades) (10%)
-     - participation (10%)
+  - Homework Assignments: **25%**
+  - Weekly Quiz Grades: **20%**
+  - Quiz completion (regardless of grade) **5%**  
+  - Attendance **10%**
+  - Participation **10%**
          - in-class Q/A (just ask questions!!)
          - OHs/Slack Q/A
          - attend talks/events
          - answer polls/surveys
-  - Weekly Quiz Grades: **20%**
   - Midterm Exam:     **10%**
   - Final Exam:     **10%**
-  - Presentations (2):  **10%**
+  - Presentations:  **10%**
 
+**Note**: Any changes in grading will be explained in class and will only be made to benefit the students and fit any refinements done during the semester.
 
-**Homework grading**:
-
-We will employ a "peer-review" approach to grading. The purpose of this approach is to expose you to different approaches for solving problems while also training your critical eye for discovering misconceptions or mistakes. 
-
-The procedure will keep everyone anonymous. The homework submission and grading procedure will be explained in a different document.
 
 **Quizzes**:
 
-We will have one quiz per subject (usually once a week on Mondays). There are two ways in which we'll use quizzes: 
+We will have one quiz per subject (usually once a week). There are two ways in which we'll use quizzes: 
 
   1. we will use them to record attendance (quizzes will be done on your laptops but will be password protected to avoid temptation of solving them outside of class).
   2. we will obtain grades from them to try to identify misconceptions and recurring errors. 
@@ -243,14 +236,14 @@ We will have a few ways of alleviating grade pressure:
 
   * Discarding the worst quiz: the worst in the first few quizzes (all but the last 2) will be discarded.
 
-  * The second Test/Assignment (Final Exam) will have questions similar to that of the first Test/Assignment (Midterm). If students improve their score on *those part-1 questions*, points back will be awarded to their score in Test/Assignment 1. This means that restudying to do better is actively rewarded.
+  <!-- * The second Test/Assignment (Final Exam) will have questions similar to that of the first Test/Assignment (Midterm). If students improve their score on *those part-1 questions*, points back will be awarded to their score in Test/Assignment 1. This means that restudying to do better is actively rewarded. -->
 
 
 **Collaborations**:
 
-  * Students are strongly encouraged to form study groups and to collaborate on problem sets, though each student team of 3 will be required to write up and submit their solutions independently and to report the names of their collaborators. The following information is required for all submitted work:
+  * Students are strongly encouraged to form study groups and to collaborate on problem sets, though each student team of 3 will be required to write up and submit their solutions independently and to **report the names of their collaborators** (or lose points). The following information is required for all submitted work:
 
-     1. The names of all collaborating students be listed at the top of the submission (All groups will be of size 3 except one). 
+     1. The names of all collaborating students be listed at the top of the submission. 
      2. A "References" section, with in-line citations to any resources you used. Citations should include page numbers (if a printed resource) or a direct URL (if an online resource). If you did not use any resources in completing the assignment, please state: "I did not utilize any external resources in completing this assignment."
 
 **Accommodations**:
@@ -311,6 +304,54 @@ We will add a link inside Moodle to an anonymous feedback form so you
 can let us know if there is anything getting in the way of your
 learning.
 
+
+
+## Comments from previous semesters
+
+  
+  * I would absolutely encourage a student to take this course. I learned so much and I found the material so interesting. I think that the technical aspects of the class can be challenging so I would encourage the student to stay on top of that part and to use your conceptual understanding and intuition to help. Overall, I’m really glad I had the opportunity to take this class.
+  * Go. To. Office. Hours.
+  * Show up to class, allow yourself to be confused, and then go to office hours with a million questions.
+  * This class is hard! It's very mathy and proof heavy, there is NO CODING in this class. Definitely work with your peers on the homeworks and use Office Hours and TA hours! If you reread the slides and pay attention in class you'll be good –– PAY ATTENTION IN CLASS!
+  * The topics in this course can be tricky to understand, but go to office hours. *Go to office hours!* And ask a lot of questions. \[The instructor\] will help you, and in time, things will (most likely) click. You got this!
+  * Please TAKE IT!!!!
+  * ASK questions!!! \[The instructor\] loves asnwering questions. If you don't understand ASK. Otherwise you will be stuck.
+  * Go to office hours, do homework carefully, and take notes in class.
+  * Work in groups on the hw assignments and start them early so you have time to get stuck
+  * Watch Youtube videos before coming to class, they are a life saver. Specifically shorter Youtube videos. Some good channels are Easy Theory and lydia and UC Computer Science Education. https://www.youtube.com/watch?v=GfCvyRyiR34
+  * It's definitely a lot of work, so be prepared for that. \[The instructor\] is a great professor and really wants you to succeed. He's willing to work with you to make sure you're learning and doing well. Definitely make sure you understand the topics really well because the quizzes and exams can be tricky.
+  * Remain consistent with the effort you put in this class, it will pay off.
+  * I would highly recommend office hours and reading the material before class.
+  * Make sure you ask questions and engage during class. I know that a lot of people don't do the readings and I understand that, but I think that just skimming them is enough to be helpful. \[The instructor\] is very helpful during office hours and very responsive to questions, so take advantage of that.
+  * – Go to office hours!
+  * This course is conceptually challenging, especially during the second half, but I learned a lot. I would definitely suggest that students work in pairs on their homework. This was very helpful for me. Take your time on the homework because this is where a lot of my learning took place. The homework assignments helped the concepts click for me. Also engaging in class discussion was helpful to my learning.
+  * Making the most of your resources and not being afraid to ask questions.
+  * Never hesitate to ask questions when you get stuck.
+
+
+# Q & A
+
+  * Q: **When are the instructor's office hours?**
+      * A: TBD (we'll define them using a poll and set 2 x 1-hour sessions; in addition, we can always meet over zoom with prior arangement or discuss over Slack).
+  * Q: **Where are office hours?**
+      * A: Ford Hall, Third Floor, Chemistry side, to the end: Office #316
+  * Q: **What can I do if I am not free during office hours?**
+      * A: we can set up an appointment to meet over zoom (usually 10 min). Also, there will be TA help available (TBD).
+  * Q: **When are the TA's office hours?**
+      * A: TBD.
+  * Q: **Can I submit Homework Assignments late?**
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); HWs build on each other so the maximum extension is 4 days.
+  * Q: **Can I complete a quiz late?**
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); Quizzes are used for attendance AND formative assessments so you only get 1 free late attempt.      
+  * Q: **Will you record classes?**
+      * A: Only the first two weeks. 
+  * Q: **Can I "attend" classes over Zoom?**
+      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instroctor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.     
+  * Q: **What do I need to get started?**
+      * A: Access to the [website](https://frankpablo.github.io/smith-site/docs/teaching/csc250home/), access to moodle for the course, access to the Slack workspace for the course.
+  * Q: **What do I do if I am not officially registered (I don't have Moodle)?**
+      * A: The course has a cap, and only if students leave will I let other students in. I will pick students based on the waitlist with no preference given to anyone.
+      
 
 #### Acknowledgement
 

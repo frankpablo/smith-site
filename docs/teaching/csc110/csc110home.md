@@ -341,3 +341,9 @@ You can find the source code for Jekyll at GitHub:
 
 
  -->
+
+[Attendance Poll For Lecture 1](https://forms.gle/hsFZ26BFYgMViduj7)
+
+[When2Meet OH times](https://www.when2meet.com/?23287999-uAYfk)
+
+
