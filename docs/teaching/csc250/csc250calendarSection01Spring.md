@@ -24,9 +24,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 02** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 01/29      | L2: [Logic and proofs](lecture-02.html)         |  |  |  |
+| 01/29      | L2: [Logic and proofs](lecture-02.html)         |  |  HW01 Due 02/09 |  |
 | 01/31      | L3: [Intro Regular Expressions](lecture-05.html)   |  |  |  |
-| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>Catch-up |  | HW01 Due 02/09  | |
+| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>Catch-up |  |  | |
 
 
 |------------|-----------|---------|------------|-----------|
