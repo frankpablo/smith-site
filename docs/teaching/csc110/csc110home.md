@@ -26,8 +26,9 @@ Attendance is mandatory and will be recorded using lists and quizzes.
 
 **Office Hours**: 
 
-  - TBD : Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA)
-  <!-- - Wednesday/Friday ([By Appointment](https://calendly.com/pablo-frank/110-office-hours)) 1:00 PM to 4:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below) -->
+  <!-- - Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA) -->
+  - Monday 4:00 PM to 5:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+  - Friday 2:30 PM to 3:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs:
@@ -47,7 +48,22 @@ Location of OHs:
 
 **Class TA**:
 
-TBD
+Dakota Mallen (in class Fridays) or the Spinelli Center Tutors (Schedule Below).
+
+**TA Hours (Tutoring)**:
+
+See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#session) for details.
+
+Summary:
+
+Room 241:
+
+  - Monday: 7-8pm (Dakota/Thu); 8-9pm (Dakota/Sami/Thu)
+  - Tuesday: 7-8pm (Dakota/Julia); 8-9pm (Dakota/Emma/Julia)
+  - Wednesday: 7-8pm (Chris/Dakota/Sara); 8-9pm (Chris/Dakota/Sara)
+  - Thursday: 7-8pm (Emma/Sara/Sami/Skye); 8-9pm (Emma/Sara/Sami/Skye)
+  - Sunday: 1-3pm (Julia/Skye); 7-8pm (Emma/Dakota/Jingwen); 8-9pm (Dakota/Jingwen)
+
 
 <!-- 
   * Section 01: M/W/F 8:00am: Thu Tran; tntran@smith.edu

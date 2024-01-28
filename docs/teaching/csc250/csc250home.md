@@ -27,13 +27,12 @@ detailed), or can also email me (slowest).
 
 **Office Hours**: 
 
-  - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca)
+  <!-- - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca) -->
 
-<!-- 
-  - Wednesday, Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook (both shown below)
-  - Extra Help: I will help students through Slack and by appointment.
-  - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help
- -->
+  - Wednesday 3:15 PM to 4:15 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+  - Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+  - Zoom discussion (Priority questions to students that can't attend OHs in person): Thursday 3:30 PM to 4:40 PM.
+  - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs (Ford Hall, Third Floor):
 
@@ -55,6 +54,18 @@ Location of OHs (Ford Hall, Third Floor):
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
 
 **In-Class TA**: Skye Worster
+
+See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#session) for details.
+
+Summary:
+
+Room 241:
+
+  - Monday: 7-8pm (Dakota/Thu); 8-9pm (Dakota/Sami/Thu)
+  - Tuesday: 7-8pm (Dakota/Julia); 8-9pm (Dakota/Emma/Julia)
+  - Wednesday: 7-8pm (Chris/Dakota/Sara); 8-9pm (Chris/Dakota/Sara)
+  - Thursday: 7-8pm (Emma/Sara/Sami/**Skye**); 8-9pm (Emma/Sara/Sami/**Skye**)
+  - Sunday: 1-3pm (Julia/**Skye**); 7-8pm (Emma/Dakota/Jingwen); 8-9pm (Dakota/Jingwen)
 
 <!-- 
 **TA Hours**:
