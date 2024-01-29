@@ -26,9 +26,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 02** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 01/29      | L2: Data and Programs  | Ch 1 |  |  |
-| 01/31      | L3: Intro to Basic Syntax   | Ch 2 | chapter 3 (3.1 to 3.6)<br> |      |
-| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>Practice with Basic Syntax <br> Pair-Programming  |   Ch 3   | Homework 01: Syntax Basics<br>chapter 4 (4.1 to 4.11)  | HW01 Due 02/09  |
+| 01/29      | L2: [Data and Programs](lecture-02.html)  | Ch 1 |  |  |
+| 01/31      | L3: [Intro to Basic Syntax](lecture-03.html)   | Ch 2 | chapter 3 (3.1 to 3.6)<br> |      |
+| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>[Practice with Basic Syntax](lecture-04.html) <br> Pair-Programming  |   Ch 3   | Homework 01: Syntax Basics<br>chapter 4 (4.1 to 4.11)  | HW01 Due 02/09  |
 
 
 |------------|-----------|---------|------------|-----------|
