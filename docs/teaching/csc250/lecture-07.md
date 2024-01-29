@@ -8,7 +8,7 @@ nav_order: 7
 ---  
 
 
-Lecture Notes 07: Practice with REs, FAs, and Homework01 Demo
+Lecture Notes 07: Practice with REs, FAs, and Homework01 Grading
 =============================================================
 
   

@@ -32,7 +32,7 @@ A Slideshow:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5Q0XxqrluX6XtRKvNdebe9XbfXe4Gco4Lbx2pCXkILOQzxwxcyRolWrxp36viT3Ksr59s-rHF1WsW/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
+<!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5Q0XxqrluX6XtRKvNdebe9XbfXe4Gco4Lbx2pCXkILOQzxwxcyRolWrxp36viT3Ksr59s-rHF1WsW/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
 
 

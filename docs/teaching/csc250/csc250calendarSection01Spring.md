@@ -25,16 +25,16 @@ nav_order: 1
 | **WEEK 02** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 01/29      | L2: [Logic and proofs](lecture-02.html)         |  |  HW01 Due 02/09 |  |
-| 01/31      | L3: [Intro Regular Expressions](lecture-05.html)   |  |  |  |
-| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>Catch-up |  |  | |
+| 01/31      | L3: [Intro Regular Expressions](lecture-03.html)   |  |  |  |
+| 02/02      | L4: **W02-QUIZ**{: .label .label-yellow }<br>L4:[Catch-up](lecture-04.html) |  |  | |
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 03** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/05      | L5: [Finite Automata](lecture-06.html)   |  |  |  |
+| 02/05      | L5: [Finite Automata](lecture-05.html)   |  |  |  |
 | 02/07      | L6: [Non-deterministic Automata](lecture-06.html)   |  |  |  |
-| 02/09      | L7: **W03-QUIZ**{: .label .label-yellow }<br>Catch-up + HW01 Grading and Check | **Homework 01**{: .label .label-purple} | HW02 Due 02/16 | |
+| 02/09      | L7: **W03-QUIZ**{: .label .label-yellow }<br>L7:[Catch-up](lecture-07.html)  + HW01 Grading and Check | **Homework 01**{: .label .label-purple} | HW02 Due 02/16 | |
 
 
 
