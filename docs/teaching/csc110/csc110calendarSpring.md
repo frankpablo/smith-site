@@ -34,9 +34,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 03** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/05      | L5: Turtles and (first view of) Loops | Ch 4  | chapter 5 (5.1 to 5.4)<br>chapter 6 (6.1 to 6.13) |    |
-| 02/07      | L6: Control Flow, Modules, and Intro to Functions  |  Ch 5 and Ch 6   |     |    |
-| 02/09      | L7: **W03-QUIZ**{: .label .label-yellow }<br>Practice Functions | **Homework 01**{: .label .label-purple}  | Homework 02: Functions<br>chapter 7 (7.1 to 7.10)  | HW02 Due 02/16  |
+| 02/05      | L5: [Turtles and (first view of) Loops](lecture-05.html) | Ch 4  | chapter 5 (5.1 to 5.4)<br>chapter 6 (6.1 to 6.13) |    |
+| 02/07      | L6: [Control Flow, Modules, and Intro to Functions](lecture-06.html)  |  Ch 5 and Ch 6   |     |    |
+| 02/09      | L7: **W03-QUIZ**{: .label .label-yellow }<br>[Practice Functions](lecture-07.html) | **Homework 01**{: .label .label-purple}  | Homework 02: Functions<br>chapter 7 (7.1 to 7.10)  | HW02 Due 02/16  |
 
 
 
