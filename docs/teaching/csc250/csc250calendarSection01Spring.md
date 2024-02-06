@@ -72,14 +72,21 @@ nav_order: 1
 | 03/06      | L18: [More on Reductions](lecture-18.html)| |  |  |
 | 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>Catch-up + HW05 Grading and Check | **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) | (Up to TMs) |
 
+<!-- 
+|-------------|-----------|---------|------------|-----------|
+| **WEEKEND** | **Topic** | **Due** | **Issued** | **Notes** |
+|-------------|-----------|---------|------------|-----------|
+| 03/08-11    | **MIDTERM**: Self Scheduled  | | | |
+
+ -->
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/11      | L20: **Midterm Week**{: .label .label-yellow } [Midterm Review/Start](lecture-20.html)   |  |  |   |
-| 03/13      | L21: **Midterm Week**{: .label .label-yellow }[Midterm-Time](lecture-21.html)    |   |   |   |
-| 03/15      | L22: Catch-up + Midterm Grading and Check |  | HW06 Due 03/29<br> Reductions |  |
+| 03/11      | L20: [Midterm Review/Start](lecture-20.html)   |  |  |   |
+| 03/13      | L21: **Midterm DAY**{: .label .label-yellow }[Midterm-Time](lecture-21.html)    |   |   |   |
+| 03/15      | L22: Catch-up + Midterm Grading and Check |  |  |  |
 
 
 
@@ -95,7 +102,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 03/25      | L23: [Enumeration](lecture-23.html) |  |  |  |
 | 03/27      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  |  | 
-| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + HW06 Grading and Check | **Homework 06**{: .label .label-purple} | HW07 Due 04/05<br>Ennumeration and Mapping Reductions | | 
+| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + HW06 Grading and Check | **Homework 06**{: .label .label-purple} | HW06 Due 04/05<br>Ennumeration and Mapping Reductions | | 
 
 
 
@@ -133,13 +140,13 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/22       | L34: Additional Subjects + Student presentations  |  |  |  |
 | 04/24       | L35: Additional Subjects + Student presentations  |  |  |  |
-| 04/26       | L36: Additional Subjects + Student presentations<br>Catch-up + HW010 Grading and Check  | **Homework 10**{: .label .label-purple} |  |  |
+| 04/26       | L36: Interesting Applications I <br> HW010 Grading and Check  | **Homework 10**{: .label .label-purple} |  |  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/29       | L37: Additional Subjects + Student presentations  |  |  |  |
+| 04/29       | L37: Interesting Applications II  |  |  |  |
 | 05/01       | L38: Wrap-Up  |   |   |    |
 
