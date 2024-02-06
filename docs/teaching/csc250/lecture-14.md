@@ -7,7 +7,7 @@ nav_order: 14
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 14: Context-Free Grammars
+Lecture Notes 14: OLD Context-Free Grammars
 =======================================
 
   
@@ -22,7 +22,7 @@ This class we'll discuss:
 * Looking ahead: Context-Free Grammars
 * CFG examples
 
-  
+  <!-- 
   
 
 Intro: Context-Free Grammar
@@ -336,3 +336,5 @@ check the article out: [https://www.nature.com/articles/nature04675](https://www
   
 
 * * *
+
+ -->
