@@ -68,8 +68,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 07** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/04      | L17: [Undecidability and Intro to Reductions](lecture-22.html)|  |  |  |
-| 03/06      | L18: [More on Reductions](lecture-23.html)| |  |  |
+| 03/04      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
+| 03/06      | L18: [More on Reductions](lecture-18.html)| |  |  |
 | 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>Catch-up + HW05 Grading and Check | **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) | (Up to TMs) |
 
 
@@ -77,8 +77,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/11      | L20: **Midterm Week**{: .label .label-yellow } [TODO? Midterm Review/Start](lecture-24.html)   |  |  |   |
-| 03/13      | L21: [Practice: Reductions](lecture-26.html)    |   |   |   |
+| 03/11      | L20: **Midterm Week**{: .label .label-yellow } [Midterm Review/Start](lecture-20.html)   |  |  |   |
+| 03/13      | L21: **Midterm Week**{: .label .label-yellow }[Midterm-Time](lecture-21.html)    |   |   |   |
 | 03/15      | L22: Catch-up + Midterm Grading and Check |  | HW06 Due 03/29<br> Reductions |  |
 
 
@@ -93,8 +93,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/25      | L23: [Enumeration](lecture-25.html) |  |  |  |
-| 03/27      | L24: [Mapping Reducibitlity](lecture-25.html) |  |  |  | 
+| 03/25      | L23: [Enumeration](lecture-23.html) |  |  |  |
+| 03/27      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  |  | 
 | 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + HW06 Grading and Check | **Homework 06**{: .label .label-purple} | HW07 Due 04/05<br>Ennumeration and Mapping Reductions | | 
 
 
@@ -102,8 +102,8 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/01       | L26: [Rice theorem](lecture-28.html) |   |   |   |
-| 04/03       | L27: [Summary: Computability](lecture-29.html)|  |  |   |
+| 04/01       | L26: [Rice theorem](lecture-26.html) |   |   |   |
+| 04/03       | L27: [Summary: Computability](lecture-27.html)|  |  |   |
 | 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Catch-up + HW07 Grading and Check | **Homework 07**{: .label .label-purple} | HW08 Due 04/12  | |
 
 
@@ -111,8 +111,8 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/08       | L28: [Intro to Complexity and P Vs NP](lecture-31.html) |  |  |  |
-| 04/10       | L29: [More Complexity and P Vs NP](lecture-32.html)  |  |  |  |
+| 04/08       | L28: [Intro to Complexity and P Vs NP](lecture-29.html) |  |  |  |
+| 04/10       | L29: [More Complexity and P Vs NP](lecture-30.html)  |  |  |  |
 | 04/12       | L30: **W12-QUIZ**{: .label .label-yellow }<br>Catch-up+ HW08 Grading and Check | **Homework 08**{: .label .label-purple} | HW09 Due 04/19 | |
 
 
@@ -121,8 +121,8 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 13** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/15       | L31: [P Vs NP and NP-Completeness](lecture-36.html) |  |  |  |
-| 04/17       | L32: [Poly-Time Reductions](lecture-37.html)  |   |    |    |
+| 04/15       | L31: [P Vs NP and NP-Completeness](lecture-32.html) |  |  |  |
+| 04/17       | L32: [Poly-Time Reductions](lecture-33.html)  |   |    |    |
 | 04/19       | L33: **W13-QUIZ**{: .label .label-yellow }<br>Catch-up + HW09 Grading and Check | **Homework 09**{: .label .label-purple}  | HW10 Due 04/26 | |
 
 
