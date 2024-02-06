@@ -8,7 +8,7 @@ nav_order: 10
 ---  
 
 
-Lecture Notes 10: Practice and Homework02 Demo
+Lecture Notes 10: Practice with PLs and Homework02 Grading
 =============================================================
 
   
@@ -18,37 +18,10 @@ Lecture Notes 10: Practice and Homework02 Demo
 
 This class we'll discuss:
 
-* Catch-Up: NFA recap + REs Vs FAs
-* Group work on HW03
+* Grading on HW02
+* Catch-Up: REs, FAs, and PL
 
-<!-- * Demo on HW02 -->
 
- 
-
-* * *
-
-Work on HW03
--------------------------------------
-
-  * Download the Zip file from Moodle
-  * Upload to Overleaf
-  * Work in teams
-  * We work together on the HW03
-
-<!-- 
-* * *
-
-Demos for HW02
--------------------------------------
-
-  * I will wshow a randomized order of Demos by team number
-  * Each Team: Open your HW02 PDF in one computer
-  * Choose who presents what BEFORE I show up
-  * Each problem/person: 
-     * Give a 10-20 second intro to the problem
-     * Give a 30-to-60-second explanation of your answer
-
- -->
 #### Homework
 
 

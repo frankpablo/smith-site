@@ -33,7 +33,7 @@ nav_order: 1
 | **WEEK 03** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 02/05      | L5: [Finite Automata](lecture-05.html)   |  |  |  |
-| 02/07      | L6: [Non-deterministic Automata](lecture-06.html)   |  |  |  |
+| 02/07      | L6: [Non-deterministic Automata and FA Properties](lecture-06.html)   |  |  |  |
 | 02/09      | L7: **W03-QUIZ**{: .label .label-yellow }<br>L7:[Catch-up](lecture-07.html)  + HW01 Grading and Check | **Homework 01**{: .label .label-purple} | HW02 Due 02/16 | (on REs + FAs) |
 
 
@@ -41,8 +41,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 04** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/12      | L8: [Nondeterminism](lecture-08.html) |    |   |     |
-| 02/14      | L9: [DFA-NFA equivalence AND RE-FA equivalence](lecture-09.html)  |    |      |     |
+| 02/12      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |   |     |
+| 02/14      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |      |     |
 | 02/16      | L10: **W04-QUIZ**{: .label .label-yellow }<br>Catch-up + HW02 Grading and Check | **Homework 02**{: .label .label-purple} | HW03 Due 02/23| (On REs, NFAs, RLs) |
 
 
@@ -50,8 +50,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 05** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/19      | L11: [Regular and Non-Reg Langs and Pumping Lemma](lecture-11.html)| | | |
-| 02/21      | L12: [More Pumping Lemma Proofs](lecture-12.html)  | | | |
+| 02/19      | L11: [Context-Free Grammars](lecture-11.html)| | | |
+| 02/21      | L12: [Push-Down Automata](lecture-12.html)  | | | |
 | 02/23      | L13: **W05-QUIZ**{: .label .label-yellow }<br>Catch-up + HW03 Grading and Check | **Homework 03**{: .label .label-purple} | HW04 Due 03/01 | (On RLs and PL) |
 
 
@@ -59,8 +59,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 06** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/26      | L14: [Context-Free Grammars](lecture-14.html)|  |  |  |
-| 02/28      | L15: [Push-Down Automata](lecture-15.html) |  |  | |
+| 02/26      | L14: [Turing Machines](lecture-14.html)|  |  |  |
+| 02/28      | L15: [Decidability](lecture-15.html) |  |  | |
 | 03/01      | L16: **W06-QUIZ**{: .label .label-yellow }<br>Catch-up + HW04 Grading and Check | **Homework 04**{: .label .label-purple} | HW05 Due 03/08 | (On CFGs and PDAs) |
 
 
@@ -68,8 +68,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 07** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/04      | L17: [Turing Machines](lecture-22.html)|  |  |  |
-| 03/06      | L18: [Decidability](lecture-23.html)| |  |  |
+| 03/04      | L17: [Undecidability and Intro to Reductions](lecture-22.html)|  |  |  |
+| 03/06      | L18: [More on Reductions](lecture-23.html)| |  |  |
 | 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>Catch-up + HW05 Grading and Check | **Homework 05**{: .label .label-purple} | HW06 Due 03/15 | (On TMs) |
 
 
@@ -77,8 +77,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/11      | L20: [Undecidability and Intro to Reductions](lecture-24.html)   |  |  |   |
-| 03/13      | L21: [More on Reductions](lecture-26.html)    |   |   |   |
+| 03/11      | L20: [TODO? Midterm Review/Start](lecture-24.html)   |  |  |   |
+| 03/13      | L21: [Practice: Reductions](lecture-26.html)    |   |   |   |
 | 03/15      | L22: **W08-QUIZ**{: .label .label-yellow }<br> Catch-up + HW06 Grading and Check | **Homework 06**{: .label .label-purple} | Study for Midterm<br>(During Week 10) |  |
 
 
@@ -93,8 +93,8 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/25      | L23: [Midterm Review/Start](lecture-25.html) |  |  |  |
-| 03/27      | L24: [Practice: Reductions](lecture-25.html) |  |  |  | 
+| 03/25      | L23: [Midterm Results/Solutions](lecture-25.html) |  |  |  |
+| 03/27      | L24: [Recap: Reductions](lecture-25.html) |  |  |  | 
 | 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Catch-up + Midterm Grading and Check | | HW07 Due 04/05 | | 
 
 

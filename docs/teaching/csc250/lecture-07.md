@@ -18,11 +18,18 @@ Lecture Notes 07: Practice with REs, FAs, and Homework01 Grading
 
 This class we'll discuss:
 
-* Catch-Up: REs and FAs
-* Group work on HW02
 * Grading on HW01
+* Catch-Up: REs and FAs
+
 
  
+* * *
+
+A Slideshow:
+---------------
+
+
+ <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSyEwlLuOzU_LMteDi0vyAfla6L58BFDbe9QthLevdUhWlWShHLej9r4lCDEQd63S_SxrOWcOebyaQm/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * * *
 <!-- 
