@@ -43,9 +43,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 04** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/12      | L8: Intro to Conditionals  | Ch 7   |    |     |
-| 02/14      | L9: More Conditionals  |     |      |     |
-| 02/16      | L10: **W04-QUIZ**{: .label .label-yellow }<br>Practice with Conditionals  | **Homework 02**{: .label .label-purple} | Homework 03: Conditionals<br>chapter 8-A (8.1 to 8.9)  | HW03 Due 02/23   |
+| 02/12      | L8: [Intro to Conditionals](lecture-08.html)  | Ch 7   |    |     |
+| 02/14      | L9: [More Conditionals](lecture-09.html)  |     |      |     |
+| 02/16      | L10: **W04-QUIZ**{: .label .label-yellow }<br>[Practice with Conditionals](lecture-10.html)  | **Homework 02**{: .label .label-purple} | Homework 03: Conditionals<br>chapter 8-A (8.1 to 8.9)  | HW03 Due 02/23   |
 
 
 
