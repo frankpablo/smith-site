@@ -56,6 +56,7 @@ See [online calendar](https://www.smith.edu/academics/applied-learning-research/
 
 Summary:
 
+
 Room 241:
 
   - Monday: 7-8pm (Dakota/Thu); 8-9pm (Dakota/Sami/Thu)

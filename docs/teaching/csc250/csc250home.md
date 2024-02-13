@@ -59,13 +59,16 @@ See [online calendar](https://www.smith.edu/academics/applied-learning-research/
 
 Summary:
 
+
+![tutoring](../../../assets/images/csc250/Spinelli-Tutors-250.png)
+
 Room 241:
 
-  - Monday: 7-8pm (Dakota/Thu); 8-9pm (Dakota/Sami/Thu)
-  - Tuesday: 7-8pm (Dakota/Julia); 8-9pm (Dakota/Emma/Julia)
-  - Wednesday: 7-8pm (Chris/Dakota/Sara); 8-9pm (Chris/Dakota/Sara)
-  - Thursday: 7-8pm (Emma/Sara/Sami/**Skye**); 8-9pm (Emma/Sara/Sami/**Skye**)
-  - Sunday: 1-3pm (Julia/**Skye**); 7-8pm (Emma/Dakota/Jingwen); 8-9pm (Dakota/Jingwen)
+  - Monday: 7-9pm (Amanda/Ashley/Larissa/Sophia);
+  - Tuesday: 7-9pm (Chris/Larissa/Tania);
+  - Wednesday: 7-9pm (Dakota/Elaine/**Skye**/Zhirou);
+  - Thursday: 7-9pm (Larissa/Paola/**Skye**);
+  - Sunday: 1-3pm (Asher/**Skye**); 7-9pm (Amanda/Elaine/**Skye**/Tania);
 
 <!-- 
 **TA Hours**:
