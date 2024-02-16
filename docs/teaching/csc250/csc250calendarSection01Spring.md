@@ -43,7 +43,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 02/12      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |   |     |
 | 02/14      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |      |     |
-| 02/16      | L10: **W04-QUIZ**{: .label .label-yellow }<br>Catch-up + HW02 Grading and Check | **Homework 02**{: .label .label-purple} | HW03 Due 02/23<br> REs and Finite Automatons | (On REs, NFAs, RLs) |
+| 02/16      | L10: **W04-QUIZ**{: .label .label-yellow }<br>[Catch-up + HW02 Grading and Check](lecture-10.html) | **Homework 02**{: .label .label-purple} | HW03 Due 02/23<br> REs and Finite Automatons | (On REs, NFAs, RLs) |
 
 
 
