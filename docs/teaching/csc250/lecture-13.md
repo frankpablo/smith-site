@@ -7,24 +7,34 @@ nav_order: 13
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 13: Practice and Homework03 Demo
+Lecture Notes 13: Practice and Homework03 Grading
 =============================================================
 
   
+
+
 
 ## Outline ##
 
 
 This class we'll discuss:
 
-* Catch-Up: PL Recap
+* Grading on HW02
+* Catch-Up: REs, FAs, and PL
 
 
-<!-- * Demo on HW02 -->
+* * *
 
- 
- 
+A Slideshow:
+---------------
 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTm7TxUJ1CkB4f8CULtg3mMPgnGj4VdpmGk9d0gBz1LMs2a28iYWql1KmnjafFv5a5RSBXd1x4j02DE/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+
+
+<!-- 
 * * *
 
 Visualization of PL and proof of non-regularity
@@ -39,4 +49,4 @@ Visualization of PL and proof of non-regularity
 #### Homework
 
 
-**Homework 04** Today, just make sure you understand all the questions. You may start working on them too.
+**Homework 04** Today, just make sure you understand all the questions. You may start working on them too. -->
