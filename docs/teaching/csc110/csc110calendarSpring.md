@@ -55,7 +55,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 02/19      | L11: [Intro to Loops](lecture-11.html)	| Ch 8-A   |     |     |
 | 02/21      | L12: [More basic Loops](lecture-12.html)      |    |    |    |
-| 02/23      | L13: **W05-QUIZ**{: .label .label-yellow }<br>Practice with basic Loops    |  **Homework 03**{: .label .label-purple} | Homework 04:  Basic Loops<br>chapter 8-B (8.10 to 8.14)     | HW04 Due 03/01   |
+| 02/23      | L13: **W05-QUIZ**{: .label .label-yellow }<br>[Practice with basic Loops](lecture-13.html)     |  **Homework 03**{: .label .label-purple} | Homework 04:  Basic Loops<br>chapter 8-B (8.10 to 8.14)     | HW04 Due 03/01   |
 
 
 
