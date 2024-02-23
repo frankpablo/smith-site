@@ -52,7 +52,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 02/19      | L11: [Context-Free Grammars](lecture-11.html)| | | |
 | 02/21      | L12: [Push-Down Automata](lecture-12.html)  | | | |
-| 02/23      | L13: **W05-QUIZ**{: .label .label-yellow }<br>[Catch-up + HW03 Grading and Check](lecture-13.html) | **Homework 03**{: .label .label-purple} | HW04 Due 03/01<br> Pumping Lemma, CFGs and PDAs |  |
+| 02/23      | L13: **W05-QUIZ**{: .label .label-yellow }<br>[Catch-up + HW03 Grading and Check](lecture-13.html)  | **Homework 03**{: .label .label-purple} | HW04 Due 03/01<br> Pumping Lemma, CFGs and PDAs |  |
 
 
 
