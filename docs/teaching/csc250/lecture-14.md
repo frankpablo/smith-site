@@ -7,8 +7,8 @@ nav_order: 14
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 14: OLD Context-Free Grammars
-=======================================
+Lecture Notes 14: Intro to Turing Machines
+==========================================
 
   
 
@@ -17,324 +17,602 @@ Outline
 
 This class we'll discuss:
 
-* Perspectives on simple machines
-* Properties of Regular Languages
-* Looking ahead: Context-Free Grammars
-* CFG examples
-
-  <!-- 
-  
-
-Intro: Context-Free Grammar
----------------------------
+* Recap: REs and CFGs
+* The "tape-processing" view
+* More powers: TMs
 
   
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF01.png){: width="60%"} 
-  
-EQ, HALF, PAL  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF02.png)  
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF03.png)  
-  
-Finite automata and regular expressions are limited  
-  
-They both only match patterns that can be described by reaching L to R  
-  
-Some patterns are more interesting…  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF04.png)  
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF05.png){: width="60%"} 
-  
-Seems like PAL lives really close to Regular: there’s a structure to the words that’s ALMOST regular… but the pattern is in the middle.  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF06.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF07.png){: width="80%"} 
-  
-  
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF08.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF09.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF10.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF11.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF12.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF13.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF14.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF15.png){: width="80%"} 
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture10/CF16.png){: width="80%"} 
-  
+
+
+
+* * *
+
+A Slideshow:
+---------------
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS2Qop0-5aIAl0sUaZtXBXG0exdwEdz7geBW0-D-1moPTQh0CA3fmAEmD2l8GGT5L9EgBH7S9Naj4N0/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+---
+
+
+
+GUIDED NOTES (Optional)
+=======================
+
+
+
+Turing Machines
+---------------
 
   
   
-  
-  
-
-### How about EQ?
-
+![](../../../assets/images/csc250/lecture15/out.png){: width="80%"}  
   
   
   
-  
-In the following map...
-
-* Where are CFGs?
-* How would we represent a finite language with a CFG?
-* How would we represent a regular language with a CFG?
-* Is there something outside a CFG?
-* Where is EQ?
-
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF17.png)  
-  
-
-### Ideas to prove all RL's are "inside" CFGs
-
-  
-  
-(You suggest some:)  
+![](../../../assets/images/csc250/lecture15/Tur01.png){: width="80%"}  
   
   
   
+![](../../../assets/images/csc250/lecture15/Tur02.png){: width="80%"}  
   
   
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF18.png)  
+  
+![](../../../assets/images/csc250/lecture15/Tur03.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur04.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur05.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur06.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur07.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur08.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur09.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur10.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur11.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur12.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur13.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur14.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur15.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur16.png){: width="80%"}  
   
   
   
   
   
 
-### Tip for designing Context-Free-Languages
+So, a transition would look like this:
+
+$$ (r, w, m) $$
+
+where each of the elements means:
+
+* **r**: what is Read from the "tape"
+* **w**: what is Written into the "tape"
+* **m**: the movement direction in the "tape"
+
+Examples:  
+
+* **(0, $\square$, L)**: IF we read a 0, we write a "blank" and move Left
+* **(1, 1, R)**: IF we read a 1, we write a 1 and move Right
+* **(0, 0, L)**: IF we read a 0, we write a 0 and move Left
 
   
   
-Many CFLs are the union of simpler CFLs. If you must construct a CFG for a CFL that you can break into simpler pieces, do so and then construct individual grammars for each piece.  
-  
-Example:  
-  
-If the objective is to design a grammar for $ \{0^n1^n \mid n>0 \} \cup \{1^n0^1 \mid n>0 \}$, start with two sub-languages using sub-"starting symbols" and then join them to get the target language starting at $S$  
-  
-You can build:  
-$S_1 = 0S1 \mid \epsilon $  
-and  
-$S_2 = 1S0 \mid \epsilon$, :  
-  
-And then join them to obtain:  
-  
-$$
-\begin{alignat}{2} S &= S_1 \mid S_2 \\ S_1 &= 0S_1 1 \mid \epsilon \\ S_2 &= 1S_2 0 \mid \epsilon \end{alignat}
-$$
-  
-
-### So now, how would we "Build" a Regular Language using a CFG?
-
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF19.png){: width="80%"} 
-  
-
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF20.png){: width="80%"} 
-  
-
-
-### Approach 2: RL's are a special case of CFLs
-
-You can convert any DFA into an equivalent CFG as follows.
-
-1.  Make a variable $S_i$ for each state $q_i$ of the DFA.
-2.  Add the rule $S_i$ → $aS_j$ to the CFG if $\delta (q_i,a) = q_j$ is a transition in the DFA.
-3.  Add the rule $S_i$ → ε if qi is an accept state of the DFA.
-4.  Make $S_0$ the start variable of the grammar, where $q_0$ is the start state of the machine.
-
-  
-  
-Verify on your own that the resulting CFG generates the same language that the DFA recognizes.  
   
   
   
-**Activity 1** \[2 minutes\]:  
-
-Try to build your own CFG. One that "Accepts" the language: $ L = \{ w \in \Sigma^* \vert w \ has \ an \ odd \ number \ of \ 1s \}$
-
+  
+![](../../../assets/images/csc250/lecture15/Tur17.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur18.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur19.png){: width="80%"}  
   
    <div class="container mx-lg-5">
     <span style='color:#6f439a'>answer: 
       <details><summary>(Wait; then Click)</summary>
         <p>
-          <img class="img-fluid" src="../../../assets/images/csc250/lecture12/oddOnes.png" alt="OddOnes-to-CFG" style="width:50%"><br> 
-          if A is $S_0$ and B is $S_1$: 
-
-$$
-\begin{alignat}{2} S &\rightarrow_g S_0 \\ S_0 &\rightarrow_g 0S_0 \\ S_0 &\rightarrow_g 1S_1 \\ S_1 &\rightarrow_g \epsilon \\ S_1 &\rightarrow_g 0S_1 \\ S_1 &\rightarrow_g 1S_0 \\ \end{alignat}
-$$
+            Solution  <br>
+          <img class="img-fluid" src="../../../assets/images/csc250/lecture15/Tur19sol.png" alt="OddOnes-to-CFG" style="width:80%"><br> 
+          Where would the reject state be?  
         </p>
       </details>
     </span>
   </div> 
   
-<!-- ![OddOnes-to-CFG](../../../assets/images/csc250/lecture12/oddOnes.png){: width="60%"}  -->
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF21.png){: width="80%"} 
-  
-
-### How do we prove there are languages that are NOT (beyond) CFLs?
-
-  
-  
-How did we do this back when we did it for RLs?  
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF22.png){: width="80%"} 
-  
-
-* the middle part is not too big
-* v and y (the repeating parts) are not both simultaneously empty
-* repeating v and or y we will keep us in the language
-
-  
-  
-Note that RLs are a special case of Context-Free-Languages (without the $uv^i$) part.  
-  
-  
-  
-So, if we have a pumping lemma for CFGs, is there a "Machine" equivalent to the Finite Automatons as well?  
-  
-  
-  
-We'll see those next class.
-
-  
-
-* * *
-
-  
-
-Proving a language is NOT context-free
---------------------------------------
-
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF23.png)  
-  
-  
-  
-  
-  
-**What does your intuition say?** Is it a CFL?  
-  
-  
-  
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF24.png)  
-  
-  
-  
-Remember:
-
-* Given a structure of $w = uvxyz$, and $ \mid vy \mid \geq 1$
-* We want to find an $i$ for which a word $uv^ixy^iz$  
-    does not have a prime length ( $ \mid uv^ixy^iz \mid $ is not prime ) after being "pumped" some number of times.
-* Here, we can start with a word $w$ with length $p\geq N $ ($N$ provided by the pumping Lemma)
-* Now, the trick is to pump the pattern some number of times so that we can prove that the final length is NOT prime!
-* Ideas?
+But... we don't need to write them like that!
 
 
+## Writing Turing Machines
+  
 
+These machines are so powerful, we can actually describe them with pseudocode.
+
+Example, the machine shown above can also be described like this:
+
+```    
+    On input w:
+    while there are symbols left in the tape:
+        i. note whether 1st letter is a 0 or a 1 and erase it
+        ii. go all the way to the last symbol
+        iii. if this symbol doesn't match the one we just erased, REJECT; 
+            otherwise erase it and go back to the start.
+    ACCEPT. 
+```
+
+## TM Powers
+
+<br><br>
+
+  
+![](../../../assets/images/csc250/lecture15/Tur20.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur21.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur22.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur23.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur24.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur25.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur26.png){: width="80%"}  
+  
+  
+  
+  
+  
+
+### The magic Halting predictor machine H
+
+Can we create a machine/routine (let's call it machine **H**) that can predict if a program will halt?  
+  
+Let's watch the following video to see what could go wrong with such a machine **H**:  
+[Halting Problem Video](https://www.youtube.com/watch?v=92WHN-pAFCs)  
+  
+  
+  
+
+### Proof Sketch
+
+The following is a (sketch of a) proof by contradiction:  
+  
+  
+  
+
+#### 1: Say there exists a function called halts
+
+  
+
+#### halts(f) returns true if the subroutine f halts and returns false otherwise.
+
+  
+  
+
+#### 2: Now consider the following subroutine g:
+
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur27.png){: width="80%"}  
+  
+  
+  
+What is happening here? 
+  
    <div class="container mx-lg-5">
     <span style='color:#6f439a'>answer: 
       <details><summary>(Wait; then Click)</summary>
         <p>
-					Steps:<br>
-					<ol>
-						<li>The length of a word $\mid uv^ixy^iz \mid $  
-					    is the length of $ \mid w \mid $ plus any added repetitions of $v$ and $y$</li>
-						<li>So, $ \mid uv^ixy^iz \mid $ is $ \mid w\mid + (i-1)\mid vy \mid $</li>
-						<li>Since we said $w$ is in PRIMEAL, then $ \mid w\mid $ is some prime number $p\geq N $.</li>
-						<li>Then, $ \mid uv^ixy^iz \mid = \mid w\mid + (i-1)\mid vy \mid = p + (i-1)\mid vy \mid$</li>
-						<li>Now, <b>What possible choice of $i$ could we choose to cause the overall length to be provably NOT prime</b> ? </li>
-					</ol>
+            <ol>
+                        <li>halts(g) must either return true or false.</li>
+                        <li>If halts(g) returns true, then g will call loop_forever and never halt, which is a contradiction.</li>
+                        <li>Therefore, the initial assumption that halts is a total computable function must be false.</li>
+                    </ol>
         </p>
       </details>
     </span>
   </div> 
 
 
-Answer Below:
+  
+More on Turing Machines
+==========================================
 
+Outline
+-------
+
+This class we'll discuss:
+
+* Recap: Turing Machines
+* Universal Turing Machines
+* A Strange Turing Machine
+
+
+
+# The Universal Turing Machine
+
+<br><br>
+  
+![](../../../assets/images/csc250/lecture15/Tur20.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur21.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur22.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur23.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur24.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur25.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur26.png){: width="80%"}  
+  
+  
+  
+  
+  
+
+### The magic Halting predictor machine H
+
+Can we create a machine/routine (let's call it machine **H**) that can predict if a program will halt?  
+  
+Let's watch the following video to see what could go wrong with such a machine **H**:  
+[Halting Problem Video](https://www.youtube.com/watch?v=92WHN-pAFCs)  
+  
+  
+
+### Proof Sketch
+
+The following is a (sketch of a) proof by contradiction:  
+  
+  
+  
+
+#### 1: Say there exists a function called halts
+
+  
+
+#### halts(f) returns true if the subroutine f halts and returns false otherwise.
+
+  
+  
+
+#### 2: Now consider the following subroutine g:
+
+  
+  
+![](../../../assets/images/csc250/lecture15/Tur27.png){: width="80%"}  
+  
+  
+  
+What is happening here? 
+  
    <div class="container mx-lg-5">
     <span style='color:#6f439a'>answer: 
       <details><summary>(Wait; then Click)</summary>
         <p>
-If we choose $i$ so that the $i-1$ is equal to $p$ in the following expression:  
-
-$$ \mid uv^ixy^iz \mid = \mid w\mid + (i-1)\mid vy \mid = p + (i-1)\mid vy \mid $$  
-Then substituting $i-1$ for $p$ ( by making $i = p-1$), we would get: 
-
-$$ \mid uv^ixy^iz \mid = \mid w \mid + (i-1)\mid vy \mid = p + p\mid vy \mid \\ = p (1+\mid vy \mid) $$
-which means that, after pumping, the word is <b>divisible by $p$</b>! and therefore, <b>not of prime length</b>.
+            <ol>
+                        <li>halts(g) must either return true or false.</li>
+                        <li>If halts(g) returns true, then g will call loop_forever and never halt, which is a contradiction.</li>
+                        <li>Therefore, the initial assumption that halts is a total computable function must be false.</li>
+                    </ol>
         </p>
       </details>
     </span>
   </div> 
- 
-  
 
-* * *
 
-  
 
-Why are CFGs important?
------------------------
-
-  
-  
-![CFGs!!!](../../../assets/images/csc250/lecture12/CF25.png)  
-  
-check the article out: [https://www.nature.com/articles/nature04675](https://www.nature.com/articles/nature04675)
+## Here is another view of the haltin machine problem:
 
   
 
-* * *
+## Turing Machines and Intro to Decidability
 
+  
+  
+![](../../../assets/images/csc250/lecture16/computation.gif){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec01.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec02.png){: width="80%"}  
+  
+
+
+  
+   <div class="container mx-lg-5">
+    <span style='color:#6f439a'>answer: 
+      <details><summary>(Wait; then Click)</summary>
+        <p>
+            <ol>
+                        <li>move both left and right.</li>
+                        <li>write new symbols to the tape.</li>
+                        <li>stop at any point and return an answer.</li>
+                    </ol>
+        </p>
+      </details>
+    </span>
+  </div> 
+
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec03.png){: width="80%"}  
+  
+### Recognizing vs Deciding  
+  
+  
+**Recognizing** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Recognize".  
+  
+Note: If you are trying to **Recognize** a word, but you are not done checking, .... how long do you wait?  
+  
+In other words, you just say: If I say "YES", I'm sure it is "YES" (ACCEPT), but I don't promise anything else.  
+  
+  
+  
+**Deciding** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Decide", AND "NO, this one is NOT one of mine" for ALL words that are not in the Language you are able to "Decide" (called the complement of $L$, or $L^c$ or $\bar{L}$.  
+  
+
+<br><br>
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec04.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec05.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec06.png){: width="80%"}  
+  
+
+```    
+    On input w:
+    while there are symbols left in the tape:
+        i. note whether 1st letter is a 0 or a 1 and erase it
+        ii. go all the way to the last symbol
+        iii. if this symbol doesn't match the one we just erased, REJECT; 
+            otherwise erase it and go back to the start.
+    ACCEPT. 
+```
+  
+  
+### Big Idea 1: Emulating
+
+If the TM $U$ has arbitrary memory (Tape), we can "save" input descriptions of other machines $M$ and, given a word $w$ as input, process the word using the rules we read from the tape and interpret with the states described in $M$.
+
+In other words, TM $U$ can **emulate** other turing machines $M$ for some input $w$  
+  
+
+### Big Idea 2: Input Descriptions  
+  
+
+If TM $U$ can **emulate** $< M, w >$,  
+We can make the input $w$ the description of another machine $ M_2 $
+
+In other words, TM $U$ can **emulate** other turing machines $M$ that can get as input, other turing machines $w = description(M_2)$  
+  
+Or $U$ emulates $< M, description(M_2) >$ or just $< M, M_2 >$  
+  
+  
+  
+Where we left off...  
+  
+![](../../../assets/images/csc250/lecture16/Dec07.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec08.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec09.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture16/Dec10.png){: width="80%"}  
+  
+
+  
+
+1.  Isn't just looking for a while (true)?
+2.  How about an example problem:  
+
+    $$ \begin{align*} &n = 19 \\ &while \ (n != 1): \\ & \quad if \ n\%2 == 0: \\ & \quad \quad n = n/2 \\ & \quad else : \\ & \quad \quad n = 3*n + 1 \\ \end{align*} $$
+
+  
+
+### And now a proof that the halting problem is an actual thing:
+  
+![](../../../assets/images/csc250/lecture16/Dec11.png){: width="80%"}  
+  
+
+
+#### How about an example problem:  
+
+  Assume we have a turing machine H that decides (Accept AND Reject) **HALT** : 
+
+  $$ 
+  \begin{align*} 
+  &M_{HALT}: \\ 
+  & \text{On INPUT $< M, \hat{w} >$} \\ 
+  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \\ 
+  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
+  \end{align*} 
+  $$  
+
+
+  Note that this is the same as:
+
+  $$ 
+  \begin{align*} 
+  &M_{HALT}: \\ 
+  & \text{On INPUT $< M, \hat{w} >$} \\ 
+  & \quad \text{ if M ACCEPTS $\hat{w}$, ACCEPT } \\
+  & \quad \text{ if M REJECTS $\hat{w}$, ACCEPT } \\ 
+  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
+  \end{align*} 
+  $$  
+
+
+  Since there are no restrictions on what w looks like, it’s possible that w could be the description of another machine.  
+  (this is actually pretty familiar: that’s exactly what a compiler is, right? A program that takes another program as input)  
+
+  Let’s use this machine to define a new **helper** machine called **$M_X$**: 
+
+  $$ 
+  \begin{align*} 
+  &M_X: \\ 
+  & On \; INPUT \; < M > \\ 
+  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\\
+  & \quad \text{run $M_{HALT} ( < M , \hat{w}>)$}
+  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \\     
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \\ 
+  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \\ 
+  \end{align*} 
+  $$  
+  
+  1.  This machine just takes in the description of a machine $ < M > $ as input (no w)
+  2.  It then creates an input word $\hat{w}$ with its own description
+  3.  Lastly, it calls $M_{HALT}$ to check if the input machine HALTS on its own description and:
+
+      1. If $M_{HALT}$ predicts that the input machine HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose (imagine a $While(True)$ Loop);
+      2. If $M_{HALT}$ predicts that the input machine FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!
+
+<!-- 
+    Let’s use this machine to define a new **helper** machine called **$M_{\text{TEST_ON_ITSELF}}$**: 
+
+    $$ 
+    \begin{align*} 
+    &M_{\text{TEST_ON_ITSELF}}: \\ 
+    & On \; INPUT \; < M > \\ 
+    & \quad \color{gray}{ \text{# run $M_{H} ( < M , < M > > )$ ADWID } } \\ 
+    & \quad \text{run $M_{HALT} ( < M , < M > >)$}\\ 
+    & \quad \text{if $M_{HALT}( < M , < M > > )$ returns ACCEPT, ACCEPT } \\ 
+    & \quad \text{if $M_{HALT}( < M , < M > > )$ returns REJECT, REJECT } \\ 
+    \end{align*} 
+    $$  
+    
+    1.  This machine just takes in the description of a machine $ < M > $ as input (no w)
+    2.  It then calls the decider for HALT to see what would happen if we ran that machine on its own description **ADWID** (And Do What It Does)
+    
+      
+      
+    Finally, we’ll define one last machine **$M_{X}$** that FLOOPS if $M_{\text{TEST_ON_ITSELF}}$ says ACCEPT;  
+    otherwise ADWID.  
+
+    $$ \begin{align*} 
+    &M_{X}: \\ 
+    & On \; INPUT \; < M > \\ 
+    & \quad \text{run $M_{\text{TEST_ON_ITSELF}} ( < M > )$}\\ 
+    & \quad \text{if $M_{\text{TEST_ON_ITSELF}}( < M > )$ returns ACCEPT (HALTS), FLOOP } \\ 
+    & \quad \text{if $M_{\text{TEST_ON_ITSELF}}( < M > )$ returns REJECT (FLOOPS), DWID } \\
+    & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \text{ (if Rej->Rej; if Floop -> Floop)) } \\ 
+    \end{align*} 
+    $$  
+       -->
+
+  So, **What happens if we run $ M_{X} ( < M_{X} > ) $?**  
+
+  I'll replace $< M >$ with $< M_X >$ in the pseudocode shown above
+  (and use that explicitly instead of $\hat{w}$):
+
+  $$ 
+  \begin{align*} 
+  &M_X: \\ 
+  & On \; INPUT \; < M_x > \\ 
+  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\\
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \\ 
+  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \\ 
+  \end{align*} 
+  $$ 
+
+  1.  This run of $M_X$ takes in the description of itself $< M_X >$ as input
+  2.  It calls $M_{HALT}$ to check if it HALTS on its own description (remember that $M_{HALT}$ should always have a consistent answer!):
+
+      1. If $M_{HALT}$ predicts that $M_{X}$ HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose... But that means that we just FLOOPED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
+      2. If $M_{HALT}$ predicts that $M_{X}$ FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!... But that means that we just HALTED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
+
+ **A CONTRADICTION**
+
+ Since the ONLY assumption was that $M_{HALT}$ exists, then **that means that $M_{HALT}$ cannot exist!** 
+
+<!-- 
+  Inside $M_{X}$, we call $M_{\text{TEST_ON_ITSELF}}( < M_{X} > )$, which calls $M_{HALT} ( < M_{X} , < M_{X} > >)$.  
+  If $M_{X}$ halts when fed $M_{X}$ as input then the call $M_{X} ( < M_{X} >)$ loops forever.  
+  If $M_{X}$ doesn't halt when fed $M_{X}$ as input, then the call $M_{X} ( < M_{X} >)$ halts.  
+  $M_{X} ( < M_{X} >)$ can neither halt nor loop forever.  
+  This is a contradiction! Since our only assumption was the existence of HALTS, procedure HALTS cannot exist.
  -->
