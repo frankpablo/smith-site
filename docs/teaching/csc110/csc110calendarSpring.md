@@ -62,9 +62,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 06** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/26      | L14: Nested Loops  |  Ch 8-B   |       |      |
-| 02/28      | L15: Catch-Up with advanced Loops | |  |  |
-| 03/01      | L16: **W06-QUIZ**{: .label .label-yellow }<br>Practice with All Loops | **Homework 04**{: .label .label-purple} | Homework 05: Fancy Loops<br>chapter 9 (9.1 to 9.22)|HW05 Due 03/08 |
+| 02/26      | L14: [Nested Loops](lecture-14.html)  |  Ch 8-B   |       |      |
+| 02/28      | L15: [Catch-Up with advanced Loops](lecture-15.html) | |  |  |
+| 03/01      | L16: **W06-QUIZ**{: .label .label-yellow }<br>[Practice with All Loops](lecture-16.html) | **Homework 04**{: .label .label-purple} | Homework 05: Fancy Loops<br>chapter 9 (9.1 to 9.22)|HW05 Due 03/08 |
 
 
 
