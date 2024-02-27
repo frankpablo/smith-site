@@ -61,7 +61,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 02/26      | L14: [Turing Machines](lecture-14.html)|  |  |  |
 | 02/28      | L15: [Decidability](lecture-15.html) |  |  | |
-| 03/01      | L16: **W06-QUIZ**{: .label .label-yellow }<br>Catch-up + HW04 Grading and Check | **Homework 04**{: .label .label-purple} | HW05 Due 03/08<br> Turing Machines and Decidability | (On CFGs and PDAs) |
+| 03/01      | L16: **W06-QUIZ**{: .label .label-yellow }<br>[Catch-up + HW04 Grading and Check](lecture-16.html)  | **Homework 04**{: .label .label-purple} | HW05 Due 03/08<br> Turing Machines and Decidability | (On CFGs and PDAs) |
 
 
 
