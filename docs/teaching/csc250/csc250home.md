@@ -206,8 +206,11 @@ Class/Office-Hours/Slack.
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments: **35%**
-  - Weekly Quiz Grades: **10%**
+<!--   - Homework Assignments: **35%**
+  - Weekly Quiz Grades: **10%** -->
+  - Homework Grades **45%**: 
+      - Weighterd average of HW Self Grade and the Weekly Understanding Check Grade
+      - (60/40 favoring the higher of the two and UC can ONLY raise your grade)
   - Quiz completion (regardless of grade) **5%**
   - Attendance **10%**
   - Participation **10%**
