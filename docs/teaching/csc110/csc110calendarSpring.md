@@ -71,9 +71,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 07** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/04      | L17: Strings Intro  |  Ch 9  |    |    |
-| 03/06      | L18: More Strings  |    |    |     |
-| 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>Practice with Strings    | **Homework 05**{: .label .label-purple}  | Homework 06: Strings<br>chapter 10-A (10.1 to 10.16) | HW06 Due 03/15     |
+| 03/04      | L17: [Strings Intro](lecture-17.html)  |  Ch 9  |    |    |
+| 03/06      | L18: [More Strings](lecture-18.html)  |    |    |     |
+| 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>[Practice with Strings](lecture-19.html)    | **Homework 05**{: .label .label-purple}  | Homework 06: Strings<br>chapter 10-A (10.1 to 10.16) | HW06 Due 03/15     |
 
 
 

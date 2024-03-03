@@ -33,7 +33,6 @@ Prep For Midterm
   * The subjects covered are:
 
 
-
 ### Topics  
   
 
@@ -61,6 +60,16 @@ Prep For Midterm
     * Short Proofs: using definitions
     * Short Proofs: using closure
     * Short Proofs: finding a simple CFG or PDA
+
+ 
+5. **Turing-Decidable Languages (TDLs)**  
+    * Understand the definition of Turing Machines
+    * Understand the difference/relation between regular, CFG-languages, and TDLs
+    * Prove a given Language IS Decidable
+    * Short Proofs: using definitions
+    * Short Proofs: using closure
+    * Short Proofs: finding a simple TM
+
 
 * * *
 
@@ -136,4 +145,3 @@ If you want to prove that a set of elements follows some property (like saying â
   
 
 * * *
-
