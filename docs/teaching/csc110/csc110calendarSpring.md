@@ -81,9 +81,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/11      | L20: Intro to Lists        | Ch 10-A | chapter 10-B (10.17 to 10.26)  |      |
-| 03/13      | L21: Lists and Loops       |  Ch 10-B   |            |      |
-| 03/15      | L22: **W08-QUIZ**{: .label .label-yellow }<br>Practice with Lists | **Homework 06**{: .label .label-purple} | Homework 07: Lists with loops<br>chapter 10-C (10.27 to 10.31)<br>chapter 12 (12.1 to 12.7)  | HW07 Due 03/29 |
+| 03/11      | L20: [Intro to Lists](lecture-20.html)        | Ch 10-A | chapter 10-B (10.17 to 10.26)  |      |
+| 03/13      | L21: [Lists and Loops](lecture-21.html)        |  Ch 10-B   |            |      |
+| 03/15      | L22: **W08-QUIZ**{: .label .label-yellow }<br>[Practice with Lists](lecture-22.html)  | **Homework 06**{: .label .label-purple} | Homework 07: Lists with loops<br>chapter 10-C (10.27 to 10.31)<br>chapter 12 (12.1 to 12.7)  | HW07 Due 03/29 |
 
 
 

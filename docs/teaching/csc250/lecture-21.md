@@ -7,7 +7,7 @@ nav_order: 21
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 21: Midterm Study
+Lecture Notes 21: Midterm Completion
 =============================================================
 
 ## Outline ##
@@ -15,23 +15,39 @@ Lecture Notes 21: Midterm Study
 
 This class we'll discuss:
 
-* Mock Midterm (45 min)
-* Grading Mock Midterm (45 min)
-* Midterm info
+* Work On Midterm
  
+
+* * *
+
+A Slideshow:
+---------------
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA3u44LZ0XsLbSQrNgu0J1VHfpb0mwSJsZ3pEF5b3EnTUCF0Qbq_9zE_hCFviZPljMHVx0yeYWi1yk/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+---
+
+
+
+
+GUIDED NOTES (Optional)
+=======================
+
+
 
 * * *
 
 Prep For Midterm
 -------------------------------------
-
+<!-- 
   * The midterm is Self-Scheduled starting today
   * The link with the info: [SS-Exams](https://www.science.smith.edu/self-scheduled-exam-printing/#students)
   * The exam is individual, and will contain multiple-choice as well as free-answer questions.
   * It will be designed for 1.5 hours and you'll have 3 hours to complete it.
   * A single (double sided) aid-sheet will be allowed and you must turn it in.
   * The subjects covered are:
-
+ -->
 
 ### Topics  
   
@@ -61,7 +77,7 @@ Prep For Midterm
     * Short Proofs: using closure
     * Short Proofs: finding a simple CFG or PDA
 
-<!--   
+ 
 5. **Turing-Decidable Languages (TDLs)**  
     * Understand the definition of Turing Machines
     * Understand the difference/relation between regular, CFG-languages, and TDLs
@@ -70,7 +86,7 @@ Prep For Midterm
     * Short Proofs: using closure
     * Short Proofs: finding a simple TM
 
- -->
+
 * * *
 
   
@@ -145,4 +161,3 @@ If you want to prove that a set of elements follows some property (like saying â
   
 
 * * *
-

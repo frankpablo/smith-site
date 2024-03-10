@@ -15,23 +15,40 @@ Lecture Notes 20: Midterm Study
 
 This class we'll discuss:
 
-* Group work on in-class problems
-* In-class OHs
+
 * Prep for the Midterm
  
 
 * * *
 
+A Slideshow:
+---------------
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCYI_ZMDXnE7v6udVGCSNb7eFjUFEpoH5d5fp3GASef8bcGj7KxNBtEa0l0Y-WgNYXIqffn03YvlAW/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+---
+
+
+
+
+GUIDED NOTES (Optional)
+=======================
+
+
+
+* * *
+
 Prep For Midterm
 -------------------------------------
-
+<!-- 
   * The midterm is Self-Scheduled starting today
   * The link with the info: [SS-Exams](https://www.science.smith.edu/self-scheduled-exam-printing/#students)
   * The exam is individual, and will contain multiple-choice as well as free-answer questions.
   * It will be designed for 1.5 hours and you'll have 3 hours to complete it.
   * A single (double sided) aid-sheet will be allowed and you must turn it in.
   * The subjects covered are:
-
+ -->
 
 ### Topics  
   
