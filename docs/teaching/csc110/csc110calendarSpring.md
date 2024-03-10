@@ -73,17 +73,26 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 03/04      | L17: [Strings Intro](lecture-17.html)  |  Ch 9  |    |    |
 | 03/06      | L18: [More Strings](lecture-18.html)  |    |    |     |
-| 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>[Practice with Strings](lecture-19.html)    | **Homework 05**{: .label .label-purple}  | Homework 06: Strings<br>chapter 10-A (10.1 to 10.16) | HW06 Due 03/15     |
+| 03/08      | L19: **W07-QUIZ**{: .label .label-yellow }<br>[Practice with Strings](lecture-19.html)    | **Homework 05**{: .label .label-purple}  | Homework 06: Strings, Loops, and Lists<br>chapter 10-A (10.1 to 10.16) | HW06 Due (anytime 03/15 - 3/25)     |
 
 
 
 
-|------------|-----------|---------|------------|-----------|
+<!-- |------------|-----------|---------|------------|-----------|
 | **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 03/11      | L20: [Intro to Lists](lecture-20.html)        | Ch 10-A | chapter 10-B (10.17 to 10.26)  |      |
 | 03/13      | L21: [Lists and Loops](lecture-21.html)        |  Ch 10-B   |            |      |
 | 03/15      | L22: **W08-QUIZ**{: .label .label-yellow }<br>[Practice with Lists](lecture-22.html)  | **Homework 06**{: .label .label-purple} | Homework 07: Lists with loops<br>chapter 10-C (10.27 to 10.31)<br>chapter 12 (12.1 to 12.7)  | HW07 Due 03/29 |
+
+ -->
+
+ |------------|-----------|---------|------------|-----------|
+| **WEEK 08** | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 03/11      | L20: [Intro to Lists](lecture-20.html)        | Ch 10-A | chapter 10-B (10.17 to 10.26)  |      |
+| 03/13      | L21: [Lists and Loops](lecture-21.html)        |  Ch 10-B   |            |      |
+| 03/15      | L22: **W08-QUIZ**{: .label .label-yellow }<br>[Practice with Lists](lecture-22.html)  | **Homework 06**{: .label .label-purple} | chapter 10-C (10.27 to 10.31)<br>chapter 12 (12.1 to 12.7)  |  |
 
 
 
@@ -99,7 +108,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 03/25      | L23: Intro to Other Containers |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
 | 03/27      | L24: File I/O  |  Ch 11  |     |     |
-| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Practice with Dictionaries and File I/O   | **Homework 07**{: .label .label-purple}  | Homework 08: Dictionaries and File I/O  | HW08 Due 04/05  |
+| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | Homework 07: Dictionaries and File I/O  | HW08 Due 04/05  |
 
 
 
@@ -108,7 +117,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/01       | L26: Intro to Graphics  |   |   |   |
 | 04/03       | L27: Practice with Graphics |   |  |  |
-| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **Homework 08**{: .label .label-purple}  | Final Project: Teams and Ideas |FP: Teams and Ideas Due 04/12  | 
+| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **Homework 07**{: .label .label-purple}  | Final Project: Teams and Ideas |FP: Teams and Ideas Due 04/12  | 
 
 
 
