@@ -6,9 +6,11 @@ grand_parent: Teaching
 nav_order: 23
 #permalink: /docs/teaching/csc110/
 ---  
+  
 
-Lecture Notes 23: Decidability and Undecidability
-==============================
+
+Lecture Notes 23: Reductions and Enumeration
+=============================================================
 
 
 Outline
@@ -16,244 +18,178 @@ Outline
 
 This class we'll discuss:
 
-* Recap: TMs
-* Decidability
-* Undecidability
+* Recap: Reductions
+* Recognizing and Enumeration
+
+
 
 
 * * *
 
-  
+A Slideshow:
+---------------
 
-Turing Machines and Decidability
---------------------------------
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb1a87nzd4rKa8Wrfm-JCcp7lXrRpkMWcR3fJjOuISpLcMCpycnjM35ZKat5BJMEDf6ceNsJcojKCp/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-  
-  
-![](../../../assets/images/csc250/lecture16/computation.gif)  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec01.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec02.png){: width="80%"}  
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-        <ol>
-          <li>move both left and right</li>
-          <li>write new symbols to the tape</li>
-          <li>stop at any point and return an answer</li>
-        </ol>
-      </p>
-    </details>
-  </span>
-</div> 
-  
-
-  
-![](../../../assets/images/csc250/lecture16/Dec03.png){: width="80%"}  
-  
-
-## Recognizing vs Deciding  
-  
-  
-  
-**Recognizing** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Recognize".  
-  
-Note: If you are trying to **Recognize** a word, but you are not done checking, .... how long do you wait?  
-  
-In other words, you just say: If I say "YES", I'm sure it is "YES" (ACCEPT), but I don't promise anything else.  
-  
-  
-  
-**Deciding** a word is having the capacity of saying "YES, I know this one", if that word is in the Language $L$ you are able to "Decide", AND "NO, this one is NOT one of mine" for ALL words that are not in the Language you are able to "Decide" (called the complement of $L$, or $L^c$ or $\bar{L}$.  
-  
-<br><br>
-
-## Examples
-
-### A Decider for PAL
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec04.png){: width="80%"}  
-  
-
-  
-![](../../../assets/images/csc250/lecture16/Dec05.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec06.png){: width="80%"}  
-  
+---
 
 
-```    
-    On input w:
-    while there are symbols left in the tape:
-        i. note whether 1st letter is a 0 or a 1 and erase it
-        ii. go all the way to the last symbol
-        iii. if this symbol doesn't match the one we just erased, REJECT; 
-            otherwise erase it and go back to the start.
-    ACCEPT. 
-```
 
-<br><br>
+GUIDED NOTES (Optional)
+=======================
 
-### Recap: A Decider for HALT?
-
-
-if we define HALT as: 
-
-$$\{ w \vert w = < M, \hat{w}> \text{ where M is a TM and M HALTS on } \hat{w} \}$$
-
-We can prove a Decider for HALT cannot exist by contradiction:
-
-Suppose it exists:
-
-  $$ 
-  \begin{align*} 
-  &M_{HALT}: \\
-  & \text{On INPUT $< M, \hat{w} >$} \\
-  & \quad \text{ if M HALTS on $\hat{w}$, ACCEPT } \\
-  & \quad \text{ if M FLOOPS on $\hat{w}$, REJECT } 
-  \end{align*} 
-  $$  
-
-If we build the helper machine $M_X$:
-
-  $$ 
-  \begin{align*} 
-  &M_X: \\
-  & On \; INPUT \; < M > \\ 
-  & \quad \text{Make } \hat{w} = < M > \color{gray}{ \text{# a copy of the input machine's description} }\\
-  & \quad \text{run $M_{HALT} ( < M , \hat{w}>)$}
-  \quad \color{gray}{ \text{# run $M_{HALT} ( < M , < M > > )$ } } \\
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns ACCEPT, FLOOP on purpose } \\
-  & \quad \text{if $M_{HALT}( < M , \hat{w} > )$ returns REJECT, ACCEPT } \\
-  \end{align*} 
-  $$  
-
-And run $M_X$ with input equal to itself, we get:
-
-  $$ 
-  \begin{align*} 
-  &M_X: \\
-  & On \; INPUT \; < M_x > \\
-  & \quad \text{run $M_{HALT} ( < M_x , M_x > )$}\\
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns ACCEPT, FLOOP on purpose } \\
-  & \quad \text{if $M_{HALT}( < M_x ,  M_x > )$ returns REJECT, ACCEPT } \\
-  \end{align*} 
-  $$ 
-
-  1.  This run of $M_X$ takes in the description of itself $< M_X >$ as input
-  2.  It calls $M_{HALT}$ to check if it HALTS on its own description (remember that $M_{HALT}$ should always have a consistent answer!):
-
-      1. If $M_{HALT}$ predicts that $M_{X}$ HALTS on its own description (ACCEPT), $M_X$ FLOOPS on purpose... But that means that we just FLOOPED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
-      2. If $M_{HALT}$ predicts that $M_{X}$ FLOOPS on its own description (REJECT), $M_X$ ACCEPTS!... But that means that we just HALTED when runing $M_{X}$ with its own input (which is exactly the opposite of what $M_{HALT}$ predicted!)
-
- **A CONTRADICTION**
-
- Since the ONLY assumption was that $M_{HALT}$ exists, then **that means that $M_{HALT}$ cannot exist!** 
 
   
-![](../../../assets/images/csc250/lecture16/Dec15.png){: width="80%"}  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-16.png){: width=80%}  
   
   
   
-![](../../../assets/images/csc250/lecture16/Dec16.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture23/Reduc-17.png){: width=80%}  
+(ATM-01 is at least as hard to decide as ATM)  
   
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec17.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec18.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec19.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture16/Dec20.png){: width="80%"}  
-  
+Note that:  
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-        <ol>
-          <li>Run both machines in parallel</li>
-          <li> $\qquad$ Accept if either accepts</li>
-        </ol>
-      </p>
-    </details>
-  </span>
-</div>  
-  
-
-<br><br>
+1.  IF a machine $D_{ATM}$ existed, it would receive input $ < M, w > $
+2.  IF a machine $D_{ATM-01}$ existed, it would receive input $ < M > $
+3.  The order of the proof is:  
+    1.  Assume $D_{ATM-01}$ already exists
+    2.  We can use it to build another machine that should behave like $D_{ATM}$
+    3.  This larger machine, should be able to handle input $ < M, w > $
+    4.  You must somehow get a machine with ONLY $ < M > $ as input to handle the input $ < M, w > $
+    5.  Note that, as part of the steps, you can build helper machines
 
   
   
-![](../../../assets/images/csc250/lecture16/Dec21.png){: width="80%"}  
+  
+  
+**Activity 4** \[2 minutes\]:  
+In teams, write a Machine that uses $D_{ATM-01}$ to perform the work of $D_{ATM}$ (Wait; then Click)  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-18a.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-18b.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-18c.png){: width=80%}  
   
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-        <ol>
-          <li>Run both machines in parallel</li>
-          <li> $\qquad$ Accept if both accept</li>
-        </ol>
-      </p>
-    </details>
-  </span>
-</div>  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-19.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-20.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-21a.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-21b.png){: width=80%}  
+  
+This can be written like this:  
+  
+Assume EMPTY-TM is decidable, and so there exists some $D_{EMPTY-TM}$ that decides, for any input $< M >$, whether $L (M) $ is empty.  
+  
+We'll design the Machine $D_{ATM} $ as follows:  
+  
+$$ \begin{align*} &D_{ATM}:\\ & \text{ On input $ < M, w > $ }:\\ & \text{ Create (but don't run) $HELPER_{M,w}$ such that}\\ & \quad \text{ On input $ < X > $ }:\\ & \quad \quad \text{ Ignore $ < X > $ }\\ & \quad \quad \text{ Run $M$ on $w$ ADWID}\\ & \text{ Now Run $D_{EMPTY-TM}$ on $HELPER_{M,w}$}\\ & \text{ If $D_{EMPTY-TM}$ rejects, invert the result and our machine ACCEPTS}\\ & \text{ If $D_{HALT}$ accepts, , invert the result and our machine REJECTS}\\ \end{align*} $$  
+  
+As we saw above, the ONLY way $D_{EMPTY-TM}$ Rejects is if $HELPER_{M,W}$ Accepts, which happens ONLY when $M$ accepts $w$.  
+  
+This means we CAN make $D_{ATM}$ as long as $D_{EMPTY-TM}$ exists.  
+  
+However, $D_{ATM}$ doesn't exist...which means $D_{EMPTY-TM}$ CANNOT EXIST EITHER.  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-22.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-23.png){: width=80%}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture23/Reduc-24.png){: width=80%}  
+  
+  
+  
+This will lead us to a new way of looking at Recognizers: Enumeration.
+
+
+
+# Enumeration  
+  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-28.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-29.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-30.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-31.png){: width="80%"}  
   
 
-<br><br>
+**Activity 3** \[2 minutes\] In groups, come up with an algorithm to enumerate $\\Sigma^*$?:  
 
   
   
-![](../../../assets/images/csc250/lecture16/Dec22.png){: width="80%"}  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-32.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-33.png){: width="80%"}  
   
 
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-        <ol>
-          <li>Suppose that M decides L.</li>
-          <li> Design a new machine $M^\prime$ that behaves just like M, but: 
-            <ul>
-              <li>If M accepts, $M^{\prime}$ rejects</li>
-              <li>If M rejects, $M^{\prime}$ accepts</li>
-            </ul>
-          </li>
-          <li>Formally, can do this by interchanging $q_{acc}$ and $ q_{rej}$</li>
-          <li>Then $M^{\prime}$ decides $L^c$</li>
-<!--            
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul> 
--->
-        </ol>
-      </p>
-    </details>
-  </span>
-</div>  
+**Activity 4** \[2 minutes\] In groups,  
+How would you prove that, IF you can enumerate a Language, then that language is Recognizable.  
+(Wait; then Click)  
   
+  
+  
+Assume L is enumerable, i.e. there exists some machine E_L that can print out all of Ls words.  
+Build a machine R_L that uses E_L to print them out one at a time, and compares each one with the input.  
+As soon as they match, accept.  
+  
+This machine accepts only words that are in L, and if a word is in L we’re guaranteed to reach it at some point (though it might take awhile).  
+Thus, it recognizes L. QED.  
+
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-34.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-35.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture24/Enum-36.png){: width="80%"}
+
+
 
 <br><br>
   
@@ -642,3 +578,4 @@ Aaaand...the only condition we need to build $D_{ATM}$ was that $D_{HALT}$ exist
 </div> 
 
 <br><br>
+ -->
