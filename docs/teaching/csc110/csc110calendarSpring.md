@@ -101,7 +101,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 03/18-22    | **NO CLASSES**:  SPRING BREAK   | | | |
 
-
+<!-- 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
@@ -109,6 +109,16 @@ nav_order: 1
 | 03/25      | L23: Intro to Other Containers |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
 | 03/27      | L24: File I/O  |  Ch 11  |     |     |
 | 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | Homework 07: Dictionaries and File I/O  | HW07 Due 04/05  |
+ -->
+
+
+
+|------------|-----------|---------|------------|-----------|
+| **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 03/25      | L23: Intro to Other Containers |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
+| 03/27      | L24: File I/O  |  Ch 11  |     |     |
+| 03/29      | L25: Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | FP:Project Design  | FP:Project Design Due 04/05  |
 
 
 
@@ -117,7 +127,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/01       | L26: Intro to Graphics  |   |   |   |
 | 04/03       | L27: Practice with Graphics |   |  |  |
-| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **Homework 07**{: .label .label-purple}  | Final Project: Teams and Ideas |FP: Teams and Ideas Due 04/12  | 
+| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **FP:Project Design**{: .label .label-purple}  | FP: Prototype I |FP: Prototype I Due 04/12  | 
 
 
 
@@ -125,17 +135,17 @@ nav_order: 1
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
 | 04/08       | L29: Math-Time-and-Randomness |   |    |    |
-| 04/10       | L30: List Comprehension and Recursion  |   | Final Project (Design for draft) | FP: Draft Due 04/15  |
-| 04/12       | L31: Fancy Functions and Work on Final Project (Design for draft) |   |   |    |
+| 04/10       | L30: List Comprehension and Recursion  |   |  |   |
+| 04/12       | L31: Fancy Functions and Work on Final Project (Design for draft) | **FP: Prototype I**{: .label .label-green}  | FP: Prototype II  |  FP: Prototype II Due 04/26  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 13** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/15       | L32: Work on Final Project | **FP: Draft**{: .label .label-green} |  |  |
+| 04/15       | L32: Work on Final Project |  |  |  |
 | 04/17       | L33: Work on Final Project |  |  |  |
-| 04/19       | L34: Work on Final Project |  | FP: Prototype | FP: Prototype Due 04/26 |
+| 04/19       | L34: Work on Final Project |  |  |  |
 
 
 
@@ -144,7 +154,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/22       | L35: Work on Final Project |  |  |  |
 | 04/24       | L36: Work on Final Project |  |  |  |
-| 04/26       | L37: Work on Final Project | **FP: Prototype**{: .label .label-green}  |  |  |
+| 04/26       | L37: Work on Final Project | **FP: Prototype II**{: .label .label-green}  |  |  |
 
 
 
