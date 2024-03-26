@@ -101,9 +101,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/25      | L23: [Enumeration](lecture-23.html) |  | **HW06 Due 04/05<br>Reductions, Ennumeration and Mapping Reductions** |  |
+| 03/25      | L23: [Enumeration](lecture-23.html) |  |  |  |
 | 03/27      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  |  | 
-| 03/29      | L25: [Catch-up on Reductions](lecture-25.html) |  |  | | 
+| 03/29      | L25: [Catch-up on Reductions](lecture-25.html) |  | **HW06 Due 04/05<br>Reductions, Ennumeration and Mapping Reductions** | | 
 
 
 

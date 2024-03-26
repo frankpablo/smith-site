@@ -25,7 +25,7 @@ This class we'll discuss:
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb1a87nzd4rKa8Wrfm-JCcp7lXrRpkMWcR3fJjOuISpLcMCpycnjM35ZKat5BJMEDf6ceNsJcojKCp/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTGco9fya_OQAVynFvj-kja8BLbRUIIrFAB1fo6CqbCAPGyB1_WscyYRc2XnGi2CEds17UtxNv1BaMX/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 

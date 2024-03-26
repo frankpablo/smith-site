@@ -108,7 +108,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 03/25      | L23: Intro to Other Containers |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
 | 03/27      | L24: File I/O  |  Ch 11  |     |     |
-| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | Homework 07: Dictionaries and File I/O  | HW08 Due 04/05  |
+| 03/29      | L25: **W10-QUIZ**{: .label .label-yellow }<br>Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | Homework 07: Dictionaries and File I/O  | HW07 Due 04/05  |
 
 
 
