@@ -8,20 +8,32 @@ nav_order: 25
 ---  
 
 
-Lecture Notes 25: More Reductions
+Lecture Notes 25: Practice Reductions
 ==============================
+
 
 Outline
 -------
 
 This class we'll discuss:
 
-* Recap: Undecidability
-* Recap: Reductions
-* More Reductions
+* Recap: Enumeration and Recognizers
+* Mapping reducibility
 
 
 * * *
+
+A Slideshow:
+---------------
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJ-pJ2rXwCcVMq2G0xmQUeZRoxFj5ZWBClCori3z9o3YUXR6auxrKkQvE7Wunx_BeoFjRtYl1UVXHU/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+
+
+
+GUIDED NOTES (Optional)
+=======================
   
 More Reductions: The EMPTY Language
 -----------------------------------
