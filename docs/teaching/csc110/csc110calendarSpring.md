@@ -116,18 +116,18 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 10** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/25      | L23: Intro to Other Containers |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
-| 03/27      | L24: File I/O  |  Ch 11  |     |     |
-| 03/29      | L25: Practice with Dictionaries and File I/O   | **Homework 06 (late)**{: .label .label-purple}  | FP:Project Design  | FP:Project Design Due 04/05  |
+| 03/25      | L23: [Intro to Other Containers](lecture-23.html)  |  Ch 10-C and Ch 12 |  chapter 11 (11.1 to 11.10) |       |
+| 03/27      | L24: [File I/O](lecture-24.html)   |  Ch 11  |     |     |
+| 03/29      | L25: [Practice with Dictionaries and File I/O](lecture-25.html)    | **Homework 06 (late)**{: .label .label-purple}  | FP:Project Design  | FP:Project Design Due 04/05  |
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 11** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/01       | L26: Intro to Graphics  |   |   |   |
-| 04/03       | L27: Practice with Graphics |   |  |  |
-| 04/05       | L28: **W11-QUIZ**{: .label .label-yellow }<br>Final Project Plan | **FP:Project Design**{: .label .label-purple}  | FP: Prototype I |FP: Prototype I Due 04/12  | 
+| 04/01       | L26: [Intro to Graphics](lecture-26.html)   |   |   |   |
+| 04/03       | L27: [Practice with Graphics](lecture-27.html)  |   |  |  |
+| 04/05       | L28: [Final Project Plan](lecture-28.html)  | **FP:Project Design**{: .label .label-purple}  | FP: Prototype I |FP: Prototype I Due 04/12  | 
 
 
 
