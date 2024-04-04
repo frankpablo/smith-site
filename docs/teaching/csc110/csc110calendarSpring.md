@@ -127,14 +127,14 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/01       | L26: [Intro to Graphics](lecture-26.html)   |   |   |   |
 | 04/03       | L27: [Practice with Graphics](lecture-27.html)  |   |  |  |
-| 04/05       | L28: [Final Project Plan](lecture-28.html)  | **FP:Project Design**{: .label .label-purple}  | FP: Prototype I |FP: Prototype I Due 04/12  | 
+| 04/05       | L28: [Final Project Plan](lecture-28.html)  |  | FP: Prototype I |FP: Prototype I Due 04/12  | 
 
 
 
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/08       | L29: Math-Time-and-Randomness |   |    |    |
+| 04/08       | L29: Math-Time-and-Randomness | **FP:Project Design**{: .label .label-purple}   |    |    |
 | 04/10       | L30: List Comprehension and Recursion  |   |  |   |
 | 04/12       | L31: Fancy Functions and Work on Final Project (Design for draft) | **FP: Prototype I**{: .label .label-green}  | FP: Prototype II  |  FP: Prototype II Due 04/26  |
 
