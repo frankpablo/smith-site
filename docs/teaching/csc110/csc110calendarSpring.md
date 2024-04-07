@@ -134,9 +134,9 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | **WEEK 12** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
-| 04/08       | L29: Math-Time-and-Randomness | **FP:Project Design**{: .label .label-purple}   |    |    |
-| 04/10       | L30: List Comprehension and Recursion  |   |  |   |
-| 04/12       | L31: Fancy Functions and Work on Final Project (Design for draft) | **FP: Prototype I**{: .label .label-green}  | FP: Prototype II  |  FP: Prototype II Due 04/26  |
+| 04/08       | L29: [Math-Time-and-Randomness](lecture-29.html)   | **FP:Project Design**{: .label .label-purple}   |    |    |
+| 04/10       | L30: [List Comprehension and Recursion](lecture-30.html)    |   |  |   |
+| 04/12       | L31: [Fancy Functions and Work on Final Project (Design for draft)](lecture-31.html)   | **FP: Prototype I**{: .label .label-green}  | FP: Prototype II  |  FP: Prototype II Due 04/26  |
 
 
 
