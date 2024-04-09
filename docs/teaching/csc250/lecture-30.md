@@ -7,7 +7,7 @@ nav_order: 30
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 30: Mapping Reducibility and Intro to Rice's Theorem
+Lecture Notes 30: More Computational Complexity ( P and NP)
 ==================================================================
 
   
@@ -17,185 +17,173 @@ Outline
 
 This class we'll discuss:
 
-* Rice's Theorem
+* P and NP
 
   
 
 * * *
 
-  
+A Slideshow:
+---------------
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSyVBNbEwxb__rZmFUDfX0ZP9JtPQaYFoloNPzlQgz1NyCPcFZJZ40N2ymyFbwvT6_DVNOdSipY_Sbd/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+
+
+
+GUIDED NOTES (Optional)
+=======================
+
   
 
-Rice's Theorem
--------------------------
-
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-02.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-03.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-04.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-05.png){: width="80%"}  
-  
-Our previous example:  
-  
-![](../../../assets/images/csc250/lecture26/Rice-06.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-07.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-08.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-09.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-10.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-11.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-12.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-13.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-14.png){: width="80%"}  
-  
+Recap: Computational Complexity
+-------------------------------
 
   
   
-![](../../../assets/images/csc250/lecture26/Rice-15.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture31/NPC-02.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-16.png){: width="80%"}  
-  
-Remember, we have to be able to deal with any input, but we don’t necessarily have to map them all to unique outputs.  
-This is why a mapping reduction is sometimes called a “many-one” reduction.  
+![](../../../assets/images/csc250/lecture31/NPC-03.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture26/mapping.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture31/NPC-04.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-17.png){: width="80%"}  
-  
-Let’s start by assuming that ∅ ∉ P (that is, it doesn’t exhibit the non-trivial property we care about).  
-Because we’re trying to prove undecidability, I claim that we can assume this WLOG.  
-Why? (otherwise, just work with the complement of P).  
-  
-Let M1 be any TM such that L(M1) = ∅, so < M1 > ∉ MP.  
-Cool, so now we’ve got something we could map not-in-ATM words to.  
+![](../../../assets/images/csc250/lecture31/NPC-05.png){: width="80%"}   
   
   
   
-  
-![](../../../assets/images/csc250/lecture26/Rice-18.png){: width="80%"}  
-  
-Next let M2 be any TM such that L(M2) ∈ P, so < M1 > ∈ MP.  
-How do we know M2 exists?  
-Because P is nontrivial.  
+![](../../../assets/images/csc250/lecture31/NPC-06.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture26/mapping2.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture31/NPC-07.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-19.png){: width="80%"}  
+![](../../../assets/images/csc250/lecture31/NPC-08.png){: width="80%"}   
   
-We have M1 not in P, M2 in P  
   
-<!-- Goal:  
-on any input x:  
-if $x = < M,w >$ $\in$ ATM, map to something in MP  
-otherwise, map to something not in MP (like M1)   -->
+  
+![](../../../assets/images/csc250/lecture31/NPC-09.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-10.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-11.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-12.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-13.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-14.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-15.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-16.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-17.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-18.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-19.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-20.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
+  
 
-$$
-\begin{align*}
-\text{Goal:}&\\
-\quad & \text{On any input x:  }\\
-\quad & \quad \text{if } x = < M,w >\in ATM \text{, map to something in MP}\\
-\quad & \quad \text{otherwise, map to something not in MP (like M1)}\\
-\end{align*}
-$$
+**Activity 1** \[2 minutes\] How would you Prove this?:  
+  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+To show a language is in NP using a verifier:  
+
+  <ul>
+      <li>Specify a certificate that can be used with a verifier to decide the language.  </li>
+      <li>Give a verifier that uses that certificate to verify membership in the given language.  </li>
+      <li>Prove that the language recognized by the verifier is the given language and that the verifier runs in polynomial time.</li>
+  </ul>
 
 
-Easy part: If x isn’t of the form $< M,w >$ return something $\notin$ MP, like $< M1 >$.  
-  
-Harder part: If x IS of the form $< M,w >$ , we have two cases: if it’s in ATM, we want to map it to a machine in MP and if it’s NOT in ATM, we want to map it to something not in MP.  
-  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-20.png){: width="80%"}  
-  
-Time to get tricksy: if x is of the form $< M,w >$ , then return the following machine: $< M^{\prime}_{M,w} >$  
+<b>Certificate</b>: a graph and a set of k vertices we claim is a cliquebr Verifier: loop over all pairs in the set and check to make sure there’s an edge between them, and if so: ACCEPT - O(k^2) (can’t be bigger than n^2)
+      </p>
+    </details>
+  </span>
+</div> 
 
-$$
-\begin{align*}
-<M^{\prime}_{M,w}>:&\\
-\quad & \text{On any input y:  }\\
-\quad & \quad \text{Run M on w. #(If stuck on a loop, this is M1!)}\\
-\quad & \quad \quad \text{If M accepts w then run M2 on y ADWID}\\
-\quad & \quad \quad \text{If M rejects w, REJECT.}\\
-\end{align*}
-$$
 <br><br>
   
+![](../../../assets/images/csc250/lecture31/NPC-22.png){: width="80%"}   
   
 
-If M accepts w, what is $<M^{\prime}_{M,w}>$’s language?  
+**Activity 2** \[2 minutes\] How would you Prove this?: 
 
-exactly the same as M2’s, which means this machine is in MP  
-(If M accepts w, then $< M^{\prime}_{M,w} >$ is just the result of M2)  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+<b>Nondeterminism</b>: we can try multiple “branches” of computation at once  
   
-If M doesn’t accept w, what is its language?  
-the empty language, exactly like M1, which means NOT in MP  
-(If M doesn't accept w,$< M^{\prime}_{M,w} >$ is just M1)  
+The trick: each branch can only take polynomial time  
   
-Therefore, ATM $\leq_m$ MP using this process.  
-This implies that MP is undecidable  
+Nondeterministically test all subsets of vertices. On each subset:  
+loop over all pairs in the (sub)set and check to make sure there’s an edge between them, and if so: ACCEPT - O(n^2)  
+if no branch accepts REJECT  
   
+  
+Guaranteed to halt? YES (there’s nowhere to get stuck)  
+  
+What would happen if we tried to serialize all the branches?  
+
+  <ul>
+      <li>how many possible subsets do we have to check? $2^n$ <-- not polynomial anymore  </li>
+      <li>note: this just means that this particular algorithm doesn’t run in polynomial time, but it turns out we haven’t been able to find any polynomial-time deciders for this language</li>
+  </ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
 <br><br>
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}  
-  
-  
-  
-![](../../../assets/images/csc250/lecture26/Rice-23.png){: width="80%"}
-
 
   
-  
-![](../../../assets/images/csc250/lecture26/Rice-21.png){: width="80%"}  
-  
+![](../../../assets/images/csc250/lecture31/NPC-23.png){: width="80%"}   
   
   
-![](../../../assets/images/csc250/lecture26/Rice-22.png){: width="80%"}
+  
+![](../../../assets/images/csc250/lecture31/NPC-24.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"} 
