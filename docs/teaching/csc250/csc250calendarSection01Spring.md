@@ -121,7 +121,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/08       | L28: [Intro to Complexity and P Vs NP](lecture-29.html) |  |  |  |
 | 04/10       | L29: [More Complexity and P Vs NP](lecture-30.html)  |  |  |  |
-| 04/12       | L30: **W12-QUIZ**{: .label .label-yellow }<br>[Catch-up+ HW07 Grading and Check](lecture-30.html) | **Homework 07**{: .label .label-purple} | HW08 Due 04/19 | |
+| 04/12       | L30: **W12-QUIZ**{: .label .label-yellow }<br>[Catch-up+ HW07 Grading and Check](lecture-30.html) | **Homework 07**{: .label .label-purple} | | |
 
 
 
@@ -131,7 +131,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/15       | L31: [P Vs NP and NP-Completeness](lecture-32.html) |  |  |  |
 | 04/17       | L32: [Poly-Time Reductions](lecture-33.html)  |   |    |    |
-| 04/19       | L33: **W13-QUIZ**{: .label .label-yellow }<br>[Catch-up + HW08 Grading and Check](lecture-33.html) | **Homework 08**{: .label .label-purple}  | HW09 Due 04/26 | |
+| 04/19       | L33: [Catch-up](lecture-33.html) |   | HW08 Due 04/26 | |
 
 
 
@@ -141,7 +141,7 @@ nav_order: 1
 |-------------|-----------|---------|------------|-----------|
 | 04/22       | L34: Additional Subjects + Student presentations  |  |  |  |
 | 04/24       | L35: Additional Subjects + Student presentations  |  |  |  |
-| 04/26       | L36: Interesting Applications I <br> HW09 Grading and Check  | **Homework 09**{: .label .label-purple} |  |  |
+| 04/26       | L36: Interesting Applications I <br> HW08 Grading and Check  | **Homework 08**{: .label .label-purple} |  |  |
 
 
 
