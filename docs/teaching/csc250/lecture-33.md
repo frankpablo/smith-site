@@ -7,202 +7,365 @@ nav_order: 33
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 33: More Computational Complexity
+Lecture Notes 33: More on P vs NP vs NP-Completeness
 ==========================================
 
   
+   
 
 Outline
 -------
 
 This class we'll discuss:
 
-* Recap: Computational Complexity
-* Demo HW07 (Q1a and Q1b)
+* NP-Completeness
+* P-vs-NP
 
+  
 
 * * *
 
-  
+A Slideshow:
+---------------
 
-Continuing: Computational Complexity Questions
-------------------------------
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQGho6VFmWjK7imyRN4ms5YGjB_FCflQwovnJl5p1oF-R-y2WmezD_uUzwmv3kkwCcX6gsBOWlhfk74/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
-  
-![](../../../assets/images/csc250/lecture29/Complex-41.png){: width="80%"}    
-  
-
-  
-![](../../../assets/images/csc250/lecture29/Complex-42.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-43.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-44.png){: width="80%"}    
-  
+---
 
 
 
-**Activity 1** \[2 minutes\] How would you Prove this?:
+GUIDED NOTES (Optional)
+=======================
+
+
+
+NP and P vs NP
+--------------
+
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-12.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-13.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-14.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-15.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-16.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-17.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-18.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-19.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-20.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
+  
+
+**Activity 1** \[2 minutes\] How would you Prove this?: 
 
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
       <p>
-  
-You must build a Decider that solves it in $ \mathcal{O} (n^k) $ (Polynomial time)  
+To show a language is in NP using a verifier:  
 
-<br>
+  <ul>
+      <li>Specify a certificate that can be used with a verifier to decide the language.  </li>
+      <li>Give a verifier that uses that certificate to verify membership in the given language.  </li>
+      <li>Prove that the language recognized by the verifier is the given language and that the verifier runs in polynomial time.</li>
+  </ul>
 
-Use <b>Breadth-First-Search</b>!
 
-<ol>
-  <li>On input $< G, s, t>$</li>
-  <li>Mark all nodes rechable from the current node (starting at s and moving to the next in a running queue)</li>
-  <li>Continue to expand until we reach $t$ or $\nexists$ another node</li>
-  <li>if we reach $t$ : ACCEPT</li>
-  <li>REJECT</li>
-</ol> 
-
-<!--   1. On input $< G, s, t>$
-  2. Mark all nodes rechable from the current node (starting at s and moving to the next in a running queue)
-  3. Continue to expand until we reach $t$ or $\nexists$ another node
-  4. if we reach $t$ : ACCEPT
-  5. REJECT -->
-
-<br>
-  
-What is the complexity!!!???  
-
-<br><br><br>
-
-<b>Complexity analysis</b>:
-<br>
-Worst case: traversing every edge.  
-<br>
-How many edges? ...  
-
-<br><br>
-
-<b>Another approach</b>:
-<br>
-At most $\mid V \mid$ phases are executed.  
-<br>
-Each phase takes polynomial time to explore marked nodes and their outgoing edges.  
-<br>
-(Imagine $\mid V \mid$ nodes in a straight line VS $\mid V \mid$ nodes all connected to each other)
+<b>Certificate</b>: a graph and a set of k vertices we claim is a cliquebr Verifier: loop over all pairs in the set and check to make sure there’s an edge between them, and if so: ACCEPT - O(k^2) (can’t be bigger than n^2)
       </p>
     </details>
   </span>
 </div> 
 
-<br><br> 
+<br><br>
+  
+![](../../../assets/images/csc250/lecture31/NPC-22.png){: width="80%"}   
   
 
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-45.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-46.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-47.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-48.png){: width="80%"}    
-  
-  
-**Note**: The aforememntioned statement just means: 
+**Activity 2** \[2 minutes\] How would you Prove this?: 
 
-> Given a function of $n$ called $t(n)$ (which could be very large),
-> we can always come up with a language $L$ that is so difficult to decide that, even $t(n)$ isn't enough time to decide an input of size $n$
-
-How would you Prove this?:
-
-
-$$AutoTM_t = \{<M>\vert \text{M is a TM that accepts }<M> in \leq t( \vert M \vert ) \text{ steps}\}$$
-
-**Claim 1**: $AutoTM_t$ is decidable  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+<b>Nondeterminism</b>: we can try multiple “branches” of computation at once  
   
-Proof of Claim 1:
-
-On input $< M>$ , simulate M on $< M>$ for $t( \vert M \vert )$ simulated steps ADWID.
-
-(What does this mean?)  
+The trick: each branch can only take polynomial time  
   
-The computation is BOUNDED... so it is DECIDABLE
+Nondeterministically test all subsets of vertices. On each subset:  
+loop over all pairs in the (sub)set and check to make sure there’s an edge between them, and if so: ACCEPT - O(n^2)  
+if no branch accepts REJECT  
+  
+  
+Guaranteed to halt? YES (there’s nowhere to get stuck)  
+  
+What would happen if we tried to serialize all the branches?  
+
+  <ul>
+      <li>how many possible subsets do we have to check? $2^n$ <-- not polynomial anymore  </li>
+      <li>note: this just means that this particular algorithm doesn’t run in polynomial time, but it turns out we haven’t been able to find any polynomial-time deciders for this language</li>
+  </ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
 
   
-  
-**Claim 2**: $AutoTM_t$ can’t be decided by any basic TM in ≤ $t( \vert M \vert )$ steps  
-  
-Proof of claim 2: (everyone’s favorite contradiction argument)  
-  
-Assume $AutoTM_t$ is decided in time ≤ $t( \vert M \vert )$ by some TM $M_A$  
-This implies that the complement is also decided by some other TM $M_\overline{A}$  
-(just swap the accepting and rejecting states of $M_A$ )  
+![](../../../assets/images/csc250/lecture31/NPC-23.png){: width="80%"}   
   
  
-Now we have assumptions:
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-24.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-26.png){: width="80%"}   
+  
 
-  * $M_A$: a TM that decides the language of words $< M>$ such that  
-    they accept themselves in ≤ $t( \vert M \vert )$ steps
-  * $M_\overline{A}$: a TM that decides the language of words such that they are  
-    either not TMs or they are $< M>$'s that don't accept themselves  
-    in ≤ $t( \vert M \vert )$ steps
+**Activity 3** \[2 minutes\] How would you Prove this?: 
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+Draw graph with a clique  
+<br>
+Invert the graph  
+<br>
+Point out that a clique in the graph is an independent set in the inverse  
+<br>
+How long does it take to invert a graph?  
+
+  <li> how many edges could there possibly be? O(n^2) </li>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
+
+  
+![](../../../assets/images/csc250/lecture31/NPC-27.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-28.png){: width="80%"}   
+  
+So what can we say about the relative difficulty of these problems?  
+  
+  
+This means that they are essentially equivalent  
+Either both CLIQUE and INDEPENDENT−SET are in 𝒫 or neither is  
+  
+  
+<br><br>
+
+## NP-Completeness
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-29.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-30.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-31.png){: width="80%"}   
+  
+
+**Activity 4** \[2 minutes\] How would you Prove this?:  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+
+Suppose B is NP-complete and B ∈ P.  
+  
+<ul>
+ <li> Let A be any language in NP; </li>
+ <li> We know $A \leq_p B$ since B is NP-complete. </li>
+ <li> Then A ∈ P, since B ∈ P and “easiness propagates downward”. </li>
+ <li> Since every A in NP is also in P, this means NP ⊆ P. </li>
+ <li> Since we also know P ⊆ NP, it follows that P = NP. </li>
+</ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
 
   
   
-Thus, for every Turing machine M:  
+![](../../../assets/images/csc250/lecture31/NPC-32.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-33.png){: width="80%"}   
   
 
-  1. Either $< M>\in \overline{AutoTM_t}$ iff $M_\overline{A}$ accepts $< M>$ in time ≤ $t( \vert M \vert )$  
-    And by taking the complement of the definition of $AutoTM_t$:  
-  2. Or $< M> \in AutoTM_t$ iff $M_{\overline{A}}$ does not accept $< M>$ in time ≤ $t( \vert M \vert )$ .  
-    (equivalent to:)  
-    $< M> \in AutoTM_t$ iff $ M_A $ accepts $< M>$ in time ≤ $ t( \vert M \vert ) $ .
+**Activity 5** \[2 minutes\] How would you Prove this?: 
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
 
-  
-What happens if we plug in $ M_\overline{A} $ for M in both statements:  
+Our witness (certificate) would be a satisfying assignment x1, x2, ..., xn s.t xi ∈ T/F.  
+<br>
+A deterministic TM can easily verify that the assignment satisfies all clauses, in polynomial (even linear) time in n, m.
+      </p>
+    </details>
+  </span>
+</div> 
 
-  * $M_\overline{A} \in \overline{AutoTM_t}$ iff $M_\overline{A}$ accepts in time ≤ $t(\vert M_\overline{A} \vert )$  
-      
-  (But that means $ M_\overline{A} $ belongs to the language that accepts its description under the bound!)
-  
-  * $M_\overline{A} \in AutoTM_t$ iff $M_\overline{A}$ does not accept in time ≤ $t( \vert M_\overline{A} \vert )$.
-
-
-– Contradiction!
+<br><br>
 
 
   
-![](../../../assets/images/csc250/lecture29/Complex-49.png){: width="80%"}    
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-50.png){: width="80%"}    
   
   
+![](../../../assets/images/csc250/lecture31/NPC-34.png){: width="80%"}   
   
-![](../../../assets/images/csc250/lecture29/Complex-51.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-52.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-53.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-54.png){: width="80%"}  
 
+**Activity 6** \[2 minutes\] How would you Prove this?: (Wait; then Click)  
+  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+<ul>
+    <li> We must show that any language A in NP is efficiently reducible to SAT. <br>
+        That is, if we could solve SAT, we could solve any problem A that’s in NP.</li>
+    <li> Since AND, OR and NOT form a universal system, i.e, a basis for Boolean logical operators, we know we can can construct a boolean formula that simulates the transitions of a Turing Machine.</li>
+    <li> Since A is in NP, there must be some nondeterministic TM $M_A$ that decides it.</li>
+    <li> The reduction function, given $M_A$ (the NP-machine for A), receives a string w and produces a Boolean formula $\Phi_{M_{A,w}}$ that simulates the run of $M_A$ on the input w</li>
+    <li> An assignment to $\Phi_{M_{A,w}}$ could represent a computational path of the NP machine,</li>
+    <li> And if we’re clever, we can set it up so that $\Phi_{M_{A,w}}$ will be satisfiable iff the machine $M_A$ accepts w.</li>
+<br><br>
+  
+This is called the <b>Cook-Levin Theorem</b>  
+
+<br><br>
+The full proof of this theorem is a little beyond the scope of this video, but if check out the original publication on Moodle if you want all the gory details. 
+<br>
+The important takeaway is that if we had some efficient decider for SAT, we’d be able to efficiently decide anything.  
+</ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
+
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-35.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-36.png){: width="80%"}   
+  
+3CNF = conjunctive normal form with no more than three variables per conjunct  
+  
+3SAT is in NP for the same reason that regular SAT was: given a set of T/F values, it’s easy to check whether the formula evaluates to T  
+  
+
+<br><br>
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-37.png){: width="80%"}   
+  
+Reduce it to SAT (SAT ≤p 3SAT)  
+  
+It turns out that ANY propositional formula can be converted into an equivalent 3CNF version by splitting it into pieces and adding some dummy variables as necessary  
+  
+  
+<br><br>
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-38.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-39.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-40.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-41.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-42.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-43.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-44.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-45.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-46.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-47.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-48.png){: width="80%"} 
