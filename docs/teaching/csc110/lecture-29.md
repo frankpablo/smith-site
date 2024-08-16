@@ -3,12 +3,12 @@ layout: default
 title: Lecture29
 parent: CSC110
 grand_parent: Teaching
-nav_order: 35
+nav_order: 39
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 29: Math-Time-Randomness
+Lecture Notes 29: Practice Graphics and Project Planning
 ===========================================
 
 
@@ -16,4 +16,4 @@ Lecture Notes 29: Math-Time-Randomness
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQNzkGhnyvwro-G8NmjWPQ6uFULLog3CpZW8vE7crEnski0earnKpuRMn2b76GRCXFn2raJIxkSSaRS/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSO9ZmF89T_K0dFExvhLlc1GgLJ3PZlMikWnBHnK7SHMONEgD8ILdRfveV_ShtlPP5_gXElM7YNktN3/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSC110calendar-Spring
+#title: CSC110calendar-Spring
 parent: CSC110
 grand_parent: Teaching
 nav_order: 1

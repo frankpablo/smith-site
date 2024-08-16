@@ -3,12 +3,12 @@ layout: default
 title: Lecture11
 parent: CSC110
 grand_parent: Teaching
-nav_order: 17
+nav_order: 21
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 11: Loops and Debugging
+Lecture Notes 11: Practice with Conditionals
 ===========================================
 
 
@@ -16,5 +16,5 @@ Lecture Notes 11: Loops and Debugging
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTrh671gR5nGu9ErsRXDD5RvptzGwNjwLvz1Vi943t2nLuVrkeaRxpvKvp-VRoKzgW_BQ9I1ivROerV/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwOS7EZIpbmVru-JxPW_LEegbk7toC68Vq-MbWtMgdR-KjGtaVZjHMErJ56ZUk-oNVfwKnVoHV9gy0/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
