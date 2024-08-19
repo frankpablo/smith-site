@@ -1,6 +1,6 @@
 ---
 layout: default
-#title: Lecture02
+title: Lecture01
 parent: CSC250
 grand_parent: Teaching
 nav_order: 3
@@ -8,7 +8,7 @@ nav_order: 3
 ---  
   
 
-Lecture Notes 02: Intro to Logic and Proofs
+Lecture Notes 01: Intro to Logic and Proofs
 ===========================================
 
 
@@ -41,7 +41,7 @@ A Slideshow:
 ---------------
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4yqg3fN_tBNCtmU7JuQP_HAysKAGS7H1LYwidHGBNEdC54So2DonF0omDXtrX82S4Ru13gKdZyEi3/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/15RB25vz6XsIRk2KIRDjPxfYeqf-br7xUDlTWKH6yCeQ/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 * * *
