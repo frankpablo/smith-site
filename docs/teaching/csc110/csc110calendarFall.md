@@ -149,6 +149,23 @@ nav_order: 1
 | 12/18      | Final Submition Day      | **Complete Final Project**{: .label .label-blue}    |     |     |
 
 
+# Lectures with PA Exercises:
+| **Date**   | **Lecture** | **Subject** | **Exercise #** | **Notes** |
+|------------|-------------|---------|-----------|-----------|
+| 09/11      | L04:         | **Input** |  e01 |    Expressions   |
+| 09/16      | L06:         | **Turtles** |  e02 |    Functions   |
+| 09/18      | L07:         | **Functions** |  e03 |    Functions   |
+| 09/20      | L08:         | **Main and Importing** |  e04 and e05 |    Functions   |
+| 10/02      | L13:        | **Fancy Functions** |  e06  |   Project Planning        |
+| 10/07      | L15:        | **While** |  e07  |   Basic Loops         |
+| 10/11      | L17:        | **Debugging** | e08  |   Basic Loops          |
+| 11/04      | L26:        | **Dictionary** | e09  |   Dictionaries, FileIO, and Graphics |
+| 11/06      | L27:        | **Files and Modules** | e10 and e11  |   Dictionaries, FileIO, and Graphics |
+| 11/08      | L28:        | **Graphics and Buttons** | e12 and e13  |   Dictionaries, FileIO, and Graphics |
+| 11/11      | L29:        | **Structure** | e14  |   Project Design |
+| 11/15      | L31:        | **Math/Time/Randomness** | e15  |   Math-Time-Randomness |
+
+
 
 # Lectures with Model Project:
 
