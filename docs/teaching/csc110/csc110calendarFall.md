@@ -150,6 +150,7 @@ nav_order: 1
 
 
 # Lectures with PA Exercises:
+
 | **Date**   | **Lecture** | **Subject** | **Exercise #** | **Notes** |
 |------------|-------------|---------|-----------|-----------|
 | 09/11      | L04:         | **Input** |  e01 |    Expressions   |
