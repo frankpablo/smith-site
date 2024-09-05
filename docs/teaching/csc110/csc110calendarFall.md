@@ -80,32 +80,32 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/21      | L20: [Strings Intro](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-20.html)  |  Ch 9 |  <br>**Refine Project Ideas in OHs**{: .label .label-blue}  |     |
 | 10/23      | L21: [More Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**Review of Quiz-05**  |    |    |     |
-| 10/25      | L22: [Practice with Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)  |   |  **QUIZ-06: Nested Loops**{: .label .label-yellow }<br>Ch 10-A (10.1 to 10.16) | Ch 10-A Due before L23  |
+| 10/25      | L22: [Practice with Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)  |   |  Ch 10-A (10.1 to 10.16) | Ch 10-A Due before L23  |
 
 
 # Week 09: Lists
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/28      | L23: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html)<br>**Review of Quiz-06**        | Ch 10-A | Ch 10-B (10.17 to 10.26)  |  Ch 10-B Due before L22    |
+| 10/28      | L23: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html)       | Ch 10-A | Ch 10-B (10.17 to 10.26)  |  Ch 10-B Due before L22    |
 | 10/30      | L24: [Lists and Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)         |  Ch 10-B   |            |      |
-| 11/01      | L25: [Practice with Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>**TTT Model Project Step 6**     |   **DUE: Homework 06: Nested Loops**{: .label .label-purple}  | **QUIZ-07: Strings**{: .label .label-yellow } <br>**OUT: Homework 07: : Strings, Loops, and Lists**{: .label .label-grey}<br> Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7)| Ch 10-C, 12 Due Before L26<br>HW07 Due Midnight After L28  |
+| 11/01      | L25: [Practice with Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>**TTT Model Project Step 6**     |   **DUE: Homework 06: Nested Loops**{: .label .label-purple}  | **QUIZ-06: Nested Loops**{: .label .label-yellow }<br>**OUT: Homework 07: : Strings, Loops, and Lists**{: .label .label-grey}<br> Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7)| Ch 10-C, 12 Due Before L26<br>HW07 Due Midnight After L28  |
 
 
 # Week 10: Dictionaries, FileIO, and Graphics
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/04      | L26: [Intro to Other Containers](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html)<br>**Review of Quiz-07**  |  Ch 10-C and Ch 12 |  Ch 11 (11.1 to 11.10) |   Ch 11 Due Before L27    |
+| 11/04      | L26: [Intro to Other Containers](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html)<br>**Review of Quiz-06**  |  Ch 10-C and Ch 12 |  Ch 11 (11.1 to 11.10) |   Ch 11 Due Before L27    |
 | 11/06      | L27: [File I/O](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)              |  Ch 11  |     |     |
-| 11/08      | L28: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)    |     |     |     |
+| 11/08      | L28: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)    |     |  **QUIZ-07: Strings**{: .label .label-yellow }   |     |
 
 
 # Week 11: Project Design, Math-Time-Randomness
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/11     | L29: [Practice Graphics and Project Plan](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-29.html)|     |     |     |
+| 11/11     | L29: [Practice Graphics and Project Plan](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-29.html)<br>**Review of Quiz-07** |     |     |     |
 | 11/13      | L30: [Final Project Design](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-30.html)   |     |     |     |
 | 11/15   | L31: [Math-Time-and-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-31.html)| **DUE: Homework 07: Strings, Loops, and Lists**{: .label .label-purple} | **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L34  | 
 
@@ -188,11 +188,12 @@ nav_order: 1
 |------------|-------------|---------|-----------|
 | 09/16      | L6:         | **Quiz 1 Review** |   Intro Basics   |
 | 09/25      | L10:        | **Quiz 2 Review** |   Basic Expressions |
-| 09/30      | L12:         | **Quiz 3 Review** |   Functions    |
+| 09/30      | L12:        | **Quiz 3 Review** |   Functions    |
 | 10/09      | L16:        | **Quiz 4 Review** |   Conditionals         |
 | 10/23      | L21:        | **Quiz 5 Review** |   Basic Loops          |
 | 10/28      | L23:        | **Quiz 6 Review** |   Nested Loops/Lists   |
-| 11/04      | L26:        | **Quiz 7 Review** |    Fancy Strings   |
+| 11/04      | L26:        | **Quiz 6 Review** |   Nested Loops/Lists  |
+| 11/11      | L29:        | **Quiz 7 Review** |   Fancy Strings   |
 
 
 # Lectures After which Homework is expected :
