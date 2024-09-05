@@ -41,7 +41,7 @@ A Slideshow:
 ---------------
 
 
-<iframe src="https://docs.google.com/presentation/d/15RB25vz6XsIRk2KIRDjPxfYeqf-br7xUDlTWKH6yCeQ/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/15RB25vz6XsIRk2KIRDjPxfYeqf-br7xUDlTWKH6yCeQ/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 * * *
