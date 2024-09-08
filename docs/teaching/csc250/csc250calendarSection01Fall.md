@@ -131,6 +131,7 @@ nav_order: 1
 
 # Week 13: Student Presentations
 
+<!-- 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 11/25       | L35: Additional Subjects + Student presentations  |  |  |  |
@@ -152,4 +153,28 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 12/09      | L41: Wrap-Up   |       |     |     |     |
+ -->
 
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/25       | L35: Additional Subjects + Student presentations  |  |  |  |
+| 11/27      | **NO CLASSES: THANKSGIVING BREAK**       |     |     |     |
+| 11/29      | **NO CLASSES: THANKSGIVING BREAK**      |     |     |     |
+
+<br>
+
+# Week 14: 
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/02       | L36: Additional Subjects + Student presentations  <br> HW08 Grading and Check  | **Homework 08**{: .label .label-purple} |  |  |
+| 12/04      | L37: Interesting Applications I  |  |  |  |
+| 12/06       | L38: Interesting Applications II  |   |   |    |
+
+<br>
+
+# Week 15: Project Design
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/09      | L39: Wrap-Up   |       |     |     |     |
