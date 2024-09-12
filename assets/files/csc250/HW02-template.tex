@@ -1,0 +1,216 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+backgroundcolor=gray!20,
+roundcorner=4pt}
+\newmdenv[frametitle={\textbf{\textit{Hint:}}}]{tip}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \mainName\\
+\collaborators}
+\rhead{CSC250 Spring 2024 - Homework 02\\
+\today{}}
+\cfoot{p. \thepage \ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+ 
+
+%\newcommand\solution[1]{\vskip 5pt \noindent{\color{red}{\bf Solution:}} \emph{#1}}
+ 
+\begin{document}
+ 
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+For each of the following REs on the alphabet $\Sigma = [a,b,c]$, identify one word that is \textbf{in the language} recognized by the RE, and one word that is \textbf{not in the language}.
+\begin{enumerate}[(a)]
+\item $(ab)^*+bc^*$
+% -------------------------------------------
+%  Write your answer to Q1a below
+% -------------------------------------------
+\begin{solution} 
+\quad\\
+Your solution Here
+\end{solution}
+
+\item $a^*bc^*$
+% -------------------------------------------
+%  Write your answer to Q1b below
+% -------------------------------------------
+\begin{solution}
+\quad\\
+Your solution Here
+\end{solution}
+
+\item $(a+b)^*(b+c)^*$
+% -------------------------------------------
+%  Write your answer to Q1c below
+% -------------------------------------------
+\begin{solution}
+\quad\\
+Your solution Here 
+\end{solution}
+
+\end{enumerate}
+\end{exercise}
+
+\clearpage
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+
+Give a regular expression for each of the following languages. In all cases, the alphabet is $\Sigma = \{0,1\}$.
+\begin{enumerate}[(a)]
+	\item $\{ w \in \Sigma^* \ | \ w \texttt{ has an odd number of 0s followed by a single 1}\}$
+	% -------------------------------------------
+	%  Write your answer to Q2a below
+	% -------------------------------------------
+	\begin{solution}
+		Your solution here
+	\end{solution}
+	
+	\item $\{w \in \Sigma^* \ | \ w \texttt{ starts in a triple letter (000 or 111)}\}$
+	% -------------------------------------------
+	%  Write your answer to Q2b below
+	% -------------------------------------------
+	\begin{solution}
+		Your solution here
+	\end{solution}
+	
+	\item $\{w \in \Sigma^* \ | \ w \texttt{ contains exactly three 1s or at least two 0s}\}$
+	% -------------------------------------------
+	%  Write your answer to Q2c below
+	% -------------------------------------------
+	\begin{solution}
+		Your solution here
+	\end{solution}
+	
+\end{enumerate}
+
+\end{exercise}
+
+\clearpage
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+Show that any language $L_F$ containing only finitely many strings is regular.
+\end{exercise}
+
+\begin{tip}
+To prove that a language is regular, it is sufficient to show that there is a regular expression to generate it!
+\end{tip}
+% -------------------------------------------
+%  Write your answer to Q3 below
+% -------------------------------------------
+
+
+\begin{solution}
+
+\begin{proof}[\unskip\nopunct]
+	Your solution here
+\end{proof}
+
+\end{solution}
+
+\clearpage
+
+% --------------
+% Exercise 4
+% --------------
+\begin{exercise}{4}
+
+Show that if $L$ is a regular language, then the reverse language $L^R$:
+
+$$L^R = \{w^R \ | \ w\in L \texttt{ and } w^R \texttt{ is the word } w \texttt{ written in reverse}\}$$
+
+is also a regular language (i.e. regular languages are closed under \textbf{reversal}).
+
+Remember, proving a language is regular is the same as proving it has a regular expression that can generate it!
+
+\begin{tip}
+Try induction! by:
+\begin{enumerate}
+    \item \textbf{Base cases}: prove this works for the 3 base cases:
+    \begin{itemize}
+        \item $L =\emptyset$ (show the reverse of an empty language is regular)
+        \item $w=\epsilon$ (show you can get the regular expression for the reverse of an empty word)
+        \item $w=a$ \text{ where} $a$ \text{ represents any single valid symbol}(show you can get the regular expression for the reverse of a word made of a single symbol)
+    \end{itemize}
+    \item\textbf{ Induction Hypothesis}: assume that  
+    \begin{itemize}
+        \item the alternation of two regular expressions is also a regular expression
+        \item the concatenation of two regular expressions is also a regular expression
+        \item applying Klenee Star to a regular expression results in a regular expression
+        % \item two regular expressions: $E$ and $F$ that generate $L_F = L(F)$ and $L_G = L(G)$ respectively, AND for which
+        % \item we are able to find a regular expressions $F^R$ and $G^R$ such that  $L^R_F = L(F^R)$ and $L^R_G = L(G^R)$, and where $L^R_F = \text{ Reverse of } L_F$ and $L^R_G = \text{ Reverse of } L_G$
+    \end{itemize}
+
+    \item \textbf{Induction Step}: Using the hypotheses, show that the reverse of any regular expression is also a regular expression (
+    the reverse of regular expressions using alternation, concatenation, and Kleene star are also regular expressions); 
+\end{enumerate}
+\end{tip}
+
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q4 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+\bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.}
+Course Technology, 2005. ISBN: 9780534950972
+
+\bibitem{critchlow2011foundation}
+Critchlow, Carol and Eck, David
+\textit{Foundation of computation.},
+Critchlow Carol, 2011
+
+\end{thebibliography}
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

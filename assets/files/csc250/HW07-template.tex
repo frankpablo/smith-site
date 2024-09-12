@@ -1,0 +1,150 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \studentName\\
+\collaborators}
+\rhead{CSC250 Spring 2024 - Homework 07\\
+\today{}}
+\cfoot{p. \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+
+\newcommand{\studentName}{YOUR NAME HERE} %replace with your name
+
+\newcommand{\collaborators}{
+	% Comment out the line below if you worked alone
+	with \textit{COLLABORATORS' NAMES HERE}
+	% Uncomment the line below if you worked alone
+	% \textit{I did not collaborate with anyone on this assignment.}
+}
+
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+Consider the following language:
+\[COMPOSITE_n = \{n \ | \ n = ab \texttt{ for some integers } a,b\}\]
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q1 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+Consider the following language:
+\begin{eqnarray*}
+COMPOSITE_{TM} & = & \{\langle M,w \rangle \ | \ M \texttt{ is a TM and } M \texttt{ halts on } w \texttt{ in }\\
+&& \ \ \ \ \ \ \ \ \ \ \ \ \ n = ab \texttt{ steps for some integers } a,b\}
+\end{eqnarray*}
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q2 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+Consider the following language:
+\[COMPOSITE_{RE} = \{n \ | \ n = ab \texttt{ for some regular expressions } a,b\}\]
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q3 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+
+% --------------
+% Exercise 4
+% --------------
+\begin{exercise}{4}
+
+Describe the primary differences between a Turing reduction ($\le_T$) and a Mapping reduction ($\le_m$).
+
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q4 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+\bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.}
+Course Technology, 2005. ISBN: 9780534950972
+
+\bibitem{critchlow2011foundation}
+Critchlow, Carol and Eck, David
+\textit{Foundation of computation.},
+Critchlow Carol, 2011
+
+\end{thebibliography}
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

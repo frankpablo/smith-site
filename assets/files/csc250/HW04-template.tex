@@ -1,0 +1,202 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+backgroundcolor=gray!20,
+roundcorner=4pt}
+\newmdenv[frametitle={\textbf{\textit{Hint:}}}]{tip}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ \usepackage{tikz}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \studentName\\
+\collaborators}
+\rhead{CSC250 Spring 2024 - Assignment 4\\
+\today{}}
+\cfoot{p. \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+\newcommand{\studentName}{YOUR NAME HERE} %replace with your name
+
+\newcommand{\collaborators}{
+	% Comment out the line below if you worked alone
+	with \textit{COLLABORATORS' NAMES HERE}
+	% Uncomment the line below if you worked alone
+	% \textit{I did not collaborate with anyone on this assignment.}
+}
+
+
+
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+Consider the following statement:
+\begin{quote}
+\textit{If $A$ is a nonregular language and $B$ is a language
+such that $B \subseteq A$,\\ then $B$ must also be nonregular.}
+\end{quote}
+If the statement is true, prove it.
+If it is not true, give a counterexample.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q1 below
+% -------------------------------------------
+\begin{solution}
+
+
+\end{solution}
+
+\vskip 2em 
+\hrule
+\vskip 2em 
+
+\clearpage
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+Prove that the language
+
+$OneFewerOne = \{w \in \{0,1\}^* \; \vert \; w = 1^i0^j, i = j-1\}$ is not regular.
+
+<<<<<<< HEAD
+\textit{Hint: use the Pumping Lemma.}
+=======
+\begin{tip}
+    Try the Pumping Lemma!
+\end{tip}
+>>>>>>> 2e6201ecae86458331e2f0375ddb11c929c6e80b
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q2 below
+% -------------------------------------------
+\begin{solution}
+
+\end{solution}
+
+\newpage
+
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+Give context-free grammars for each of the following languages. For all parts, the alphabet $\Sigma = \{0,1\}$
+\begin{enumerate}[(a)]
+	\item $\{w \ | \ w \texttt{ starts and ends with a different symbol }\}$
+	% -------------------------------------------
+	%  Write your answer to Q3a below
+	% -------------------------------------------
+	\begin{solution}
+
+	\end{solution}
+	
+	\item $\{w \ | \texttt{ the length of } \ w \texttt{ is odd }\}$
+	% -------------------------------------------
+	%  Write your answer to Q3b below
+	% -------------------------------------------
+	\begin{solution}
+
+	\end{solution}
+	
+	\item The empty set
+	% -------------------------------------------
+	%  Write your answer to Q3c below
+	% -------------------------------------------
+	\begin{solution}
+
+	\end{solution}
+
+\end{enumerate}
+\end{exercise}
+
+\vskip 2em 
+\hrule
+\vskip 2em 
+
+\clearpage
+
+% --------------
+% Exercise 4
+% -------------
+\begin{exercise}{4}
+Define push-down automata for each of the languages in Exercise 3.
+\begin{enumerate}[(a)]
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q4a below
+	% -------------------------------------------
+	\begin{solution}
+ 
+	\end{solution}
+	
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q4b below
+	% -------------------------------------------
+	\begin{solution}
+ 
+	\end{solution}
+	
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q4c below
+	% -------------------------------------------
+	\begin{solution}
+ 
+	\end{solution}
+\end{enumerate}
+\end{exercise}
+%\clearpage
+
+\vskip 2em 
+\hrule
+\vskip 2em 
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+ 
+\end{thebibliography}
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

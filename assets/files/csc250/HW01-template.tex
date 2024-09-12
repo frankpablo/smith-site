@@ -1,0 +1,253 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+backgroundcolor=gray!20,
+roundcorner=4pt}
+\newmdenv[frametitle={\textbf{\textit{Recommended Solution Format:}}}]{tip}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \mainName\\
+\collaborators}
+\rhead{CSC250 Fall 2024 - Homework 01\\
+\today{}}
+\cfoot{p. \thepage \ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+ 
+
+%\newcommand\solution[1]{\vskip 5pt \noindent{\color{red}{\bf Solution:}} \emph{#1}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+\newcommand{\mainName}{Your Name Here} %replace with your team name
+
+\newcommand{\collaborators}{
+%replace with your member names
+	Team: \textit{(Collaborator names here)}
+}
+
+
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+For each of the following English arguments, express the argument in terms of \textbf{propositional logic} and determine whether the argument is valid or invalid.
+
+\begin{tip}
+\begin{enumerate}
+    \item Show the variables you'll use to represent statements.
+    \item Fill a table with the truth values of the parts of the propositional logic statements up to and including the stated conclusion.
+    \item Add a clear answer of whether or not the stated conclusion is valid.
+\end{enumerate}
+\end{tip} 
+
+\begin{enumerate}[(a)]
+
+\item If it is sunny and you have finished your homework, you always go for a run. Yesterday, you did not run. I conclude that you did not finish your homework. 
+    % -------------------------------------------
+    %  Write your answer to Q1a below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+
+    
+    \end{solution}
+
+
+    \item Every time you drink coffee after 5 PM, you lose sleep. When you lose sleep, you forget things. You forgot your wallet at home, so I can say for sure that yesterday you had a coffee after 5 PM.
+    
+    % -------------------------------------------
+    %  Write your answer to Q1b below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}
+    
+\end{enumerate}
+\end{exercise}
+
+\clearpage
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+
+Determine whether each of the following is \texttt{true} or \texttt{false}. 
+
+\begin{tip}
+\begin{enumerate}
+    \item Indicate whether the statement is \texttt{true} or \texttt{false}.
+    \item Add any required proof in concise form (math or a couple of statements). If an example or counterexample are sufficient evidence, use that; if not, provide a general proof.
+\end{enumerate}
+\end{tip}
+
+\begin{enumerate}[(a)]
+	\item Every odd number has an even divisor
+	% -------------------------------------------
+    %  Write your answer to Q2a below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}
+
+    \item The multiplication of two even numbers is even
+	% -------------------------------------------
+    %  Write your answer to Q2b below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}    
+        
+	\item The multiplication of two odd numbers is odd
+	% -------------------------------------------
+    %  Write your answer to Q2c below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}
+
+    
+    
+	\end{enumerate}
+\end{exercise}
+
+\clearpage
+
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+
+    The \textbf{pigeonhole principle} is the following somewhat intuitive observation: 
+    \begin{center}
+    If you have $n$ pigeons in $k$ pigeonholes and if $n>k$,\\then there is at least one pigeonhole that contains more than one pigeon.
+    \end{center}
+    Even though this observation is intuitive, it's always a good idea to verify. Prove the pigeonhole principle using a \textbf{proof by contradiction}.
+
+\begin{tip}
+    \begin{enumerate}
+        \item Clearly label each of the steps for going from a given statement to a contradiction.
+        \item Conclude with what it means to have arrived at that contradiction.\\
+        Note: a few sentences are more than enough!
+    \end{enumerate}
+    \end{tip}
+        
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q3 below
+% -------------------------------------------
+\begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}
+
+\clearpage
+
+% --------------
+% Exercise 4
+% --------------
+
+\begin{exercise}{4} Use \textbf{induction} to prove the following statements.
+
+\begin{tip}
+    \begin{enumerate}
+        \item Label each of the steps
+        \item Clearly label each of the mathematical manipulations taken to complete each step.
+        \item If needed, add small comments to clarify the meaning of each step.
+    \end{enumerate}
+\end{tip}
+
+\begin{enumerate}[(a)]
+	\item Prove that $1 + 2 + 3 + \dots + n = \frac{n(n+1)}{2}$
+	% -------------------------------------------
+    %  Write your answer to Q4a below
+    % -------------------------------------------
+    \begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+            \begin{align*} 
+            & \text{this is a nice way to align} \\
+            & \text{equations, in case} \\
+            & \text{you need to}
+            \end{align*}
+        \end{proof}
+    \end{solution}
+
+\item  Prove that $\sum^{n}_{i=1}(2i - 1) = n^2$
+
+
+	% -------------------------------------------
+    %  Write your answer to Q4b below
+    % -------------------------------------------
+\begin{solution} 
+        \begin{proof}[\unskip\nopunct]
+            Your proof here
+        \end{proof}
+    \end{solution}
+        
+\end{enumerate}        
+\end{exercise}
+
+% -----------------
+% References
+% -----------------
+\vfill
+
+\begin{thebibliography}{9}
+\bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.} 
+Course Technology, 2005. ISBN: 9780534950972. 
+
+\end{thebibliography}
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

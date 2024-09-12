@@ -1,0 +1,168 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{tikz}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+backgroundcolor=gray!20,
+roundcorner=4pt}
+\newmdenv[frametitle={\textbf{\textit{Tip:}}}]{tip}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \studentName\\
+\collaborators}
+\rhead{CSC250 Spring 2024 - Homework 6\\
+\today{}}
+\cfoot{p. \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+
+\newcommand{\studentName}{YOUR NAME HERE} %replace with your name
+
+\newcommand{\collaborators}{
+	% Comment out the line below if you worked alone
+	with \textit{COLLABORATORS' NAMES HERE}
+	% Uncomment the line below if you worked alone
+	% \textit{I did not collaborate with anyone on this assignment.}
+}
+
+% --------------
+% Exercise 1
+% --------------
+
+\begin{tip}
+This question is all about practicing reductions! Though it may seem a bit silly to keep re-proving that these languages are undecidable, working with familiar languages enables us to focus on mastering the \textbf{technique} of using reductions.
+\end{tip}
+
+\begin{exercise}{1}
+Complete the following reductions:
+
+\begin{enumerate}[(a)]
+    \item Given that $HALT$ is known to be undecidable, \textbf{prove} that $A_{TM}$ is undecidable by showing that $HALT \leq_T A_{TM}$.
+    \item Given that $A_{TM}$ is known to be undecidable, \textbf{prove} that $HALT$ is undecidable by showing that $A_{TM} \leq_T HALT$.
+    \item What do parts (a) and (b) tell you about the \textbf{relative difficulty} of $HALT$ and $A_{TM}$?
+
+\end{enumerate}
+
+\end{exercise}
+
+\newpage
+
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+In lecture, we proved that a language is Turing-recognizable \textbf{if and only if} it is enumerable. Given a recognizable language $L$ and its corresponding recognizer $R_L$, identify and fix the flaw in the following (faulty) definition of its enumerator.
+
+\noindent\makebox[\textwidth][c]{%
+    \begin{minipage}{.5\textwidth}
+        \texttt{For each word w in} $\Sigma^*$:\\
+\texttt{ \ \ 1. Run} $R_L$ \texttt{on w.}\\
+\texttt{ \ \ 2. If it accepts, output w.}
+    \end{minipage}}
+\end{exercise}
+
+
+\newpage
+
+
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+Consider the following language: \[MIRROR=\{\langle M\rangle \ | \ M \texttt{ is a TM that accepts } w^R \texttt{ whenever it accepts } w\}\] 
+Show that $MIRROR$ is undecidable using a reduction.
+\end{exercise}
+
+\newpage
+
+% --------------
+% Exercise 4
+% --------------
+\begin{exercise}{4}
+Prove that each of the following languages is undecidable:
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{10em}
+\item $INFINITE_{TM} = \{ \langle M \rangle \; \vert \; M \text{ is a TM and } L(M) \text{ is an infinite language} \} $.
+
+% -------------------------------------------
+%  Write your answer to Q3(a) below
+% -------------------------------------------
+
+\item $A_{1011} = \{ \langle M \rangle \; \vert \; M \text{ is a TM and } 1011 \in L(M)\} $.
+
+% -------------------------------------------
+%  Write your answer to Q3(b) below
+% -------------------------------------------
+
+\item $ALL_{TM} = \{ \langle M \rangle \; \vert \; M \text{ is a TM and } L(M) \text{ is }\Sigma^* \} $.
+
+% -------------------------------------------
+%  Write your answer to Q3(c) below
+% -------------------------------------------
+
+\end{enumerate}
+\end{exercise}
+
+
+% \vskip 2em 
+% \hrule
+% \vskip 2em 
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+ \bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.}
+Course Technology, 2005. ISBN: 9780534950972
+
+\bibitem{critchlow2011foundation}
+Critchlow, Carol and Eck, David
+\textit{Foundation of computation.},
+Critchlow Carol, 2011
+\end{thebibliography}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}

@@ -1,0 +1,250 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\definecolor{smithblue}{HTML}{002855}
+\definecolor{smithyellow}{HTML}{F2A900}
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{%
+backgroundcolor=gray!20,
+roundcorner=4pt}
+\newmdenv[frametitle={\textbf{\textit{Hint:}}}]{tip}
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Submitted by: \mainName\\
+\collaborators}
+\rhead{CSC250 Spring 2024 - Homework 02\\
+\today{}}
+\cfoot{p. \thepage \ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+ 
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+
+\newcommand{\studentName}{YOUR NAME HERE} %replace with your name
+
+\newcommand{\collaborators}{
+	% Comment out the line below if you worked alone
+	with \textit{COLLABORATORS' NAMES HERE}
+	% Uncomment the line below if you worked alone
+	% \textit{I did not collaborate with anyone on this assignment.}
+}
+
+
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+Draw FAs that recognize each of the following languages using the specified number of states.
+In all cases, the alphabet is $\Sigma = \{0, 1\}$.
+
+\begin{tip}
+    Try using NFAs!
+\end{tip}
+
+\begin{enumerate}[(a)]
+	\item $\{ w \in \Sigma^* \ | \ w \ ends \ with \ 11 \}$ using three states.
+	% -------------------------------------------
+	%  Write your answer to Q1a below
+	% -------------------------------------------
+	\begin{solution}\; \\
+	
+	\end{solution}
+	
+	\item $\{ w \in \Sigma^* \ | \ w \ contains \ the \ substring \ 1010  \}$ using five states.
+	% -------------------------------------------
+	%  Write your answer to Q1b below
+	% -------------------------------------------
+	\begin{solution}\; \\
+
+	\end{solution}
+	
+	\item$\{ w \in \Sigma^* \ | \ w \ contains \ exactly \ two \ 0s, \ or \ at \ least \ two \ 1s \}$ using six states.
+	% -------------------------------------------
+	%  Write your answer to Q1c below
+	% -------------------------------------------
+	\begin{solution}
+ 
+	\end{solution}
+	
+\end{enumerate} \; \\
+\end{exercise}
+
+\newpage
+
+% \vskip 2em 
+% \hrule
+% \vskip 2em 
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+Convert each of the FAs you built in Question 1 to regular expressions (just write the regular expressions, no need to show the conversion steps).
+\end{exercise}
+
+\begin{enumerate}[(a)]
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q2a below
+	% -------------------------------------------
+	\begin{solution} \;\\
+	
+	\end{solution}
+	
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q2b below
+	% -------------------------------------------
+	\begin{solution}  \;\\
+	
+	\end{solution}
+	
+	\item
+	% -------------------------------------------
+	%  Write your answer to Q2c below
+	% -------------------------------------------
+	\begin{solution}
+	
+	\end{solution}
+	
+\end{enumerate}
+
+\clearpage
+
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+
+Prove (or disprove), \textbf{using closure properties} of Regular Languages or Finite Automata, that the language $L_F$ (described below) is Regular.
+
+We will describe language $L_F$ the following way: 
+
+\begin{itemize}
+    \item start with the set of all the binary words that have any zeroes occur before any ones;
+    \item then remove the subset of words that have exactly two ones;
+    \item then remove the subset of words that have an even number of zeros and no ones;
+\end{itemize}
+
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q3 below
+% -------------------------------------------
+\begin{solution}
+
+\end{solution}
+
+\newpage
+
+% \vskip 2em 
+% \hrule
+% \vskip 2em 
+
+% --------------
+% Exercise 4
+% --------------
+\begin{exercise}{4}
+
+Show that the language $L_G$ (described below) is Regular by \textbf{1) constructing a Regular expression} and \textbf{ 2) one finite automaton}.
+
+
+We will describe language $L_G$ the following way: 
+
+\begin{itemize}
+    \item start with all the binary words that have all the zeroes before all the ones;
+    \item add all the words that have exactly two ones;
+    \item then add all the words that have an even number of zeros;
+\end{itemize}
+
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q4 below
+% -------------------------------------------
+\begin{solution} \quad
+
+\end{solution}
+
+\newpage
+
+
+% --------------
+% Exercise 5
+% --------------
+\begin{exercise}{5}
+
+\textbf{This Exercise is Optional!!}
+
+In lecture, we demonstrated a process for converting any NFA to a (purportedly equivalent) DFA. To complete the proof that these machines are equivalent (thereby proving that NFAs and DFAs are equally powerful), prove that the resulting DFA accepts exactly the same language as the original NFA.\\\\
+\begin{tip}
+Try induction on the length of the word!
+\end{tip}
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q5 below
+% -------------------------------------------
+
+
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+ \bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.}
+Course Technology, 2005. ISBN: 9780534950972
+
+\bibitem{critchlow2011foundation}
+Critchlow, Carol and Eck, David
+\textit{Foundation of computation.},
+Critchlow Carol, 2011
+\end{thebibliography}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
