@@ -26,8 +26,9 @@ A Slideshow:
 ---------------
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZV0N1p1fSZr0deQDeE1LgiTwPuBTVirCETOvtti0wYk2dGgmgL4C2XSRNpGj53PtGx0qokmRkAc5o/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZV0N1p1fSZr0deQDeE1LgiTwPuBTVirCETOvtti0wYk2dGgmgL4C2XSRNpGj53PtGx0qokmRkAc5o/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
+<iframe src="https://docs.google.com/presentation/d/15l5Qukk0On_BVTGPwyEUnnZCp6z_Bih2IRbYQ1a--Ks/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
