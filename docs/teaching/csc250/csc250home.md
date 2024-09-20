@@ -28,7 +28,7 @@ detailed), or can also email me (slowest).
 **Office Hours**: 
 
 
-![OH location](../../common-resources/Office-OHs.png){width=500px}
+![OH location](../../assets/images/Office-OHs.png){width=500px}
 
 **Office Hour Rules**:
 
