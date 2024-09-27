@@ -26,10 +26,12 @@ Attendance is mandatory and will be recorded using lists and quizzes.
 
 **Office Hours**: 
 
-  <!-- - Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA) -->
+  - Check Moodle
+  <!-- - Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA) 
   - Monday 4:00 PM to 5:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Friday 2:30 PM to 3:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
+  -->
 
 Location of OHs:
 
