@@ -27,6 +27,8 @@ detailed), or can also email me (slowest).
 
 **Office Hours**: 
 
+Check Moodle.
+<!--
 
 ![OH location](../../assets/images/Office-OHs.png){width=500px}
 
@@ -49,6 +51,7 @@ Note: if you have a non-conceptual question and you wanna ask/chat about it, you
 
 **In-Class TA**: TBD
 
+-->
 
 ## Objectives and Structure 
 
