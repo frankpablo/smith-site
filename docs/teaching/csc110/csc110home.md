@@ -18,7 +18,7 @@ permalink: /docs/teaching/csc110home/
 
 **Class Schedule**:
 
-- M/W/F (Sec 01) 10:50 AM -- 12:05 PM at Ford 342
+See Moodle.
 
 Attendance is mandatory and will be recorded using lists and quizzes.
 
@@ -47,7 +47,7 @@ Location of OHs:
   * Show up on time! and have your question/program ready, otherwise your time will not be enough.
   * You cant book an appointment fewer than 2 hours before the desired time.
 
-
+<!-- 
 **Class TA**:
 
 Dakota Mallen (in class Fridays) or the Spinelli Center Tutors (Schedule Below).
@@ -68,7 +68,7 @@ Room 241:
   - Sunday: 1-3pm (Julia/Skye); 7-8pm (Emma/Dakota/Jingwen); 8-9pm (Dakota/Jingwen)
 
 
-<!-- 
+
   * Section 01: M/W/F 8:00am: Thu Tran; tntran@smith.edu
   * Section 02: M/W/F 9:25am: Larissa Savitsky; lsavitsky@smith.edu
   * Slack (both sections): Thu Tran; tntran@smith.edu
