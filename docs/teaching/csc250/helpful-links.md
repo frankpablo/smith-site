@@ -38,3 +38,14 @@ Prove that $1+2+3 \dots + n = \frac{n(n+1)}{2}$
   
   
 Read the following [Guide to Induction](http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/handouts/240%20Guide%20to%20Induction.pdf) for a deeper dive into the steps.
+
+
+
+
+Universal Turing Machines and the Halting Problem
+---------------------
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYXztF55L4nMmcZk7tlXEyWcsO3I71P9mhJGT7eD1hFW_74hBVCr7AbOsPgyIsN5f-Da57KfJyrkpz/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
