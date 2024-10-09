@@ -33,9 +33,7 @@ Attendance is mandatory and will be recorded using lists and quizzes.
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
   -->
 
-Location of OHs:
 
-![OH location](../../../assets/images/Office-OHs.png){: width=60%}
 
 **Office Hour Rules**:
 
@@ -48,6 +46,11 @@ Location of OHs:
   * You cant book an appointment fewer than 2 hours before the desired time.
 
 <!-- 
+
+Location of OHs:
+
+![OH location](../../../assets/images/Office-OHs.png){: width=60%}
+
 **Class TA**:
 
 Dakota Mallen (in class Fridays) or the Spinelli Center Tutors (Schedule Below).
