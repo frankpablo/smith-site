@@ -62,7 +62,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/07      | L15: [Intro to Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15.html) | Ch 8-A   |     |     |
 | 10/09      | L16: [More basic Loops and Debugging](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-16.html)<br>**Review of Quiz-04**  |    |    |    |
-| 10/11      | L17: [PRACTICE with Loops ](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-17.html)<br>**TTT Model Project Step 5** |  **Due: Homework 04: Project Ideas**{: .label .label-purple} | **OUT: Homework 05: Loops**{: .label .label-grey}<br>Ch 8-B (8.10 to 8.14)  | Ch 8-B Due before L18<br>HW05 Due Midnight After L19 |
+| 10/11      | L17: [PRACTICE with Loops ](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-17.html)<br>**TTT Model Project Step 5** |  | **OUT: Homework 05: Loops**{: .label .label-grey}<br>Ch 8-B (8.10 to 8.14)  | Ch 8-B Due before L18<br>HW05 Due Midnight After L19 |
 
 
 # Week 07: Nested Loops
@@ -71,7 +71,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/14      | **NO CLASSES**|   |     |     |
 | 10/16      | L18: [Nested Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-18.html)  |  Ch 8-B   |     |      |
-| 10/18      | L19: [Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html) |  **DUE: Homework 05: : Loops**{: .label .label-purple}   |  **QUIZ-05: Loops**{: .label .label-yellow } <br>**OUT: Homework 06: Nested Loops**{: .label .label-grey}<br>Ch 9 (9.1 to 9.22) | Ch 9 Due before L20<br>HW06 Due Midnight After L25 |
+| 10/18      | L19: [Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html) |  **Due: Homework 04: Project Ideas**{: .label .label-purple}  <br> **DUE: Homework 05: : Loops**{: .label .label-purple}   |  **QUIZ-05: Loops**{: .label .label-yellow } <br>**OUT: Homework 06: Nested Loops**{: .label .label-grey}<br>Ch 9 (9.1 to 9.22) | Ch 9 Due before L20<br>HW06 Due Midnight After L25 |
 
 
 # Week 08: Fancy String Use

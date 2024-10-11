@@ -9,9 +9,8 @@ has_children: true
 
 # Current Courses
 
-  *   Spring, 2024: 
-  - [CSC 110 Introduction to Computer Science Through Programming]({% link docs/teaching/csc110/csc110home.md %})
-  - [CSC 250 Theory of Computation]({% link docs/teaching/csc250/csc250home.md %})
+  * [CSC 110 Introduction to Computer Science Through Programming]({% link docs/teaching/csc110/csc110home.md %})
+  * [CSC 250 Theory of Computation]({% link docs/teaching/csc250/csc250home.md %})
   
 <!-- 
 
