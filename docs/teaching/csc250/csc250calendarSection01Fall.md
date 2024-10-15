@@ -72,8 +72,9 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/14      | **NO CLASSES**  |   |            |           | 
 | 10/16      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
-| 10/18      | L18: [More on Reductions](lecture-18.html)| |  |  |
-| Over Weekend   | L19: **QUIZ-05-TMs**{: .label .label-yellow }<br>[Catch-up + HW05 Grading and Check](lecture-19.html) | **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  |
+| 10/18      | L18 + L19: [More on Reductions](lecture-18.html) <br>**QUIZ-05-TMs**{: .label .label-yellow }| **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  |
+
+<!-- | Over Weekend   | L19: **QUIZ-05-TMs**{: .label .label-yellow }<br>[Catch-up + HW05 Grading and Check](lecture-19.html) | **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  | -->
 
 <!-- 
 |-------------|-----------|---------|------------|-----------|
