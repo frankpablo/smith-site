@@ -1,0 +1,421 @@
+% -------------------------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Enter your name here"
+% -------------------------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage[names]{xcolor}
+\usepackage[multiple,hang,flushmargin]{footmisc}
+\usepackage{lastpage}
+\usepackage{tikz}
+
+
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+
+ 
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[1][Solution:]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]\color{blue}}{\end{trivlist}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{Due: \duedate}
+\lhead{CSC250 - Midterm}
+\cfoot{p. \thepage \ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+\newcommand{\duedate}{11:59PM EST Thursday October 24, 2024}
+ 
+
+% --------------------------------------------------------------------------------------------
+%  Great, now skip ahead to where you see *** START EXAM HERE ***
+% --------------------------------------------------------------------------------------------
+
+\topskip0pt
+\vspace*{\fill}
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\begin{center}
+\vspace{1em}
+This is the first of two examinations for\\ \textbf{CSC250: Theory of Computation}\\ as taught by Pablo Frank Bolton in Fall 2024.\\
+\vspace{1em}
+This exam is \textbf{open book and open note}.\\ The following materials are \textbf{permitted} while taking this examination:
+\vspace{1em}
+\begin{itemize}
+	\item your own notes
+	\item lecture slides / videos
+	\item scribe notes
+	\item homework solutions
+	\item any of the recommended textbooks
+\end{itemize}
+\vspace{1em}
+\textbf{Honor code: no other resources are permitted during this exam.}\\
+This includes (but is not limited to): online materials, tutors, teaching assistants, and other students.
+\end{center}
+\vspace{5em}
+ \ \ \ YOUR NAME: \underline{\hspace{10cm}}
+\vspace{3em}}}}
+\end{center}
+\vspace{3em}
+\vspace*{\fill}
+
+
+% ---------------------------------------
+%   *** START EXAM HERE ***
+% ---------------------------------------
+
+
+\clearpage
+
+
+% ---------------------------------------
+%   Question 1: Propositional Logic (4 pnts) (4/40)
+% ---------------------------------------
+\begin{question}{1}\textbf{Valid or Invalid Reasoning} (4 points)\\\\
+For each of the following English arguments, 
+\begin{itemize}
+    \item express the argument in terms of propositional logic, and
+    \item briefly justify whether the argument is valid or invalid.
+\end{itemize}
+  Be sure to clearly label your propositions.
+\begin{enumerate}[(a)]	
+
+    \item A golf club has the following rule: \textit{ If a club member is found cheating or being disruptive, they are suspended for a week}; My friend Barney, who never cheats, was suspended for a week;  \textbf{therefore, Barney must have been disruptive}
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+    \item \textit{Show, \textbf{using a table}, if the following statement is true or false: "If I have an apple, I smile; I am not smiling, \textbf{therefore I did not have an apple}"}
+    
+    \begin{solution}
+       Your solution here
+    \end{solution}
+    
+\end{enumerate}
+\end{question}
+
+
+
+% ---------------------------------------
+%   Question 2: Regular expressions (6 pnts) (10/40)
+% ---------------------------------------
+
+\clearpage
+
+% TODO Uncomment for template
+% \newpage
+
+\begin{question}{2}\textbf{Interpreting regular expressions} (6 points)\\
+\begin{enumerate}[(a)] 
+\item (3 points) Given the following regular expression, provide: 
+\begin{enumerate}[(i)] 
+\item an example of an accepted word and 
+\item an example of a rejected word, and 
+\item a SHORT description, in English, of the language that this expression generates
+\end{enumerate}
+$$(101)(00+11)^{*}(010)$$
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\item (3 points) Consider the following language on the alphabet $\Sigma = \{0,1\}$:
+\begin{align*}
+    L_2 = \{w \ | \ w &\texttt{ begins with any two symbols and }\\
+    &\texttt{ends with the opposing two symbols (to the starting two symbols)}\}
+\end{align*}
+% $$L_2 = \{w \ | \ w \texttt{ begins with any two symbols and ends with the opposing two symbols (to the starting two symbols)}\}$$
+(Note: the opposite of a 1 is a 0 and the opposite of a 0 is a 1; the opposite of 01 is 10)
+
+Write a regular expression for $L$
+
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+    
+\end{enumerate}
+\end{question}
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 3: Interpreting Finite Automata (6 pnts) (16/40)
+% ---------------------------------------
+
+\begin{question}{3}\textbf{Interpreting  Finite Automata} (6 points)\\\\
+Consider the following finite automaton (assume $\Sigma = \{0,1\}$):
+
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (35.1,-20.9) circle (3);
+\draw (35.1,-20.9) node {$B$};
+\draw [black] (24.2,-20.9) circle (3);
+\draw (24.2,-20.9) node {$A$};
+\draw [black] (24.2,-20.9) circle (2.4);
+\draw [black] (44.6,-20.9) circle (3);
+\draw (44.6,-20.9) node {$D$};
+\draw [black] (44.6,-20.9) circle (2.4);
+\draw [black] (56.1,-20.9) circle (3);
+\draw (56.1,-20.9) node {$E$};
+\draw [black] (39.7,-8) circle (3);
+\draw (39.7,-8) node {$C$};
+\draw [black] (26.165,-18.673) arc (124.58014:55.41986:6.14);
+\fill [black] (26.17,-18.67) -- (27.11,-18.63) -- (26.54,-17.81);
+\draw (29.65,-17.09) node [above] {$1$};
+\draw [black] (22.877,-18.22) arc (234:-54:2.25);
+\draw (24.2,-13.65) node [above] {$0$};
+\fill [black] (25.52,-18.22) -- (26.4,-17.87) -- (25.59,-17.28);
+\draw [black] (32.903,-22.906) arc (-60.57917:-119.42083:6.623);
+\fill [black] (32.9,-22.91) -- (31.96,-22.86) -- (32.45,-23.73);
+\draw (29.65,-24.26) node [below] {$1$};
+\draw [black] (47.038,-19.183) arc (114.42694:65.57306:8.008);
+\fill [black] (53.66,-19.18) -- (53.14,-18.4) -- (52.73,-19.31);
+\draw (50.35,-17.97) node [above] {$0$};
+\draw [black] (53.457,-22.293) arc (-71.14643:-108.85357:9.614);
+\fill [black] (47.24,-22.29) -- (47.84,-23.02) -- (48.16,-22.08);
+\draw (50.35,-23.31) node [below] {$0$};
+\draw [black] (33.6,-8) -- (36.7,-8);
+\draw (33.1,-8) node [left] {$S$};
+\fill [black] (36.7,-8) -- (35.9,-7.5) -- (35.9,-8.5);
+\draw [black] (38.69,-10.83) -- (36.11,-18.07);
+\fill [black] (36.11,-18.07) -- (36.85,-17.49) -- (35.91,-17.15);
+\draw (36.64,-13.68) node [left] {$\epsilon$};
+\draw [black] (40.77,-10.8) -- (43.53,-18.1);
+\fill [black] (43.53,-18.1) -- (43.72,-17.17) -- (42.78,-17.53);
+\draw (42.9,-13.62) node [right] {$\epsilon$};
+\draw [black] (54.777,-18.22) arc (234:-54:2.25);
+\draw (56.1,-13.65) node [above] {$1$};
+\fill [black] (57.42,-18.22) -- (58.3,-17.87) -- (57.49,-17.28);
+\draw [black] (36.423,-23.58) arc (54:-234:2.25);
+\draw (35.1,-28.15) node [below] {$0$};
+\fill [black] (33.78,-23.58) -- (32.9,-23.93) -- (33.71,-24.52);
+\draw [black] (45.923,-23.58) arc (54:-234:2.25);
+\draw (44.6,-28.15) node [below] {$1$};
+\fill [black] (43.28,-23.58) -- (42.4,-23.93) -- (43.21,-24.52);
+\end{tikzpicture}
+\end{center}
+
+
+\begin{enumerate}[(a)]
+	\item (1 point) What is the start state?
+\\  \;
+    \begin{solution}
+       Your solution here
+    \end{solution}
+	\item (1 point) What is the set of accepting states?
+\\  \;
+    \begin{solution}
+       Your solution here
+    \end{solution}
+	\item (1 point) Does this FA have Non-deterministic transitions? (If so, where?)
+\\  \;
+    \begin{solution}
+       Your solution here
+    \end{solution}
+	\item (3 points) What is the language accepted by this FA (you may give a regular expression)?
+\\  \;
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+\end{enumerate}
+\end{question}
+
+\clearpage
+
+% ---------------------------------------
+%   Question 4: Building Finite Automata (6 pnts) (22/40)
+% ---------------------------------------
+\begin{question}{4}\textbf{Building Finite Automata} (6 points)\\\\
+Draw the transition diagram for a finite automaton that recognizes each of the following languages. In all cases, the alphabet is $\Sigma = \{0,1\}$.
+
+Tip: if stuck, try to design a Regular Expression and then figure out how to draw the FA. \textbf{Note that you are allowed to use NFAs!}
+
+Note: in the following questions, the opposite of a 1 is a 0 and the opposite of a 0 is a 1.
+\begin{enumerate}[(a)]
+    \item (3 points)
+        \begin{align*}
+            L_4 = &\{ w \in \Sigma^* \ | \ w \texttt{ begins and ends with the opposite symbol, and} \\ 
+            &\texttt{ it contains the substring } 111 \}            
+        \end{align*}
+        
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+	
+	\item (3 points) 
+
+ \begin{align*}
+            \{ w \in \Sigma^* \ | \ w \texttt{  does not contain the substring } 010 \}
+        \end{align*}
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+\end{enumerate}
+\end{question}
+
+% TODO Uncomment for template
+% \newpage
+
+
+% ---------------------------------------
+%   Question 5: Short proofs (4 pnts) (26/40)
+% ---------------------------------------
+\clearpage
+
+\begin{question}{5}\textbf{Short proofs} (4 points)\\\\
+Determine whether each of the following statements is \texttt{true} or \texttt{false}.\\ If it is \texttt{true}, provide a short proof. If it is \texttt{false}, give a counterexample.
+\begin{enumerate}[(a)]
+
+ \item Any non-empty Non-Regular language $L_{A}$ has a subset language $L_{B}$ such that $L_{B}$ is a regular language. 
+
+     \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\item The Intersection of the complement of two regular languages is not regular.
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\item There exists a finite automaton that rejects the empty string.
+
+    \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\item There is no regular expression that can match the language:
+$$ L=\{ w | \texttt{ the size of w is a multiple of four } \}$$.
+ \\ \; 
+
+     \begin{solution}
+       Your solution here
+    \end{solution}
+    
+\end{enumerate}
+\end{question}
+
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 6: Non-Regular Languages (6 pnts) (32/40)
+% ---------------------------------------
+
+\begin{question}{6}\textbf{Non-Regular Languages} (6 points)\\\\
+Prove that the language $L_{1x2}$ is NOT a regular language:
+    \begin{align*}
+        &L_{1x2} = \\
+        &\{ w \in \Sigma^* \ \vert \;  \ w  \texttt{ has: } \\
+        &\texttt{ zero or more 1s, followed by twice as many zeros}
+        \}\\
+    \end{align*}
+
+Example accepted words: $\epsilon$, 100, 110000, 111000000, $\dots$ \\
+Example rejected words: 0, 1, 10, 110, 101000, $\dots$
+
+     \begin{solution}
+       Your solution here
+    \end{solution}
+
+\end{question}
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 7: Context-Free Languages (6 pnts) (38/40)
+% ---------------------------------------
+\clearpage
+
+\begin{question}{7}\textbf{Context-Free Languages} (6 points)\\\\
+%Prove that the language:
+%\[DOUBLEZERO= \{w \ | \ w \texttt{ contains twice as many } 0s \texttt{ as 1s}\}\] is context-free.
+Prove that the language $L_{1x2}$ is Context-Free by 
+
+\begin{enumerate}[i]
+    \item showing its Context-Free-Grammar AND
+    \item a Push-Down-Automaton $P$ such that: $L(P) = L_{1x2}$
+\end{enumerate}
+
+    \begin{align*}
+        &L_{1x2} = \\
+        &\{ w \in \Sigma^* \ \vert \;  \ w  \texttt{ has: } \\
+        &\texttt{ zero or more 1s, followed by twice as many zeros}
+        \}\\
+    \end{align*}
+
+Example accepted words: $\epsilon$, 100, 110000, 111000000, $\dots$ \\
+Example rejected words: 0, 1, 10, 110, 101000, $\dots$
+
+     \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\end{question}
+	
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 8: Turing Machines (2 pnts) (40/40)
+% ---------------------------------------
+\begin{question}{8}\textbf{Turing Machines} (2 points)\\\\
+Prove that the language $L_{1x2}$ is decidable by a Turing machine:
+
+
+    \begin{align*}
+        &L_{1x2} = \\
+        &\{ w \in \Sigma^* \ \vert \;  \ w  \texttt{ has: } \\
+        &\texttt{ zero or more 1s, followed by twice as many zeros}
+        \}\\
+    \end{align*}
+
+Example accepted words: $\epsilon$, 100, 110000, 111000000, $\dots$ \\
+Example rejected words: 0, 1, 10, 110, 101000, $\dots$
+
+     \begin{solution}
+       Your solution here
+    \end{solution}
+
+
+\end{question}
+
+\clearpage
+
+\begin{center}
+\vspace{-3em}
+\textit{This page intentionally left blank as scratch paper.}
+\end{center}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
