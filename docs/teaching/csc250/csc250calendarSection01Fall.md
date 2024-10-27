@@ -164,7 +164,7 @@ nav_order: 1
 
 <br>
 
-# Week 14: 
+# Week 14: Additional Presentations and Topics
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
@@ -174,7 +174,7 @@ nav_order: 1
 
 <br>
 
-# Week 15: Project Design
+# Week 15: Wrap-Up
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
