@@ -31,7 +31,7 @@
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Spring 2024 - Homework 07\\
+\rhead{CSC250 Fall 2024 - Homework 07\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -58,7 +58,7 @@
 % --------------
 \begin{exercise}{1}
 Consider the following language:
-\[COMPOSITE_n = \{n \ | \ n = ab \texttt{ for some integers } a,b\}\]
+\[COMPOSITE_n = \{n \ | \ n = ab \texttt{ for some integers } a,b \text{ such that } a, b \neq n \text{ and } a, b \neq 1  \}\]
 What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
 \end{exercise}
 
@@ -78,7 +78,8 @@ Your solution here
 Consider the following language:
 \begin{eqnarray*}
 COMPOSITE_{TM} & = & \{\langle M,w \rangle \ | \ M \texttt{ is a TM and } M \texttt{ halts on } w \texttt{ in }\\
-&& \ \ \ \ \ \ \ \ \ \ \ \ \ n = ab \texttt{ steps for some integers } a,b\}
+&& \ \ \ \ \ \ \ \ \ \ \ \ \ n = ab \texttt{ steps for some integers } a,b\\
+&& \ \ \ \ \ \ \ \ \ \ \ \ \ \text{ such that } a, b \neq n \text{ and } a, b \neq 1\}
 \end{eqnarray*}
 What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
 \end{exercise}
@@ -97,6 +98,9 @@ Your solution here
 \begin{exercise}{3}
 Consider the following language:
 \[COMPOSITE_{RE} = \{n \ | \ n = ab \texttt{ for some regular expressions } a,b\}\]
+
+Note: Yes, a and b are REs and n is ab. This means: ``How do we know if n is a regular expression (a)  followed by another one (b)?''
+
 What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
 \end{exercise}
 
