@@ -18,14 +18,14 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 09/04      | L0: [Class Intro](lecture-00.html)   |      |   |    |
-| 09/06      | L1: [Logic and proofs](lecture-01b.html)         |  |  HW01 Due Midnight of L7<br> Logic and Proofs | (on proofs) |
+| 09/06      | L1: [Logic and proofs](lecture-01fall.html)         |  |  HW01 Due Midnight of L7<br> Logic and Proofs | (on proofs) |
 
 
 # Week 02: Regular Expressions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/09      | L2: [Intro Regular Expressions](lecture-02b.html)   |  |  |  |
+| 09/09      | L2: [Intro Regular Expressions](lecture-02fall.html)   |  |  |  |
 | 09/11      | L3: [More Regular Expressions](lecture-03.html)   |  |  |  |
 | 09/13      | L4: **QUIZ-00**{: .label .label-yellow }<br>L4:[Catch-up](lecture-04.html) |  | HW02 Due 09/27<br> Regular Expressions | |
 
