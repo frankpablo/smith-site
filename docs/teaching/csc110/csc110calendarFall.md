@@ -125,7 +125,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/25      | L35: Work on Final Project       | *DUE: FP: Prototype I**{: .label .label-blue}     |  **OUT: FP: Prototype II**{: .label .label-grey}    |   FP: Prototype II Due Before L38     |
+| 11/25      | L35: Work on Final Project       | **DUE: FP: Prototype I**{: .label .label-blue}     |  **OUT: FP: Prototype II**{: .label .label-grey}    |   FP: Prototype II Due Before L38     |
 | 11/27      | **NO CLASSES: THANKSGIVING BREAK**       |     |     |     |
 | 11/29      | **NO CLASSES: THANKSGIVING BREAK**      |     |     |     |
 
