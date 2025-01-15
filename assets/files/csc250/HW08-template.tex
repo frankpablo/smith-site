@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % --------------------------------------------------------------
 % This is all preamble stuff that you don't have to worry about.
 % Head down to where it says "Start here"
@@ -40,7 +48,7 @@
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Spring 2024 - Homework 08\\
+\rhead{CSC250 Fall 2024 - Homework 08\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -86,7 +94,7 @@ Show that the following language is in $P$:
 
 
 \hrule
-\vskip 2em 
+\vskip 1em 
 
 % --------------
 % Exercise 2
@@ -96,15 +104,15 @@ A Caesar cipher is a simplified encryption protocol in which all letters are shi
 \includegraphics[width=\textwidth]{caesar.png}\\
 To use this encryption method, look up the substitution for each letter, like this:
 \begin{center}
-{\Huge SMITH COLLEGE$\rightarrow$ VPLWK FROOHJH}
+{\Large SMITH COLLEGE$\rightarrow$ VPLWK FROOHJH}
 \end{center}
 Show that this encryption scheme can be broken in $O(n)$ where $n$ is the length of the message.
 \end{exercise}
 
 %\clearpage
-\vskip 2em 
+\vskip 1em 
 \hrule
-\vskip 2em 
+\vskip 1em 
 
 % --------------
 % Exercise 3
@@ -122,9 +130,9 @@ where a \textbf{vertex cover} is a set of $k$ vertices such that every edge in t
 \end{enumerate}
 \end{exercise}
 
-\vskip 2em 
+\vskip 1em 
 \hrule
-\vskip 2em 
+\vskip 1em 
 
 % --------------
 % Exercise 4
@@ -136,7 +144,7 @@ SET-COVER &=& \{\langle U,S,k \rangle  \ | \ U \texttt{ is a set of elements } \
 && \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ S \texttt{ is a set of } m \texttt{ subsets where } \bigcup S = U, \\
 && \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \texttt{and } S \texttt{ contains a set cover of size } k\}
 \end{eqnarray*}
-where a \textbf{set cover} is a set of $k$ subsets $\in S$ such that every element in $U$ is contained in at least one of the selected subsets.\\\\
+where a \textbf{set cover} is a set of $k$ subsets $\in S$ such that every element in $U$ is contained in at least one of the selected subsets.\\
 
 \begin{enumerate}[label=(\alph*)]
 	\item Draw a diagram of a universe with 10 elements, partitioned into 5 subsets with a \textbf{set cover} of size 3.

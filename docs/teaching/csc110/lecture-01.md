@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lecture01
+# title: Lecture01
 parent: CSC110
 grand_parent: Teaching
 nav_order: 11
