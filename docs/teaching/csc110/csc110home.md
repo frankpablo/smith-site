@@ -7,7 +7,6 @@ has_children: true
 permalink: /docs/teaching/csc110home/
 ---
 
-
 # Class Information
 
 ## Class Schedule and Office Hours
@@ -18,60 +17,60 @@ permalink: /docs/teaching/csc110home/
 
 **Class Schedule**:
 
-See Moodle.
+- M/W/F (Sec 01) 09:25 AM -- 10:40 PM at Ford 342
+<!-- - M/W/F (Sec 02) 10:50 AM -- 12:05 PM at Ford 342 -->
 
 Attendance is mandatory and will be recorded using lists and quizzes.
 
 **Contact for Class stuff**: Use *Slack* (fastest), office hours (most detailed), or can also email me (slowest).
 
+
 **Office Hours**: 
 
-  - Check Moodle
-  <!-- - Fill this [5-minute intro poll ASAP:](https://forms.gle/2qk9CUwpLUHZyh2GA) 
+  - TBD : Fill out the **when2meet** poll that is under the **Office Hours** section in Moodle
+<!--
+Times:
   - Monday 4:00 PM to 5:00 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Friday 2:30 PM to 3:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+-->
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
-  -->
 
+Location of OHs:
 
+![OH location](../../common-resources/Office-OHs.png){width=500px}
 
 **Office Hour Rules**:
 
   * "open office hours" (TBD) are available to everyone, in groups or individually. 
-  * "appointment slots" (TBD) are by request (usually reserved for 1-on-1 and to deal with acute issues)
-  * If you need coding help, bring your question/bug prepared.
+  * "appointment slots" (TBD) are by request (usually reserved for 1-on-1)
+  * Remember: I can help you debug code on pythonanywhere remotely. Just mesage me over Slack.
+  * If you need in-person coding help, bring your question/bug prepared.
   * If you solve your issue before a scheduled appointment, cancel the appointment. No-Shows are bad!
-  * Check the class notes / Slack before to see if questions have been already answered
+  * Check the class notes / Slack before to check if questions have been answered already.
   * Show up on time! and have your question/program ready, otherwise your time will not be enough.
-  * You cant book an appointment fewer than 2 hours before the desired time.
+  * You can't book an appointment fewer than 2 hours before the desired time.
+
+
+**Class TA**: TBD
+
+**Tutoring**: TBD
+
+<!--
+See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#session) for details.
+-->
+
+<!-- __Summary__:
+
+Room 342:
+
+  - Monday: 7-9pm (Bobi/Dakota/Emma/Julie);
+  - Tuesday:  7-9pm (Bobi/Julia);
+  - Wednesday: 7-9pm (Bobi/Emma/Paola); 
+  - Thursday: 7-9pm (Bobi/Jessica);
+  - Sunday: 1-3pm (Asher/Dakota/Julia);
+ -->
 
 <!-- 
-
-Location of OHs:
-
-![OH location](../../../assets/images/Office-OHs.png){: width=60%}
-
-**Class TA**:
-
-Dakota Mallen (in class Fridays) or the Spinelli Center Tutors (Schedule Below).
-
-**TA Hours (Tutoring)**:
-
-See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#session) for details.
-
-Summary:
-
-
-Room 241:
-
-  - Monday: 7-8pm (Dakota/Thu); 8-9pm (Dakota/Sami/Thu)
-  - Tuesday: 7-8pm (Dakota/Julia); 8-9pm (Dakota/Emma/Julia)
-  - Wednesday: 7-8pm (Chris/Dakota/Sara); 8-9pm (Chris/Dakota/Sara)
-  - Thursday: 7-8pm (Emma/Sara/Sami/Skye); 8-9pm (Emma/Sara/Sami/Skye)
-  - Sunday: 1-3pm (Julia/Skye); 7-8pm (Emma/Dakota/Jingwen); 8-9pm (Dakota/Jingwen)
-
-
-
   * Section 01: M/W/F 8:00am: Thu Tran; tntran@smith.edu
   * Section 02: M/W/F 9:25am: Larissa Savitsky; lsavitsky@smith.edu
   * Slack (both sections): Thu Tran; tntran@smith.edu
@@ -100,6 +99,7 @@ no prior experience in computer science at the high school, AP, or college level
 
 **Objectives** - In completing this class, students will...
 
+-   Design a sequence of steps that can solve a problem. The steps will involve actions Python can do and the problems usually refer to those that refer to "symbol" manipulation (math, text processing, graphics, etc).  
 -   Create and document computer programs using correct Python syntax
     that can be readily understood and used by other programmers.
 -   Propose algorithms in order to analyze problems that use basic
@@ -112,7 +112,7 @@ no prior experience in computer science at the high school, AP, or college level
     including the central processing unit, simple memory management.
  -->
 
-**Setting Expectations**: This class is an introductory class. This means it is designed to start with little to no prior experience and cover the basics. This does not mean it is necessarily easy. The course is a 4-credit course, which means you should expect to work around **12 hours per week**. 
+**Effort Expectations**: This class is an introductory class. This means it is designed to start with little to no prior experience and cover the basics. This does not mean it is necessarily easy. The course is a 4-credit course, which means you should expect to work around **12 hours per week**. 
 
 The recommended distribution is: 
 
@@ -179,15 +179,15 @@ this course and work to help one another.
 
 ## Course Materials
 
--   **Moodle**: Course full name "CSC110-05: Introduction to Computer Science"
+-   **Moodle**: Course full name "CSC110-<section>: Introduction to Computer Science"
 -   **PythonAnywhere** (PA): PA is a cloud based platform that allows the creation,
     assigning, completion, testing, and grading (manually) of
     programming assignments. You need to register for it (you\'ll
     receive an invitation from the instructor) so you can complete
     readings, exercises, and assignments.
--   **Slack**: You\'ll receive an invitation to the workspace:
-    *CSC-110-01-202403*
--   **Online Book**: We'll use the book **How to Think Like a Computer Scientist: Interactive Edition** (**FREE**) for readings and exercises. The book is linked to a Runestone Academy "course" called **smithcollege_thinkcspy_s24**. The instructions for registering are found in Moodle.
+-   **Slack**: You\'ll receive an invitation to a workspace: *CSC-110-\<section and term\>*
+-   **Online Book**: We'll use the book **How to Think Like a Computer Scientist: Interactive Edition** (**FREE**) for readings and exercises. The book is linked to a Runestone Academy "course" called **smithcollege_thinkcspy_fall24**. The instructions for registering are found in Moodle.
+
 
 
 **Books:**
@@ -209,18 +209,16 @@ The Downey and Zelle books have been put on course reserve at the Library. If yo
 [socialnetwork.smith.edu/forms](http://socialnetwork.smith.edu/forms)
 (you must login before the forms will appear).
 
-
 ## Course Dynamics
 
 In this course, the best way to learn is by applying the concepts into exercises and projects. 
-We will therefore try to reduce the "lecture" time and increase the "practice" time in every class. To achieve this,  we will have students read before every class. Readings are compulsory and are necessary to be able to achieve the objectives in every class. The readings will have exercises which will form part of your grades. 
+We will therefore try to reduce the "lecture" time and increase the "practice" time in every class. To achieve this, we will have students read before every class. Readings are compulsory and are necessary to be able to achieve the objectives in every class. **The readings will have exercises which will form part of your grades**. 
 
-The first class of every week will start with a concept quiz (~10 minutes) where we will ask about concepts from the previous week's readings and activities. Monday and Wednesday classes will include concept recaps, Q&A, and some exercises to nail down the concepts, whicle Friday classes will mostly focus on in-class labs (longer exercises).
+We will also have off-line concept quizes (~15 minutes) where we will ask about concepts discussed during the week. Monday and Wednesday classes will include concept recaps, Q&A, and some exercises to nail down the concepts, whicle Friday classes will mostly focus on in-class labs (longer exercises).
 
 Attendance is extremely important. You should always inform the teacher before missing a class (through direct Slack message) and schedule an OHs meeting before returning to the next class.
 
 Individual work will comprise most of the assignments but you will have at least two group projects, including the final project.
-
 
 ## Grading
 
@@ -236,23 +234,23 @@ grading scheme and converting grades the following way:
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Assignments: **25%**
-  - Weekly Quiz Grades: **20%**
-  - Weekly Book Exercises: **10%** 
-  - Attendance **10%**
-  - Quiz/Book-Exercise completion **5%**
-  - Participation **10%**
-         - in-class Q/A (just ask questions!!)
-         - OHs/Slack Q/A
-         - attend talks/events
-         - answer polls/surveys
-  - Final Project:  **20%**
+  - Homework Assignments (6-8 graded assignments):      **30%**
+  - Weekly Quiz Grades (6-8 graded quizzes):            **20%**
+      - with point recovery opportunities
+  - Participation (many ways to do it):               **20%**
+      - class Attendance
+      - in-class participation
+      - Weekly Book Exercises (and readings)
+      - Attendance to office hours
+      - Polls and surveys
+  - Final Project (3-week final project):             **30%**
 
 
 **Late Submissions**:
 
 We will accept no late submissions without a valid excuse. 
-The homework and projects are designed to have "checkpoints" so that you MUST show your progress at every point. Most homework assignments have "tests" that let you see exactly what is missing. If you have a valid excuse, then you will be granted small extensions.
+The homework and projects are designed to have "checkpoints"
+so that you MUST show your progress at every point. Most homework assignments have "tests" that let you see exactly what is missing. If you have a valid excuse, then you will be granted small extensions.
 
 Also, for Office Hours, you must show progress up to the point where you got stuck. 
 
@@ -280,6 +278,10 @@ Handbook](https://www.smith.edu/about-smith/offices/student-affairs/student-hand
 Just as you can do a google search for code online, it is trivial for us
 to do the same. If you feel pressured about an assignment, please come
 see me instead of cheating.
+
+### Use of generative artificial intelligent (AI) and AI assistants in this class:
+
+It is likely true that every problem and question in this course is solvable via ChatGPT or GitHub Copilot. This was true before these AI assistants came on the scene. Possible solutions to most problems in this type of course were used to train Copilot and were already available on the internet to those who know how to use a search engine. I could make a moral or ethical argument to you about how it is dishonest to use these tools in this class. Instead, I argue that the purpose of me teaching this class is to train you to think through programming problems. This skill will prove valuable in future CS courses and for your future no matter your career aspirations. Students who go on to further CS education without internalizing basic programming constructs and foundational CS principle significantly struggle with intermediate CS concepts. Therefore, **you are explicitly forbidden from using generative AI in this course**. Use of generative AI in this course constitutes a violation of Smith's Honor Code.
 
 ## Academic and Mental Health Resources 
 
@@ -318,27 +320,49 @@ can let us know if there is anything getting in the way of your
 learning.
 
 
+
 ## Comments from previous semesters
 
-  * I would say to a student who is considering taking it in the future to definitely take this class \[...\]. Walking into CSC110, I was worried that I wouldn't be able to grasp computer science concepts, and was worried that it'd be very difficult, but the class is extremely fun. Moreover, the professor is happy to be there, which boosts the environment of the class, and it also creates a class where students are excited to show up to class. The workload isn't too harsh, but I think the readings definitely help the course, as I write down the definition of terms when doing the readings, which greatly aided my memorization of concepts. The concepts are implemented well within the classes, so the coding doesn't feel too difficult or like a reach, but also tests the students' knowledge on each section. I would recommend doing the homework as soon as it's published, as it's nice to not be rushed and go to office hours to understand the concepts peacefully. Furthermore, \[the instructor\] emphasizes planning out your code before you start typing, which has been a great help, and provides a strong foundation for those who aim to continue in computer science.
-  * When \[the instructor\] says plan before coding – do it
-  * Do your reading, it is necessary for understanding what is being taught in class. Going to office hours is really helpful and I recommend just getting your homework/projects done there so you can ask questions as they come up. Following up on class activities in office hours is also helpful to furthering your understanding of the topics gone over in class.
-make sure to start your work ahead of time and don't be afraid to go to office hours/TA hours!
-  * I would advise a future student to take advantage of office hours! It is very useful to receive feedback from your professor and, especially with computer science, to get help with debugging.
-  * Challenge yourself the way you used to "think" and try position yourself in our friend–computer's shoes.
-  * I would recommend future students to really pay attention and do the in class activities since I feel like they really helped with the final project.
-  * Please attend classes and office hours
-  * Don't procrastinate on the homeworks. Start them early so you can go to TA hours. Pick something that you really like, so you're not hating yourself by the end of the course.
-  * If you need clarification on materials taught in class, do the reading. it will help you to learn it fully. even though the materail is repeated in class it is always good to relearn and refresh
-  * This is a fun and rewarding course. To get the most out of this class, make sure to participate and ask questions. Help is always available if you need it and ask for it.
-  * Ask questions,! The earlier, the better
-  * I would recommend to get ahead of work early rather than wait till the last second and to not be afraid to ask as many questions as needed.
-  * Take it. It is worth it! it might be challenging at the beginning to figure out what is going on but make sure to ask for help!!!
-  * PLAN! Always plan ahead on paper, never just start coding, unless you want to fall into the pit of doom. And go to office hours, they are very helpful!!
-  * Don't get discouraged immediately. Things blow up with python, but see it as a good thing: you are getting feedback and using logic you can debug. I never thought I would be a coder, and even now I'm not fluent in python, but it's much more important to go in with the mindset that you will take away other things from this course. Such as how to reason and think logically/mathematically, how to plan, teamwork, etc. a lot of transferable skils.
-  * do the reading, listen to the examples in class. if you feel like you are behind schedules, ask your partner or peers, go to \[the instructor\]'s office hour
-  * start everything early and pay attention in class even if something doesn't seem super important. it will be important later
+I usually add a section with the exact copies of recomendations from students in previous semesters. Since ALL of them are exactly of the same vein, I smiply summarize them here:
 
+  * **Ask for Help**: If you already know everything, you should be in the next class. Otherwise, you are exactly in the right class and the way to learn is to ask. Go to Office Hours often, even if you only need a safe space to work in. Go to TA-hours, they are great and know all the tricks. Ask your classmates! (just don;t share code).
+  * **Plan Before Coding**: You are going to want to start using your keyboard before thinking about the problem... THAT IS THE ENEMY. Stop yourself and plan ahead. Write your idea in english or in bullet points, or even draw a diagram of the steps that will be needed. It might take 5 minutes before you ca start, but it will save you HOURS of debugging.
+  * **Start Early**: Coding is not like writing an essay. You can't just put in 2 hours of work and say "wherever it is by the time I'm done, that's what I'm turning in". No. This either works or not, and it might take 1 hour or 7 (depending if you asked for help and/or planned before coding). The best way to deal with this is to start the day the assignment is issued and then come back to it early and often until it is out of the way.
+  * **Don't be affraid to make mistakes**: Getting errors and warnings is not something to avoid. THAT IS THE WHOLE CLASS: how to plan around them before they hapen AND solve them WHEN they do. The in class exercises and office hours are for getting things wrong and learning from them. Even the homework and quizzes are designed such that you can learn fromm your mistakes and not be too scared about losing points. Try things out and deal with any errors calmly.
+  * Students tend to say they learned a lot (despite the amount of work), that they liked the class, and to go see me and ask questions because I am not scary... but I'll leave that to your own judgement.
+
+
+# Q & A
+
+  * Q: **When are the instructor's office hours?**
+      * A: TBD (we'll define them using a poll and set 2 x 1-hour sessions; in addition, we can always meet over zoom with prior arangement or discuss over Slack).
+  * Q: **Where are office hours?**
+      * A: Ford Hall, Third Floor, Chemistry side, to the end: Office #316. Also, we might book the classroom.
+  * Q: **What can I do if I am not free during office hours?**
+      * A: we can set up an appointment to meet over zoom (usually 10 min). Also, there will be TA help available (TBD).
+  * Q: **When are the TA's office hours?**
+      * A: TBD.
+  * Q: **Can I submit Homework Assignments late?**
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); HWs build on each other so the maximum extension is 4 days.
+  * Q: **Can I complete a quiz late?**
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); Quizzes are used for attendance AND formative assessments so you only get 1 free late attempt.      
+  * Q: **Can I do the reading exercises late?**
+      * A: No (because they are needed before the lecture). Remember, they are optional.
+  * Q: **Will you record classes?**
+      * A: No. 
+  * Q: **Can I "attend" classes over Zoom?**
+      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instroctor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.
+  * Q: **How is this class graded?**
+      * A: The format is S/U (Satisfactory/unsatisfactory) but run as a traditionally graded course so that you get an S (Satisfactory) if you get a 70% or higher during the course and U (Unsatisfactory) otherwise. See details in the Syllabus.
+  * Q: **Do I need a laptop?**
+      * A: Yes; Mac or PC is ok (tablets like ipads and Chromebooks are too weak).
+  * Q: **Do I need a to know some coding beforehand?**
+      * A: No.      
+  * Q: **What do I need to get started?**
+      * A: Access to the [website](https://frankpablo.github.io/smith-site/docs/teaching/csc110home/), access to moodle for the course, access to the Slack workspace for the course.
+  * Q: **What do I do if I am not officially registered (I don't have Moodle)?**
+      * A: The course has a cap, and only if students leave will I let other students in. I will pick students based on the waitlist with no preference given to anyone.
+      
 
 #### Acknowledgement
 
@@ -346,26 +370,3 @@ Some of the materials used in this course and this syllabus are derived
 from previous offerings of this and other courses at Smith College, as
 well as similar courses taught at other institutions. Appropriate
 references will be included on all such material.
-
-<!-- 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
-
- -->
-
-[Attendance Poll For Lecture 1](https://forms.gle/hsFZ26BFYgMViduj7)
-
-[When2Meet OH times](https://www.when2meet.com/?23287999-uAYfk)
-
-

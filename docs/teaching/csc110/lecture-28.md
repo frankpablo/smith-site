@@ -11,7 +11,9 @@ nav_order: 38
 Lecture Notes 28: Intro to Graphics
 ===========================================
 
+# NOTE on installing TK (TKinter)
 
+Watchi this nice install [tutorial](https://www.youtube.com/watch?v=o_g9NJ9YOwM)
 
 A Slideshow:
 ---------------

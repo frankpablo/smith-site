@@ -3,7 +3,7 @@ layout: default
 title: Anaconda-and-Spyder
 parent: CSC110
 grand_parent: Teaching
-nav_order: 7
+#nav_order: 7
 #permalink: /docs/teaching/csc110/
 ---  
 
