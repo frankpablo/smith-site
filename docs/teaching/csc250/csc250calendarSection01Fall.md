@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSC250calendar-Fall
+#title: CSC250calendar-Fall
 parent: CSC250
 grand_parent: Teaching
 nav_order: 1
