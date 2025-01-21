@@ -16,9 +16,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 01/27      | L0A: [Class Intro](lecture-00.html)   |      |   |    |
+| 01/27      | L0A: [Class Intro](lecture-00fall.html)   |      |   |    |
 | 01/29      | L1A: [Logic and proofs](lecture-01fall.html)  |  |  **HW01 Due Midnight of L4** (Logic and Proofs) |  |
-| 01/31      | L1B: [Practice Logic and Proofs](lecture-02fall.html)   |  |  **QUIZ-00**{: .label .label-yellow }|  |
+| 01/31      | L1B: [Practice Logic and Proofs](lecture-01b.html)   |  |  **QUIZ-00**{: .label .label-yellow }|  |
 
 
 # Week 02: Regular Expressions

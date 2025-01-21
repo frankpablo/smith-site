@@ -8,6 +8,7 @@ has_children: true
 ---
 
 
+
 # Class Information
 
 These sections contain information about how the class is run
@@ -18,7 +19,7 @@ These sections contain information about how the class is run
 
 **Research interests**: *Human-Robot Interaction, Robotic Perception, STEM education*
 
-**Class Schedule**: Monday, 3:05 PM - 4:20 PM; Wednesday/Friday, 2:45 PM - 4:00 PM; / Ford 241
+**Class Schedule**: Monday/Wednesday/Friday, 10:50 AM - 12:05 PM / Ford 342
 
 Attendance is mandatory.
 
@@ -27,10 +28,19 @@ detailed), or can also email me (slowest).
 
 **Office Hours**: 
 
-Check Moodle.
-<!--
+  <!-- - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca) 
 
-![OH location](../../assets/images/Office-OHs.png){width=500px}
+  - Wednesday 3:15 PM to 4:15 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+  - Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
+  - Zoom discussion (Priority questions to students that can't attend OHs in person): Thursday 3:30 PM to 4:40 PM.
+  - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
+
+Location of OHs (Ford Hall, Third Floor):
+-->
+
+![OH location](../../../assets/images/Office-OHs.png){width=500px}
+
+We might also reserve the classroom for OHs.
 
 **Office Hour Rules**:
 
@@ -48,10 +58,11 @@ Check Moodle.
 
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
 
+<!-- 
+**In-Class TA**: Skye Worster
 
-**In-Class TA**: TBD
-
--->
+See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#disciplines) for details. There basics are: Sunday (1-3pm) and M/T/W/Th/F (7-9pm)
+ -->
 
 ## Objectives and Structure 
 
@@ -71,7 +82,7 @@ The recommended distribution is:
 
   * approximately 4 hours of class time
   * approximately 5 hours every week on homework assignments
-  * approximately 3 hours every week reading or studying (before and after class).
+  * approximately **3 hours every week reading or studying** (before and after class).
 
 If you follow this general routine, the class should not be too challenging. If you do not follow this time investment, you will feel accumulating pressure. 
 
@@ -111,7 +122,7 @@ All assignment submissions must be in PDF format, and must be organized and legi
 
 **Prerequisites**:
 
-  * CSC110 (or CSC111) and MTH153. The latter may be taken concurrently with permission of the instructor. Most importantly, I will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
+  * CSC110 (or CSC111) and MTH153 (or proof of mathematical maturity). The latter may be taken concurrently with permission of the instructor. Most importantly, I will assume you have basic "mathematical maturity": i.e., that you are comfortable both reading and writing mathematical proofs.
 
 **Responsibilities**:
 
@@ -138,7 +149,7 @@ Throughout the class, students should focus on adhering to the following general
 
 -   **Moodle**: Course full name "CSC250-01: Theory of Computation"
 -   **Slack**: You\'ll receive an invitation to the workspace:
-    *CSC-250-01-202501* 
+    *csc250-01-s25* 
 
 
 **Books:**
@@ -162,8 +173,8 @@ There is no required textbook for the course. However, there are several recomme
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Grades **50%**:
-      - Weighterd average (TBD) of HW Self Grade and the Weekly Understanding Check Grade
+  - Homework Grades **40%**:
+  - Quiz Grades **20**
   - Quiz completion (regardless of grade) **5%**
   - Attendance and Participation **5%**
          - in-class Q/A (just ask questions!!)
@@ -172,9 +183,8 @@ There is no required textbook for the course. However, there are several recomme
          - answer polls/surveys
   - Midterm Exam:     **15%**
   - Final Exam:     **15%**
-  - Presentations:  **10%**
 
-**Note**: Any changes in grading will be explained in class and will only be made to benefit the students and fit any refinements done during the semester.
+**Note**: Any changes in grading will be explained in class and will only be made to benefit the students and fit any refinements done during the semester. Example: If a student exempts the final exam, the exam's 15% will be placed on the HW grade category (which will become 55%) and the result may no go below the grade used to decide the final exam exemption (80% or above). 
 
 ### Note on Letter grading:
 
@@ -193,6 +203,12 @@ The grade split in this class is as follows:
   * D- = \[60%, 63%),
   * E  = \[0%, 60%)
 
+
+### A note on expectations
+
+  * In this class, a B- is a good grade. The average in the last 3 semesters has been a B+. The median in the last 3 semesters has been an A-. 
+  * A grade of 89.999999 is a B- so don't discard the value of participation.
+  * I do not curve. You get what you get. If the whole class gets all A's, you all get A's. I am also not shy about giving you what you got, so make sure you talk to me often about your grades so I can set your expectations, clarify any doubts, and explain your options.
 
 **Quizzes**:
 
@@ -219,6 +235,11 @@ We will have a few ways of alleviating grade pressure:
 
   * Discarding the worst quiz: the worst in the first few quizzes (all but the last 2) will be discarded.
 
+  * HW Points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
+
+  * Quiz points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
+
+  * A student that obtains a running average equivalent to a B- (80% or above), may chose to exempt the final exam. Note: If you chose to take the final, whatever you obtain will be included in your final grade.
 
 
 **Collaborations**:
@@ -293,37 +314,15 @@ learning.
 
 
 
-## Comments from the previous semesters
+## Comments from previous semesters
 
-Note: I promise these are actual comments from previous students... and that I didn;t pay them to say this :) 
+I usually add a section with the exact copies of recomendations from students in previous semesters. Since ALL of them are exactly of the same vein, I smiply summarize them here:
 
-  * I know that everyone says this for everything, but seriously **GO. TO. OFFICE. HOURS**. (Pablo isn't scary I promise.) He is incredibly helpful at explaining concepts as well as helping you get started on problems. I implore you to office hours, they genuinely are a life–saver for this course. My other piece of advice is to not be afraid to **ask questions and ask questions early**. There are some concepts that definitely just take time to understand, but there are others where if you are confused early, it's just going to get worse. So make sure to ask questions when you have them! This is another time when office hours are great if you don't even know what to ask, but definitely are confused.
-  * **Make time for the office hours**, they help you understand the assignments and just the class in general so much better. Also for TA hours, **the TA was also very helpful** when the deadlines were looming close or for topics that I just couldn't understand in–class or in office hours.
-  * **go to OH, class, do the homework**
-  * **Go to office hours**.
-  * More than anything else, I would recommend all students of this class to **go to office hours regularly**, as often as they can, and even if they think they understand the material. The concepts in this class are inherently challenging and difficult to wrap your head around, and the best way to work through the weirdness of processing these concepts is to **ask questions and hear them explained in several ways until they truly click**. **Discussing with peers and explaining to others is also helpful**, as are TA hours. Like any class, it is important to **be organized** in order to succeed in this class, and as much as possible you should **start the homework as early** as it is made available. The sooner you look at it, the more time you leave to let yourself be confused and work through it. Also, I think that **attending the lectures and paying attention is the best way to learn** the material, as looking at the notes after and doing the readings will only be helpful if you've had it explained aloud first, at least in my experience. Most of all, **students of this class must be okay with being confused at times and confident at your ability to get through it** instead of feeling hopeless, and looking for a way to view a problem that makes sense for them personally.
-
-## Comments from the older semesters
-
-  
-  * I would absolutely encourage a student to take this course. I learned so much and I found the material so interesting. I think that the technical aspects of the class can be challenging so I would encourage the student to stay on top of that part and to use your conceptual understanding and intuition to help. Overall, I’m really glad I had the opportunity to take this class.
-  * Go. To. Office. Hours.
-  * Show up to class, allow yourself to be confused, and then go to office hours with a million questions.
-  * This class is hard! It's very mathy and proof heavy, there is NO CODING in this class. Definitely work with your peers on the homeworks and use Office Hours and TA hours! If you reread the slides and pay attention in class you'll be good –– PAY ATTENTION IN CLASS!
-  * The topics in this course can be tricky to understand, but go to office hours. *Go to office hours!* And ask a lot of questions. \[The instructor\] will help you, and in time, things will (most likely) click. You got this!
-  * Please TAKE IT!!!!
-  * ASK questions!!! \[The instructor\] loves asnwering questions. If you don't understand ASK. Otherwise you will be stuck.
-  * Go to office hours, do homework carefully, and take notes in class.
-  * Work in groups on the hw assignments and start them early so you have time to get stuck
-  * Watch Youtube videos before coming to class, they are a life saver. Specifically shorter Youtube videos. Some good channels are Easy Theory and lydia and UC Computer Science Education. https://www.youtube.com/watch?v=GfCvyRyiR34
-  * It's definitely a lot of work, so be prepared for that. \[The instructor\] is a great professor and really wants you to succeed. He's willing to work with you to make sure you're learning and doing well. Definitely make sure you understand the topics really well because the quizzes and exams can be tricky.
-  * Remain consistent with the effort you put in this class, it will pay off.
-  * I would highly recommend office hours and reading the material before class.
-  * Make sure you ask questions and engage during class. I know that a lot of people don't do the readings and I understand that, but I think that just skimming them is enough to be helpful. \[The instructor\] is very helpful during office hours and very responsive to questions, so take advantage of that.
-  * – Go to office hours!
-  * This course is conceptually challenging, especially during the second half, but I learned a lot. I would definitely suggest that students work in pairs on their homework. This was very helpful for me. Take your time on the homework because this is where a lot of my learning took place. The homework assignments helped the concepts click for me. Also engaging in class discussion was helpful to my learning.
-  * Making the most of your resources and not being afraid to ask questions.
-  * Never hesitate to ask questions when you get stuck.
+  * **Ask for Help**: This is a confusing and challenging class. If you feel a little lost, then you are exactly in the right class and the way to learn is to ask. Go to Office Hours often, even if you only need a safe space to work in. Go to TA-hours, they are great and know all the tricks. Ask your classmates! (just don't share actual answers).
+  * **Understand the question**: Before getting bogged down by details, think about the big picture. What are you beain asked? What does it mean? Work down from the big picture to the detailed instance so you always know what it is you are doing.
+  * **Start Early**: Constructing proofs is not like writing an essay. You can't just put in 2 hours of work and say "wherever it is by the time I'm done, that's what I'm turning in". No. The argument either works or ir does not, and it might take 1 hour or 7 (depending on several factors: did you asked for help?). The best way to deal with this is to start the day the assignment is issued and then come back to it early and often until it is out of the way.
+  * **Don't be affraid to make mistakes**: Getting errors is not something to avoid. THAT IS THE WHOLE CLASS: how to understand something and explain it in an unambiguous way. You are bound to slip once in a while. The in class exercises and office hours are for getting things wrong and learning from them. Even the homework and quizzes are designed such that you can learn fromm your mistakes and not be too scared about losing points. Try things out and deal with any errors calmly. READ THE FEEDBACK, later on, it will pay off.
+  * Students tend to say they learned a lot (despite the amount of work), that they liked the class, and to go see me and ask questions because I am not scary... but I'll leave that to your own judgement.
 
 
 # Q & A
@@ -331,21 +330,21 @@ Note: I promise these are actual comments from previous students... and that I d
   * Q: **When are the instructor's office hours?**
       * A: TBD (we'll define them using a poll and set 2 x 1-hour sessions; in addition, we can always meet over zoom with prior arangement or discuss over Slack).
   * Q: **Where are office hours?**
-      * A: Ford Hall, Third Floor, Chemistry side, to the end: Office #316
+      * A: Ford Hall, Third Floor, Chemistry side, to the end: Office #316; We might also save the classroom for OHs.
   * Q: **What can I do if I am not free during office hours?**
       * A: we can set up an appointment to meet over zoom (usually 10 min). Also, there will be TA help available (TBD).
   * Q: **When are the TA's office hours?**
       * A: TBD.
   * Q: **Can I submit Homework Assignments late?**
-      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); HWs build on each other so the maximum extension is 4 days.
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); HWs build on each other so the maximum extension is 4 days (given sparingly).
   * Q: **Can I complete a quiz late?**
       * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); Quizzes are used for attendance AND formative assessments so you only get 1 free late attempt.      
   * Q: **Will you record classes?**
-      * A: Only the first two weeks. 
+      * A: No. 
   * Q: **Can I "attend" classes over Zoom?**
-      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instroctor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.  
+      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instructor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.  
   * Q: **What do I need to get started?**
-      * A: Access to the [website](https://frankpablo.github.io/smith-site/docs/teaching/csc250home/), access to moodle for the course, access to the Slack workspace for the course.
+      * A: Access to the [website](https://frankpablo.github.io/smith-site/docs/teaching/csc250home/), access to Moodle for the course, access to the Slack workspace for the course.
   * Q: **What do I do if I am not officially registered (I don't have Moodle)?**
       * A: The course has a cap, and only if students leave will I let other students in. I will pick students based on the waitlist with no preference given to anyone.
       
