@@ -110,7 +110,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 04/07      | L26: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html)<br>**Review of Quiz-06**  |  | |    |
 | 04/09      | L27: [Practice Graphics and Project Plan](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html) |  |     |     |
-| 04/11      | L28: [Final Project Design](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)   |     |  **QUIZ-07: Strings**{: .label .label-yellow }   Ch 11 (11.1 to 11.10) Due Before L29 |     |
+| 04/11      | L28: [Final Project Design](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)   |   **DUE: Homework 07: Strings, Loops, and Lists**{: .label .label-purple}  |  **QUIZ-07: Strings**{: .label .label-yellow }   **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L31  <br> Ch 11 (11.1 to 11.10) Due Before L29 |     |
 
 
 <!-- # Week 11: Dictionaries, FileIO, and Graphics
@@ -128,7 +128,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 04/14     | L29: [File I/O](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-29.html)<br>**Review of Quiz-07** |  Ch 11    |     |     |
 | 04/16      | L30: [Math-Time-and-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-30.html)|   |     |     |     |
-| 04/18   | L31: Work on Final Project | **DUE: Homework 07: Strings, Loops, and Lists**{: .label .label-purple} | **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L34  | 
+| 04/18   | L31: Work on Final Project | **DUE: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey}<br> FP: Prototype II Due Before L36 |  | 
 
 
 
@@ -138,7 +138,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 04/21      | L32: Work on Final Project       |     |     |     |
 | 04/23      | L33: Work on Final Project       |     |     |     |
-| 04/25      | L34: Work on Final Project       | **DUE: FP: Prototype I**{: .label .label-blue}     |  **OUT: FP: Prototype II**{: .label .label-grey}    |   FP: Prototype II Due Before L37     |
+| 04/25      | L34: Work on Final Project       |     |     |     |
 
 
 
@@ -148,8 +148,9 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 04/28      | L35: Work on Final Project       |     |     |     |
-| 04/30      | L36: Work on Final Project       |     |     |     |
-| 05/02      | L37: Work on Final Project       |   **DUE: FP: Prototype II**{: .label .label-blue}   |  **OUT: FP: Demo Prototype**{: .label .label-grey}   |  FP: Demo Prototype will be shown in-class during L39<br>Due Before Demo Day<br>    |
+| 04/30      | L36: Work on Final Project       |  **DUE: FP: Prototype II**{: .label .label-blue} |  **OUT: FP: Demo Prototype**{: .label .label-grey} Due TOMORROW |  |
+| 05/01      | **Demo Day**{: .fs-7 .label .label-green}<br>DEMO DAY during LUNCH       |     |     |     |
+| 05/02      | L37: WRAP-UP and Final grades      |     |  **Complete Final Project**{: .label .label-blue} Due the final day of final exams   |      |
 
 
 
