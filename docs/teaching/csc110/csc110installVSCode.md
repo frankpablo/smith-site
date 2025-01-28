@@ -7,6 +7,11 @@ nav_order: 7
 #permalink: /docs/teaching/csc110/
 ---  
 
+<!-- 
+Setting up Pytest in VSCode
+https://code.visualstudio.com/docs/python/testing
+ -->
+
 # Installing a Development Environment
 
 In order to write Python programs and execute (or run) them, you need to have a editor (to write) and an interpreter (to run) the program. Depending on your individual setup, you will take a different approach.
@@ -54,6 +59,16 @@ F-CSC:CSC110-S24 amgrubb$
 8. Proceed to [lab0 on Moodle](https://moodle.smith.edu/mod/assign/view.php?id=1146269).
 
 _If you have trouble with any of these steps, see Backup for Option A (below)._
+
+### 4. Remove automatic suggestions (they are annoying)
+
+1. Open the settings by pressing the following combination: On Mac: press the command button and then the comma (CMD + ",")  or (⌘,). On Windows: press Control and comma (Ctrl + ",")
+2. On the search bar, write: *Editor:Suggest*
+3. On the resulting list of matches, one has the name *Editor: Quick Suggestions*. Under it, there is a link to *Editor: Suggest On Trigger Characters*. Select that link.
+4. On the resulting page, you will see a series of selected options that start with *Editor:Suggest:*. There are many of them... please unselect them all. 
+
+
+
 
 <br>
 

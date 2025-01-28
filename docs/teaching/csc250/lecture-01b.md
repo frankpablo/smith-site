@@ -13,6 +13,19 @@ Lecture Notes 01-B: Practice Logic and Proofs
 
 
 
+
+
+A Slideshow:
+---------------
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShu4v6bgGfopqrEHaixwZglxGzEjHJlT9z7ixwzoiJCQuRbTYrXKvXzGo6qZZzyZFx0H8MZP7IAxIJ/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+* * *
+
+
 Outline
 -------
 
@@ -34,16 +47,9 @@ This class we'll discuss:
 
   
 
-* * *
-
-
-A Slideshow:
----------------
-
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShu4v6bgGfopqrEHaixwZglxGzEjHJlT9z7ixwzoiJCQuRbTYrXKvXzGo6qZZzyZFx0H8MZP7IAxIJ/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * * *
+
 
 
 GUIDED NOTES (Optional)

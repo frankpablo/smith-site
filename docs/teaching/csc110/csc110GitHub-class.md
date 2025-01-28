@@ -1,6 +1,6 @@
 ---
 layout: default
-#title: CSC110pythonAnywhere
+title: CSC110GithHub-class
 parent: CSC110
 grand_parent: Teaching
 nav_order: 3
@@ -10,7 +10,10 @@ has_children: false
 
 # Instructions 
 
-  1. Go to the [PA education page](https://www.pythonanywhere.com/#id_education_details)
+  1. Go to the [GitHub classroom for the course](https://classroom.github.com/classrooms/8136643-smithcollege-classroom-csc110-s25)
+  1. Obtain the first assignment: [hello-world](https://classroom.github.com/a/bXQpxF7O)
+
+<!-- 
   1. click on the button "sign up and Try out" <br>
   ![sign up](../../../assets/images/csc110/lecture01/signUp.png){:width="250px"}<br>
   or [click here](https://www.pythonanywhere.com/pricing/)
@@ -34,5 +37,4 @@ has_children: false
   1. Once you have done this, look for the "Dashboard" link on the top (below the blue line) and click it:<br>
   ![account](../../../assets/images/csc110/lecture01/dashboard.png){:width="900px"}<br><br>
   1. We will go over this in class. For now, feel free to do the tutorial (green box that might appear in the top), but do not do the steps that say "Now it's time to check out some of the Education-specific features". At that point, press the button to "**Close this tutorial**"
-
-
+-->

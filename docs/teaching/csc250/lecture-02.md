@@ -13,6 +13,17 @@ Lecture Notes 02: Intro to Logic and Proofs
 
 
 
+
+A Slideshow:
+---------------
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4yqg3fN_tBNCtmU7JuQP_HAysKAGS7H1LYwidHGBNEdC54So2DonF0omDXtrX82S4Ru13gKdZyEi3/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+* * *
+
+
 Outline
 -------
 
@@ -33,16 +44,6 @@ This class we'll discuss:
    * Intro to Overleaf
 
   
-
-* * *
-
-
-A Slideshow:
----------------
-
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4yqg3fN_tBNCtmU7JuQP_HAysKAGS7H1LYwidHGBNEdC54So2DonF0omDXtrX82S4Ru13gKdZyEi3/embed?start=false&loop=false&delayms=60000" frameborder="0" width="720" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 
 * * *
 
