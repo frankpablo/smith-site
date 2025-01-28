@@ -12,9 +12,6 @@ Lecture Notes 01-B: Practice Logic and Proofs
 ===========================================
 
 
-
-
-
 A Slideshow:
 ---------------
 

@@ -13,6 +13,7 @@ has_children: false
   1. Go to the [GitHub classroom for the course](https://classroom.github.com/classrooms/8136643-smithcollege-classroom-csc110-s25)
   1. Obtain the first assignment: [hello-world](https://classroom.github.com/a/bXQpxF7O)
 
+
 <!-- 
   1. click on the button "sign up and Try out" <br>
   ![sign up](../../../assets/images/csc110/lecture01/signUp.png){:width="250px"}<br>
