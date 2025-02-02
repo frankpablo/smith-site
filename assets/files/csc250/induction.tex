@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\usepackage[parfill]{parskip}
+\usepackage{fancyhdr}
+
+\begin{document}
+ 
+\begin{align*}
+\text{Statement to check}&:\\
+\sum_{1}^{n}i^3&=\frac{n^2(n+1)^2}{4}\\
+\text{Base Case}&: n=1\\
+\sum_{1}^{1}i^3&=\frac{1^2(1+1)^2}{4}\\
+1^3&= 1 = \frac{1^2(1+1)^2}{4} = 1 \qquad \checkmark\\
+\text{Induction Hypothesis}&: n=k\\
+\sum_{1}^{k}i^3&=\frac{k^2(k+1)^2}{4}\qquad \checkmark\\
+\text{Induction Step}&: n=k+1\\
+\sum_{1}^{k+1}i^3&=\frac{(k+1)^2((k+1)+1)^2}{4}\\
+\sum_{1}^{k+1}i^3&=\sum_{1}^{k}i^3 + (k+1)^3\\
+&=\frac{k^2(k+1)^2}{4} + (k+1)^3\\
+&=\frac{k^2(k+1)^2}{4} + \frac{4(k+1)^3}{4}\\
+&=\frac{k^2(k+1)^2}{4} + \frac{4(k+1)(k+1)^2}{4}\\
+&=\frac{k^2(k+1)^2 + 4(k+1)(k+1)^2}{4}\\
+&=\frac{(k+1)^2( k^2 + 4(k+1) )}{4}\\
+&=\frac{(k+1)^2( k^2 + 4k + 4) )}{4}\\
+&=\frac{(k+1)^2(k + 2)^2}{4}\\
+&=\frac{(k+1)^2((k + 1) + 1)^2}{4} \qquad \square
+\end{align*} 
+\end{document}
