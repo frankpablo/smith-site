@@ -17,17 +17,17 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 01/27      | L0A: [Class Intro](lecture-00fall.html)   |      |   |    |
-| 01/29      | L1A: [Logic and proofs](lecture-01fall.html)  |  |  **HW01 Due Midnight of L4** (Logic and Proofs) |  |
-| 01/31      | L1B: [Practice Logic and Proofs](lecture-01b.html)   |  |  **QUIZ-00**{: .label .label-yellow }|  |
+| 01/29      | L1A: [Logic and proofs](lecture-01fall.html)  |  |   |  |
+| 01/31      | L1B: [Practice Logic and Proofs](lecture-01b.html)   |  |  **HW01 Due Midnight of L4** (Logic and Proofs)<br>**QUIZ-00**{: .label .label-yellow }|  |
 
 
 # Week 02: Regular Expressions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/03      | L2: [Intro Regular Expressions](lecture-02fall.html)   |  |**HW02 Due midnight of L10 (Regular Expressions)** <br> (Fill as you go!)  | |
+| 02/03      | L2: [Intro Regular Expressions](lecture-02fall.html)   |  |  | |
 | 02/05      | L3: [More Regular Expressions](lecture-03.html)   |  |  |  |
-| 02/07      | L4: [Practice/Catch-up](lecture-04.html) | **Homework 01**{: .label .label-purple} | **QUIZ-01 Proofs**{: .label .label-yellow } | |
+| 02/07      | L4: [Practice/Catch-up](lecture-04.html) | **Homework 01**{: .label .label-purple} | **HW02 Due midnight of L7 (Regular Expressions)** <br>**QUIZ-01 Proofs**{: .label .label-yellow } | |
 
 
 
@@ -35,9 +35,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 02/10      | L5: [Intro Finite Automata](lecture-05.html)   |  |  **HW03 Due midnight of L13 ( REs and Finite Automatons)**  |  |
+| 02/10      | L5: [Intro Finite Automata](lecture-05.html)   |  |   |  |
 | 02/12      | L6: [Non-deterministic Automata and FA Properties](lecture-06.html)   |  |  |  |
-| 02/14      | L7:[Practice/Catch-up](lecture-07.html) |  |  |  |
+| 02/14      | L7:[Practice/Catch-up](lecture-07.html) | **Homework 02**{: .label .label-purple}  | **HW03 Due midnight of L10 ( REs and Finite Automatons)**<br>**QUIZ-02-REs**{: .label .label-yellow }  |  |
 
 
 
@@ -46,8 +46,8 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 02/17      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |    |     |
-| 02/19      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |  **HW04 Due midnight of L16 (Pumping Lemma, CFGs and PDAs)**   |     |
-| 02/21      | L10: [Practice/Catch-up](lecture-10.html) | **Homework 02**{: .label .label-purple} | **QUIZ-02-REs**{: .label .label-yellow } |   |
+| 02/19      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |   |     |
+| 02/21      | L10: [Practice/Catch-up](lecture-10.html) |  **Homework 03**{: .label .label-purple} |  **HW04 Due midnight of L16 (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
 
 
 # Week 05: Context-Free Grammars and Push-Down Automata
@@ -56,16 +56,16 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 02/24      | L11: [Context-Free Grammars](lecture-11.html)| | | |
 | 02/26      | L12: [Push-Down Automata](lecture-12.html)  | | | |
-| 02/28      | L13: [Practice/Catch-up](lecture-13.html)  | **Homework 03**{: .label .label-purple} | **QUIZ-03-FAs**{: .label .label-yellow } |  |
+| 02/28      | L13: [Practice/Catch-up](lecture-13.html)  |  |  |  |
 
 
 # Week 06: Turing Machines
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/03       | L14: [Turing Machines](lecture-14.html)|  |  **HW05 Due midnight of L19 (Turing Machines and Decidability)** |  |
+| 03/03       | L14: [Turing Machines](lecture-14.html)|  |   |  |
 | 03/05       | L15: [Decidability](lecture-15.html) |  |  | |
-| 03/07       | L16: [Practice/Catch-up](lecture-16.html)  | **Homework 04**{: .label .label-purple} | **QUIZ-04-PL-CFGs-PDAs**{: .label .label-yellow } |  |
+| 03/07       | L16: [Practice/Catch-up](lecture-16.html)  | **Homework 04**{: .label .label-purple} | **HW05 Due midnight of L19 (Turing Machines and Decidability)**<br>**QUIZ-04-PL-CFGs-PDAs**{: .label .label-yellow } |  |
 
 
 
@@ -103,9 +103,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/31      | L23: [Enumeration](lecture-23.html) |  | **HW06 Due Midnight of L28 (Reductions, Ennumeration and Mapping Reductions)**  |  |
+| 03/31      | L23: [Enumeration](lecture-23.html) |  |  |  |
 | 04/02      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  | |
-| 04/04      | L25: [Practice/Catch-up](lecture-25.html) |  |  | | 
+| 04/04      | L25: [Practice/Catch-up](lecture-25.html) |  | **HW06 Due Midnight of L28 (Reductions, Ennumeration and Mapping Reductions)**  | | 
 
 
 
@@ -114,9 +114,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/07       | L26: [Rice theorem](lecture-26.html) |   |  **HW07 Due midnight of L31 (Computability)** |   |
+| 04/07       | L26: [Rice theorem](lecture-26.html) |   |   |   |
 | 04/09       | L27: [Summary: Computability](lecture-27.html)|  |  |   |
-| 04/11       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 06**{: .label .label-purple} | **QUIZ-06-Reductions**{: .label .label-yellow }  | |
+| 04/11       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 06**{: .label .label-purple} | **HW07 Due midnight of L31 (Computability)**<br>**QUIZ-06-Reductions**{: .label .label-yellow }  | |
 
 
 
@@ -124,9 +124,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/14       | L29: [Intro to Complexity and P Vs NP](lecture-29.html) |  | **HW08 Due midnight of L34 (Complexity)**  |  |
+| 04/14       | L29: [Intro to Complexity and P Vs NP](lecture-29.html) |  |   |  |
 | 04/16       | L30: [More Complexity and P Vs NP](lecture-30.html)  |  |  |  |
-| 04/18       | L31: [Practice/Catch-up](lecture-31.html) | **Homework 07**{: .label .label-purple} | **QUIZ-07-Computability**{: .label .label-yellow } | |
+| 04/18       | L31: [Practice/Catch-up](lecture-31.html) | **Homework 07**{: .label .label-purple} | **HW08 Due midnight of L34 (Complexity)**<br>**QUIZ-07-Computability**{: .label .label-yellow } | |
 
 
 
