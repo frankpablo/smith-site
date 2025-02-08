@@ -36,7 +36,7 @@ roundcorner=4pt}
 \pagestyle{fancy}
 \lhead{Submitted by: \mainName\\
 \collaborators}
-\rhead{CSC250 Fall 2024 - Homework 02\\
+\rhead{CSC250 Spring 2025 - Homework 02\\
 \today{}}
 \cfoot{p. \thepage \ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -91,8 +91,19 @@ Your solution Here
 \begin{exercise}{2}
 
 Give a regular expression for each of the following languages. In all cases, the alphabet is $\Sigma = \{0,1\}$.
+
+Note: if the statement is ambiguous, interpret the easy version!\\
+However, here are some tips: 
+\begin{itemize}
+	\item has <pattern> : means it has that pattern somewhere in the word ($\epsilon$ should count).
+	\item contains <pattern>: same as "has <pattern>".	
+	\item is composed of <pattern> : means that the word is wholey defined by the pattern ($\epsilon$ counts if allowed by the pattern).
+	\item starts with <pattern>: means that the first symbols in w must abide by the pattern but could be followed by others ($\epsilon$ counts if allowed by the pattern).
+	\item ends with <pattern>: means that the last symbols in w must abide by the pattern but could be preceded by others ($\epsilon$ counts if allowed by the pattern).
+\end{itemize}
+
 \begin{enumerate}[(a)]
-	\item $\{ w \in \Sigma^* \ | \ w \texttt{ has an odd number of 0s followed by a single 1}\}$
+	\item $\{ w \in \Sigma^* \ | \ w \texttt{ is composed of an odd number of 0s followed by a single 1}\}$
 	% -------------------------------------------
 	%  Write your answer to Q2a below
 	% -------------------------------------------
