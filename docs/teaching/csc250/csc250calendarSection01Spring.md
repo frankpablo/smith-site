@@ -78,6 +78,7 @@ nav_order: 1
 | 03/14      | L19: [Practice/Catch-up](lecture-18.html) | **Homework 05**{: .label .label-purple} | **Study for Midterm (During Week 09)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
+
 # Week 08: SPRING RECESS
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
