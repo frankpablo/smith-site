@@ -44,7 +44,7 @@ roundcorner=4pt}
 \pagestyle{fancy}
 \lhead{Submitted by: \mainName\\
 \collaborators}
-\rhead{CSC250 Fall 2024 - Homework 03\\
+\rhead{CSC250 Spring 2025 - Homework 03\\
 \today{}}
 \cfoot{p. \thepage \ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -160,8 +160,8 @@ We will describe language $L_F$ the following way:
 
 \begin{itemize}
     \item start with the set of all the binary words that have any zeroes occur before any ones;
-    \item then remove the subset of words that have exactly two ones;
-    \item then remove the subset of words that have an even number of zeros and no ones;
+    \item then remove (subtract) the subset of words that have exactly two ones;
+    \item then remove (subtract) the subset of words that have an even number of zeros and no ones;
 \end{itemize}
 
 \end{exercise}
@@ -191,8 +191,8 @@ We will describe language $L_G$ the following way:
 
 \begin{itemize}
     \item start with all the binary words that have all the zeroes before all the ones;
-    \item add all the words that have exactly two ones;
-    \item then add all the words that have an even number of zeros;
+    \item add (union) all the words that have exactly two ones;
+    \item then add (union) all the words that have an even number of zeros;
 \end{itemize}
 
 \end{exercise}
