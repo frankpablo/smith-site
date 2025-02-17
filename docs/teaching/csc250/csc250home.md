@@ -28,7 +28,7 @@ detailed), or can also email me (slowest).
 
 **Office Hours**: 
 
-  <!-- - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca) 
+<!-- TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca) 
 
   - Wednesday 3:15 PM to 4:15 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
@@ -36,11 +36,11 @@ detailed), or can also email me (slowest).
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs (Ford Hall, Third Floor):
--->
-
 ![OH location](../../../assets/images/Office-OHs.png){width=500px}
 
-We might also reserve the classroom for OHs.
+-->
+
+OH on Monday/Friday 1-2PM Ford 241
 
 **Office Hour Rules**:
 
