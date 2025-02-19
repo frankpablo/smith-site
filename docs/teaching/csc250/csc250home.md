@@ -19,7 +19,9 @@ These sections contain information about how the class is run
 
 **Research interests**: *Human-Robot Interaction, Robotic Perception, STEM education*
 
-**Class Schedule**: Monday/Wednesday/Friday, 10:50 AM - 12:05 PM / Ford 342
+**Class Schedule**: 
+
+Check Moodle
 
 Attendance is mandatory.
 
@@ -40,7 +42,7 @@ Location of OHs (Ford Hall, Third Floor):
 
 -->
 
-OH on Monday/Friday 1-2PM Ford 241
+Check Moodle
 
 **Office Hour Rules**:
 

@@ -17,7 +17,7 @@ permalink: /docs/teaching/csc110home/
 
 **Class Schedule**:
 
-- M/W/F (Sec 01) 09:25 AM -- 10:40 PM at Ford 342
+- Check Moodle!! 
 <!-- - M/W/F (Sec 02) 10:50 AM -- 12:05 PM at Ford 342 -->
 
 Attendance is mandatory and will be recorded using lists and quizzes.
@@ -37,7 +37,9 @@ Times:
 
 Location of OHs:
 
-![OH location](../../../assets/images/Office-OHs.png){width=500px}
+Check Moodle!!
+
+<!-- ![OH location](../../../assets/images/Office-OHs.png){width=500px} -->
 
 **Office Hour Rules**:
 
