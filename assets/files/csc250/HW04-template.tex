@@ -35,7 +35,7 @@ roundcorner=4pt}
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Fall 2024 - Assignment 4\\
+\rhead{CSC250 Spring 2025 - Assignment 4\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -91,15 +91,15 @@ If it is not true, give a counterexample.
 \begin{exercise}{2}
 Prove that the language
 
-$OneFewerOne = \{w \in \{0,1\}^* \; \vert \; w = 1^i0^j, i = j-1\}$ is not regular.
+$zeroAndMoreOnes = \{w \in \{0,1\}^* \; \vert \; w = 0^i1^j, i < j\}$ is not regular.
 
-<<<<<<< HEAD
+% <<<<<<< HEAD
 \textit{Hint: use the Pumping Lemma.}
-=======
+% =======
 \begin{tip}
     Try the Pumping Lemma!
 \end{tip}
->>>>>>> 2e6201ecae86458331e2f0375ddb11c929c6e80b
+% >>>>>>> 2e6201ecae86458331e2f0375ddb11c929c6e80b
 \end{exercise}
 
 % -------------------------------------------
@@ -115,9 +115,8 @@ $OneFewerOne = \{w \in \{0,1\}^* \; \vert \; w = 1^i0^j, i = j-1\}$ is not regul
 % Exercise 3
 % --------------
 \begin{exercise}{3}
-Give context-free grammars for each of the following languages. For all parts, the alphabet $\Sigma = \{0,1\}$
-\begin{enumerate}[(a)]
-	\item $\{w \ | \ w \texttt{ starts and ends with a different symbol }\}$
+Give context-free grammars for each of the following languages.\begin{enumerate}[(a)]
+	\item $\Sigma = \{0,1\}$ and $\{w \ | \ w \texttt{ starts and ends with a different symbol }\}$
 	% -------------------------------------------
 	%  Write your answer to Q3a below
 	% -------------------------------------------
@@ -125,7 +124,7 @@ Give context-free grammars for each of the following languages. For all parts, t
 
 	\end{solution}
 	
-	\item $\{w \ | \texttt{ the length of } \ w \texttt{ is odd }\}$
+	\item $\Sigma = \{0,1\}$ and $\{w \ | \texttt{ the length of } \ w \texttt{ is odd }\}$
 	% -------------------------------------------
 	%  Write your answer to Q3b below
 	% -------------------------------------------
@@ -133,7 +132,7 @@ Give context-free grammars for each of the following languages. For all parts, t
 
 	\end{solution}
 	
-	\item The empty set
+	\item $\Sigma = \{a,b, c\}$ and $\{w = a^ib^jc^k \ | i, j, k \geq 0 \texttt{ and } i+j = k \}$
 	% -------------------------------------------
 	%  Write your answer to Q3c below
 	% -------------------------------------------
