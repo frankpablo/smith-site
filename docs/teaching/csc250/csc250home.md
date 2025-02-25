@@ -42,7 +42,7 @@ Location of OHs (Ford Hall, Third Floor):
 
 -->
 
-Check Moodle for the details.
+Check Moodle for the details (General section).
 
 **Office Hour Rules**:
 
