@@ -8,11 +8,11 @@ has_children: false
 # permalink: /docs/teaching/csc110home/
 ---
 
-# Instructions 
+<!-- # Instructions 
 
   1. Go to the [GitHub classroom for the course](https://classroom.github.com/classrooms/8136643-smithcollege-classroom-csc110-s25)
   1. Obtain the first assignment: [hello-world](https://classroom.github.com/a/bXQpxF7O)
-
+ -->
 
 # What is GitHub
 

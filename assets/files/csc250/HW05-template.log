@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  11 OCT 2024 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.27)  6 MAR 2025 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -206,7 +206,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count269
 \l__pdf_internal_box=\box49
 )
-No file HW05-template.aux.
+(./HW05-template.aux)
 \openout1 = `HW05-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -223,6 +223,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -365,9 +366,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./HW05-template.aux) ) 
 Here is how much of TeX's memory you used:
- 4288 strings out of 478994
- 57328 string characters out of 5858184
- 366176 words of memory out of 5000000
+ 4290 strings out of 478994
+ 57364 string characters out of 5858184
+ 366169 words of memory out of 5000000
  21721 multiletter control sequences out of 15000+600000
  412361 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -389,7 +390,7 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb>
-Output written on HW05-template.pdf (6 pages, 217042 bytes).
+Output written on HW05-template.pdf (6 pages, 216999 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
