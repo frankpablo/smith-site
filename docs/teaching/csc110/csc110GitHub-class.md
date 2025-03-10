@@ -144,11 +144,21 @@ Go to the top-level directory of your local repo. If you don;t have a local repo
 
 ## Troubleshooting
 
-  * When you push, there are errors indicating there is a conflict: this usually happens if someone else made changes that you did not pull. It can also happen if you made changes through more than one codespace tab. The way to resolve this is to resolve the conflicts. Before resolving any conflicts, it is a good idea to save a copy of the edited file (in case something is lost) and then perform a merge. 
+  * When you push, there are errors indicating there is a conflict: this usually happens if someone else made changes that you did not pull. It can also happen if you made changes through more than one codespace tab or if you disconnected between making a change and committing and pushing. 
+
+  The way to resolve this is to resolve the conflicts. Before resolving any conflicts, it is a good idea to save a copy of the edited file (in case something is lost) and then perform a merge. 
   You would run the following instructions, in the terminal (inside the top directory of the repo), one by one **without the comments**:
 
   ```
   git config pull.rebase false # configure pull to merge as default strategy
+  ```
+After this instruction, a window will ope in the editor with a bunch of comented out text. This is where you manually insert a commit message for your action tesolving the conflicts. 
+
+You only need to add a line above the text indicating the commit message. For example: `Resolving commit conflicts`, and then click on the check mark that accepts the message (top right of the editor window).
+
+After this, it is possible to pull and then push as normal. You can do this on the terminal:
+
+  ```
   git pull                     # pull previous changes and merge with your own
   git push                     # push your own commits to the remote
   ```
