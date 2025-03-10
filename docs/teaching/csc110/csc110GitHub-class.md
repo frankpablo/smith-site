@@ -149,9 +149,13 @@ Go to the top-level directory of your local repo. If you don;t have a local repo
   The way to resolve this is to resolve the conflicts. Before resolving any conflicts, it is a good idea to save a copy of the edited file (in case something is lost) and then perform a merge. 
   You would run the following instructions, in the terminal (inside the top directory of the repo), one by one **without the comments**:
 
+
+Configure pull to merge as default strategy:
+
   ```
-  git config pull.rebase false # configure pull to merge as default strategy
+  git config pull.rebase false
   ```
+
 After this instruction, a window will ope in the editor with a bunch of comented out text. This is where you manually insert a commit message for your action tesolving the conflicts. 
 
 You only need to add a line above the text indicating the commit message. For example: `Resolving commit conflicts`, and then click on the check mark that accepts the message (top right of the editor window).
@@ -159,11 +163,13 @@ You only need to add a line above the text indicating the commit message. For ex
 After this, it is possible to pull and then push as normal. You can do this on the terminal:
 
 Pull previous changes and merge with your own
+
   ```
   git pull    
   ```
 
 Push your own commits to the remote  
+
   ```                   
   git push                     
   ```
