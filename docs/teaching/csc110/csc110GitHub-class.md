@@ -158,9 +158,14 @@ You only need to add a line above the text indicating the commit message. For ex
 
 After this, it is possible to pull and then push as normal. You can do this on the terminal:
 
+Pull previous changes and merge with your own
   ```
-  git pull                     # pull previous changes and merge with your own
-  git push                     # push your own commits to the remote
+  git pull    
+  ```
+
+Push your own commits to the remote  
+  ```                   
+  git push                     
   ```
 
 
