@@ -94,6 +94,34 @@ nav_order: 2
 | 03/28      | L22: [Practice with Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)  |   |  Ch 10-A (10.1 to 10.16) Due before L23 |   |
 
 
+
+
+# Week 10: Graphics
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 03/31      | L23: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html)<br>**Review of Quiz-06**  |  | |    |
+| 04/02      | L24: [Practice Graphics and Project Plan](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html) |  |     |     |
+| 04/04      | L25: [Final Project Design](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)   |   <br>**DUE: Homework 06: Nested Loops**{: .label .label-purple}  |  **QUIZ-06: Nested Loops**{: .label .label-yellow }<br>   **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L31  |     |
+
+
+
+
+
+
+# Week 11: Lists
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/07      | L26: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html)   | Ch 10-A | Ch 10-B (10.17 to 10.26)  Due before L24   |     |
+| 04/09      | L27: [Lists and Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)  | Ch 10-B  |  Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7) Both Due Before L25 |      |
+| 04/11      | L28: [2D-Lists abd other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12   |   |   |
+
+
+
+
+
+<!--
 # Week 10: Lists
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
@@ -112,7 +140,7 @@ nav_order: 2
 | 04/09      | L27: [Practice Graphics and Project Plan](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html) |  |     |     |
 | 04/11      | L28: [Final Project Design](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)   |   **DUE: Homework 07: Strings, Loops, and Lists**{: .label .label-purple}  |  **QUIZ-07: Strings**{: .label .label-yellow }   **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L31  <br> Ch 11 (11.1 to 11.10) Due Before L29 |     |
 
-
+ -->
 <!-- # Week 11: Dictionaries, FileIO, and Graphics
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
