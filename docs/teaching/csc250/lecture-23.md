@@ -24,10 +24,20 @@ This class we'll discuss:
 
 
 
+
+
+
 * * *
 
 A Slideshow:
 ---------------
+
+REVIEW Slides:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjGP3w3PutEIuzmLVKsN2GsJg5qsUd8iShQ-vAAEys82nP7kpA30mqzbQGwzxgaHoDe6H-cPEMP7tM/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+CLASS Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb1a87nzd4rKa8Wrfm-JCcp7lXrRpkMWcR3fJjOuISpLcMCpycnjM35ZKat5BJMEDf6ceNsJcojKCp/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
