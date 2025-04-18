@@ -14,6 +14,15 @@ has_children: false
   1. Obtain the first assignment: [hello-world](https://classroom.github.com/a/bXQpxF7O)
  -->
 
+
+## Quick links
+
+  * [What is GitHub](#what-is-github)
+  * [Working in Codespaces](#working-in-codespaces)
+  * [Working in VSCode Individually](#working-in-vscode-individually)
+  * [Working in VSCode In Groups](#working-in-vscode-in-groups)
+
+
 # What is GitHub
 
 GitHub allows you to save files and folders online and it lets you track changes made by one or many people editing that information. It uses **git**, which is a version control system that saves who changed what and when, and it let's you move "back" to previous versions and "roll back time" when needed.
@@ -21,7 +30,10 @@ GitHub allows you to save files and folders online and it lets you track changes
 
 ## How does GitHub work
 
-### Get a GitHub account
+Github hosts a Repository (a set of files and folders and a history of changes) in the cloud. You can edit on the cloud directly (using a code editor in a browser) or you can download your code, work in your computer and then re-upload to keep the clud version in sync.
+Here are the steps to work with Github.
+
+## Get a GitHub account
 
 Every student in class needs to have their own GitHub account. It is free. 
 When opening your account, do the best you can to use a name similar to your username at Smith.
@@ -29,7 +41,7 @@ For example, if my name is Pablo Frank Bolton, I would love to use "pfrank". If 
 
 You don't strictly need an account to use git, but it makes things easier for novices.
 
-### Repositories
+## Repositories
 
 Github saves projects in repositories. We call each a "repo". 
 
@@ -45,7 +57,7 @@ There are many ways to create a repo and use it, but in this class, this is what
   4. Save "waypoints" of your progress. 
   5. When you submit the last "waypoint" you are done and your repo is already submitted. The instructor can see its last submission and grade it.
 
-### How Do You save "Waypoints"?
+## How Do You save "Waypoints"?
 
 When using git, every repo can have tracking of changes so that every little thing could be "undone" if necessary. The steps to save your work are:
 
@@ -75,71 +87,140 @@ However, you can also use an in-browser IDE that GitHub provides. It is called a
 
 While you can work only using the terminal on your laptop, most people prefer using an IDE. In both VSCode and Codespaces, the procedure looks like this:
 
-### In Codespaces
+## Working In Codespaces
 
 A Codespace is opened in two ways: An instructor might have it open automatically when you accept (fork) an assignment repo, or you might have to open it from your remote repo. Here are all the steps:
 
   1. Open your remote on GitHub (example hw02): <br>
-  ![OH location](../../../assets/images/csc110/codespace01_repo.png)
+  ![OH location](../../../assets/images/csc110/codespace01_repo.png){: width="60%"} 
   2. Open a codespace from your remote: <br>
-  ![OH location](../../../assets/images/csc110/codespace02_open.png)
+  ![OH location](../../../assets/images/csc110/codespace02_open.png){: width="60%"} 
   3. Before any edits, version control has no changes to stage. Go to the version control page (using the left side menu): <br>
-  ![OH location](../../../assets/images/csc110/codespace03_version.png)
+  ![OH location](../../../assets/images/csc110/codespace03_version.png){: width="60%"} 
   4. Perform some edits: <br>
-  ![OH location](../../../assets/images/csc110/codespace04_edits01.png)<br>
-  and also:
-  ![OH location](../../../assets/images/csc110/codespace05_edits02.png)<br>
+  ![OH location](../../../assets/images/csc110/codespace04_edits01.png){: width="60%"} <br>
+  and also:<br>
+  ![OH location](../../../assets/images/csc110/codespace05_edits02.png){: width="60%"} <br>
   5. After running to check it compiles, go to the test area: <br>
-  ![OH location](../../../assets/images/csc110/codespace06_test_area.png)
+  ![OH location](../../../assets/images/csc110/codespace06_test_area.png){: width="60%"} 
   6. Run the tests: <br>
-  ![OH location](../../../assets/images/csc110/codespace07_test_results.png)
+  ![OH location](../../../assets/images/csc110/codespace07_test_results.png){: width="60%"} 
   7. After edits are made, go to the version control page (using the left side menu) and stage changes ( + symbol): <br>
-  ![OH location](../../../assets/images/csc110/codespace08_version.png)
+  ![OH location](../../../assets/images/csc110/codespace08_version.png){: width="60%"} 
   8. After staging the changes, now there is something to commit (but dont commit yet): <br>
-  ![OH location](../../../assets/images/csc110/codespace09_staged.png)
+  ![OH location](../../../assets/images/csc110/codespace09_staged.png){: width="60%"} 
   9. Add a commit message before committing: <br>
-  ![OH location](../../../assets/images/csc110/codespace10_message.png)
+  ![OH location](../../../assets/images/csc110/codespace10_message.png){: width="60%"} 
   10. Pressing commit adds one "local" waypoint to the list of commits: <br>
-  ![OH location](../../../assets/images/csc110/codespace11_committed.png)
+  ![OH location](../../../assets/images/csc110/codespace11_committed.png){: width="60%"} 
   11. You can perform some more edits (make sure it compiles even if does not pass more tests): <br>
-  ![OH location](../../../assets/images/csc110/codespace12_edits03.png)<br>
+  ![OH location](../../../assets/images/csc110/codespace12_edits03.png){: width="60%"} <br>
   12. After edits are made, go to the version control page and stage changes ( + symbol): <br>
-  ![OH location](../../../assets/images/csc110/codespace13_version02.png)
+  ![OH location](../../../assets/images/csc110/codespace13_version02.png){: width="60%"} 
   13. Add a commit message before committing: <br>
-  ![OH location](../../../assets/images/csc110/codespace14_message02.png)
+  ![OH location](../../../assets/images/csc110/codespace14_message02.png){: width="60%"} 
   14. When ready, pull and push your commits by pressing commit and Sync: <br>
-  ![OH location](../../../assets/images/csc110/codespace15_commit_and_sync.png)
+  ![OH location](../../../assets/images/csc110/codespace15_commit_and_sync.png){: width="60%"} 
   15. Once pushed, the changes can be seen in the remote repo: <br>
-  ![OH location](../../../assets/images/csc110/codespace16_repo02.png)
+  ![OH location](../../../assets/images/csc110/codespace16_repo02.png){: width="60%"} 
 
 
-### In VSCode
+## Working In VSCode Individually
 
 Go to the top-level directory of your local repo. If you don;t have a local repo yet, you will clone it by using the following command: `git clone <repo link>` (you can get the link from the GitHub repo info). Once you have a local repo, this is how one works with it in VSCode:
 
   1. Open your remote on GitHub (example hw02) and copy the clone link: <br>
-  ![OH location](../../../assets/images/csc110/vscode01_clone_link.png)
+  ![OH location](../../../assets/images/csc110/vscode01_clone_link.png){: width="60%"} 
   2. On VSCode, open the command pallete (Mac: Cmd+Shift+P  or Win: Ctrl+Shift+P), 
   search for "Clone" and press the option called **Git:Clone**, and then paste the clone link: <br>
-  ![OH location](../../../assets/images/csc110/vscode02_paste_link.png)
+  ![OH location](../../../assets/images/csc110/vscode02_paste_link.png){: width="60%"} 
   3. Select the directory where you want the local repo ( our Documents/csc110 is good choice): <br>
-  ![OH location](../../../assets/images/csc110/vscode03_select_dir.png)
+  ![OH location](../../../assets/images/csc110/vscode03_select_dir.png){: width="60%"} 
   4. Note that the version tree might already show previous commits from your instructor: <br>
-  ![OH location](../../../assets/images/csc110/vscode04_version.png)
+  ![OH location](../../../assets/images/csc110/vscode04_version.png){: width="60%"} 
   5. Make some edits (make sure it compiles even if you don't pass tests): <br>
-  ![OH location](../../../assets/images/csc110/vscode05_edits01.png)
+  ![OH location](../../../assets/images/csc110/vscode05_edit01.png){: width="60%"} 
   6. In version control, remember to stage your changes: <br>
-  ![OH location](../../../assets/images/csc110/vscode06_stage.png)
+  ![OH location](../../../assets/images/csc110/vscode06_stage.png){: width="60%"} 
   7. Add a commit message and commit: <br>
-  ![OH location](../../../assets/images/csc110/vscode07_msg_commit.png)
+  ![OH location](../../../assets/images/csc110/vscode07_msg_commit.png){: width="60%"} 
   8. You can make more edits (again, make sure it compiles): <br>
-  ![OH location](../../../assets/images/csc110/vscode08_edits02.png)
+  ![OH location](../../../assets/images/csc110/vscode08_edit02.png){: width="60%"} 
   9. Remember to stage any changes: <br>
-  ![OH location](../../../assets/images/csc110/vscode09_stage02.png)
+  ![OH location](../../../assets/images/csc110/vscode09_stage02.png){: width="60%"} 
   10. When ready to sync, add a last commit message and commit and Sync: <br>
-  ![OH location](../../../assets/images/csc110/vscode10_msg_commit_sync.png)
+  ![OH location](../../../assets/images/csc110/vscode10_msg_commit_sync.png){: width="60%"} 
   11. Note your changes are visible in the remote: <br>
-  ![OH location](../../../assets/images/csc110/vscode11_repo02.png)
+  ![OH location](../../../assets/images/csc110/vscode11_repo02.png){: width="60%"} 
+
+
+
+## Working in VSCode In Groups
+
+Given a repository, you can **clone** it to your local machine, work on it, and then **push** changes. Here is the sequence:
+
+## First time you want to download the materials:
+
+### Clone
+
+The first time you accept and create a repository, you need to name your team or join an existing team. Make sure you verify before you do this. 
+
+Once you join a team, a repository wil be forked for you. <br>
+![Repo Made](../../../assets/images/csc110/final-project-repo-made.png){: width="60%"} 
+
+If you click on that link, or search it in your github account, you will find the following information in your repository:<br>
+![Remote Repo](../../../assets/images/csc110/repo-cloud.png){: width="60%"} 
+
+The first task is to clone (or download) the github cloud reepository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab:<br>
+![Remote Address](../../../assets/images/csc110/repo-address.png){: width="60%"} 
+
+
+Now follow these steps:
+
+  1. Now Open your VSCode at your csc110-s25 folder<br>
+  2. Open the command Palette by selecting View > Command Pallette  or pressing: Mac: SHIFT+CMD+P or Win: Shift+Ctrl+P<br>
+  ![Remote Address](../../../assets/images/csc110/vscode_git_clone.png){: width="60%"} 
+  3. in the command palette, search for: clone and select "Git: clone"<br>
+  ![Remote Address](../../../assets/images/csc110/clone_address.png){: width="60%"} 
+  4. Select the folder **inside of you which** you wish to place your project (DO NOT DOUBLE CLICK, JUST NAVIGATE TO THE FOLDER). Select csc110-s25<br>
+  ![Remote Address](../../../assets/images/csc110/folder_selection_fp.png){: width="60%"} 
+
+
+## Editing in a group
+
+Edting with multiple members can be a complicated task, especially if people forget to commit or upload (push) their changes, or if they forget to update (pull) their local version with every other person's changes. So every time you work on your code, you should do the following:
+
+
+  1. Always **pull** before making any changes. You can also **fetch** the changes, which allows you to see changes without actually altering your local version (but you need to eventually pull)
+  2. After you make a change (added one function, one test, or one block of code) **commit** your change with a short informative comment
+  3. After you do a few changes that you tested and they work, **pull** again (just to make sure nobody pushed crucial changes right before you are pushing).
+  4. If no changes affect your own changes, **push** all your commits (commit and sync)
+  5. go to (1)
+
+How do these steps look in VSCode:
+
+  1. Go the Source Control section of VSCode<br>
+  ![Remote Address](../../../assets/images/csc110/source_vscode.png){: width="60%"} 
+  2. You can fetch any changes (without pulling)<br>
+  ![Remote Address](../../../assets/images/csc110/fetch_vscode.png){: width="60%"} 
+  3. You then pull any changes<br>
+  ![Remote Address](../../../assets/images/csc110/pull_vscode.png){: width="60%"}
+  4. You then Edit the file and stage the changes<br>
+  ![Remote Address](../../../assets/images/csc110/stage_vscode.png){: width="60%"}
+  5. You then commit any staged changes<br>
+  ![Remote Address](../../../assets/images/csc110/commit_vscode.png){: width="60%"}
+  6. You can see the committed (but not yet pushed changes)<br>
+  ![Remote Address](../../../assets/images/csc110/version_graph_vscode.png){: width="60%"}
+  7. You then pull any changes (last minute modifications might be important)<br>
+  ![Remote Address](../../../assets/images/csc110/pull_vscode.png){: width="60%"}
+  8. After you have edited and committed then push any changes<br>
+  ![Remote Address](../../../assets/images/csc110/push2_vscode.png){: width="60%"} 
+  9. After you have pushed, the graph should have all changes<br>
+  ![Remote Address](../../../assets/images/csc110/updated_graph_vscode.png){: width="60%"} 
+
+
+
+
 
 
 ## Troubleshooting
