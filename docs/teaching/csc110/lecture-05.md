@@ -8,7 +8,7 @@ nav_order: 15
 ---  
   
 
-Lecture Notes 05: MORE PRACTICE Variables And Operations
+Lecture Notes 05: MORE Variables And Operations
 ===========================================
 
 
