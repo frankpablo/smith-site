@@ -17,15 +17,19 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/05      | L0: [Class Intro](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-00spring.html)  |  | **compulsory**:<br>chapter 1 (1.1 to 1.14) Due before L3;<br>chapter 2 (2.1 to 2.13) Due Before L3<br>**optional**:<br>[CS History](https://frankpablo.github.io/smith-site/docs/teaching/csc110/historyOfComputing.html);<br>[How is data stored?](https://frankpablo.github.io/smith-site/docs/teaching/csc110/dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> | |
+| 09/05      | L0: [Class Intro](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-00.html)  |  | **compulsory**:<br>chapter 1 (1.1 to 1.14) Due before L3;<br>chapter 2 (2.1 to 2.13) Due Before L3<br>**optional**:<br>[CS History](https://frankpablo.github.io/smith-site/docs/teaching/csc110/historyOfComputing.html);<br>[How is data stored?](https://frankpablo.github.io/smith-site/docs/teaching/csc110/dataStorage.html);<br><a href="https://youtu.be/O5nskjZ_GoI" target="_blank">CS Intro Video</a> | |
+
+
 
 # Week 01: Intro
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/08      | L1: [Data and Programs](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-01spring.html)  | Ch 1 | |  |
-| 09/10      | L2: [Software Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-02spring.html)  | | |   |
+| 09/08      | L1: [Data and Programs](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-01.html)  | Ch 1 | |  |
+| 09/10      | L2: [Software Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-02.html)  | | |   |
 | 09/12      | L3: [Intro to Basic Syntax](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-03.html)   | Ch 2 | Ch 3 (3.1 to 3.6) Before L4|      |
+
+
 
 # Week 02: Expressions
 

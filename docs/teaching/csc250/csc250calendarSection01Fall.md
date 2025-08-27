@@ -1,11 +1,189 @@
 ---
 layout: default
-#title: CSC250calendar-Fall
+title: CSC250calendar-Fall
 parent: CSC250
 grand_parent: Teaching
 nav_order: 1
 #permalink: /docs/teaching/csc250/
 ---
+
+
+# Schedule for CSC 250 Fall 2025
+
+  * Read the whole Syllabus (in Moodle)
+
+
+# Week 00: Welcome
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/05      | L0A: [Class Intro](lecture-00fall.html)   |      |   |    |
+
+
+# Week 01: Intro
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/08      | L1A: [Logic and proofs](lecture-01fall.html)   |      |   |    |
+| 09/10      | L1B: [Practice Logic and Proofs](lecture-01b.html)   |  |   |  |
+| 09/12      | L1C: [MORE Practice Logic and Proofs](lecture-01c.html)   |  |  **HW01 Due Midnight of L4** (Logic and Proofs)<br>**QUIZ-00**{: .label .label-yellow }|  |
+
+
+# Week 02: Regular Expressions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/15      | L2: [Intro Regular Expressions](lecture-02fall.html)   |  |  | |
+| 09/17      | L3: [More Regular Expressions](lecture-03.html)   |  |  |  |
+| 09/19      | L4: [Practice/Catch-up](lecture-04.html) | **Homework 01**{: .label .label-purple} | **HW02 Due midnight of L7 (Regular Expressions)** <br>**QUIZ-01 Proofs**{: .label .label-yellow } | |
+
+
+# Week 03: Finite Automata
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/22      | L5: [Intro Finite Automata](lecture-05.html)   |  |   |  |
+| 09/24      | L6: [Non-deterministic Automata and FA Properties](lecture-06.html)   |  |  |  |
+| 09/26      | L7:[Practice/Catch-up](lecture-07.html) | **Homework 02**{: .label .label-purple}  | **HW03 Due midnight of L10 ( REs and Finite Automatons)**<br>**QUIZ-02-REs**{: .label .label-yellow }  |  |
+
+
+
+# Week 04: Regular and Non-Regular Languages and the Pumping Lemma
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/29      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |    |     |
+| 10/01      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |   |     |
+| 10/03      | L10: [Practice/Catch-up](lecture-10.html) |  **Homework 03**{: .label .label-purple} |  **HW04 Due midnight of L16 (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
+
+
+# Week 05: Context-Free Grammars and Push-Down Automata
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/06      | L11: [Context-Free Grammars](lecture-11.html)| | | |
+| 10/08      | L12: [Push-Down Automata](lecture-12.html)  | | | |
+| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |  |  |  |
+
+
+
+# Week 06: Practice and  Linear Temporal Logic Practice
+| 10/15      | L_Practice: [Practice](lecture-MidSemesterPractice.html)  | | | |
+| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)| | | |
+
+
+
+# Week 07: Turing Machines
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/20       | L14: [Turing Machines](lecture-14.html)|  |   |  |
+| 10/22       | L15: [Decidability](lecture-15.html) |  |  | |
+| 10/24       | L16: [Practice/Catch-up](lecture-16.html)  | **Homework 04**{: .label .label-purple} | **HW05 Due midnight of L19 (Turing Machines and Decidability)**<br>**QUIZ-04-PL-CFGs-PDAs**{: .label .label-yellow } |  |
+
+
+
+# Week 08: Uncecidability and Reductions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/27      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
+| 10/29      | L18: [More on Reductions](lecture-17.html)|  |  |  |
+| 10/31      | L19: [Practice/Catch-up](lecture-18.html) | **Homework 05**{: .label .label-purple} | **Study for Midterm (During Week 09)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
+
+
+<!-- 
+# Week 08: SPRING RECESS
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 03/17      | **NO CLASSES: SPRING RECESS**       |     |     |     |
+| 03/19      | **NO CLASSES: SPRING RECESS**       |     |     |     |
+| 03/21      | **NO CLASSES: SPRING RECESS**       |     |     |     |
+
+ -->
+
+# Week 09: Midterm Work Week
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/03      | L20: [Midterm Review/Start](lecture-20.html) <br> **Midterm Released**{: .label .label-yellow }  |  |  | (Up to TMs)  |
+| 11/05      | L21: [Midterm-Time](lecture-21.html)    |   |   |   |
+| 11/06      | Thursday: SUBMIT DUE DAY|  **Midterm**{: .label .label-purple} |  | Due on Moodle<br>Before 11:59 PM |
+| 11/07      | L22: [Catch-up + Midterm Reciew](lecture-22.html) |  |  |  |
+
+
+
+# Week 10: Enumeration and Mapping Reductions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/10      | L23: [Enumeration](lecture-23.html) |  |  |  |
+| 11/12      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  | |
+| 11/14      | L25: [Practice/Catch-up](lecture-25.html) |  | **HW06 Due Midnight of L28 (Reductions, Ennumeration and Mapping Reductions)**  | | 
+
+
+
+
+# Week 11: Rice's Theorem and Computability Summary
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/17       | L26: [Rice theorem](lecture-26.html) |   |   |   |
+| 11/19       | L27: [Summary: Computability](lecture-27.html)|  |  |   |
+| 11/21       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 06**{: .label .label-purple} | **HW07 Due midnight of L31 (Computability)**<br>**QUIZ-06-Reductions**{: .label .label-yellow }  | |
+
+
+
+# Week 12: THANKSGIVING WEEK
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/24       | L_Review_: [Computability Review](lecture-Computability_Review.html) |  |   |  |
+| 11/26       | **NO CLASSES: THANKSGIVING RECESS**       |     |     |     |
+| 11/28       | **NO CLASSES: THANKSGIVING RECESS**       |     |     |     |
+
+
+
+
+# Week 13: Complexity Intro
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/01       | L29: [Intro to Complexity and P Vs NP](lecture-29.html) |  |   |  |
+| 12/03       | L30: [More Complexity and P Vs NP](lecture-30.html)  |  |  |  |
+| 12/05       | L31: [Practice/Catch-up](lecture-31.html) | **Homework 07**{: .label .label-purple} | **HW08 Due midnight of L34 (Complexity)**<br>**QUIZ-07-Computability**{: .label .label-yellow } | |
+
+
+
+# Week 14: P Vs NP vs NP-Complete and Poly-Time Reductions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/08      | L32: [P Vs NP and NP-Completeness](lecture-32.html) |  |  |  |
+| 12/10      | L33: [Poly-Time Reductions](lecture-32.html)  |   |    |    |
+
+
+<!-- 
+
+| 12/08      | L34: [Practice/Catch-up](lecture-32.html) | **Homework 08**{: .label .label-purple}  | **QUIZ-08-Complexity**{: .label .label-yellow } | |
+
+
+
+# Week 14: Final Exam Week
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/28      | L35: [Final Review/Start](lecture-20.html) <br> **Final Released**{: .label .label-yellow }  |  |  | (Everything; Emphasis on 2nd half)  |
+| 04/30      | L36: [Final-Time](lecture-21.html)    |   |   |   |
+| 05/01      | Thursday: SUBMIT DUE DAY|  **Final**{: .label .label-purple} |  | Due on Moodle<br>Before 11:59 PM |
+| 05/02      | L37: [Final Review](lecture-22.html) |  |  |  |
+
+
+ -->
+
+
+<!-- 
 
 # Schedule for CSC 250 Fall 2024
 
@@ -74,15 +252,7 @@ nav_order: 1
 | 10/16      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
 | 10/18      | L18 + L19: [More on Reductions](lecture-18.html) <br>**QUIZ-05-TMs**{: .label .label-yellow }| **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  |
 
-<!-- | Over Weekend   | L19: **QUIZ-05-TMs**{: .label .label-yellow }<br>[Catch-up + HW05 Grading and Check](lecture-19.html) | **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  | -->
 
-<!-- 
-|-------------|-----------|---------|------------|-----------|
-| **WEEKEND** | **Topic** | **Due** | **Issued** | **Notes** |
-|-------------|-----------|---------|------------|-----------|
-| 03/08-11    | **MIDTERM**: Self Scheduled  | | | |
-
- -->
 
 # Week 08: Midterm Work Week
 
@@ -132,29 +302,7 @@ nav_order: 1
 
 # Week 13: Student Presentations
 
-<!-- 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 11/25       | L35: Additional Subjects + Student presentations  |  |  |  |
-| 11/27       | L36: Additional Subjects + Student presentations  |  |  |  |
-| 11/29       | L37: Additional Subjects + Student presentations  |  |  |  |
 
-
-# Week 14: 
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 12/02       | L38: Interesting Applications I <br> HW08 Grading and Check  | **Homework 08**{: .label .label-purple} |  |  |
-| 12/04      | L39: Interesting Applications II  |  |  |  |
-| 12/06       | L40: Interesting Applications III  |   |   |    |
-
-
-# Week 15: Project Design
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 12/09      | L41: Wrap-Up   |       |     |     |     |
- -->
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
@@ -178,4 +326,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/09      | L39: Wrap-Up   |       |     |     |     |
+| 12/09      | L39: Wrap-Up   |       |     |     |     | 
+
+
+-->
