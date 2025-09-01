@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Install-VSCode
+title: Install-IDE
 parent: CSC110
 grand_parent: Teaching
 nav_order: 7
@@ -16,6 +16,8 @@ https://code.visualstudio.com/docs/python/testing
 
 In order to write Python programs and execute (or run) them, you need to have a editor (to write) and an interpreter (to run) the program. Depending on your individual setup, you will take a different approach.
 
+
+<!-- 
 ## Option A: I'm using a Laptop (or Desktop)
 
 ### 0. Download Starter Files
@@ -39,27 +41,62 @@ Follow the installation instructions.
 _If it doesn't work then go to [https://code.visualstudio.com/download](https://code.visualstudio.com/download), select the appropriate download. 
 Make sure you click the correct version, based on your operating system (Windows/Mac) and chip (x64/ARM). Ask if you don't understand._
 
-### 3. Instal Python
 
-1. Open Visual Studio Code (VS Code).
-2. Click the `Explore` Icon (the top icon in left toolbar, overlapping pieces of paper).
-3. Click `Open Folder`, then select the folder where you saved `first.py` in Step 0.
-4. Click on first.py. Add a comment with your name at the top. A comment starts with the `#` symbol. For example:
-```
-# This is a python comment.
-```
-5. When you open `first.py`, you should receive a notification in the bottom right corner, asking if you want to install Python. You should click to install Python. _If this notification doesn't show up, you can either [install it via this link](https://marketplace.visualstudio.com/items?itemName=ms-python.python) OR click the `Extensions` (bottom "stacking blocks" icon in the left toolbar), then search Python and select the "Python IntelliSense (Pylance)..." item by Microsoft._
-6. After the installation has complete, go back to the `first.py` file in VS Code and click the `Run Python File` button (triangle play button on the top toolbar). Your code should run and the `Terminal` window should appear at the bottom. You should see `Hello World` and should look something like this:
-```
-F-CSC:CSC110-S24 amgrubb$ first.py
-Hello World
-F-CSC:CSC110-S24 amgrubb$ 
-```
-7. Change "Hello World" to your own message and run it.
-8. Proceed to [lab0 on Moodle](https://moodle.smith.edu/mod/assign/view.php?id=1146269).
 
-_If you have trouble with any of these steps, see Backup for Option A (below)._
+ -->
+## 1. Instal Python
 
+First, go to the section for your laptop (MAC or Windows) and then follow the instructions.
+
+### Installing Python on a Mac
+
+  1. Open this webpage: [Python Distributions for Mac](https://www.python.org/downloads/macos/)
+
+     1. Instructions are also [here](https://docs.python.org/3/using/mac.html)
+  2. Download the Latest Python 3 Release - Python 3.13.X (for some value of X)
+  3. For a default installation, double-click on the downloaded installer package file. This should launch the standard macOS Installer app and display the first of several installer windows steps.
+  4. Click Continue
+  5. Read (scroll all the way down) and Continue
+  6. Agree to the terms and conditions
+  7. After the license terms are accepted, the next step is the Installation Type display. Select Customize and add all options show in the next slide
+
+  ![custom Python install](../../../assets/images/csc110/mac_installer_05_custom_install.png){:width="500px"}
+
+  8. Then click Install
+  9. Double-click on the `Install Certificates.command` icon or file in the `/Applications/Python 3.13/` window to complete the installation.
+
+  ![custom Python applications](../../../assets/images/csc110/mac_installer_07_applications.png){:width="500px"}
+
+
+  10. This will open a temporary Terminal shell window that will use the new Python to download and install SSL root certificates for its use. **Note: this just means it let's you finish the configuration.**
+  11. If Successfully installed certify and update complete appears in the terminal window, the installation is complete. Close this terminal window and the installer window.
+
+_If you have trouble with any of these steps, ask for help._
+
+
+
+### Installing Python on Windows
+
+  1. Open this webpage: [Python Distributions for Win](https://www.python.org/downloads/windows/)
+
+     1. Instructions are also [here](https://docs.python.org/3/using/windows.html)
+  2. Download the Latest Python 3 Release - Python 3.13.X (for some value of X)
+  3. Open the downloaded `.exe` file to launch the Python installer
+     1. **Crucially**, on the first screen, check the box that says **"Add Python.exe to PATH"**.  OR Add Python to Environment Variables. This ensures you can easily run Python from the command prompt.
+     2. **Crucially**, Also select Install Python 3.13 for all users
+
+  ![custom Python applications](../../../assets/images/csc110/win_installer_05_custom_install.png){:width="500px"}
+
+  4. Before picking the install method, make sure you pick "Customize installation" to select specific features.
+     1. **Pick Customize** and select the features that match the ones for MAC shown in the previous section.
+     2. ensure that "pip" (Python's package installer) is selected
+  5. Open the Command Prompt (search for "cmd" in the Start Menu).
+  6. Type `Python --version` and press Enter (or Return). This should display the installed Python 3.13 version, confirming a successful installation.
+
+_If you have trouble with any of these steps, ask for help._
+
+
+<!-- 
 ### 4. Remove automatic suggestions (they are annoying)
 
 1. Open the settings by pressing the following combination: On Mac: press the command button and then the comma (CMD + ",")  or (⌘,). On Windows: press Control and comma (Ctrl + ",")
@@ -107,10 +144,53 @@ Once Anaconda (or “conda” for short) has installed follow these steps to fin
 
 Install Visual Studio Code (see above) and then ask for help.
 
-### Thonny - If you couldn't get VS Code to install.
+ -->
+
+
+
+
+## Install Thonny
 
 [**Thonny**](https://thonny.org) is the name of an _Integrated Development Environment_ you can use to create Python programs on your computer. You should install Thonny on your own computer. (Mac Users: after downloading and opening the `.dmg` file. Open `readme.txt` for further instructions.)
 
+
+Now we need to pick which version of Python to connect to Thonny. First, go to the section for your laptop (MAC or Windows) and then follow the instructions.
+
+
+### Setting python version for Thonny in a Mac
+
+  1. First, Open a terminal and run these commands:
+
+  ![Setup Python in Thonny](../../../assets/images/csc110/find_python.png){:width="500px"}
+
+  2. make a note of where python is saved on your system
+  3. Now go back to Thonny
+     1. Select Tools > Options > 
+     2. In the window that opens, select the `Interpreter` tab, and then the three dots menu to select the python executable you found before.
+     3. You should be able to see where we installed the new python3.13
+        1. in my case, it's the line that reads `/usr/local/bin/python3`
+
+     ![Setup Python in Thonny](../../../assets/images/csc110/select_python_thonny.png){:width="500px"}
+  4. Select it, click OK, and restart Thonny.
+
+
+### Setting python version for Thonny in Windows
+
+  1. We need to tell Thonny to use our newest version of Python 
+  2. Run, in a Command Prompt or PowerShell, the command:
+  `where python`
+  or inspect the Windows Registry
+  3. write down the path it reports… it will be something like:
+  `C:\Program Files\python313` or
+  `C:\Users\<username>\AppData\Local\Programs\python\python313\`
+  4. Verify that, inside that folder, you see `python.exe`
+  5. Now go back to Thonny
+     1. Navigate to `Run > Select interpreter`.
+     2. Choose `Alternative Python 3`.
+     3. Browse to the location where you installed Python 3.13 python.exe executable.
+
+
+<!-- 
 Here's a quick overview of how to use Thonny to program in Python. There are two distinct ways of typing in Python statements:
 
 1. You can use the _shell_, where each line you type is
@@ -118,8 +198,10 @@ interpreted by Python as soon as you hit `return`.
 2. You can also use the _editor_, which allows you to write a
 collection of statements (a program), save the collection in a file, and then
 have Python execute the contents of the program. 
+ -->
 
-## Backup for Option B - Python Tutor
+
+## Two other (online) tools: Python Tutor and Trinket
 
 There are some free services that allow you to run Python, but you will have to create an account.
 
