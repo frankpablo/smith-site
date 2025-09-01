@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture27
+#title: Lecture31
 parent: CSC250
 grand_parent: Teaching
-nav_order: 370
+nav_order: 410
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 27: More Computational Complexity ( P and NP)
-==================================================================
+Lecture Notes 31: Complexity and NP-Completeness
+==========================================================
 
   
 
@@ -17,25 +17,12 @@ Outline
 
 This class we'll discuss:
 
-* P and NP
+* NP-Completeness
 
   
 
 * * *
 
-A Slideshow:
----------------
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSyVBNbEwxb__rZmFUDfX0ZP9JtPQaYFoloNPzlQgz1NyCPcFZJZ40N2ymyFbwvT6_DVNOdSipY_Sbd/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
----
-
-
-
-GUIDED NOTES (Optional)
-=======================
-
-  
 
 Recap: Computational Complexity
 -------------------------------

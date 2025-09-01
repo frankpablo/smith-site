@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture34
+#title: Lecture34
 parent: CSC250
 grand_parent: Teaching
-nav_order: 34
+nav_order: 440
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 34: Complexity and NP-Completeness
-==========================================================
+Lecture Notes 34: even Even More Poly-Time Reductions in NP-C
+===================================================
 
   
 
@@ -17,113 +17,54 @@ Outline
 
 This class we'll discuss:
 
-* NP-Completeness
+* Poly-time reductions in NP-Complete
+* Work on PS06 - PS08
 
   
 
 * * *
 
-
-Recap: Computational Complexity
--------------------------------
-
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-02.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-03.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-04.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-05.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-06.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-07.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-08.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-09.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-10.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-11.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-12.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-13.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-14.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-15.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-16.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-17.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-18.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-19.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-20.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
   
 
-**Activity 1** \[2 minutes\] How would you Prove this?:  
+More reductions
+---------------
+
   
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-33.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-34.png){: width="80%"}  
+  
+  
+  
+  
+
+**Activity** \[2 minutes\] How would you Prove this?:  
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
       <p>
-To show a language is in NP using a verifier:  
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-34b.png" alt="CLIQUE proof" style="width:80%"><br>
 
-  <ul>
-      <li>Specify a certificate that can be used with a verifier to decide the language.  </li>
-      <li>Give a verifier that uses that certificate to verify membership in the given language.  </li>
-      <li>Prove that the language recognized by the verifier is the given language and that the verifier runs in polynomial time.</li>
-  </ul>
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-35a.png" alt="CLIQUE proof" style="width:80%"><br>
 
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-35b.png" alt="CLIQUE proof" style="width:80%"><br>
 
-<b>Certificate</b>: a graph and a set of k vertices we claim is a cliquebr Verifier: loop over all pairs in the set and check to make sure there’s an edge between them, and if so: ACCEPT - O(k^2) (can’t be bigger than n^2)
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-35c.png" alt="CLIQUE proof" style="width:80%"><br>
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-35d.png" alt="CLIQUE proof" style="width:80%"><br>
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-36.png" alt="CLIQUE proof" style="width:80%"><br>
+
+<b>Upshot</b>:  
+  
+If you find k vertices connected in the graph, then they MUST be between vertices in different clauses, which means there is a combination that could be simultaneously TRUE in each clause... making $\Phi$ == True!
+
+  
+
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-37.png" alt="CLIQUE proof" style="width:80%"><br>  	
       </p>
     </details>
   </span>
@@ -131,46 +72,74 @@ To show a language is in NP using a verifier:
 
 <br><br>
   
-![](../../../assets/images/csc250/lecture31/NPC-22.png){: width="80%"}   
+  
   
 
-**Activity 2** \[2 minutes\] How would you Prove this?: 
+  
 
+
+
+![](../../../assets/images/csc250/lecture34/PolyRed-38.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-39.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-40.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-41.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-42.png){: width="80%"}  
+  
+  
+  
+![](../../../assets/images/csc250/lecture34/PolyRed-43.png){: width="80%"}  
+  
+**TIP**:  
+  
+What is the most obvious vertex-cover of a graph $G$?  
+  
+What is the most obvious independent-set of a graph $G$?  
+  
+  
+  
+As you make the I-Set greater... what happens to the vertex-cover?  
+  
+Is there a maximum I-Set in a graph $G$?  
+  
+What is the relation with the vertex-cover of a graph $G$?  
+  
+  
+
+**Activity** \[2 minutes\] How would you Prove this?:  
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
       <p>
-<b>Nondeterminism</b>: we can try multiple “branches” of computation at once  
-  
-The trick: each branch can only take polynomial time  
-  
-Nondeterministically test all subsets of vertices. On each subset:  
-loop over all pairs in the (sub)set and check to make sure there’s an edge between them, and if so: ACCEPT - O(n^2)  
-if no branch accepts REJECT  
-  
-  
-Guaranteed to halt? YES (there’s nowhere to get stuck)  
-  
-What would happen if we tried to serialize all the branches?  
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-44.png" alt="CLIQUE proof" style="width:80%"><br> 	
+<img class="img-fluid" src="../../../assets/images/csc250/lecture34/PolyRed-45.png" alt="CLIQUE proof" style="width:80%"><br>
 
-  <ul>
-      <li>how many possible subsets do we have to check? $2^n$ <-- not polynomial anymore  </li>
-      <li>note: this just means that this particular algorithm doesn’t run in polynomial time, but it turns out we haven’t been able to find any polynomial-time deciders for this language</li>
-  </ul>
+  
+<b>Upshot</b>:  
+  
+The largest I-Set must have, as its complement, the smallest vertex-cover!      
       </p>
     </details>
   </span>
 </div> 
 
 <br><br>
+  
 
   
-![](../../../assets/images/csc250/lecture31/NPC-23.png){: width="80%"}   
+![](../../../assets/images/csc250/lecture34/PolyRed-46.png){: width="80%"}  
   
   
   
-![](../../../assets/images/csc250/lecture31/NPC-24.png){: width="80%"}   
-  
-  
-  
-![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"} 
+![](../../../assets/images/csc250/lecture34/PolyRed-47.png){: width="80%"}

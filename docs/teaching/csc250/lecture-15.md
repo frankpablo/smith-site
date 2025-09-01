@@ -3,7 +3,7 @@ layout: default
 title: Lecture15
 parent: CSC250
 grand_parent: Teaching
-nav_order: 15
+nav_order: 250
 #permalink: /docs/teaching/csc110/
 ---  
 

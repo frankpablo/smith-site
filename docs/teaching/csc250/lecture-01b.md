@@ -1,9 +1,9 @@
 ---
 layout: default
-#title: Lecture02
+title: Lecture01b
 parent: CSC250
 grand_parent: Teaching
-nav_order: 3
+nav_order: 111
 #permalink: /docs/teaching/csc110/
 ---  
   

@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Lecture32
+#title: Lecture30
 parent: CSC250
 grand_parent: Teaching
-nav_order: 32
+nav_order: 400
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 32: Complexity and NP-Completeness
+Lecture Notes 30: Extra Subjects!
 ==========================================
 
+  
    
 
 Outline
@@ -27,7 +28,7 @@ This class we'll discuss:
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR-SLm0-yu7IT-kFn1_b5MddIPrufRkZ0_-1LMjoyAT376oAuIt8rA3wo2X3rZQmg6tfp7PfVpB9eZB/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQGho6VFmWjK7imyRN4ms5YGjB_FCflQwovnJl5p1oF-R-y2WmezD_uUzwmv3kkwCcX6gsBOWlhfk74/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 

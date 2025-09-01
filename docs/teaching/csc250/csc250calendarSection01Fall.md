@@ -54,7 +54,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 09/29      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |    |     |
 | 10/01      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |   |     |
-| 10/03      | L10: [Practice/Catch-up](lecture-10.html) |  **Homework 03**{: .label .label-purple} |  **HW04 Due midnight of L16 (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
+| 10/03      | L10: [Practice/Catch-up](lecture-10.html) |  **Homework 03**{: .label .label-purple} |  **HW04 Due midnight of L13 (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
 
 
 # Week 05: Context-Free Grammars and Push-Down Automata
@@ -63,15 +63,49 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/06      | L11: [Context-Free Grammars](lecture-11.html)| | | |
 | 10/08      | L12: [Push-Down Automata](lecture-12.html)  | | | |
-| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |  |  |  |
+| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |  | **Homework 04**{: .label .label-purple} | **HW05 Due midnight of L17 (CFGs and PDAs)**<br>**QUIZ-04-RLs-PLs**{: .label .label-yellow } |
 
 
 
 # Week 06: Practice and  Linear Temporal Logic Practice
-| 10/15      | L_Practice: [Practice](lecture-MidSemesterPractice.html)  | | | |
-| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)| | | |
+| 10/15      | L_Practice: [Practice](lecture-Practice.html)  | | | |
+| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)| | **Homework 05**{: .label .label-purple}| <br>**QUIZ-05-CFGs-PDAs**{: .label .label-yellow } |
 
 
+
+
+# Week 07: Midterm Work Week
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/20      | L_Midterm_1: [Midterm Review/Start](lecture-Midterm01.html) <br> **Midterm Released**{: .label .label-yellow }  |  |  | (Up to TMs)  |
+| 10/22      | L_Midterm_2: [Midterm-Time](lecture-Midterm02.html)    |   |   |   |
+| 10/23      | Thursday: SUBMIT DUE DAY|  **Midterm**{: .label .label-purple} |  | Due on Moodle<br>Before 11:59 PM |
+| 10/24      | L_Midterm_3: [Catch-up + Midterm Reciew](lecture-Midterm03.html) |  |  |  |
+
+
+
+# Week 08: Turing Machines
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/27       | L14: [Turing Machines](lecture-14.html)|  |   |  |
+| 10/29       | L15: [Decidability](lecture-15.html) |  |  | |
+| 10/31       | L16: [Practice/Catch-up](lecture-16.html)  | **Homework 04**{: .label .label-purple} | **HW05 Due midnight of L19 (Turing Machines and Decidability)**<br>**QUIZ-04-PL-CFGs-PDAs**{: .label .label-yellow } |  |
+
+
+
+# Week 09: Uncecidability and Reductions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/03      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
+| 11/05      | L18: [More on Reductions](lecture-18.html)|  |  |  |
+| 11/06      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **Study for Midterm (During Week 09)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
+
+
+
+<!-- 
 
 # Week 07: Turing Machines
 
@@ -92,16 +126,8 @@ nav_order: 1
 | 10/31      | L19: [Practice/Catch-up](lecture-18.html) | **Homework 05**{: .label .label-purple} | **Study for Midterm (During Week 09)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
-<!-- 
-# Week 08: SPRING RECESS
 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 03/17      | **NO CLASSES: SPRING RECESS**       |     |     |     |
-| 03/19      | **NO CLASSES: SPRING RECESS**       |     |     |     |
-| 03/21      | **NO CLASSES: SPRING RECESS**       |     |     |     |
 
- -->
 
 # Week 09: Midterm Work Week
 
@@ -112,15 +138,15 @@ nav_order: 1
 | 11/06      | Thursday: SUBMIT DUE DAY|  **Midterm**{: .label .label-purple} |  | Due on Moodle<br>Before 11:59 PM |
 | 11/07      | L22: [Catch-up + Midterm Reciew](lecture-22.html) |  |  |  |
 
-
+ -->
 
 # Week 10: Enumeration and Mapping Reductions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/10      | L23: [Enumeration](lecture-23.html) |  |  |  |
-| 11/12      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  | |
-| 11/14      | L25: [Practice/Catch-up](lecture-25.html) |  | **HW06 Due Midnight of L28 (Reductions, Ennumeration and Mapping Reductions)**  | | 
+| 11/10      | L20: [Enumeration](lecture-20.html) |  |  |  |
+| 11/12      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
+| 11/14      | L22: [Practice/Catch-up](lecture-22.html) |  | **HW06 Due Midnight of L28 (Reductions, Ennumeration and Mapping Reductions)**  | | 
 
 
 
@@ -129,9 +155,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/17       | L26: [Rice theorem](lecture-26.html) |   |   |   |
-| 11/19       | L27: [Summary: Computability](lecture-27.html)|  |  |   |
-| 11/21       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 06**{: .label .label-purple} | **HW07 Due midnight of L31 (Computability)**<br>**QUIZ-06-Reductions**{: .label .label-yellow }  | |
+| 11/17       | L23: [Rice theorem](lecture-23.html) |   |   |   |
+| 11/19       | L24: [Summary: Computability](lecture-24.html)|  |  |   |
+| 11/21       | L25: [Practice/Catch-up](lecture-25.html) | **Homework 06**{: .label .label-purple} | **HW07 Due midnight of L31 (Computability)**<br>**QUIZ-06-Reductions**{: .label .label-yellow }  | |
 
 
 
@@ -139,7 +165,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/24       | L_Review_: [Computability Review](lecture-Computability_Review.html) |  |   |  |
+| 11/24       | L_Review_All: [Computability Review](lecture-Computability_Review-All.html) |  |   |  |
 | 11/26       | **NO CLASSES: THANKSGIVING RECESS**       |     |     |     |
 | 11/28       | **NO CLASSES: THANKSGIVING RECESS**       |     |     |     |
 
@@ -150,9 +176,9 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/01       | L29: [Intro to Complexity and P Vs NP](lecture-29.html) |  |   |  |
-| 12/03       | L30: [More Complexity and P Vs NP](lecture-30.html)  |  |  |  |
-| 12/05       | L31: [Practice/Catch-up](lecture-31.html) | **Homework 07**{: .label .label-purple} | **HW08 Due midnight of L34 (Complexity)**<br>**QUIZ-07-Computability**{: .label .label-yellow } | |
+| 12/01       | L26: [Intro to Complexity and P Vs NP](lecture-26.html) |  |   |  |
+| 12/03       | L27: [More Complexity and P Vs NP](lecture-27.html)  |  |  |  |
+| 12/05       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 07**{: .label .label-purple} | **HW08 Due midnight of L34 (Complexity)**<br>**QUIZ-07-Computability**{: .label .label-yellow } | |
 
 
 
@@ -160,8 +186,8 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/08      | L32: [P Vs NP and NP-Completeness](lecture-32.html) |  |  |  |
-| 12/10      | L33: [Poly-Time Reductions](lecture-32.html)  |   |    |    |
+| 12/08      | L29: [P Vs NP and NP-Completeness](lecture-29.html) |  |  |  |
+| 12/10      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
 
 
 <!-- 

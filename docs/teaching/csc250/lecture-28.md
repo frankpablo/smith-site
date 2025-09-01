@@ -3,12 +3,12 @@ layout: default
 title: Lecture28
 parent: CSC250
 grand_parent: Teaching
-nav_order: 28
+nav_order: 380
 #permalink: /docs/teaching/csc110/
 ---  
 
 
-Lecture Notes 28: Practice and Homework06 Grading
+Lecture Notes 28: Practice and Homework07 Grading
 =============================================================
 
 ## Outline ##
@@ -16,7 +16,7 @@ Lecture Notes 28: Practice and Homework06 Grading
 
 This class we'll discuss:
 
-* Grading on HW04
+* Grading on HW07
 * Catch-Up: Halting, TMs
 
 
@@ -25,7 +25,7 @@ This class we'll discuss:
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT4LSHdJxzqv-Ygwq_-4pdkpMJRycdVM8P3kMaoqa61C9wG68FQp6rO5jLMfydUIxO2klrtekJrsp7z/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRITEPgkXNWioIQtdptCEo1uciQXkD8VyHQY4Z5_stfQ1nDxWB9_DC_Sueqx4NHDhj9J8yX_CO8j49B/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
   

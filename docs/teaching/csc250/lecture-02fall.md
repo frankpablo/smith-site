@@ -3,7 +3,7 @@ layout: default
 title: Lecture02
 parent: CSC250
 grand_parent: Teaching
-nav_order: 4
+nav_order: 120
 #permalink: /docs/teaching/csc110/
 ---  
   
@@ -29,9 +29,7 @@ This class we'll discuss:
 A Slideshow:
 ---------------
 
-
-<iframe src="https://docs.google.com/presentation/d/1PDHyMQyhy6bDQTTOyH_xcLG8qgDtZH_NipS81IvzFJc/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtya-aWiv7O2kHlLUKOSvM2tA7Km5hd90UyHfV0_duKYg6Hvsi3O51bJr-7QQcosqlTFwsc4jqz5-t/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 * * *

@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Lecture24
+title: LectureReviewAll
 parent: CSC250
 grand_parent: Teaching
-nav_order: 340
+nav_order: 351
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 24: Computability Summary
+Lecture Notes: Computability Review
 =============================================================
 
 

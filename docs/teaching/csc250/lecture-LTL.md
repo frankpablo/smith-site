@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Lecture13b
+title: LectureLTL
 parent: CSC250
 grand_parent: Teaching
-nav_order: 13
+nav_order: 232
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 13b: BONUS CLASS: Linear Temporal Logic
+Lecture Notes : Linear Temporal Logic
 =============================================================
 
   

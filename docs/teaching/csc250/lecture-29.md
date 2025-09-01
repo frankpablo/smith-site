@@ -3,30 +3,31 @@ layout: default
 title: Lecture29
 parent: CSC250
 grand_parent: Teaching
-nav_order: 29
+nav_order: 390
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 29: Computational Complexity
+Lecture Notes 29: Complexity and NP-Completeness
 ==========================================
 
-  
+   
 
 Outline
 -------
 
 This class we'll discuss:
 
-* Recap: Can we do it?
-* Computational Complexity
+* NP-Completeness
+* P-vs-NP
 
   
+
 * * *
 
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRE3qiRuWkorQH9jGSHvNb2uS9jcn1UMbrz5y34fhDiK0vx5Zbm843IJgV4bEhrofGPWhSOitH-dnQE/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR-SLm0-yu7IT-kFn1_b5MddIPrufRkZ0_-1LMjoyAT376oAuIt8rA3wo2X3rZQmg6tfp7PfVpB9eZB/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 
@@ -35,245 +36,101 @@ A Slideshow:
 GUIDED NOTES (Optional)
 =======================
 
-  
 
-Recap: Is this problem doable?
-------------------------------
 
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-09.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-10.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-11.png){: width="80%"}    
-  
-The problem: Is there some way to set these boolean values so the whole thing evaluates to TRUE?  
-  
-![](../../../assets/images/csc250/lecture29/Complex-12.png){: width="80%"}    
-  
-The problem: Pattern matching  
-  
-![](../../../assets/images/csc250/lecture29/Complex-13.png){: width="80%"}    
-  
-The problem: More powerful pattern matching  
-  
-![](../../../assets/images/csc250/lecture29/Complex-14.png){: width="80%"}    
-  
-Restricted notion of “computation”
-
-* no memory
-* only get to read once
-* exactly the same class of languages as REs
+NP and P vs NP
+--------------
 
   
   
-![](../../../assets/images/csc250/lecture29/Complex-15.png){: width="80%"}    
-  
-Very general notion of computation
-
-1.  unlimited storage
-2.  multiple passes over the input
-3.  can compute for as long as you like (doesn’t even have to be guaranteed to stop)
-4.  Large, sweeping language classes: turing decidable, turing recognizable = enumerable
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-16.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-12.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-17.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-13.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-18.png){: width="80%"}    
-  
-Here’s the thing: just knowing that it is POSSIBLE to compute a solution to a problem doesn’t give us any information about how difficult that problem is. The only information we have is… it is not impossible.  
-  
-That level of **resolution** is not great.  
+![](../../../assets/images/csc250/lecture31/NPC-14.png){: width="80%"}   
   
   
   
-What else would be useful to know (in addition to the fact that a problem is solvable)?
-
+![](../../../assets/images/csc250/lecture31/NPC-15.png){: width="80%"}   
   
   
   
-
-* * *
-
+![](../../../assets/images/csc250/lecture31/NPC-16.png){: width="80%"}   
   
   
   
-  
-Complexity
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-19.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-17.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-20.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-18.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-19.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-20.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-21.png){: width="80%"}   
   
 
+**Activity 1** \[2 minutes\] How would you Prove this?: 
 
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
       <p>
-$HALF = \{w | w = 0^i1^i, i \leq 0\}$
+To show a language is in NP using a verifier:  
+
+  <ul>
+      <li>Specify a certificate that can be used with a verifier to decide the language.  </li>
+      <li>Give a verifier that uses that certificate to verify membership in the given language.  </li>
+      <li>Prove that the language recognized by the verifier is the given language and that the verifier runs in polynomial time.</li>
+  </ul>
+
+
+<b>Certificate</b>: a graph and a set of k vertices we claim is a cliquebr Verifier: loop over all pairs in the set and check to make sure there’s an edge between them, and if so: ACCEPT - O(k^2) (can’t be bigger than n^2)
       </p>
     </details>
   </span>
 </div> 
 
-<br><br> 
+<br><br>
+  
+![](../../../assets/images/csc250/lecture31/NPC-22.png){: width="80%"}   
   
 
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-21.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-22.png){: width="80%"}    
-  
+**Activity 2** \[2 minutes\] How would you Prove this?: 
 
 <div class="container mx-lg-5">
   <span style='color:#6f439a'>answer: 
     <details><summary>(Wait; then Click)</summary>
       <p>
-Depends on the particular input.
-      </p>
-    </details>
-  </span>
-</div> 
+<b>Nondeterminism</b>: we can try multiple “branches” of computation at once  
+  
+The trick: each branch can only take polynomial time  
+  
+Nondeterministically test all subsets of vertices. On each subset:  
+loop over all pairs in the (sub)set and check to make sure there’s an edge between them, and if so: ACCEPT - O(n^2)  
+if no branch accepts REJECT  
+  
+  
+Guaranteed to halt? YES (there’s nowhere to get stuck)  
+  
+What would happen if we tried to serialize all the branches?  
 
-<br><br> 
-
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-23.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-24.png){: width="80%"}    
-  
-How long will it take for this input?  
-  
-How about for "01", "0011", "00001111" ... ?  
-  
-![](../../../assets/images/csc250/lecture29/Complex-25.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-26.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-27.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-28.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-29.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-30.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-Initial check (steps 1 and 2) takes 2n steps (n to read, and n to get back)  
-We could have at most n/2 passes over step 3 (because we mark off two letters each time)  
-And to make things easier, let’s say we read the whole string each pass  
-$2n + (n/2)*2n = 2n + n^2$ steps to accept
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>  
-
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-31.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-$\mathcal{O}( n^2 )$
-      </p>
-    </details>
-  </span>
-</div> 
-
-<br><br>  
-  
-
-
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-32.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-33.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-34.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-35.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-36.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-37.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-38.png){: width="80%"}    
-  
-Try modifying the algorithm with a more **efficient** one  
-  
-![](../../../assets/images/csc250/lecture29/Complex-39.png){: width="80%"}    
-  
-
-<div class="container mx-lg-5">
-  <span style='color:#6f439a'>answer: 
-    <details><summary>(Wait; then Click)</summary>
-      <p>
-  3. Copy all the 0s to a second tape  
-  4. Move the two heads together, counting off a 1 and a 0 each step  
-  5. If you hit the end of both tapes at the same time ACCEPT, otherwise REJECT”  
-  
-2n steps for lines 1 and 2  
-n steps for line 3  
-n steps for line 4  
-$= 4n = \mathcal{O}(n)$    
+  <ul>
+      <li>how many possible subsets do we have to check? $2^n$ <-- not polynomial anymore  </li>
+      <li>note: this just means that this particular algorithm doesn’t run in polynomial time, but it turns out we haven’t been able to find any polynomial-time deciders for this language</li>
+  </ul>
       </p>
     </details>
   </span>
@@ -282,65 +139,232 @@ $= 4n = \mathcal{O}(n)$
 <br><br>
 
   
+![](../../../assets/images/csc250/lecture31/NPC-23.png){: width="80%"}   
+  
+ 
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-24.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-25.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-26.png){: width="80%"}   
+  
+
+**Activity 3** \[2 minutes\] How would you Prove this?: 
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+Draw graph with a clique  
+<br>
+Invert the graph  
+<br>
+Point out that a clique in the graph is an independent set in the inverse  
+<br>
+How long does it take to invert a graph?  
+
+  <li> how many edges could there possibly be? O(n^2) </li>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
 
   
-![](../../../assets/images/csc250/lecture29/Complex-40.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-27.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-41.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-28.png){: width="80%"}   
+  
+So what can we say about the relative difficulty of these problems?  
+  
+  
+This means that they are essentially equivalent  
+Either both CLIQUE and INDEPENDENT−SET are in 𝒫 or neither is  
+  
+  
+<br><br>
+
+## NP-Completeness
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-42.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-29.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-43.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-30.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-44.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-31.png){: width="80%"}   
+  
+
+**Activity 4** \[2 minutes\] How would you Prove this?:  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+
+Suppose B is NP-complete and B ∈ P.  
+  
+<ul>
+ <li> Let A be any language in NP; </li>
+ <li> We know $A \leq_p B$ since B is NP-complete. </li>
+ <li> Then A ∈ P, since B ∈ P and “easiness propagates downward”. </li>
+ <li> Since every A in NP is also in P, this means NP ⊆ P. </li>
+ <li> Since we also know P ⊆ NP, it follows that P = NP. </li>
+</ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
+
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-32.png){: width="80%"}   
   
   
   
-![](../../../assets/images/csc250/lecture29/Complex-45.png){: width="80%"}    
+![](../../../assets/images/csc250/lecture31/NPC-33.png){: width="80%"}   
   
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-46.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-47.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-48.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-49.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-50.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-51.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-52.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-53.png){: width="80%"}    
-  
-  
-  
-![](../../../assets/images/csc250/lecture29/Complex-54.png){: width="80%"}  
+
+**Activity 5** \[2 minutes\] How would you Prove this?: 
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+
+Our witness (certificate) would be a satisfying assignment x1, x2, ..., xn s.t xi ∈ T/F.  
+<br>
+A deterministic TM can easily verify that the assignment satisfies all clauses, in polynomial (even linear) time in n, m.
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
 
 
+  
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-34.png){: width="80%"}   
+  
 
+**Activity 6** \[2 minutes\] How would you Prove this?: (Wait; then Click)  
+  
+<div class="container mx-lg-5">
+  <span style='color:#6f439a'>answer: 
+    <details><summary>(Wait; then Click)</summary>
+      <p>
+<ul>
+    <li> We must show that any language A in NP is efficiently reducible to SAT. <br>
+        That is, if we could solve SAT, we could solve any problem A that’s in NP.</li>
+    <li> Since AND, OR and NOT form a universal system, i.e, a basis for Boolean logical operators, we know we can can construct a boolean formula that simulates the transitions of a Turing Machine.</li>
+    <li> Since A is in NP, there must be some nondeterministic TM $M_A$ that decides it.</li>
+    <li> The reduction function, given $M_A$ (the NP-machine for A), receives a string w and produces a Boolean formula $\Phi_{M_{A,w}}$ that simulates the run of $M_A$ on the input w</li>
+    <li> An assignment to $\Phi_{M_{A,w}}$ could represent a computational path of the NP machine,</li>
+    <li> And if we’re clever, we can set it up so that $\Phi_{M_{A,w}}$ will be satisfiable iff the machine $M_A$ accepts w.</li>
+<br><br>
+  
+This is called the <b>Cook-Levin Theorem</b>  
+
+<br><br>
+The full proof of this theorem is a little beyond the scope of this video, but if check out the original publication on Moodle if you want all the gory details. 
+<br>
+The important takeaway is that if we had some efficient decider for SAT, we’d be able to efficiently decide anything.  
+</ul>
+      </p>
+    </details>
+  </span>
+</div> 
+
+<br><br>
+
+  
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-35.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-36.png){: width="80%"}   
+  
+3CNF = conjunctive normal form with no more than three variables per conjunct  
+  
+3SAT is in NP for the same reason that regular SAT was: given a set of T/F values, it’s easy to check whether the formula evaluates to T  
+  
+
+<br><br>
+  
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-37.png){: width="80%"}   
+  
+Reduce it to SAT (SAT ≤p 3SAT)  
+  
+It turns out that ANY propositional formula can be converted into an equivalent 3CNF version by splitting it into pieces and adding some dummy variables as necessary  
+  
+  
+<br><br>
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-38.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-39.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-40.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-41.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-42.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-43.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-44.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-45.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-46.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-47.png){: width="80%"}   
+  
+  
+  
+![](../../../assets/images/csc250/lecture31/NPC-48.png){: width="80%"} 

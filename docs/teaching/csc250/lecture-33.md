@@ -1,17 +1,16 @@
 ---
 layout: default
-title: Lecture33
+#title: Lecture33
 parent: CSC250
 grand_parent: Teaching
-nav_order: 33
+nav_order: 430
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes 33: More on P vs NP vs NP-Completeness
-==========================================
+Lecture Notes 33: More NP-Completeness, P v NP, and Poly-Time-Reductions
+===================================================================
 
   
-   
 
 Outline
 -------
@@ -25,19 +24,7 @@ This class we'll discuss:
 
 * * *
 
-A Slideshow:
----------------
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQGho6VFmWjK7imyRN4ms5YGjB_FCflQwovnJl5p1oF-R-y2WmezD_uUzwmv3kkwCcX6gsBOWlhfk74/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="629" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
----
-
-
-
-GUIDED NOTES (Optional)
-=======================
-
-
+  
 
 NP and P vs NP
 --------------
