@@ -68,6 +68,8 @@ nav_order: 1
 
 
 # Week 06: Practice and  Linear Temporal Logic Practice
+
+| 10/15      | **NO CLASSES: Columbus Day**  | | | |
 | 10/15      | L_Practice: [Practice](lecture-Practice.html)  | | | |
 | 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)| | **Homework 05**{: .label .label-purple}| <br>**QUIZ-05-CFGs-PDAs**{: .label .label-yellow } |
 
