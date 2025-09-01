@@ -26,7 +26,7 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 09/08      | L1: [Data and Programs](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-01.html)  | Ch 1 | |  |
-| 09/10      | L2: [Software Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-02.html)  | | |   |
+| 09/10      | L2: [Software Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-02.html)  |  | |  Also see [installing pyhton and Thonny](https://frankpablo.github.io/smith-site/docs/teaching/csc110/csc110install_IDE.html) |
 | 09/12      | L3: [Intro to Basic Syntax](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-03.html)   | Ch 2 | Ch 3 (3.1 to 3.6) Before L4|      |
 
 
