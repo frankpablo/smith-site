@@ -7,7 +7,7 @@ nav_order: 234
 #permalink: /docs/teaching/csc110/
 ---  
 
-Lecture Notes : Midterm Completion
+Lecture Notes : Midterm Completion (Submit TODAY by 6PM)
 =============================================================
 
 ## Outline ##
@@ -16,6 +16,7 @@ Lecture Notes : Midterm Completion
 This class we'll discuss:
 
 * Work On Midterm
+* Submit by 6 PM
  
 
 * * *
