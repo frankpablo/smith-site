@@ -164,8 +164,61 @@ Given a repository, you can **clone** it to your local machine, work on it, and 
 
 -->
 
+## Installing git
 
-## First time you want to download the materials:
+git is the program that tracks changes and that knows how to talk to the remote repository in GitHub. Here is how you install it:
+
+First, go to the section for your laptop (MAC or Windows) and then follow the instructions.
+
+### Installing git on a Mac
+
+  1. Open your Terminal application.
+  2. Run the following command:
+  `git --version`
+  3. If Git is installed, you're done. If it's not already installed, a dialog box will appear prompting you to install the Xcode Command Line Tools. 
+     1. Click "Install" and follow the on-screen instructions. This bundles Git along with other developer tools.
+     2. ONLY If this step didn't work, do the following:
+        1. we'll install `brew` and use it to install git: go to [this page](https://brew.sh/, copy the command shown below, and run in Terminal.
+        `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+        2. Now follow the instructions on the terminal
+        3. When `brew` is done installing, run the following command:
+        `brew install git`
+
+_If you have trouble with any of these steps, ask for help._
+
+### Installing git on a Win
+
+  1. You need to have WSL installed in Windows and be able to select "Ubuntu" as a Terminal profile. This lets you "speak in bash".
+  2. Open the Windows Terminal (select ubuntu terminal config)
+  3. Run the following command: 
+  `sudo apt-get install git -y`
+     * Note: sudo is a way to call a program with maximum permissions (don't use it unless I tell you)
+     * when you use it, it asks your password. Enter the ubuntu password you set earlier for your WSL (if you paid attention, it is the same as for win).
+  4. After it's done, run the following command:
+  `git --version`
+  5. If it prints something like: `git version 2.34.1`
+
+_If you have trouble with any of these steps, ask for help._
+
+
+### Configuring git for local use (Mac and Win)
+
+  * After you install git, you need to set your name lastname and email.
+  * Run the following command but substitute First Last for you first and last names (include the quotes):
+  `git config --global user.name "First Last"`
+  * In my case, the command looks like this:
+  `git config --global user.name "Pablo Frank"`
+  * Now, to set your email, run the following command but substitute email for your smith email (or the email you set up in Github)
+  `git config --global user.email <username>@<domain.edu>`
+  * In my case, the command looks like this:
+  `git config --global user.email pfrank@smith.edu`
+  Now you should be all set with git.
+
+
+
+## Working with git:
+
+First time you want to download the materials:
 
 ### Clone
 
