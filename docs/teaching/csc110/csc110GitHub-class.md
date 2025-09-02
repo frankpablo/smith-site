@@ -3,7 +3,7 @@ layout: default
 title: CSC110GithHub-class
 parent: CSC110
 grand_parent: Teaching
-nav_order: 3
+nav_order: 5
 has_children: false
 # permalink: /docs/teaching/csc110home/
 ---
@@ -18,10 +18,12 @@ has_children: false
 ## Quick links
 
   * [What is GitHub](#what-is-github)
+
+<!--   
   * [Working in Codespaces](#working-in-codespaces)
   * [Working in VSCode Individually](#working-in-vscode-individually)
   * [Working in VSCode In Groups](#working-in-vscode-in-groups)
-
+ -->
 
 # What is GitHub
 
@@ -70,6 +72,7 @@ When using git, every repo can have tracking of changes so that every little thi
   7. Repeat: You can do steps 2-6 until you are ready to upload or submit the accumulated changes stored in the sequence of commits.
   8. Push: pushing, in git, means uploading all your commits to the repo that is stored remotely. In Codespaces or VSCode, an option exists for performing a "Commit and Sync". This really only means that, before performing a Push, a Pull is done. However, if your changes conflict with changes made by someone else, then a conflict may arise that needs to be resolved (more on this later).
 
+<!-- 
 
 ## Codespaces vs VSCode on your laptop
 
@@ -159,6 +162,9 @@ Go to the top-level directory of your local repo. If you don;t have a local repo
 
 Given a repository, you can **clone** it to your local machine, work on it, and then **push** changes. Here is the sequence:
 
+-->
+
+
 ## First time you want to download the materials:
 
 ### Clone
@@ -174,6 +180,7 @@ If you click on that link, or search it in your github account, you will find th
 The first task is to clone (or download) the github cloud reepository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab:<br>
 ![Remote Address](../../../assets/images/csc110/repo-address.png){: width="80%"} 
 
+<!-- 
 
 Now follow these steps:
 
@@ -185,10 +192,193 @@ Now follow these steps:
   4. Select the folder **inside of you which** you wish to place your project (DO NOT DOUBLE CLICK, JUST NAVIGATE TO THE FOLDER). Select csc110-s25<br>
   ![Remote Address](../../../assets/images/csc110/folder_selection_fp.png){: width="80%"} 
 
+-->
+
+# Working with git
+
+The following steps are used to work with a git repository:
+
+![Remote Address](../../../assets/images/csc110/working_with_git.png){: width="100%"} 
+
+
+This image corresponds to the steps shown above.
+
+![Remote Address](../../../assets/images/csc110/git_process.png){: width="100%"} 
+
+
+## git commands
+
+The following commands should be run in the terminal, while focused on (inside of) the local repository directory you cloned:
+
+
+In the following examples, I will at as if I just modified hw01.py by adding two lines (don't worry if you have not reached hw01 yet):
+
+```
+    x = 27
+    print("Part 1: x =",x)
+```
+
+### Checking status
+
+First of all, I want to see what the git program sees after the modification of a file, so I run the command:
+
+```
+git status
+```
+
+In this example, the following is returned:
+
+```
+pfrank@Pablos-MBP hw01-frankpablo % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hw01.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        __pycache__/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+pfrank@Pablos-MBP hw01-frankpablo % 
+```
+
+Note that after every compilation, the computer adds an annoying little extra folder called `__pycache__`. This is like "cookies" in browsers. It helps kep track of compilation information to speed things up. 
+
+We don't need to track some files, so we can actually tell git to ignore them. Here is how:
+
+### Adding a gitignore
+
+You can create a file called `.gitignore` (it starts with a dot and has no extension. These files are "hidden files" that contain configuration information.)
+
+You can create it in the local repo using sublime or other text editors, or you can use the `touch` command on the terminal, which should allow you to simply create the file like this:
+
+```
+touch .gitignore
+```
+
+To add info to it, you can open it (sublime is fine) and add, in each line, what you want ignored. 
+
+You can also edit directly on the terminal. There are different Terminal editors, but one of the simplest are Nano or Pico.
+
+Here are all the [instructions](https://www.nano-editor.org/dist/latest/cheatsheet.html)
+
+The important instructions are: 
+
+  * If you see “^X” that means `Ctrl + x`
+  * The menu at the bottom reminds you of how to do things
+  * `Ctrl + o`: to save (press return or enter after you do)
+  * `Ctrl + x`: to exit (you might need to confirm saving changes)
+
+So now, in our example, let's edit the file called `.gitignore`:
+I will edit this using the pico editor, like this:
+
+```
+pico .gitignore
+```
+It opens the editor, and I simply add the line `__pycache__/` (with the forward slash on Mac AND Win).
+
+![Remote Address](../../../assets/images/csc110/gitignore_pycache.png){: width="100%"} 
+
+
+### Fetching (Checking for changes on the remote)
+
+Sometimes, people work on multiple devices or in teams, so it is good practice to check if the remote has been changed, and if so, pull the remote BEFORE making changes to it.
+
+First, to check what is in it, we "fetch" the changes like this:
+
+```
+git fetch
+```
+
+You can then run `git status` again to displays any changes:
+
+If there are changes on the remote, status will say something like this:
+
+```
+Your branch is behind 'origin/main' by X commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+```
+
+In this case, you should get the latest version of the remote.
+
+### Pulling
+
+Pulling means downloading. You do this when you are confident that these changes are good. In more advanced workflows, one can work on separate versions called branches that one later merges... but that is beyond the scope of this class. 
+
+
+Here is how you pull your remote repo changes:
+
+```
+git pull
+```
+
+When executed, it reports the changes done to your local repo (to catch it up).
+
+You might run into trouble here if you made local changes before pulling. In that case, go to your instructor (the only thing we'll do is to save the changes separately, pull, then try to do the local changes). 
+
+
+### Editing your files
+
+**Before you edit, you should fetch and pull any changes to the remote.**
+
+You can edit your files on Sublime, Thonny, or directly on the terminal. 
+
+Note that when you compile, the `__pycache__/` directory is created and that technically constitutes a modification.
+
+
+### Staging, AKA: Adding (specific)
+
+To add a single, specific newly modified file called  `modified.py` to tracking, you would run the following command:
+
+```
+git add modified.py
+```
+
+### Staging, AKA: Adding (all)
+
+To add all newly modified files to tracking in one go, you would run the following command:
+
+```
+git add .
+```
+Note: notice the dot!
+
+### Committing (all)
+
+To commit all newly modified files to the current "set of modifications", you would run the following command:
+
+```
+git commit -m "short informative message of <80 characters"
+```
+Note: the `-m` flag allows you to put the message inline. It is important to add the double quotes.
+
+### What if I forgot the `m` flag?
+
+If you just do `git commit`, an editor window will open on the terminal and (probably) use the program called "nano" or "pico" to edit it. If this happens, simply type, at the top, the message you want to write (no need for double quotes).
+
+
+**Note:** one can commit many times, and in fact, it is a good idea to do so. A standard approach is to edit and run the program until it compiles and does what we want (maybe it passes some new tests). Then we: add (stage) and commit (with a message indicating what feature was added).  You can then repeat for the next feature and so on. 
+
+If you want to "save your progress", even if you are not done, that is when you push.
+
+## Pushing (or Uploading to the remote)
+
+Pushing is the way to upload and submit assignments. Once you are ready to do so, run this command:
+
+```
+git push
+```
+
+<br><br>
+
 
 ## Editing in a group
 
-Edting with multiple members can be a complicated task, especially if people forget to commit or upload (push) their changes, or if they forget to update (pull) their local version with every other person's changes. So every time you work on your code, you should do the following:
+Editing with multiple members can be a complicated task, especially if people forget to commit or upload (push) their changes, or if they forget to update (pull) their local version with every other person's changes. So every time you work on your code, you should do the following:
 
 
   1. Always **pull** before making any changes. You can also **fetch** the changes, which allows you to see changes without actually altering your local version (but you need to eventually pull)
@@ -197,6 +387,8 @@ Edting with multiple members can be a complicated task, especially if people for
   4. If no changes affect your own changes, **push** all your commits (commit and sync)
   5. go to (1)
 
+
+<!-- 
 How do these steps look in VSCode:
 
   1. Go the Source Control section of VSCode<br>
@@ -219,7 +411,7 @@ How do these steps look in VSCode:
   ![Remote Address](../../../assets/images/csc110/updated_graph_vscode.png){: width="80%"} 
 
 
-
+-->
 
 
 

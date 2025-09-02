@@ -3,7 +3,7 @@ layout: default
 title: CSC110-Q&A
 parent: CSC110
 grand_parent: Teaching
-nav_order: 4
+nav_order: 7
 # permalink: /docs/teaching/csc110home/
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: History
 parent: CSC110
 grand_parent: Teaching
-nav_order: 5
+nav_order: 8
 #permalink: /docs/teaching/csc110/
 ---  
   

@@ -3,7 +3,7 @@ layout: default
 title: Install-IDE
 parent: CSC110
 grand_parent: Teaching
-nav_order: 7
+nav_order: 4
 #permalink: /docs/teaching/csc110/
 ---  
 

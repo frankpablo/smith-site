@@ -3,7 +3,7 @@ layout: default
 title: CSC110calendar-Fall
 parent: CSC110
 grand_parent: Teaching
-nav_order: 1
+nav_order: 2
 #permalink: /docs/teaching/csc110/
 ---
 
@@ -36,7 +36,7 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 09/15      | L4: [Practice with Basic Syntax](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-04.html) | Ch 3 |   <br>Ch 4 (4.1 to 4.11) Due Before L6|  |
-| 09/17      | L5: [More Practice with Basic Syntax](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-05.html) <br>**The TTT Model Project 1**    |    | **QUIZ-01: Basics**{: .label .label-yellow }<br>**OUT: Homework 01: Expressions**{: .label .label-grey}<br>HW01 Due Midnight after L8   |  |
+| 09/17      | L5: [More Practice with Basic Syntax](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-05.html) <br>**The TTT Model Project 1**    |    | **QUIZ-01: Basics**{: .label .label-yellow }<br>**OUT: Homework 01: Expressions**{: .label .label-grey}<br>HW01 Due BEFORE L8   |  |
 | 09/19      | L5b: [Practice with Basics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-05b.html) |  |  |  |
 
 
