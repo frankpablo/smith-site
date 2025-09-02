@@ -51,6 +51,7 @@ nav_order: 2
 
 # UP TO HERE CHECKED (and Slides updated) 
   * ... some need links updated, or actual HW or exercises uploaded to moodle.
+  * Already updated to Thonny
 
 
 
