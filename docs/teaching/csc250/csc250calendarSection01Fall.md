@@ -63,15 +63,16 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/06      | L11: [Context-Free Grammars](lecture-11.html)| | | |
 | 10/08      | L12: [Push-Down Automata](lecture-12.html)  | | | |
-| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |  | **Homework 04**{: .label .label-purple} | **HW05 Due midnight of Lecture on LTL (Next Friday) (CFGs and PDAs)**<br>**QUIZ-04-RLs-PLs**{: .label .label-yellow } |
+| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |   **Homework 04**{: .label .label-purple} | **HW05 Due midnight of Lecture on LTL (Next Friday) (CFGs and PDAs)**<br>**QUIZ-04-RLs-PLs**{: .label .label-yellow } |  |
 
 
 
 # Week 06: Practice and  Linear Temporal Logic Practice
 
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 | 10/15      | **NO CLASSES: Columbus Day**  | | | |
 | 10/15      | L_Practice: [Practice](lecture-Practice.html)  | | | |
-| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)| | **Homework 05**{: .label .label-purple}| <br>**QUIZ-05-CFGs-PDAs**{: .label .label-yellow } |
+| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)|  **Homework 05**{: .label .label-purple}| <br>**QUIZ-05-CFGs-PDAs**{: .label .label-yellow } |  |
 
 
 
