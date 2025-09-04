@@ -101,7 +101,7 @@ Let's look at these terms one by one:
       
     The electronic stored program (see [Manchester Baby](https://en.wikipedia.org/wiki/Manchester_Baby)) became a "thing".  
       
-    An important component is the "transistor" (more on this later) was invented in 1947.  
+    An important component is the "transistor" (more on this later) which was invented in 1947.  
     It allowed the construction of smaller, faster, and more efficient computers: **Moore's law** postulated that the number of transistors that can be packed into a given unit of space will double about every two years.  
       
     Effect... look in your pocket or wrist.  

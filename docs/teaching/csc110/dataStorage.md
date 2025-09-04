@@ -39,7 +39,7 @@ There are two different things that one must understand about the data that is f
 
 A standard modern computer is based on an electronic switching model; the standard analogy is "a system of pipes and valves running water".  
   
-The way a computer keeps data inside itself is by running a current or keeping an electromagnetic charge in a circuit component (you can think of it as running a water current trhough a pipeor as filling a small tank full of water).  
+The way a computer keeps data inside itself is by running a current or keeping an electromagnetic charge in a circuit component (you can think of it as running a water current through a pipe or as filling a small tank full of water).  
   
 Therefore, the smallest value one can save in a computer is if there is or there isn't a current or charge in a component  
   
@@ -97,7 +97,7 @@ So, for our purposes, we're going to switch to another "model" of the storage:
     ![](../../../assets/images/csc110/lecture02/security-boxe-open.png){: width="50%"}
     
       
-    They ara aranged in a consecutive order and each box has a known **location** or **address**.  
+    They are aranged in a consecutive order and each box has a known **location** or **address**.  
       
     **Files** are (potentially large) groups of these boxes. Each file, in adition to the data it contains (0s and 1s) has a set of special boxes that indicate what type of file it is.  
       
@@ -107,11 +107,11 @@ So, for our purposes, we're going to switch to another "model" of the storage:
 
 We have an abstract idea of how data is stored, which is in a collection of files and folders in a complex tree structure.  
   
-However, in actuallity, data is stored in a **registers** that hold groups of 8 bits. We call each one of these 8-bit sequences a **word**.  
+However, in actuality, data is stored in a **registers** that hold groups of 8 bits. We call each one of these 8-bit sequences a **word**.  
   
 ![](../../../assets/images/csc110/lecture02/memoryModel.png)  
   
-Another name for a group of 8 bits is a **byte**  
+Another name for a group of 8 bits is a **byte**.
   
 Also, these registers don't need an address, since you can find them by their location. In other words, "address" 217 is simply the register that is 217 registers after the first one. In the image shown above, we're showing the addresses explicitly so that you can visualize what we mean by them, but in actuality, they don't require that extra column of numbers.  
   
@@ -194,8 +194,8 @@ A python program uses symbols from English and has:
 
 *   **Reserved words**: Key words that already mean special things
 *   **Identifier words**: Key words that the user can specify (like nicknames)
-*   **Operators and delimiters**: symbols that let us clarify intention or combine values (like punctation)
-*   **Expressions**: Sequences of key words, dentifiers, operators and delimiters that cause data to be stored, transformed, or shown
+*   **Operators and delimiters**: symbols that let us clarify intention or combine values (like punctuation)
+*   **Expressions**: Sequences of key words, identifiers, operators and delimiters that cause data to be stored, transformed, or shown
 
   
   
@@ -230,7 +230,7 @@ You can try it out [Here](https://pythontutor.com/visualize.html#code=word%20%3D
   
 5.  Each of these "machine code instructions" tells the computer where to look (boxes in memory) and what to do with the contents (update them, copy them somewhere else, or pass them to output devices)
   
-7.  If no "spelling errors are detected" (before executing) and if no ilegal operations are requested (like erasing protected memory locations), then the sequence of instructions runs until nothing else remains to be done.
+7.  If no "spelling errors are detected" (before executing) and if no illegal operations are requested (like erasing protected memory locations), then the sequence of instructions runs until nothing else remains to be done.
   
 9.  For this particular program, the sequence of actions cause the computer to tell the monitor to print specific symbols at specific locations
 
