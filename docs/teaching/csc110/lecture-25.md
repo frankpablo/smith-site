@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture27
+title: Lecture25
 parent: CSC110
 grand_parent: Teaching
-nav_order: 390
+nav_order: 350
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 27: Intro to File-IO
+Lecture Notes 25: Intro to File-IO
 ===========================================
 
 

@@ -1,14 +1,14 @@
 ---
 layout: default
-#title: Lecture27
+title: Lecture23
 parent: CSC110
 grand_parent: Teaching
-nav_order: 41
+nav_order: 330
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 27: More Graphics
+Lecture Notes 23: More Graphics
 ===========================================
 
 

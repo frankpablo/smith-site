@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture28
+title: Lecture22
 parent: CSC110
 grand_parent: Teaching
-nav_order: 360
+nav_order: 320
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 28: Intro to Graphics
+Lecture Notes 22: Intro to Graphics
 ===========================================
 
 # NOTE on installing TK (TKinter)

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture29
+title: Lecture24
 parent: CSC110
 grand_parent: Teaching
-nav_order: 370
+nav_order: 340
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 29: Practice Graphics and Project Planning
+Lecture Notes 24: Practice Graphics and Project Planning
 ===========================================
 
 

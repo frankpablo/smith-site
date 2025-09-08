@@ -67,6 +67,7 @@ nav_order: 2
 | 10/06      | L12: [Intro to Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-12.html) | Ch 8-A   |     |     |
 | 10/08      | L13: [More basic Loops and Debugging](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-13.html)<br>**Review of Quiz-04**  |    |    |    |
 | 10/10      | L13b: [Forest Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-13b.html)<br>**TTT Model Project Step 3** | **Due: Homework 04: Project Ideas**{: .label .label-purple} | **OUT: Homework 05: Loops**{: .label .label-grey}<br>HW05 Due Midnight After L19<br>Ch 8-B (8.10 to 8.14) Due before L18  | |
+
 <!-- | 10/10      | L14: [PRACTICE with Loops ](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-17.html)<br>**TTT Model Project Step 5** | **Due: Homework 04: Project Ideas**{: .label .label-purple} | **OUT: Homework 05: Loops**{: .label .label-grey}<br>HW05 Due Midnight After L19<br>Ch 8-B (8.10 to 8.14) Due before L18  | | -->
 
 
@@ -75,14 +76,57 @@ nav_order: 2
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/10      | L14: [Nested Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-14.html)  |  Ch 8-B   |     |      |
-| 03/12      | L15: [Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15.html) |  **DUE: Homework 05: : Loops**{: .label .label-purple}   |  **QUIZ-05: Loops**{: .label .label-yellow } <br>**OUT: Homework 06: Nested Loops**{: .label .label-grey}<br>HW06 Due Midnight After L25<br>Ch 9 (9.1 to 9.22) Due before L20 |  |
-| 03/14      | L15b: [REPEAT: Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15.html)  |     |     | IN-CLASS work on HW06    |
+| 10/13      | **NO CLASSES: Columbus Day**   |    |     |      |
+| 10/15      | L14: [Nested Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-14.html)  |  Ch 8-B   |     |      |
+| 10/17      | L15: [Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15.html) |  **DUE: Homework 05: : Loops**{: .label .label-purple}   |  **QUIZ-05: Loops**{: .label .label-yellow } <br>**OUT: Homework 06: Nested Loops**{: .label .label-grey}<br>HW06 Due Midnight After L25<br>Ch 9 (9.1 to 9.22) Due before L20 |  |
+
+
+
+
+# Week 07: Fancy String Use
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/20      | L16: [Strings Intro](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-16.html)  |  Ch 9 |  <br>**Refine Project Ideas in OHs**{: .label .label-blue}  |     |
+| 10/22      | L17: [More Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-17.html)<br>**Review of Quiz-05**  |    |    |     |
+| 10/24      | L18: [Practice with Strings](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-18.html)  |   |  Ch 10-A (10.1 to 10.16) Due before L23 |   |
+
+
+
+# Week 08: Lists
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/27      | L19: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html)   | Ch 10-A | Ch 10-B (10.17 to 10.26)  Due before L24   |     |
+| 10/29      | L20: [Lists and Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-20.html)  | Ch 10-B  |  Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7) Both Due Before L25 |      |
+| 10/31      | L21: [2D-Lists abd other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12   |   |   |
 
 
 
 # UP TO HERE CHECKED (and Slides updated) 
-  * Below ... some need links updated, or actual HW or exercises uploaded to Moodle.
+  * Below ... Slide links need to be updated.
+
+
+# Week 09: Graphics
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/03      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br>**Review of Quiz-06**  |  | |    |
+| 11/05      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
+| 11/06      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   |   <br>**DUE: Homework 06: Nested Loops**{: .label .label-purple}  |  **QUIZ-06: Nested Loops**{: .label .label-yellow }<br>   **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L31  |     |
+
+
+# Week 10: Files and Modules
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/10      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>**Review of Quiz-06**  |  | |    |
+| 11/12      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
+| 11/14      | L27: [Practice with File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   <br>**DUE: Homework 06: Nested Loops**{: .label .label-purple}  |  **QUIZ-06: Nested Loops**{: .label .label-yellow }<br>   **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype I Due Before L31  |     |
+
+
+
+
 
 
 <!-- 
