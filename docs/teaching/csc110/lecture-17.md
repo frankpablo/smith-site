@@ -3,12 +3,12 @@ layout: default
 title: Lecture17
 parent: CSC110
 grand_parent: Teaching
-nav_order: 27
+nav_order: 270
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 17: Practice with Loops and Debugging
+Lecture Notes 17: More Strings
 ===========================================
 
 
@@ -16,5 +16,4 @@ Lecture Notes 17: Practice with Loops and Debugging
 A Slideshow:
 ---------------
 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ_JyhIdUqurU1hm2_Vn9yJeJH5M-9wYzPaIDzLwl2LFxSOtQjeXKxRjTOvJBXcBnjp4qmZy0xCHY4Q/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQQhJTvrZcryEDMmp9MQiPPQtuNASy3DUe9H_O35CiOrvKe8oFYVLS7UAM2xRJBR7hb5dZPOm-hAq1o/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

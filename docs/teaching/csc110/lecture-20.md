@@ -3,12 +3,12 @@ layout: default
 title: Lecture20
 parent: CSC110
 grand_parent: Teaching
-nav_order: 30
+nav_order: 300
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 20: Intro to Strings
+Lecture Notes 20: Lists and Nested Loops
 ===========================================
 
 
@@ -16,4 +16,4 @@ Lecture Notes 20: Intro to Strings
 A Slideshow:
 ---------------
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSXo-rXK-f9ObpOjqdeCuiQ2lN3KACLDcOVSpzOv4k2voTsSU3FGcdh71ki7phV1ZsPpHAsFNfmRQ_K/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTl2WrLx5nUZjCV5IMx-xkSaAka-hQoeoXtXawNBEnWm7c2E3KbqEpo7_yAUTI5BK8Gol7dDyVjh8z-/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
