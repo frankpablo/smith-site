@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Anaconda-and-Spyder
+#title: Anaconda-and-Spyder
 parent: CSC110
 grand_parent: Teaching
 #nav_order: 7
