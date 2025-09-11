@@ -14,11 +14,20 @@ If you are in Windows 10 or 11, you might want to install the Windows Subsistem 
 
 This will let us run similar commands on the Terminal and use file and directory paths with the same address structure.
 
-Please Watch this video (up until minute 4 and 18 seconds):
+## Video instructions:
 
-[How to setup WSL](https://www.youtube.com/watch?v=cJWhyycbPyA)
+These are instructions of how to set up WSL in your computer and what it gives you. It's a good idea to try the basic install first (next section). If it works, then you can watch the later part of the videos to understand what you get. If the basic install doesn't work, you may watch the videos and follow along or read on to the Troubleshooting or Double Trouble sections.
 
-## Basic install
+  * If you have Windows 11: Please Watch this video (up until minute 4 and 18 seconds):
+    [How to setup WSL on  Win 11](https://www.youtube.com/watch?v=cJWhyycbPyA)
+  * If you have Windows 10: Please Watch this video (up until minute 4 and 18 seconds):
+    [How to setup WSL on  Win 10](https://www.youtube.com/watch?v=LzY_Y2y4dr4)
+    The commands described in the video can be copied from this page:
+    [WSL Manual Install (Win 10)](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
+
+
+
+## Details on Basic install (Try this first)
 
   1. Open PowerShell as Administrator: Right-click on the Start button, select "Windows PowerShell (Admin)" or "Windows Terminal (Admin)".
   2. Run the WSL Install Command: In the administrator PowerShell window, type the following command and press Enter:

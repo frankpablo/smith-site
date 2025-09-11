@@ -32,7 +32,7 @@ GitHub allows you to save files and folders online and it lets you track changes
 
 ## How does GitHub work
 
-Github hosts a Repository (a set of files and folders and a history of changes) in the cloud. You can edit on the cloud directly (using a code editor in a browser) or you can download your code, work in your computer and then re-upload to keep the clud version in sync.
+Github hosts a Repository (a set of files and folders and a history of changes) in the cloud. You can edit on the cloud directly (using a code editor in a browser) or you can download your code, work in your computer and then re-upload to keep the cloud version in sync.
 Here are the steps to work with Github.
 
 ## Get a GitHub account
@@ -42,6 +42,45 @@ When opening your account, do the best you can to use a name similar to your use
 For example, if my name is Pablo Frank Bolton, I would love to use "pfrank". If that is taken, I could use "pfrankbolton" or "pfrank80" or something lke that.
 
 You don't strictly need an account to use git, but it makes things easier for novices.
+
+
+## Setting up Authentication
+
+GitHub requires two-factor authentication for most applications. So here we'll set it up. There are two recommended methods: using a passkey, or using an authentication app like DUO. 
+
+### Activate Authentication
+
+  1. Access GitHub Security Settings:
+     1. Log in to your GitHub account.
+     2. Click on your profile picture in the top-right corner, then select Settings.
+     3. In the left sidebar, navigate to Password and authentication (under "Access").
+  2. Enable Two-Factor Authentication:
+     1. Scroll down to the "Two-factor authentication" section.
+     1. Click the Enable two-factor authentication button.
+
+Now, we'll pick your **Preferred 2FA method**
+
+### Authenticating with a passkey
+
+A passkey is can be a biometric (fingerprint) or a synced passkey on a nearby device (reacting to a notification on a cellphone). 
+
+This is an easy method but it requires a fingerprint scanner on your laptop, or that you have your other device on you when you access or interact with GitHub.
+
+  1. To pick this click on the drop-down menu under the section "Preferred 2FA method" and select **passkey**.
+  2. Follow the on-screen instructions to register your passkey. 
+
+
+### Authentication with Authenticator App:
+
+QAn authenticator app gets a request for access when and you need to approve it. DUO is the one used at Smith, so that's what we can configure for you.
+
+  1. To pick this click on the drop-down menu under the section "Preferred 2FA method" and select **Authenticator App**.
+  2. GitHub will display a QR code.
+  3. Open the Duo Mobile app on your smartphone or tablet.
+  4. Tap the + icon to add a new account.
+  5. Select the option to Scan QR code and use your device's camera to scan the QR code displayed on GitHub.
+  6. Alternatively, you can manually enter the provided setup key into the Duo Mobile app if scanning is not possible.
+
 
 ## Repositories
 
@@ -224,13 +263,13 @@ First time you want to download the materials:
 
 The first time you accept and create a repository, you need to name your team or join an existing team. Make sure you verify before you do this. 
 
-Once you join a team, a repository wil be forked for you. <br>
+Once you join a team, a repository will be forked for you. <br>
 ![Repo Made](../../../assets/images/csc110/final-project-repo-made.png){: width="80%"} 
 
-If you click on that link, or search it in your github account, you will find the following information in your repository:<br>
+If you click on that link, or search it in your Github account, you will find the following information in your repository:<br>
 ![Remote Repo](../../../assets/images/csc110/repo-cloud.png){: width="80%"} 
 
-The first task is to clone (or download) the github cloud reepository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab:<br>
+The first task is to clone (or download) the github cloud repository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab:<br>
 ![Remote Address](../../../assets/images/csc110/repo-address.png){: width="80%"} 
 
 <!-- 
@@ -492,7 +531,7 @@ Pull previous changes and merge with your own
 git pull    
 ```
 
-After this instruction, a window will ope in the editor with a bunch of comented out text. This is where you manually insert a commit message for your action tesolving the conflicts. 
+After this instruction, a window will ope in the editor with a bunch of commented out text. This is where you manually insert a commit message for your action resolving the conflicts. 
 
 You only need to add a line above the text indicating the commit message. For example: `Resolving commit conflicts`, and then click on the check mark that accepts the message (top right of the editor window).
 
