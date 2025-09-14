@@ -263,13 +263,13 @@ _If you have trouble with any of these steps, ask for help._
   Now you should be all set with git.
 
 
-## Setting up GitHub CLI
+## GitHub CLI
 
 GitHub CLI is the program we will use to help us "download" repositories from GitHub (in the cloud) don to our laptops.
 
 Please follow the instructions for your operating system:
 
-### GitHub CLI for WINDOWS:
+### Installing GitHub CLI for WINDOWS:
 
 Happily for Windows users, installing GitHub CLI can be done with an install wizard:
 
@@ -299,7 +299,7 @@ Happily for Windows users, installing GitHub CLI can be done with an install wiz
      ![Verify Install](../../../assets/images/csc110/gh_win5.png){: width="80%"}     
 
 
-### GitHub CLI for MAC:
+### Installing GitHub CLI for MAC:
 
   1. Install a help program called homebrew:
      1. Open your terminal and run the following command (copy-paste it): 
@@ -316,6 +316,10 @@ Happily for Windows users, installing GitHub CLI can be done with an install wiz
      ```
      brew upgrade gh
      ```
+
+
+### Setting up GitHub CLI  (Mac and Win) 
+
   3. Now We'll connect to GitHub:
      1. run the following command in your Terminal:
      ```
