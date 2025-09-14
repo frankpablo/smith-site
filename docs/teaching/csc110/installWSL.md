@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Install_WSL
+# title: Install_WSL
 parent: CSC110
 grand_parent: Teaching
 nav_order: 3

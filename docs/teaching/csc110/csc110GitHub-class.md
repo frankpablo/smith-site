@@ -43,7 +43,7 @@ For example, if my name is Pablo Frank Bolton, I would love to use "pfrank". If 
 
 You don't strictly need an account to use git, but it makes things easier for novices.
 
-
+<!-- 
 ## Setting up Authentication
 
 GitHub requires two-factor authentication for most applications. So here we'll set it up. There are two recommended methods: using a passkey, or using an authentication app like DUO. 
@@ -80,11 +80,12 @@ QAn authenticator app gets a request for access when and you need to approve it.
   4. Tap the + icon to add a new account.
   5. Select the option to Scan QR code and use your device's camera to scan the QR code displayed on GitHub.
   6. Alternatively, you can manually enter the provided setup key into the Duo Mobile app if scanning is not possible.
+ -->
 
 
 ## Repositories
 
-Github saves projects in repositories. We call each a "repo". 
+GitHub saves projects in repositories. We call each a "repo". 
 
 A repo saved online is called a "remote repo", and a copy of that remote on your local computer is simply called your "local repo". 
 
@@ -227,6 +228,12 @@ _If you have trouble with any of these steps, ask for help._
 
 ### Installing git on a Win
 
+  1. Go to this cite: [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win)
+  2. Click on the link that reads: "Click here to download" and download the .exe for Git
+  3. Double click on it.
+  4. You are going to follow the on-screen instructions and accept all default settings except one. For the "Select default Editor", click on the drop-down and select "Sublime". Everything else should be the recommended or default settings.
+
+<!-- 
   1. You need to have WSL installed in Windows and be able to select "Ubuntu" as a Terminal profile. This lets you "speak in bash".
   2. Open the Windows Terminal (select ubuntu terminal config)
   3. Run the following command: 
@@ -236,6 +243,7 @@ _If you have trouble with any of these steps, ask for help._
   4. After it's done, run the following command:
   `git --version`
   5. If it prints something like: `git version 2.34.1`
+ -->
 
 _If you have trouble with any of these steps, ask for help._
 
@@ -244,15 +252,114 @@ _If you have trouble with any of these steps, ask for help._
 
   * After you install git, you need to set your name lastname and email.
   * Run the following command but substitute First Last for you first and last names (include the quotes):
-  `git config --global user.name "First Last"`
+  ```git config --global user.name "First Last"```
+  Note that the "user.name" part is exactly that. The only thing you change is the "First Last" part.
   * In my case, the command looks like this:
-  `git config --global user.name "Pablo Frank"`
+  ```git config --global user.name "Pablo Frank"```
   * Now, to set your email, run the following command but substitute email for your smith email (or the email you set up in Github)
-  `git config --global user.email <username>@<domain.edu>`
+  ```git config --global user.email <username>@<domain.edu>```
   * In my case, the command looks like this:
-  `git config --global user.email pfrank@smith.edu`
+  ```git config --global user.email pfrank@smith.edu```
   Now you should be all set with git.
 
+
+## Setting up GitHub CLI
+
+GitHub CLI is the program we will use to help us "download" repositories from GitHub (in the cloud) don to our laptops.
+
+Please follow the instructions for your operating system:
+
+### GitHub CLI for WINDOWS:
+
+Happily for Windows users, installing GitHub CLI can be done with an install wizard:
+
+  1. Go to this page: [https://cli.github.com/](https://cli.github.com/). You should see this:
+  
+     ![GitHub CLI Download](../../../assets/images/csc110/gh_win1.png){: width="80%"}
+
+  2. Press the "Download for Windows" button.
+  3. Double click on the downloaded installer. This is what you'll see:
+
+     ![Win GitHub CLI Installer](../../../assets/images/csc110/gh_win2.png){: width="80%"}
+
+  4. After you click Next. This is what you'll see:
+
+     ![COnfirm Location](../../../assets/images/csc110/gh_win3.png){: width="80%"}
+
+  5. To confirm the install location, click Next. This is what you'll see:
+
+     ![Click Install](../../../assets/images/csc110/gh_win4.png){: width="80%"}
+
+  6. Click install. After it is done installing, Open a PowerShell and run the following command:
+
+     ```gh --version```
+
+     You should see something like this:
+
+     ![Verify Install](../../../assets/images/csc110/gh_win5.png){: width="80%"}     
+
+
+### GitHub CLI for MAC:
+
+  1. Install a help program called homebrew:
+     1. Open your terminal and run the following command (copy-paste it): 
+     ```
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+     2. When it finishes, close the terminal and open it again.
+  2. install the GitHub CLI program:
+     1. In the Terminal, run the following command:
+     ```
+     brew install gh
+     ```
+     2. Wait until it ends and then run the following one:
+     ```
+     brew upgrade gh
+     ```
+  3. Now We'll connect to GitHub:
+     1. run the following command in your Terminal:
+     ```
+     gh auth login
+     ```
+     You will see the following appear on your terminal:
+
+     ![auth login](../../../assets/images/csc110/gh1_auth_login.png){: width="80%"}
+
+     2. You then need to confirm HTTPS as the preferred method (use your arrows to select HTTPS and hit return or enter)
+
+     ![pick https](../../../assets/images/csc110/gh2_preferred_protocol.png){: width="80%"}
+
+     3. You will then confirm you want to authenticate git with GitHub credentials (type `Y` and hit return / enter):
+
+     ![Yes to GH credentials ](../../../assets/images/csc110/gh3_authenticate_git.png){: width="80%"}
+
+     4. You will then pick which method to use to authenticate GitHub credentials. You'll pick "Login with a web browser" and hit return.
+
+     ![pick browser](../../../assets/images/csc110/gh4_how_authenticate.png){: width="60%"}
+
+     5. You will then copy the 6-symbol code that appears on the terminal (highlight it and copy or write it down). 
+
+     ![copy code and open browser](../../../assets/images/csc110/gh5_copy_code.png){: width="60%"}
+
+     6. Then, hit return / enter and a browser will open up. Confirm you want this device used to sign in to GitHub:
+
+     ![code entry on browser](../../../assets/images/csc110/gh6_Activate_Device_for_GH.png){: width="60%"}
+
+     7. Then, a window will open up, asking you to enter the code. You can paste it or type it one by one.
+
+     ![code entry on browser](../../../assets/images/csc110/gh7_code_entry.png){: width="60%"}
+
+     8. Then, Authorize GitHub CLI to talk to GitHub:
+
+     ![authorize GH CLI for GH](../../../assets/images/csc110/gh8_auhtorize_ghcli.png){: width="60%"}
+
+     9. Now, sign in to GitHub using your credentials
+
+     ![enter credentials](../../../assets/images/csc110/gh9_sign_in.png){: width="60%"}
+
+     10. Then you're all done:
+
+     ![all done](../../../assets/images/csc110/gh10_all_done.png){: width="60%"}
 
 
 ## Working with git:
@@ -269,8 +376,35 @@ Once you join a team, a repository will be forked for you. <br>
 If you click on that link, or search it in your Github account, you will find the following information in your repository:<br>
 ![Remote Repo](../../../assets/images/csc110/repo-cloud.png){: width="80%"} 
 
-The first task is to clone (or download) the github cloud repository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab:<br>
-![Remote Address](../../../assets/images/csc110/repo-address.png){: width="80%"} 
+The first task is to clone (or download) the github cloud repository (remote repo) to your computer (local repo). You first need to copy the remote repo address, which is located under the <>Code button and local tab, and the "GitHub CLI subtab":<br>
+![Remote Address](../../../assets/images/csc110/gh11_repo_address.png){: width="80%"} 
+
+This is the instruction we'll use to clone (or download) the remote repo to our local machine.
+
+Here is what you need to do:
+
+  1. On Mac, open the Terminal; on Windows open PowerShell. Now navigate to your csc110 folder. 
+     - On Mac: `cd Documents/csc110`
+     - On Win: cd `.\Documents\csc110\`
+     - Note: Remember you can autocomplete the commands by using "Tab"
+  2. If what you are downloading is a homework, then we should make a homework subfolder here (don't do this if you already have a "homework" folder).
+     1. We first check the contents of the csc110 folder. Use the `ls` command.
+     2. If you don;t have a homework folder, create it with this command:
+     ```mkdir homework```
+     3. Now, change directory into this new folder using: 
+     ```cd homework```.
+  3. Now we're ready to clone (download the repo):
+     1. If you haven't already, copy the clone instruction inside the Code<> area under the local tab and GitHub CLI subtab. For me it is something like this: 
+
+        ```gh repo clone SmithCollege/hw00-frankpablo```
+
+        - Note that it will be different for you!!
+     2. Now paste this command on the Terminal (or Powershell).
+     3. Now, you can hit return/enter and the repository will be downloaded.
+  4. To verify you now have the local repo, please use the `ls` command.
+  5. Now `cd` into your local repo.
+
+
 
 <!-- 
 
@@ -344,7 +478,12 @@ We don't need to track some files, so we can actually tell git to ignore them. H
 
 ### Adding a gitignore
 
-You can create a file called `.gitignore` (it starts with a dot and has no extension. These files are "hidden files" that contain configuration information.)
+You can create a file called `.gitignore` inside the local repo. It starts with a dot and has no extension. These files are "hidden files" that contain configuration information.
+
+The easiest way to create a `.gitignore` is with Sublime. Just open a new file and add the following inside: 
+```__pycache__/```, 
+Then save the file as `.gitignore`.
+If you complete this on SUblime, just skip to the next section. However, you can also do this using the in-Terminal editor.
 
 You can create it in the local repo using sublime or other text editors, or you can use the `touch` command on the terminal, which should allow you to simply create the file like this:
 
@@ -419,7 +558,7 @@ You might run into trouble here if you made local changes before pulling. In tha
 
 You can edit your files on Sublime, Thonny, or directly on the terminal. 
 
-Note that when you compile, the `__pycache__/` directory is created and that technically constitutes a modification.
+Note that when you compile, the `__pycache__/` directory is created and that technically constitutes a modification. If you added it to the `.gitignore` file, it should not be added to the changes.
 
 
 ### Staging, AKA: Adding (specific)
