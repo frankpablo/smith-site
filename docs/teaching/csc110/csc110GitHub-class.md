@@ -321,7 +321,7 @@ Happily for Windows users, installing GitHub CLI can be done with an install wiz
 ### Setting up GitHub CLI  (Mac and Win) 
 
   3. Now We'll connect to GitHub:
-     1. run the following command in your Terminal:
+     1. run the following command in your Terminal (Mac) or PowerShell (Win):
      ```
      gh auth login
      ```
