@@ -325,44 +325,25 @@ Happily for Windows users, installing GitHub CLI can be done with an install wiz
      ```
      gh auth login
      ```
-     You will see the following appear on your terminal:
-
-     ![auth login](../../../assets/images/csc110/gh1_auth_login.png){: width="80%"}
-
-     2. You then need to confirm HTTPS as the preferred method (use your arrows to select HTTPS and hit return or enter)
-
-     ![pick https](../../../assets/images/csc110/gh2_preferred_protocol.png){: width="80%"}
-
-     3. You will then confirm you want to authenticate git with GitHub credentials (type `Y` and hit return / enter):
-
-     ![Yes to GH credentials ](../../../assets/images/csc110/gh3_authenticate_git.png){: width="80%"}
-
-     4. You will then pick which method to use to authenticate GitHub credentials. You'll pick "Login with a web browser" and hit return.
-
-     ![pick browser](../../../assets/images/csc110/gh4_how_authenticate.png){: width="60%"}
-
-     5. You will then copy the 6-symbol code that appears on the terminal (highlight it and copy or write it down). 
-
-     ![copy code and open browser](../../../assets/images/csc110/gh5_copy_code.png){: width="60%"}
-
-     6. Then, hit return / enter and a browser will open up. Confirm you want this device used to sign in to GitHub:
-
-     ![code entry on browser](../../../assets/images/csc110/gh6_Activate_Device_for_GH.png){: width="60%"}
-
-     7. Then, a window will open up, asking you to enter the code. You can paste it or type it one by one.
-
-     ![code entry on browser](../../../assets/images/csc110/gh7_code_entry.png){: width="60%"}
-
-     8. Then, Authorize GitHub CLI to talk to GitHub:
-
-     ![authorize GH CLI for GH](../../../assets/images/csc110/gh8_auhtorize_ghcli.png){: width="60%"}
-
-     9. Now, sign in to GitHub using your credentials
-
-     ![enter credentials](../../../assets/images/csc110/gh9_sign_in.png){: width="60%"}
-
-     10. Then you're all done:
-
+     You will see the following appear on your Terminal/PowerShell:<br>
+     ![auth login](../../../assets/images/csc110/gh1_auth_login.png){: width="80%"}<br>
+     2. You then need to confirm HTTPS as the preferred method (use your arrows to select HTTPS and hit return or enter)<br>
+     ![pick https](../../../assets/images/csc110/gh2_preferred_protocol.png){: width="80%"}<br>
+     3. You will then confirm you want to authenticate git with GitHub credentials (type `Y` and hit return / enter):<br>
+     ![Yes to GH credentials ](../../../assets/images/csc110/gh3_authenticate_git.png){: width="80%"}<br>
+     4. You will then pick which method to use to authenticate GitHub credentials. You'll pick "Login with a web browser" and hit return.<br>
+     ![pick browser](../../../assets/images/csc110/gh4_how_authenticate.png){: width="80%"}<br>
+     5. You will then copy the 6-symbol code that appears on the terminal (highlight it and copy or write it down). <br>
+     ![copy code and open browser](../../../assets/images/csc110/gh5_copy_code.png){: width="80%"}<br>
+     6. Then, hit return / enter and a browser will open up. Confirm you want this device used to sign in to GitHub:<br>
+     ![code entry on browser](../../../assets/images/csc110/gh6_Activate_Device_for_GH.png){: width="60%"}<br>
+     7. Then, a window will open up, asking you to enter the code. You can paste it or type it one by one.<br>
+     ![code entry on browser](../../../assets/images/csc110/gh7_code_entry.png){: width="60%"}<br>
+     8. Then, Authorize GitHub CLI to talk to GitHub:<br>
+     ![authorize GH CLI for GH](../../../assets/images/csc110/gh8_auhtorize_ghcli.png){: width="60%"}<br>
+     9. Now, sign in to GitHub using your credentials<br>
+     ![enter credentials](../../../assets/images/csc110/gh9_sign_in.png){: width="60%"}<br>
+     10. Then you're all done:<br>
      ![all done](../../../assets/images/csc110/gh10_all_done.png){: width="60%"}
 
 
