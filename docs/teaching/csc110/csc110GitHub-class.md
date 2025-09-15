@@ -349,6 +349,26 @@ Happily for Windows users, installing GitHub CLI can be done with an install wiz
 
 ## Working with git:
 
+### If you forgot to set Sublime as your editor
+
+**In Mac**, you can tell git to call sublime like this:<br>
+```
+git config --global core.editor "subl -n -w"
+```
+
+(if this does not work, ask for Instructor/Tutor help. They need to male sure the command `subl` is in the PATH)
+
+**In Windows**,  you can tell git to call sublime like this:<br>
+
+First, check your Sublime is installed at `'c:/Program Files/Sublime Text 3/subl.exe' -w`
+
+If it isn't, find where it is installed and replace that location as the address section in the instruction shown bellow:
+
+```
+git config --global core.editor "'c:/Program Files/Sublime Text 3/subl.exe' -w"
+```
+(if this does not work, ask for Instructor/Tutor help. They need to male sure the command `subl` is in the PATH).
+
 First time you want to download the materials:
 
 ### Clone
