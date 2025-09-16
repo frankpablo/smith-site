@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Install-IDE
+title: Install_Python_and_IDE
 parent: CSC110
 grand_parent: Teaching
 nav_order: 4
