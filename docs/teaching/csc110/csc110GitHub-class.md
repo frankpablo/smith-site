@@ -43,6 +43,8 @@ For example, if my name is Pablo Frank Bolton, I would love to use "pfrank". If 
 
 You don't strictly need an account to use git, but it makes things easier for novices.
 
+Use this link to [signup to GitHub](https://github.com/signup)
+
 <!-- 
 ## Setting up Authentication
 
