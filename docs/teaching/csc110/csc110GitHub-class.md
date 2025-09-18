@@ -373,7 +373,7 @@ git config --global core.editor "'c:/Program Files/Sublime Text 3/subl.exe' -w"
 
 First time you want to download the materials:
 
-### Clone
+### Fork and Clone
 
 The first time you accept and create a repository, you need to name your team or join an existing team. Make sure you verify before you do this. 
 
