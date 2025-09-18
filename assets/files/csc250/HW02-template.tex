@@ -10,14 +10,8 @@
 \usepackage{graphicx}
 \usepackage{enumerate}
 \usepackage{xcolor}
-\usepackage{lastpage}
 \definecolor{smithblue}{HTML}{002855}
 \definecolor{smithyellow}{HTML}{F2A900}
-\usepackage[framemethod=TikZ]{mdframed}
-\mdfsetup{%
-backgroundcolor=gray!20,
-roundcorner=4pt}
-\newmdenv[frametitle={\textbf{\textit{Hint:}}}]{tip}
 
 \usepackage[parfill]{parskip}
 \parskip=\baselineskip
@@ -25,6 +19,7 @@ roundcorner=4pt}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
  
+
 \newenvironment{exercise}[2][Exercise]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 
@@ -34,19 +29,30 @@ roundcorner=4pt}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{Submitted by: \mainName\\
+\lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Spring 2025 - Homework 02\\
+\rhead{CSC250 Fall 2025 - Homework 02\\
 \today{}}
-\cfoot{p. \thepage \ of \pageref{LastPage}}
+\cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
- 
 
-%\newcommand\solution[1]{\vskip 5pt \noindent{\color{red}{\bf Solution:}} \emph{#1}}
- 
 \begin{document}
  
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+
+\newcommand{\studentName}{YOUR NAME HERE} %replace with your name
+
+\newcommand{\collaborators}{
+	% Comment out the line below if you worked alone
+	with \textit{COLLABORATORS' NAMES HERE}
+	% Uncomment the line below if you worked alone
+	% \textit{I did not collaborate with anyone on this assignment.}
+}
+
 % --------------
 % Exercise 1
 % --------------
@@ -91,24 +97,13 @@ Your solution Here
 \begin{exercise}{2}
 
 Give a regular expression for each of the following languages. In all cases, the alphabet is $\Sigma = \{0,1\}$.
-
-Note: if the statement is ambiguous, interpret the easy version!\\
-However, here are some tips: 
-\begin{itemize}
-	\item has <pattern> : means it has that pattern somewhere in the word ($\epsilon$ should count).
-	\item contains <pattern>: same as "has <pattern>".	
-	\item is composed of <pattern> : means that the word is wholey defined by the pattern ($\epsilon$ counts if allowed by the pattern).
-	\item starts with <pattern>: means that the first symbols in w must abide by the pattern but could be followed by others ($\epsilon$ counts if allowed by the pattern).
-	\item ends with <pattern>: means that the last symbols in w must abide by the pattern but could be preceded by others ($\epsilon$ counts if allowed by the pattern).
-\end{itemize}
-
 \begin{enumerate}[(a)]
-	\item $\{ w \in \Sigma^* \ | \ w \texttt{ is composed of an odd number of 0s followed by a single 1}\}$
+	\item $\{ w \in \Sigma^* \ | \ w \texttt{ has an odd number of 0s followed by a single 1}\}$
 	% -------------------------------------------
 	%  Write your answer to Q2a below
 	% -------------------------------------------
 	\begin{solution}
-		Your solution here
+Your solution Here
 	\end{solution}
 	
 	\item $\{w \in \Sigma^* \ | \ w \texttt{ starts in a triple letter (000 or 111)}\}$
@@ -116,7 +111,7 @@ However, here are some tips:
 	%  Write your answer to Q2b below
 	% -------------------------------------------
 	\begin{solution}
-		Your solution here
+Your solution Here
 	\end{solution}
 	
 	\item $\{w \in \Sigma^* \ | \ w \texttt{ contains exactly three 1s or at least two 0s}\}$
@@ -124,7 +119,7 @@ However, here are some tips:
 	%  Write your answer to Q2c below
 	% -------------------------------------------
 	\begin{solution}
-		Your solution here
+Your solution Here
 	\end{solution}
 	
 \end{enumerate}
@@ -139,26 +134,42 @@ However, here are some tips:
 Show that any language $L_F$ containing only finitely many strings is regular.
 \end{exercise}
 
-\begin{tip}
-To prove that a language is regular, it is sufficient to show that there is a regular expression to generate it!
-\end{tip}
 % -------------------------------------------
 %  Write your answer to Q3 below
 % -------------------------------------------
-
-
 \begin{solution}
 
+HINT: To prove $L_F$ is regular, we simply need to show there is a regular expression to generate it;
+
 \begin{proof}[\unskip\nopunct]
-	Your solution here
+Your solution Here
 \end{proof}
 
 \end{solution}
 
+
+% \medskip
+
+
+% % --------------
+% % Exercise 4
+% % --------------
+% \begin{exercise}{4}
+% Show that, if $L_1$ and $L_2$ are any two regular languages, then $(L_1)^cL_2$ is also a regular language.
+
+% $(L_1)^c$ means the complement of $L_1$; For example, if $L_1$ is the set of strings with $001$ as a substring, then $(L_1)^c$ is the set of strings that don't have $001$ as a substring.
+% \end{exercise}
+
+% % -------------------------------------------
+% %  Write your answer to Q4 below
+% % -------------------------------------------
+% \begin{solution}
+% \end{solution}
+
 \clearpage
 
 % --------------
-% Exercise 4
+% Exercise 5\4
 % --------------
 \begin{exercise}{4}
 
@@ -168,10 +179,10 @@ $$L^R = \{w^R \ | \ w\in L \texttt{ and } w^R \texttt{ is the word } w \texttt{ 
 
 is also a regular language (i.e. regular languages are closed under \textbf{reversal}).
 
-Remember, proving a language is regular is the same as proving it has a regular expression that can generate it!
+Remember, proving a language is regular is all about proving it has a regular expression that can generate it!
 
-\begin{tip}
-Try induction! by:
+{\Large \textit{Hint: }}
+ try induction! by:
 \begin{enumerate}
     \item \textbf{Base cases}: prove this works for the 3 base cases:
     \begin{itemize}
@@ -191,15 +202,14 @@ Try induction! by:
     \item \textbf{Induction Step}: Using the hypotheses, show that the reverse of any regular expression is also a regular expression (
     the reverse of regular expressions using alternation, concatenation, and Kleene star are also regular expressions); 
 \end{enumerate}
-\end{tip}
 
 \end{exercise}
 
 % -------------------------------------------
-%  Write your answer to Q4 below
+%  Write your answer to Q5 below
 % -------------------------------------------
 \begin{solution}
-Your solution here
+Your solution Here
 \end{solution}
 
 
