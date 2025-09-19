@@ -103,7 +103,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 11/03      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
 | 11/05      | L18: [More on Reductions](lecture-18.html)|  |  |  |
-| 11/06      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 06**{: .label .label-purple} | **HW07 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-06-TMs**{: .label .label-yellow } |  |
+| 11/07      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 06**{: .label .label-purple} | **HW07 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-06-TMs**{: .label .label-yellow } |  |
 
 
 
