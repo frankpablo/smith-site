@@ -46,7 +46,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 09/22      | L6: [Turtles and (first view of) Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-06.html)<br> **Review of Quiz-01** | Ch 4  | Ch 5 (5.1 to 5.4)<br>Ch 6 (6.1 to 6.10) Both Due before L8  |  |
 | 09/24      | L7: [Control Flow and Intro to Functions](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-07.html)<br>**The TTT Model Project 1 CODE**  |  Remember: Ch 5 and Ch 6 | | |
-| 09/26      | L8: [Writing Functions, Main and Importing Modules](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-08.html)| Ch 5,6 <br>**DUE: Homework 01 Expressions**{: .label .label-purple}  | **QUIZ-01: Expressions**{: .label .label-yellow } <br> **OUT: Homework 02: Functions**{: .label .label-grey} <br>HW02 Due Midnight after L11 <br>Ch 7 (7.1 to 7.10) Due Before L9  |   |
+| 09/26      | L8: [Writing Functions, Main and Importing Modules](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-08.html)| Ch 5,6 <br>**DUE: Homework 01 Expressions**{: .label .label-purple}  | **QUIZ-01: Expressions**{: .label .label-yellow } <br> **OUT: Homework 02: Functions**{: .label .label-grey} <br>HW02 Due Before L11 <br>Ch 7 (7.1 to 7.10) Due Before L9  |   |
 
 
 
