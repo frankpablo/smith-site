@@ -1,11 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Welcome to Overleaf --- just edit your LaTeX on the left,
-% and we'll compile it for you on the right. If you open the
-% 'Share' menu, you can invite other users to edit at the same
-% time. See www.overleaf.com/learn for more info. Enjoy!
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % --------------------------------------------------------------
 % This is all preamble stuff that you don't have to worry about.
 % Head down to where it says "Start here"
@@ -18,14 +10,9 @@
 \usepackage{graphicx}
 \usepackage{enumerate}
 \usepackage{xcolor}
-\usepackage{lastpage}
+\usepackage{tikz}
 \definecolor{smithblue}{HTML}{002855}
 \definecolor{smithyellow}{HTML}{F2A900}
-\usepackage[framemethod=TikZ]{mdframed}
-\mdfsetup{%
-backgroundcolor=gray!20,
-roundcorner=4pt}
-\newmdenv[frametitle={\textbf{\textit{Hint:}}}]{tip}
 
 \usepackage[parfill]{parskip}
 \parskip=\baselineskip
@@ -39,17 +26,15 @@ roundcorner=4pt}
 \newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
 
-
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{Submitted by: \mainName\\
+\lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Spring 2025 - Homework 03\\
+\rhead{CSC250 Fall 2025 - Assignment 3\\
 \today{}}
-\cfoot{p. \thepage \ of \pageref{LastPage}}
+\cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
- 
 
 \begin{document}
  
@@ -75,9 +60,7 @@ roundcorner=4pt}
 Draw FAs that recognize each of the following languages using the specified number of states.
 In all cases, the alphabet is $\Sigma = \{0, 1\}$.
 
-\begin{tip}
-    Try using NFAs!
-\end{tip}
+\textbf{Tip: using NFAs is easier!}
 
 \begin{enumerate}[(a)]
 	\item $\{ w \in \Sigma^* \ | \ w \ ends \ with \ 11 \}$ using three states.
@@ -85,7 +68,9 @@ In all cases, the alphabet is $\Sigma = \{0, 1\}$.
 	%  Write your answer to Q1a below
 	% -------------------------------------------
 	\begin{solution}\; \\
-	
+
+
+ 
 	\end{solution}
 	
 	\item $\{ w \in \Sigma^* \ | \ w \ contains \ the \ substring \ 1010  \}$ using five states.
@@ -105,7 +90,6 @@ In all cases, the alphabet is $\Sigma = \{0, 1\}$.
 	\end{solution}
 	
 \end{enumerate} \; \\
-
 \end{exercise}
 
 \newpage
@@ -161,8 +145,8 @@ We will describe language $L_F$ the following way:
 
 \begin{itemize}
     \item start with the set of all the binary words that have any zeroes occur before any ones;
-    \item then remove (subtract) the subset of words that have exactly two ones;
-    \item then remove (subtract) the subset of words that have an even number of zeros and no ones;
+    \item then remove the subset of words that have exactly two ones;
+    \item then remove the subset of words that have an even number of zeros and no ones;
 \end{itemize}
 
 \end{exercise}
@@ -192,8 +176,8 @@ We will describe language $L_G$ the following way:
 
 \begin{itemize}
     \item start with all the binary words that have all the zeroes before all the ones;
-    \item add (union) all the words that have exactly two ones;
-    \item then add (union) all the words that have an even number of zeros;
+    \item add all the words that have exactly two ones;
+    \item then add all the words that have an even number of zeros;
 \end{itemize}
 
 \end{exercise}
@@ -216,9 +200,7 @@ We will describe language $L_G$ the following way:
 \textbf{This Exercise is Optional!!}
 
 In lecture, we demonstrated a process for converting any NFA to a (purportedly equivalent) DFA. To complete the proof that these machines are equivalent (thereby proving that NFAs and DFAs are equally powerful), prove that the resulting DFA accepts exactly the same language as the original NFA.\\\\
-\begin{tip}
-Try induction on the length of the word!
-\end{tip}
+\textit{Hint: try induction on the length of the word!}
 \end{exercise}
 
 % -------------------------------------------
