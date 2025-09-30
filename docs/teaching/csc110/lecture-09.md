@@ -19,7 +19,7 @@ A Slideshow:
 
 <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTd00gVtaxxMsP_cMehZtABuogVzg4ruA8X7ghqjpLmil4FuuKGAbVPrHevscdvPkL0NyEcgxX6Ro7l/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
 
-## Updated slides
+## Updated slides (2025/09/30)
 
 <!-- # conditionals 9-10 -->
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4uXL635NPl8WOHBJWi7OglptVtKMkD-C_UCTwgxFvv_wUPI_DfhxvOS8jsZrdNlBLlJHPa6B3PDVG/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="1055" height="623" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
