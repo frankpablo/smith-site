@@ -4,7 +4,7 @@ layout: default
 parent: CSC110
 grand_parent: Teaching
 nav_order: 39
-hidden: true
+published: false
 #permalink: /docs/teaching/csc110/
 ---  
   

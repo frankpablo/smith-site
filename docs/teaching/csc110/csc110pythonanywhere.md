@@ -5,7 +5,7 @@ parent: CSC110
 grand_parent: Teaching
 nav_order: 3
 has_children: false
-hidden: true
+published: false
 # permalink: /docs/teaching/csc110home/
 ---
 

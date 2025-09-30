@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Lecture31
+title: Lecture27
 parent: CSC110
 grand_parent: Teaching
-nav_order: 400
+nav_order: 370
 #permalink: /docs/teaching/csc110/
 ---  
   
 
-Lecture Notes 31: Math-Time-Randomness
+Lecture Notes 27: Math-Time-Randomness
 ===========================================
 
 
