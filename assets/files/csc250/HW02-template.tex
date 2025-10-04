@@ -190,17 +190,10 @@ Remember, proving a language is regular is all about proving it has a regular ex
         \item $w=\epsilon$ (show you can get the regular expression for the reverse of an empty word)
         \item $w=a$ \text{ where} $a$ \text{ represents any single valid symbol}(show you can get the regular expression for the reverse of a word made of a single symbol)
     \end{itemize}
-    \item\textbf{ Induction Hypothesis}: assume that  
-    \begin{itemize}
-        \item the alternation of two regular expressions is also a regular expression
-        \item the concatenation of two regular expressions is also a regular expression
-        \item applying Klenee Star to a regular expression results in a regular expression
-        % \item two regular expressions: $E$ and $F$ that generate $L_F = L(F)$ and $L_G = L(G)$ respectively, AND for which
-        % \item we are able to find a regular expressions $F^R$ and $G^R$ such that  $L^R_F = L(F^R)$ and $L^R_G = L(G^R)$, and where $L^R_F = \text{ Reverse of } L_F$ and $L^R_G = \text{ Reverse of } L_G$
-    \end{itemize}
+    \item\textbf{ Induction Hypothesis}: assume that there exist two reversible regular languages, $L_1 = L(R_1)$ and $L_2 = L(R_2)$ such that $L^R_1 = L(R^R_1)$ and $L^R_2 = L(R^R_2)$.
 
     \item \textbf{Induction Step}: Using the hypotheses, show that the reverse of any regular expression is also a regular expression (
-    the reverse of regular expressions using alternation, concatenation, and Kleene star are also regular expressions); 
+    the reverse of regular expressions that use alternation, concatenation, and Kleene star are also regular expressions); 
 \end{enumerate}
 
 \end{exercise}

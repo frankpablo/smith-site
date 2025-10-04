@@ -104,11 +104,6 @@ nav_order: 2
 | 10/31      | L21: [2D-Lists abd other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **QUIZ-05: Nested Loops**{: .label .label-yellow }<br>**OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
 
 
-
-# UP TO HERE CHECKED (and Slides updated) 
-  * Below ... Slide links need to be updated.
-
-
 # Week 09: Graphics
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
