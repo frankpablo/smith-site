@@ -54,7 +54,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 09/29      | L8: [DFA-NFA equivalence AND RE-FA equivalence](lecture-08.html) |    |    |     |
 | 10/01      | L9: [Regular and Non-Reg Langs and Pumping Lemma](lecture-09.html)  |    |   |     |
-| 10/03      | L10: [Practice/Catch-up](lecture-10.html) | **Homework 03**{: .label .label-purple} |  **HW04 Due before L13 (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
+| 10/03      | L10: [Practice/Catch-up](lecture-10.html) | **Homework 03**{: .label .label-purple} |  **HW04 Due before L_LTL (Pumping Lemma, CFGs and PDAs)**<br>**QUIZ-03-FAs**{: .label .label-yellow }|   |
 
 
 # Week 05: Context-Free Grammars and Push-Down Automata
@@ -63,7 +63,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/06      | L11: [Context-Free Grammars](lecture-11.html)| | | |
 | 10/08      | L12: [Push-Down Automata](lecture-12.html)  | | | |
-| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |   **Homework 04**{: .label .label-purple} | **HW05 Due before Lecture on LTL (Next Friday) (CFGs and PDAs)**<br>**QUIZ-04-RLs-PLs**{: .label .label-yellow } |  |
+| 10/10      | L13: [Practice/Catch-up](lecture-13.html)  |    |  |  |
 
 
 
@@ -72,7 +72,7 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 | 10/15      | **NO CLASSES: Columbus Day**  | | | |
 | 10/15      | L_Practice: [Practice](lecture-Practice.html)  | | | |
-| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)|  **Homework 05**{: .label .label-purple}| <br>**QUIZ-05-CFGs-PDAs**{: .label .label-yellow } |  |
+| 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)|  **Homework 04**{: .label .label-purple}| <br>**QUIZ-04-RLs-PLs-CFGs-PDAs**{: .label .label-yellow } |  |
 
 
 
@@ -93,7 +93,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 10/27       | L14: [Turing Machines](lecture-14.html)|  |   |  |
 | 10/29       | L15: [Decidability](lecture-15.html) |  |  | |
-| 10/31       | L16: [Practice/Catch-up](lecture-16.html)  |  | **HW06 Due before L19 (Turing Machines and Decidability)**|  |
+| 10/31       | L16: [Practice/Catch-up](lecture-16.html)  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
 
 
 
@@ -103,7 +103,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 11/03      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
 | 11/05      | L18: [More on Reductions](lecture-18.html)|  |  |  |
-| 11/07      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 06**{: .label .label-purple} | **HW07 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-06-TMs**{: .label .label-yellow } |  |
+| 11/07      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **HW06 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
 
@@ -148,7 +148,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 11/10      | L20: [Enumeration](lecture-20.html) |  |  |  |
 | 11/12      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
-| 11/14      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 07**{: .label .label-purple}  | **HW08 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-07-Undecidability and Reductions**{: .label .label-yellow }   | | 
+| 11/14      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | | 
 
 
 
@@ -159,7 +159,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 11/17       | L23: [Rice theorem](lecture-23.html) |   |   |   |
 | 11/19       | L24: [Summary: Computability](lecture-24.html)|  |  |   |
-| 11/21       | L25: [Practice/Catch-up](lecture-25.html) | **Homework 08**{: .label .label-purple} | **HW09 Due before L28 (Computability)**<br>**QUIZ-08-Ennumeration and Mapping**{: .label .label-yellow }  | |
+| 11/21       | L25: [Practice/Catch-up](lecture-25.html) | **Homework 07**{: .label .label-purple} | **HW06 Due before L28 (Computability)**<br>**QUIZ-07-Ennumeration and Mapping**{: .label .label-yellow }  | |
 
 
 
@@ -180,7 +180,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 12/01       | L26: [Intro to Complexity and P Vs NP](lecture-26.html) |  |   |  |
 | 12/03       | L27: [More Complexity and P Vs NP](lecture-27.html)  |  |  |  |
-| 12/05       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 09**{: .label .label-purple} | **QUIZ-09-Computability**{: .label .label-yellow } | |
+| 12/05       | L28: [Practice/Catch-up](lecture-28.html) | **Homework 08**{: .label .label-purple} | **QUIZ-08-Computability**{: .label .label-yellow } | |
 
 
 
