@@ -82,7 +82,7 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/20      | L_Midterm_1: [Midterm Review/Start](lecture-Midterm01.html)  |  | **Midterm Released**{: .label .label-yellow }<br>(after class)  | (Up to CFGs and PDAs)  |
-| 10/22      | L_Midterm_2: [Midterm-Time](lecture-Midterm02.html)    | **Midterm**{: .label .label-purple}  |   |  Due on Moodle<br>Before 6:00 PM |
+| 10/22      | L_Midterm_2: [Midterm-Time](lecture-Midterm02.html)    | **Midterm**{: .label .label-purple}  |   |  Due on Moodle<br>Before 11:59 PM |
 | 10/24      | L_Midterm_3: [Catch-up + Midterm Review](lecture-Midterm03.html) |  |  |  |
 
 
