@@ -41,8 +41,7 @@
 
  
 \begin{document}
-\newcommand{\duedate}{11:59PM EST Thursday October 24, 2024}
- 
+\newcommand{\duedate}{11:59PM EST Thursday March 27, 2025}
 
 % --------------------------------------------------------------------------------------------
 %  Great, now skip ahead to where you see *** START EXAM HERE ***
@@ -53,16 +52,14 @@
 \begin{center}
 \fbox{\fbox{\parbox{5.5in}{\begin{center}
 \vspace{1em}
-This is the first of two examinations for\\ \textbf{CSC250: Theory of Computation}\\ as taught by Pablo Frank Bolton in Fall 2024.\\
-\vspace{1em}
-This exam is \textbf{open book and open note}.\\ The following materials are \textbf{permitted} while taking this examination:
+This is the first of two examinations for\\ \textbf{CSC250: Theory of Computation}\\ as taught by Pablo Frank Bolton in Fall 2025.\\
 \vspace{1em}
 \begin{itemize}
-	\item your own notes
-	\item lecture slides / videos
-	\item scribe notes
-	\item homework solutions
-	\item any of the recommended textbooks
+    \item your own notes
+    \item lecture slides / videos
+    \item scribe notes
+    \item homework solutions
+    \item any of the recommended textbooks
 \end{itemize}
 \vspace{1em}
 \textbf{Honor code: no other resources are permitted during this exam.}\\
@@ -81,6 +78,27 @@ This includes (but is not limited to): online materials, tutors, teaching assist
 % ---------------------------------------
 
 \clearpage
+\bigskip
+
+\textbf{How to answer this exam}
+
+\begin{itemize}
+    \item There are a \textbf{total of 50 points}. There is a bonus question at the end (about Linear Temporal Logic worth 2 additional points)
+    \item Read the questions twice. Sometimes, you answer something other than what is asked, so make sure you understand what it is I am asking for.
+    \item Consider the following 4 principles for answering:
+    \begin{itemize}
+        \item \textbf{Correctness}: first and foremost, answer with truthful statements only.
+        \item \textbf{Completeness}: check your answer to make sure you answered the whole question.
+        \item \textbf{Clarity}: before answering, think about the structure of your response so that it is straightforward, simple, and it satisfies the two previous principles.
+        \item \textbf{Conciseness}: longer is not better... it is in fact worse, so only answer what is asked for, in a simple way, and as long as it is correct and complete, it will be good enough.
+    \end{itemize}
+
+\textbf{IMPORTANT}: If I cannot read or see your answers (images too small or wording is confusing, I will take points away).
+\end{itemize}
+
+
+\bigskip
+
 \begin{question}{0}\textbf{Getting in the Groove} (0 points)
 \begin{center}
 \textit{Note: This question is optional, but strongly recommended.}
@@ -92,286 +110,250 @@ In the space below, briefly tell us about a time when you were \textbf{really su
 % \includegraphics[width=2in]{youcandoit.png}
 \end{question}
 
-% --------
-% Logic
-% --------
-%\clearpage
-%\begin{question}{1}\textbf{Propositional logic}\\\\
-%Consider the following propositions:
-%\begin{eqnarray*}
-%	p & = & \texttt{It was raining.}\\
-%	q & = & \texttt{We played board games inside.}\\
-%	r & = & \texttt{We went to the beach.}
-%\end{eqnarray*}
-%Translate each of the following propositions into an English sentence.
-%\begin{enumerate}[(a)]	
-%	\item $q \vee r$\vspace{8em}
-%	\item $p \rightarrow q$\vspace{8em}
-%	\item $q \rightarrow \neg r$\vspace{8em}
-%	\item $p \wedge \neg r \rightarrow q$
-%\end{enumerate}
-%\end{question}
-%
+
+% --------------------------------
+% Big Picture
+% --------------------------------
 \clearpage
-\begin{question}{1}\textbf{Valid or Invalid Reasoning} (6 points)\\\\
-For each of the following English arguments, express the argument in terms of
-propositional logic and briefly justify whether the argument is valid or invalid. Be sure to clearly label your propositions.
-\begin{enumerate}[(a)]	
-	\item \textit{When the weather is nice, Max either rides their bike on the rail trail or goes for a walk through the gardens (but never both on the same day). The weather is nice, and Max is going for a walk through the gardens. Therefore, Max will not ride their bike on the rail trail today.}
+\begin{question}{1}\textbf{Big Picture  (6 points)}\\\\
+
+Answer each of the following with no more than three sentences. Think before answering, and then provide a concise answer.
+
+
+\begin{enumerate}[(a)]  
+    \item \textit{(2 points) Why do we study Theory of Computation by checking membership of words into languages?}
 
     \begin{solution}
-        \begin{align*}
-        &N : \text{Weather is \textbf{N}ice} \\
-        &B : \text{Max rides a \textbf{B}ike} \\
-        &W : \text{Max takes a \textbf{W}alk} \\
-        &N \rightarrow B \oplus W \\
-        &N : True \\
-        &W : True \\
-        \end{align*}
-        Conclusion to check: "Max will NOT ride a bike today"
-        or $B : False$
-
-        We can express the information in the following table:
-        
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-N & B & W & B $\oplus$ W & N $\rightarrow B \oplus W$ \\ \hline
-1 & 0 & 1 & 1                         & 1                                                      \\ \hline
-1 & 1 & 1 & 0                         & 0                                                      \\ \hline
-\end{tabular}
-\end{table}        
-        As it can be seen, if Max goes on a bike ride (second row), the implication does not hold, so B: False must be the case (first row) and the conclusion is \textbf{valid}.
+  your solution here
     \end{solution}
     
  
-	\item \textit{When a student needs a book and a coffee,  they go to Neilson Library. There is a student at Neilson Library today. This means that they wanted to check out a book.}
+    \item \textit{(2 points) In the Language categories map (the diagram with concentric ovals, each with a different language group), what differentiates the languages?}
+ 
     \begin{solution}
-        \begin{align*}
-        &B : \text{Student wants to check out a \textbf{B}ook} \\
-        &C : \text{Student wants a \textbf{C}offee} \\
-        &N : \text{Students go to \textbf{N}ielson} \\
-        &B \cap C \rightarrow N \\
-        &N : True \\
-        \end{align*}
+  your solution here
+    \end{solution}
 
-        Conclusion to check: "The student wanted to check out a book"
-        or $B : True$
 
-        We can express the information in the following table:
-
-\begin{table}[h!]
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-B & C & B $\cap$ C & N & B $\cap$ C $\rightarrow$ N \\ \hline
-0 & 0 & 0                       & 1 & 1                              \\ \hline
-0 & 1 & 0                       & 1 & 1                              \\ \hline
-1 & 0 & 0                       & 1 & 1                              \\ \hline
-1 & 1 & 1                       & 1 & 1                              \\ \hline
-\end{tabular}
-\end{table}
-
-% \begin{table}[h!]
-% \centering
-% \begin{tabular}{|l|l|l|}
-% \hline
-% N & B & $N\rightarrow B$ \\ \hline
-% 0 & 0 & 1               \\ \hline
-% 0 & 1 & 1               \\ \hline
-% 1 & 0 & 0               \\ \hline
-% 1 & 1 & 1               \\ \hline
-% \end{tabular}
-% \end{table}
-
-        The first point is that the implication must be B $\cap$ C $\rightarrow$ N. Since the conclusion of the implication is always true: $N:True$, any value for the condition will make the implication hold. It is possible that a student is at Nielson for any reason, where two cases do not involve wanting to get a book... so the conclusion is \textbf{invalid}  
+        \item \textit{(2 points) As we progress from Regular Expressions, to CFGs to whatever comes next, what makes each successive machine more powerful than the next?}
+ 
+    \begin{solution}
+  your solution here
     \end{solution}
     
 \end{enumerate}
+
 \end{question}
+
+
+
+
+
+
+% --------------------------------
+% Logic
+% --------------------------------
+\clearpage
+\begin{question}{2}\textbf{Propositional logic (4 points)}\\\\
+
+Consider the following propositions:
+\begin{eqnarray*}
+    p & = & \texttt{It was raining.}\\
+    q & = & \texttt{We played board games inside.}\\
+    r & = & \texttt{We went to the beach.}
+\end{eqnarray*}
+
+
+Translate each of the following propositions into an English sentence.
+\begin{enumerate}[(a)]  
+    \item $q \vee r$\vspace{1em}
+    \\
+    \begin{solution}
+  your solution here
+    \end{solution}
+    \item $p \rightarrow q$\vspace{1em}
+    \\
+    \begin{solution}
+  your solution here
+    \end{solution}
+    \item $q \rightarrow \neg r$\vspace{1em}
+    \\
+    \begin{solution}
+  your solution here
+    \end{solution}
+    \item $p \wedge \neg r \rightarrow q$
+    \\
+    \begin{solution}
+  your solution here
+    \end{solution}
+\end{enumerate}
+\end{question}
+
+
+% \clearpage
+% \begin{question}{1}\textbf{Valid or Invalid Reasoning} (6 points)\\\\
+% For each of the following English arguments, express the argument in terms of
+% propositional logic and briefly justify whether the argument is valid or invalid. Be sure to clearly label your propositions.
+% \begin{enumerate}[(a)]    
+%   \item \textit{When the weather is nice, Max either rides their bike on the rail trail or goes for a walk through the gardens (but never both on the same day). The weather is nice, and Max is going for a walk through the gardens. Therefore, Max will not ride their bike on the rail trail today.}
+
+%     \begin{solution}
+%   Your solution here
+%     \end{solution}
+    
+ 
+%   \item \textit{When a student needs a book and a coffee,  they go to Neilson Library. There is a student at Neilson Library today. This means that they wanted to check out a book.}
+ 
+%     \begin{solution}
+%        Your solution here
+%     \end{solution}
+    
+% \end{enumerate}
+% \end{question}
 
 % ---------------------------
 % Regular expressions
 % ---------------------------
 \clearpage
-\begin{question}{2}\textbf{Interpreting regular expressions} (3 points)\\\\
+\begin{question}{3}\textbf{Interpreting regular expressions (2 points)} \\\\
+
 Describe the language matched by the following regular expression:
-\[ (0 + 10 )^*\]
+\[ (00)^*0 1 \quad \vert \quad (11)^*10\]
 Note: Try to describe the resulting language, not the regular expression.
 \end{question}
 
 \begin{solution}
-\;
+\;\\
 
-    \textbf{Option 1:} This is the language of binary words where any 1 must be followed by at least one zero.
+  your solution here
 \end{solution}
 
-\begin{question}{3}\textbf{Writing regular expressions} (3 points)\\\\
+
+\clearpage
+\begin{question}{4}\textbf{Writing regular expressions (2 points)}\\\\
 Consider the following language on the alphabet $\Sigma = \{0,1\}$:
-\[L = \{w \ | \ w \texttt{ has even length, and starts and ends with the same symbol}\}\]
+\[L = \{w \ | \ w \texttt{ has even length and must contain the substring 0110}\}\]
 Write a regular expression for $L$.
+\;\\
+Note: Consider all the word structures that might make this true!
 \end{question}
 
 \begin{solution}
-$0(\Sigma\Sigma)^*0 + 1(\Sigma\Sigma)^*1$
+\;\\
+  your solution here
+
+
+
 \end{solution}
 
 % ----------------------
 % Finite automata
 % ----------------------
 \clearpage
-\begin{question}{4}\textbf{Interpreting  Finite Automata} (4 points)\\\\
+\begin{question}{5}\textbf{Interpreting  Finite Automata (6 points)}\\\\
 Consider the following finite automaton:
+% \begin{center}
+%   \includegraphics[width=0.6\textwidth]{q4-FA.png}
+% \end{center}
+
 \begin{center}
-	\includegraphics[width=0.6\textwidth]{q4-FA.png}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (31.7,-7) circle (3);
+\draw (31.7,-7) node {$P$};
+\draw [black] (14.1,-23.9) circle (3);
+\draw (14.1,-23.9) node {$A$};
+\draw [black] (14.1,-23.9) circle (2.4);
+\draw [black] (25.1,-23.9) circle (3);
+\draw (25.1,-23.9) node {$B$};
+\draw [black] (38,-23.2) circle (3);
+\draw (38,-23.2) node {$C$};
+\draw [black] (38,-23.2) circle (2.4);
+\draw [black] (50.3,-23.2) circle (3);
+\draw (50.3,-23.2) node {$D$};
+\draw [black] (25.9,-7) -- (28.7,-7);
+\draw (25.4,-7) node [left] {$S$};
+\fill [black] (28.7,-7) -- (27.9,-6.5) -- (27.9,-7.5);
+\draw [black] (30.61,-9.79) -- (26.19,-21.11);
+\fill [black] (26.19,-21.11) -- (26.95,-20.54) -- (26.02,-20.18);
+\draw (27.65,-14.59) node [left] {$\epsilon$};
+\draw [black] (32.79,-9.8) -- (36.91,-20.4);
+\fill [black] (36.91,-20.4) -- (37.09,-19.48) -- (36.16,-19.84);
+\draw (35.6,-14.24) node [right] {$\epsilon$};
+\draw [black] (16.03,-21.642) arc (125.49136:54.50864:6.149);
+\fill [black] (16.03,-21.64) -- (16.97,-21.59) -- (16.39,-20.77);
+\draw (19.6,-20) node [above] {$0$};
+\draw [black] (11.916,-21.86) arc (254.67738:-33.32262:2.25);
+\draw (10.78,-17.06) node [above] {$1$};
+\fill [black] (14.39,-20.93) -- (15.08,-20.29) -- (14.12,-20.02);
+\draw [black] (22.92,-25.924) arc (-60.04879:-119.95121:6.65);
+\fill [black] (22.92,-25.92) -- (21.98,-25.89) -- (22.48,-26.76);
+\draw (19.6,-27.31) node [below] {$0$};
+\draw [black] (26.722,-26.41) arc (60.6113:-227.3887:2.25);
+\draw (26.12,-31.19) node [below] {$1$};
+\fill [black] (24.09,-26.71) -- (23.27,-27.17) -- (24.14,-27.66);
+\draw [black] (39.323,-25.88) arc (54:-234:2.25);
+\draw (38,-30.45) node [below] {$0$};
+\fill [black] (36.68,-25.88) -- (35.8,-26.23) -- (36.61,-26.82);
+\draw [black] (40.197,-21.185) arc (121.25097:58.74903:7.621);
+\fill [black] (48.1,-21.19) -- (47.68,-20.34) -- (47.16,-21.2);
+\draw (44.15,-19.58) node [above] {$1$};
+\draw [black] (47.841,-24.893) arc (-65.21379:-114.78621:8.804);
+\fill [black] (40.46,-24.89) -- (40.98,-25.68) -- (41.39,-24.77);
+\draw (44.15,-26.2) node [below] {$1$};
+\draw [black] (49.796,-20.254) arc (217.43687:-70.56313:2.25);
+\draw (53.06,-16.18) node [above] {$0$};
+\fill [black] (52.33,-21.01) -- (53.27,-20.92) -- (52.66,-20.13);
+\end{tikzpicture}
 \end{center}
+
 \begin{enumerate}[(a)]
-    \item What is the start state?
+    \item (1 point) What is the start state?
         \begin{solution}
-            $C$
+             your solution here
         \end{solution}
-	\item What is the set of accepting states?
+    \item (1 point) What is the set of accepting states?
         \begin{solution}
-            $\{A, D\}$
+             your solution here
         \end{solution}
-	\item Is this a DFA, an NFA, neither, or both?
+    \item (2 points) What is a concise Regular Expression for this FA.
         \begin{solution}
-            This is an NFA with $\epsilon$-jumps (so it has NFA-properties).
+              your solution here
         \end{solution} 
-	\item What is the language accepted by this FA?
+    \item (2 points) Given your Regular Expression, what is a concise way to describe this language in English?
         \begin{solution}
-            $L = \{ w \in \Sigma^* \vert \text{w either an even number of zeros or an odd number of ones} \}$
+             your solution here
         \end{solution}  
-	
+    
 \end{enumerate}
 \end{question}
 
 \clearpage
-\begin{question}{5}\textbf{Building Finite Automata} (6 points)\\\\
+\begin{question}{6}\textbf{Building Finite Automata (6 points)}\\\\
+
 Draw the transition diagram for a finite automaton that recognizes each of the following languages. In all cases, the alphabet is $\Sigma = \{0,1\}$.
 \begin{enumerate}[(a)]
-	\item $\{ w \in \Sigma^* \ | \ w \texttt{ begins with } 1 \texttt{ and ends with } 0 \}$.
+    \item $\{ w \in \Sigma^* \ | \ w \texttt{ begins with } 0 \texttt{ and ends with } 1 \}$.
 \begin{solution}
 \;
 
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (13.3,-25.2) circle (3);
-\draw (13.3,-25.2) node {$A$};
-\draw [black] (23.4,-25.2) circle (3);
-\draw (23.4,-25.2) node {$B$};
-\draw [black] (33.6,-25.2) circle (3);
-\draw (33.6,-25.2) node {$C$};
-\draw [black] (33.6,-25.2) circle (2.4);
-\draw [black] (45.6,-25.1) circle (3);
-\draw (45.6,-25.1) node {$A$};
-\draw [black] (54.8,-25.1) circle (3);
-\draw (54.8,-25.1) node {$B$};
-\draw [black] (64,-25.1) circle (3);
-\draw (64,-25.1) node {$C$};
-\draw [black] (64,-25.1) circle (2.4);
-\draw [black] (13.3,-19.9) -- (13.3,-22.2);
-\draw (13.3,-19.4) node [above] {$S$};
-\fill [black] (13.3,-22.2) -- (13.8,-21.4) -- (12.8,-21.4);
-\draw [black] (16.3,-25.2) -- (20.4,-25.2);
-\fill [black] (20.4,-25.2) -- (19.6,-24.7) -- (19.6,-25.7);
-\draw (18.35,-25.7) node [below] {$1$};
-\draw [black] (22.077,-22.52) arc (234:-54:2.25);
-\draw (23.4,-17.95) node [above] {$0,1$};
-\fill [black] (24.72,-22.52) -- (25.6,-22.17) -- (24.79,-21.58);
-\draw [black] (26.4,-25.2) -- (30.6,-25.2);
-\fill [black] (30.6,-25.2) -- (29.8,-24.7) -- (29.8,-25.7);
-\draw (28.5,-25.7) node [below] {$0$};
-\draw [black] (45.6,-19.8) -- (45.6,-22.1);
-\draw (45.6,-19.3) node [above] {$S$};
-\fill [black] (45.6,-22.1) -- (46.1,-21.3) -- (45.1,-21.3);
-\draw [black] (48.6,-25.1) -- (51.8,-25.1);
-\fill [black] (51.8,-25.1) -- (51,-24.6) -- (51,-25.6);
-\draw (50.2,-25.6) node [below] {$1$};
-\draw [black] (57.404,-23.657) arc (106.65629:73.34371:6.965);
-\fill [black] (61.4,-23.66) -- (60.77,-22.95) -- (60.49,-23.91);
-\draw (59.4,-22.86) node [above] {$0$};
-\draw [black] (61.34,-26.442) arc (-74.83083:-105.16917:7.413);
-\fill [black] (57.46,-26.44) -- (58.1,-27.13) -- (58.36,-26.17);
-\draw (59.4,-27.2) node [below] {$1$};
-\draw [black] (62.677,-22.42) arc (234:-54:2.25);
-\draw (64,-17.85) node [above] {$0$};
-\fill [black] (65.32,-22.42) -- (66.2,-22.07) -- (65.39,-21.48);
-\draw [black] (53.477,-22.42) arc (234:-54:2.25);
-\draw (54.8,-17.85) node [above] {$1$};
-\fill [black] (56.12,-22.42) -- (57,-22.07) -- (56.19,-21.48);
-\end{tikzpicture}
-\end{center}
+  your solution here
 
-  
+
 \end{solution} 
 
-	\item $\{ w \in \Sigma^* \ | \ w \texttt{ contains an even number of } 1s \}$.
+    \item $\{ w \in \Sigma^* \ | \ w \texttt{ contains an odd number of } 0s \}$.
 \begin{solution}
 \;
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (19.4,-25.6) circle (3);
-\draw (19.4,-25.6) node {$A$};
-\draw [black] (19.4,-25.6) circle (2.4);
-\draw [black] (31.2,-25.6) circle (3);
-\draw (31.2,-25.6) node {$B$};
-\draw [black] (12.9,-25.6) -- (16.4,-25.6);
-\draw (12.4,-25.6) node [left] {$S$};
-\fill [black] (16.4,-25.6) -- (15.6,-25.1) -- (15.6,-26.1);
-\draw [black] (22.056,-24.229) arc (108.78188:71.21812:10.076);
-\fill [black] (28.54,-24.23) -- (27.95,-23.5) -- (27.63,-24.44);
-\draw (25.3,-23.19) node [above] {$1$};
-\draw [black] (18.077,-22.92) arc (234:-54:2.25);
-\draw (19.4,-18.35) node [above] {$0$};
-\fill [black] (20.72,-22.92) -- (21.6,-22.57) -- (20.79,-21.98);
-\draw [black] (29.877,-22.92) arc (234:-54:2.25);
-\draw (31.2,-18.35) node [above] {$0$};
-\fill [black] (32.52,-22.92) -- (33.4,-22.57) -- (32.59,-21.98);
-\draw [black] (28.944,-27.546) arc (-60.74642:-119.25358:7.456);
-\fill [black] (21.66,-27.55) -- (22.11,-28.37) -- (22.6,-27.5);
-\draw (25.3,-29) node [below] {$1$};
-\end{tikzpicture}
-\end{center}
-    
+
+  your solution here
 \end{solution}  
-	
-	\item $\{ w \in \Sigma^* \ | \ w \texttt{ does not contain the substring } 10 \}$.
+    
+    \item $\{ w \in \Sigma^* \ | \ w \texttt{ does not contain the substring } 11 \}$.
 \begin{solution}
 \;
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (19.4,-25.6) circle (3);
-\draw (19.4,-25.6) node {$A$};
-\draw [black] (19.4,-25.6) circle (2.4);
-\draw [black] (31.2,-25.6) circle (3);
-\draw (31.2,-25.6) node {$B$};
-\draw [black] (31.2,-25.6) circle (2.4);
-\draw [black] (42.5,-25.5) circle (3);
-\draw (42.5,-25.5) node {$C$};
-\draw [black] (12.9,-25.6) -- (16.4,-25.6);
-\draw (12.4,-25.6) node [left] {$S$};
-\fill [black] (16.4,-25.6) -- (15.6,-25.1) -- (15.6,-26.1);
-\draw [black] (22.4,-25.6) -- (28.2,-25.6);
-\fill [black] (28.2,-25.6) -- (27.4,-25.1) -- (27.4,-26.1);
-\draw (25.3,-26.1) node [below] {$1$};
-\draw [black] (18.077,-22.92) arc (234:-54:2.25);
-\draw (19.4,-18.35) node [above] {$0$};
-\fill [black] (20.72,-22.92) -- (21.6,-22.57) -- (20.79,-21.98);
-\draw [black] (34.2,-25.57) -- (39.5,-25.53);
-\fill [black] (39.5,-25.53) -- (38.7,-25.03) -- (38.7,-26.03);
-\draw (36.85,-26.06) node [below] {$0$};
-\draw [black] (29.877,-22.92) arc (234:-54:2.25);
-\draw (31.2,-18.35) node [above] {$1$};
-\fill [black] (32.52,-22.92) -- (33.4,-22.57) -- (32.59,-21.98);
-\draw [black] (41.177,-22.82) arc (234:-54:2.25);
-\draw (42.5,-18.25) node [above] {$0,1$};
-\fill [black] (43.82,-22.82) -- (44.7,-22.47) -- (43.89,-21.88);
-\end{tikzpicture}
-\end{center}
+
+  your solution here
 \end{solution}  
 
 \end{enumerate}
@@ -379,152 +361,131 @@ Draw the transition diagram for a finite automaton that recognizes each of the f
 
 
 \clearpage
-\begin{question}{6}\textbf{Short proofs} (8 points)\\\\
+\begin{question}{7}\textbf{Short proofs (8 points)}\\\\
+
 Determine whether each of the following statements is \texttt{true} or \texttt{false}.\\ If it is \texttt{true}, provide a short proof. If it is \texttt{false}, give a counterexample.
 \begin{enumerate}[(a)]
-\item All regular languages are finite.
+\item The intersection of two regular languages is \textbf{finite}.
 \begin{solution}
-    \textbf{False}. The Language $L_1 = L(R_1)$ where $R_1 = 0^*$ is regular because it has a regular expression. But this language has an infinite number of words (the words with any number of Zeroes). This counterexample disproves the statement.
+    \;
+
+  your solution here
 \end{solution}
 
-\item All finite languages are regular.
+\item The complement of a finite language must be \textbf{regular}.
 \begin{solution}
-    \textbf{True}. Any Language that has a regular expression is a regular language. Any finite language $L_F$ can be expressed as a union of its words $L_F = L_{w1} \cup L_{w2} \dots L_{wN}$ and each of the words $wk$ is the concatenation of its symbols such that its regular expression is $R_{wk} = \sigma_{k1} \sigma_{k2} \dots \sigma_{km}$, so there is always a regular expression $R_F$ that can generate $L_F$ like this:
-    $$
-    L_F = L(R_F) \text{ such that } R_F = R_{w1} + R_{w2} + \dots R_{wN}
-    $$
+    \;
 
-    Or: Any Finite regular language can be produced by the regular expression which is the alternation of its words.
+     your solution here
 \end{solution}
 
-\item All finite automata accept the empty string $\varepsilon$.
+\item No finite automaton can accept the empty string $\varepsilon$.
 \begin{solution}
-    \textbf{False}. The following Automaton is equivalent to $R_0 = 0$ which accepts only the language $L_0 = L(R_0) = \{0\}$
+   \;
 
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (19.4,-25.6) circle (3);
-\draw (19.4,-25.6) node {$A$};
-\draw [black] (31.2,-25.6) circle (3);
-\draw (31.2,-25.6) node {$B$};
-\draw [black] (31.2,-25.6) circle (2.4);
-\draw [black] (12.9,-25.6) -- (16.4,-25.6);
-\draw (12.4,-25.6) node [left] {$S$};
-\fill [black] (16.4,-25.6) -- (15.6,-25.1) -- (15.6,-26.1);
-\draw [black] (22.4,-25.6) -- (28.2,-25.6);
-\fill [black] (28.2,-25.6) -- (27.4,-25.1) -- (27.4,-26.1);
-\draw (25.3,-26.1) node [below] {$0$};
-\end{tikzpicture}
-\end{center}
-
+  your solution here
 \end{solution}
 
 \item There exists some finite automaton that accepts the empty string $\varepsilon$.
 \begin{solution}
-    \textbf{True}. The automaton shown below accepts $\varepsilon$ because it accepts all words:
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (19.4,-25.6) circle (3);
-\draw (19.4,-25.6) node {$A$};
-\draw [black] (19.4,-25.6) circle (2.4);
-\draw [black] (12.9,-25.6) -- (16.4,-25.6);
-\draw (12.4,-25.6) node [left] {$S$};
-\fill [black] (16.4,-25.6) -- (15.6,-25.1) -- (15.6,-26.1);
-\draw [black] (18.077,-22.92) arc (234:-54:2.25);
-\draw (19.4,-18.35) node [above] {$0,1$};
-\fill [black] (20.72,-22.92) -- (21.6,-22.57) -- (20.79,-21.98);
-\end{tikzpicture}
-\end{center}    
+\;
+
+  your solution here
 \end{solution}
 \end{enumerate}
 \end{question}
 
 \clearpage
-\begin{question}{7}\textbf{Non-Regular Languages} (6 points)\\\\
-Prove that the language: \[HALFZEROS = \{w \ | \ w \text{ has twice as many ones as it has zeros}\} \] is NOT a regular language.
+\begin{question}{8}\textbf{Non-Regular Languages (6 points)}\\\\
 
-Note, HALFZEROS is NOT only $w = 0^i1^{2i}$, the one's and zeros can be anywhere.
-\end{question}
+Prove that the language: \[L_{aba} = \{w \ | \ w = 1^a(0\vert1)^b1^a \; ; \quad a, b \geq 0 \} \] is \textbf{NOT} a regular language.
 
-\begin{solution}
-Let's assume $HALFZEROS$ is Regular. \\
-Then, by the Pumping Lemma, $\exists$ an integer $N$ such that a word $w  \in HALFZEROS \text{ where } \vert w \vert \geq N$ can be written as $w=xyz$ where $\vert xy \vert \leq N$, $\vert y \vert > 0$, and $xy^iz \in HALFZEROS$.
+Note, example words in this language include 
 
-The word $w=0^{N}1^{2N}$ satisfies that $\vert w \vert \geq N$ since $\vert w \vert = 3N$. Also, by construction, the first $N$ symbols are $0s$, and since $\vert xy \vert \leq N$, then both sections $x$ and $y$ must be composed of only zeros, or $x = 0^p$, $y = 0^q$, and $z = 0^r1^{2N}$ for some $p\geq 0$, $q > 0$, and $r\geq N$. This means that $w$ can be written as $w=0^p0^q0^r1^{2N}$ with $q>0$ and $p+q+r = N$ (since the word must have twice as many ones than the number of zeros, which is $N$).
-
-Now, if the word is pumped into $w^{\prime} = xyyz$, that would mean we duplicate the number of $0$s in the $y$ part. 
-This means that the composition of the word is now: $w^{\prime} = xyyz = 0^p0^q0^q0^r1^{2N}$.
-
-In the word $w^{\prime}$, the number of zeros is $p+q+q+r$, and the number of ones is still $2N$, then, since we established that $p+q+r = N$, then now we have $p+q+q+r > N \text{ zeros }$, which is more than half of the ones, meaning that the word does not have exactly twice as many zeros as ones; a contradiction. 
-
-Therefore, $HALFZEROS$ is not a regular language.    
-\end{solution}
-
-\clearpage
-\begin{question}{8}\textbf{Context-Free Languages} (4 points)\\\\
-Prove that the language:
-\[HALFZEROS = \{w \ | \ w \text{ has twice as many ones as it has zeros}\} \] is context-free.
-\end{question}
-
-
-	\begin{solution}
- \;
- 
- Option 1: (brute Force, ONE VARIABLE!!)
-    \begin{align*}
-        &V = \{S\}\\
-        &\Sigma = \{ 0, 0 \}\\
-        &R = \{ \\
-        & \qquad  S \rightarrow 110S \;\vert\; 11S0 \;\vert\; 1S10 \;\vert\; S110 \\
-        & \qquad  S \rightarrow 101S \;\vert\; 10S1 \;\vert\; 1S01 \;\vert\; S101 \\
-        & \qquad  S \rightarrow 011S \;\vert\; 011S \;\vert\; 0S11 \;\vert\; S011 \\  
-        & \qquad  S \rightarrow \epsilon \\
-        & \qquad \} 
-    \end{align*}
-
- Option 2: (brute Force, TWO VARIABLES!!)
-    \begin{align*}
-        &V = \{S, A\}\\
-        &\Sigma = \{ 0, 0 \}\\
-        &R = \{ \\
-        & \qquad  S \rightarrow  \epsilon \\
-        & \qquad  S \rightarrow 110A \;\vert\; 11A0 \;\vert\; 1A10 \;\vert\; A110 \\
-        & \qquad  S \rightarrow 101A \;\vert\; 10A1 \;\vert\; 1A01 \;\vert\; A101 \\
-        & \qquad  S \rightarrow 011A \;\vert\; 01A1 \;\vert\; 0A11 \;\vert\; A011 \\  
-        & \qquad  A \rightarrow S \\
-        & \qquad \} 
-    \end{align*}
-
- Option 3: (elegant/minimalist, ONE VARIABLE!!)
-    \begin{align*}
-        &V = \{S, A\}\\
-        &\Sigma = \{ 0, 0 \}\\
-        &R = \{ \\
-        & \qquad  S \rightarrow 0S1S1 \;\vert\; 1S0S1 \;\vert\; 1S1S0 \;\vert\; SS \;\vert\;  \epsilon \\
-        & \qquad \} 
-    \end{align*}
-    
-	\end{solution}
-
-\clearpage
-\begin{question}{9}\textbf{Decidable Languages} (4 points)\\\\
-Prove that the language:
-\[HALFZEROS = \{w \ | \ w \text{ has twice as many ones as it has zeros}\} \] is decidable.
+$\epsilon, 11, 111,101, 1111, 11011, 110011,111111, 10101011, ...$
 \end{question}
 
 \begin{solution}
 \;
-
-\begin{lstlisting}[mathescape=true]
-On input w:
-    Count the number of Zeros in w and store in $N_0$
-    Count the number of Ones in w and store in $N_1$
-    If $N_1$ = $2 \times N_0$: ACCEPT            
-    Otherwise: REJECT
-\end{lstlisting}    
+  your solution here
 \end{solution}
+
+\clearpage
+\begin{question}{9}\textbf{Context-Free Languages(6 points)} \\\\
+
+Prove that the language: \[L_{aba} = \{w \ | \ w = 1^a(0\vert1)^b1^a \; ; \quad a, b \geq 0 \} \] is Context Free.
+
+Note, example words in this language include 
+
+$\epsilon, 11, 111,101, 1111, 11011, 110011,111111, 10101011, ...$
+\end{question}
+
+
+    \begin{solution}
+ \;
+ 
+ Your solution here
+    \end{solution}
+
+\clearpage
+\begin{question}{10}\textbf{Push-Down Automata (4 points)} \\\\
+
+Convert the following Grammar into a PDA:
+
+\begin{align*}
+    G &= \{V, \Sigma, R, S\}\\
+    V &= \{S, A, B\}\\
+    R &= \{ S \rightarrow_g ASB \vert \epsilon \\
+      & \qquad A \rightarrow_g 110   \\
+      & \qquad A \rightarrow_g 001\} 
+\end{align*}
+    
+
+
+\end{question}
+
+\begin{solution}
+\;
+Your solution here    
+\end{solution}
+
+
+\clearpage
+\begin{question}{BONUS}\textbf{Linear Temporal Logic (4 points)} \\\\
+
+\begin{itemize}
+    \item (2 point) What does the following statement mean: \\
+    $G(jump \; \rightarrow \; F ( \;deploy\; AND\; X( \;brace\; )\;   )\; )$
+
+\begin{solution}
+\;
+Your solution here    
+\end{solution}
+
+\bigskip
+    
+    \item (2 point) Is the following sequence satisfying that statement?\\
+
+\begin{table}[h!]
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Time   & 1     & 2     & 3     & 4     & 5     & 6     & 7     \\ \hline
+jump   & False & True  & False & True  & False & False & False \\ \hline
+deploy & True  & False & False & False & True  & True  & False \\ \hline
+brace  & False & False & False & True  & True  & False & False \\ \hline
+\end{tabular}
+\end{table}    
+
+\begin{solution}
+\;
+Your solution here    
+\end{solution}
+    
+\end{itemize}
+
+\end{question}
+
+
 
 \clearpage
 \begin{center}
