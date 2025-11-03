@@ -110,7 +110,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 11/03      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} |    |    |
 | 11/05      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
-| 11/06      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Organization Doc**{: .label .label-grey} | FP: Organization Doc Due Before L27  |     |
+| 11/07      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Organization Doc**{: .label .label-grey} | FP: Organization Doc Due Before L27  |     |
 
 
 # Week 10: Files and Modules
