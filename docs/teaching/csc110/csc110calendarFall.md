@@ -101,7 +101,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 10/27      | L19: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html)   | Ch 10-A | Ch 10-B (10.17 to 10.26)  Due before L24<br> **Pick Learning Path**{: .label .label-blue}    |     |
 | 10/29      | L20: [Lists and Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-20.html)  | Ch 10-B  |  Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7) Both Due Before L25 |      |
-| 10/31      | L21: [2D-Lists abd other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **QUIZ-05: Nested Loops**{: .label .label-yellow }<br>**OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
+| 10/31      | L21: [2D-Lists abd other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
 
 
 # Week 09: Graphics (slides being checked)
@@ -110,7 +110,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 11/03      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} |    |    |
 | 11/05      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
-| 11/06      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple}    |  **QUIZ-06: Lists**{: .label .label-yellow }<br>   **OUT: FP: Organization Doc**{: .label .label-grey} | FP: Organization Doc Due Before L27  |     |
+| 11/06      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Organization Doc**{: .label .label-grey} | FP: Organization Doc Due Before L27  |     |
 
 
 # Week 10: Files and Modules
@@ -119,7 +119,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 11/10      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
 | 11/12      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   <br>**DUE: Homework 06: Nested Loops**{: .label .label-purple} <br>**DUE: FP: Organization Doc**{: .label .label-blue}  |   **OUT: FP: Prototype**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
+| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Organization Doc**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
 
 
 # Week 11: Learning-by-designing OR Project Design
@@ -135,7 +135,7 @@ nav_order: 2
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/24      | L31: In-Class-Work  |  **Due: FP: Prototype**{: .label .label-blue}  | **OUT: FP: Demo-package**{: .label .label-grey} | FP: Demo-package Due Before L35    |
+| 11/24      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Demo-package**{: .label .label-grey} | FP: Demo-package Due Before L35    |
 | 11/26      | **NO CLASSES**:  Thanksgiving   |   |     |     |
 | 11/28      | **NO CLASSES**:  Thanksgiving   |   |     |     |
 
@@ -146,15 +146,15 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 12/01      | L32: In-Class-Work  |   |     |     |
 | 12/03      | L33: In-Class-Work  |   |     |     |
-| 12/05      | L34: In-Class-Work  |   |     |     |
+| 12/05      | L34: In-Class-Work  | **Due: FP: Prototype II**{: .label .label-blue}  |     |     |
 
 
 # Week 14: Learning-by-designing OR Project Design
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/08      | L35: In-Class Demo  |   **Due: FP: Demo-package**{: .label .label-blue}    |     |     |
-| 12/09      | **Demo Day**{:  .fs-7 .label .label-green }  |   |     |     |
+| 12/08      | L35: In-Class Demo  |       |     |     |
+| 12/09      | **Demo Day**{:  .fs-7 .label .label-green }  | **Due: FP: Demo-package**{: .label .label-blue}  |     |     |
 | 12/10      | L36: Wrap-Up  |   |     |     |
 
 
