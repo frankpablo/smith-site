@@ -119,7 +119,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 11/10      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
 | 11/12      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Organization Doc**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
+| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Organization Doc**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
 
 
 # Week 11: Learning-by-designing OR Project Design
@@ -135,7 +135,7 @@ nav_order: 2
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/24      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Demo-package**{: .label .label-grey} | FP: Demo-package Due Before L35    |
+| 11/24      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey} | FP: Demo-package Due Before L35    |
 | 11/26      | **NO CLASSES**:  Thanksgiving   |   |     |     |
 | 11/28      | **NO CLASSES**:  Thanksgiving   |   |     |     |
 
@@ -146,7 +146,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 12/01      | L32: In-Class-Work  |   |     |     |
 | 12/03      | L33: In-Class-Work  |   |     |     |
-| 12/05      | L34: In-Class-Work  | **Due: FP: Prototype II**{: .label .label-blue}  |     |     |
+| 12/05      | L34: In-Class-Work  | **Due: FP: Prototype II**{: .label .label-blue}  |  **OUT: FP: Demo-Package**{: .label .label-grey}   |     |
 
 
 # Week 14: Learning-by-designing OR Project Design
@@ -155,7 +155,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 12/08      | L35: In-Class Demo  |       |     |     |
 | 12/09      | **Demo Day**{:  .fs-7 .label .label-green }  | **Due: FP: Demo-package**{: .label .label-blue}  |     |     |
-| 12/10      | L36: Wrap-Up  |   |     |     |
+| 12/10      | L36: Wrap-Up  |   |   **FP: Final-package**{: .label .label-grey} Due 12/19 by 3PM |     |
 
 
 
