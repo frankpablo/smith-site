@@ -108,9 +108,9 @@ nav_order: 2
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/03      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} |    |    |
+| 11/03      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} | **OUT: FP: Project Proposal**{: .label .label-grey}    |    |
 | 11/05      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
-| 11/07      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Organization Doc**{: .label .label-grey} | FP: Organization Doc Due Before L27  |     |
+| 11/07      | L24: [Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple} <br> **DUE: FP: Project Proposal**{: .label .label-blue}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Project Design**{: .label .label-grey} | FP: Project Design Due by L27 8PM |     |
 
 
 # Week 10: Files and Modules
@@ -119,7 +119,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 11/10      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
 | 11/12      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Organization Doc**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
+| 11/14      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Project Design**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
 
 
 # Week 11: Learning-by-designing OR Project Design
