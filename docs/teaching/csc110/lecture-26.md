@@ -4,7 +4,6 @@ title: Lecture26
 parent: CSC110
 grand_parent: Teaching
 nav_order: 360
-published: false
 #permalink: /docs/teaching/csc110/
 ---  
   
