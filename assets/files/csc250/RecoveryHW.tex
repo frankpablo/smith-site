@@ -1,11 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Welcome to Overleaf --- just edit your LaTeX on the left,
-% and we'll compile it for you on the right. If you open the
-% 'Share' menu, you can invite other users to edit at the same
-% time. See www.overleaf.com/learn for more info. Enjoy!
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % --------------------------------------------------------------
 % This is all preamble stuff that you don't have to worry about.
 % Head down to where it says "Start here"
@@ -16,13 +8,11 @@
 \usepackage[margin=1in]{geometry} 
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{graphicx}
+\usepackage{enumerate}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \definecolor{smithblue}{HTML}{002855}
 \definecolor{smithyellow}{HTML}{F2A900}
-\usepackage{textcomp}
-\usepackage{enumitem}
-\usepackage{tkz-berge}
 
 \usepackage[parfill]{parskip}
 \parskip=\baselineskip
@@ -30,34 +20,23 @@
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
  
-\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
-\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
 \newenvironment{exercise}[2][Exercise]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
-\newenvironment{reflection}[2][Reflection]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
-\newenvironment{proposition}[2][Proposition]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
-\newenvironment{solution}[1][Solution]{\begin{trivlist}
+
+\newenvironment{solution}[1][{\color{red} Solution:}]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]}{\end{trivlist}}
-\newcommand{\angles}[1]{\textlangle{}$#1$\textrangle{}}
+
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Fall 2025 - Homework 08\\
+\rhead{CSC250 Fall 2025 - Recovery Homework\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-
-% --------------------------------------------------------------
-% This is all preamble stuff that you don't have to worry about.
-% Head down to where it says "Start here"
-% --------------------------------------------------------------
 
 \begin{document}
  
@@ -75,31 +54,103 @@
 	% \textit{I did not collaborate with anyone on this assignment.}
 }
 
-\newcommand\answerkey[1]{\vskip 5pt \noindent{\color{red}{\bf Solution:}} \emph{#1}}
- 
+% --------------
+% Exercise 1
+% --------------
+\begin{exercise}{1}
+Consider the following language:
+\[COMPOSITE_n = \{n \ | \ n = ab \texttt{ for some integers } a,b\}\]
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
 
+% -------------------------------------------
+%  Write your answer to Q1 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
 
-% \textit{\textbf{Note:} by the end of this assignment, we will have constructed the following chain of $NP$-complete problems:}
-% \[SAT \leq_p 3SAT \leq_p CLIQUE \leq_p INDEPENDENT-SET \leq_p VERTEX-COVER\]
+\clearpage
+
+% --------------
+% Exercise 2
+% --------------
+\begin{exercise}{2}
+Consider the following language:
+\begin{eqnarray*}
+COMPOSITE_{TM} & = & \{\langle M,w \rangle \ | \ M \texttt{ is a TM and } M \texttt{ halts on } w \texttt{ in }\\
+&& \ \ \ \ \ \ \ \ \ \ \ \ \ n = ab \texttt{ steps for some integers } a,b\}
+\end{eqnarray*}
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q2 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+% --------------
+% Exercise 3
+% --------------
+\begin{exercise}{3}
+Consider the following language:
+\[COMPOSITE_{RE} = \{n \ | \ n = ab \texttt{ for some regular expressions } a,b\}\]
+What is the smallest class that contains this language (finite, regular, context-free, decidable, recognizable, or unrecognizable)? Prove it.
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q3 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+
+% --------------
+% Exercise 4
+% --------------
+\begin{exercise}{4}
+
+Describe the primary differences between a Turing reduction ($\le_T$) and a Mapping reduction ($\le_m$).
+
+\end{exercise}
+
+% -------------------------------------------
+%  Write your answer to Q4 below
+% -------------------------------------------
+\begin{solution}
+Your solution here
+\end{solution}
+
+\clearpage
+
 
 % \hrule
 % \vskip 2em 
 % --------------
 % Exercise 1
 % --------------
-\begin{exercise}{1}
+\begin{exercise}{5}
 Show that the following language is in $P$:
 \[\texttt{RELATIVELY-PRIME}=\{ \langle x,y \rangle \ | \ x \texttt{ and } y \texttt{ are integers, } gcd(x, y) = 1\}\]
 \end{exercise}
 
 
-\hrule
-\vskip 1em 
+
+\clearpage
+% \vskip 1em 
+% \hrule
+% \vskip 1em 
+
 
 % --------------
 % Exercise 2
 % --------------
-\begin{exercise}{2}
+\begin{exercise}{6}
 A Caesar cipher is a simplified encryption protocol in which all letters are shifted $0 < k < 26$ positions $mod \ 26$, e.g. when $k=3$:\\\\
 \includegraphics[width=\textwidth]{caesar.png}\\
 To use this encryption method, look up the substitution for each letter, like this:
@@ -109,35 +160,38 @@ To use this encryption method, look up the substitution for each letter, like th
 Show that this encryption scheme can be broken in $O(n)$ where $n$ is the length of the message.
 \end{exercise}
 
-%\clearpage
-\vskip 1em 
-\hrule
-\vskip 1em 
+\clearpage
+% \vskip 1em 
+% \hrule
+% \vskip 1em 
 
 % --------------
 % Exercise 3
 % --------------
-\begin{exercise}{3}
+\begin{exercise}{7}
 Consider the language: 
 \begin{eqnarray*}
 VERTEX-COVER &=& \{\langle G,k \rangle  \ | \ G \texttt{ is a graph that has a} \\
 &&\texttt{ \ \ \ \ \ \ \ vertex cover of size }k\}
 \end{eqnarray*}
 where a \textbf{vertex cover} is a set of $k$ vertices such that every edge in the graph touches at least one of the vertices.
+
 \begin{enumerate}[label=(\alph*)]
 	\item Draw a diagram of a graph on 10 vertices with an \textbf{vertex cover} of size 5.
 	\item Prove that $VERTEX-COVER$ is $NP$-complete.
 \end{enumerate}
 \end{exercise}
 
-\vskip 1em 
-\hrule
-\vskip 1em 
+\clearpage
+% \vskip 1em 
+% \hrule
+% \vskip 1em 
+
 
 % --------------
 % Exercise 4
 % --------------
-\begin{exercise}{4}
+\begin{exercise}{8}
 Consider the language: 
 \begin{eqnarray*}
 SET-COVER &=& \{\langle U,S,k \rangle  \ | \ U \texttt{ is a set of elements } \{1, 2, ..., n\} \texttt{ (the "universe"),} \\
@@ -153,10 +207,24 @@ where a \textbf{set cover} is a set of $k$ subsets $\in S$ such that every eleme
 \end{exercise}
 
 
-% ------------------------------------------------------------------
-%     DON'T FORGET TO INCLUDE REFERENCES
-% ------------------------------------------------------------------
-\section*{References}
+
+
+% -----------------
+% References
+% -----------------
+\vfill
+\begin{thebibliography}{9}
+\bibitem{sipser} 
+Sipser, Michael. 
+\textit{Introduction to the Theory of Computation.}
+Course Technology, 2005. ISBN: 9780534950972
+
+\bibitem{critchlow2011foundation}
+Critchlow, Carol and Eck, David
+\textit{Foundation of computation.},
+Critchlow Carol, 2011
+
+\end{thebibliography}
 
 % --------------------------------------------------------------
 %     You don't have to mess with anything below this line.
