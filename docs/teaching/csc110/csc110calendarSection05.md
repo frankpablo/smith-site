@@ -126,7 +126,7 @@ published: false
 |-------------|-----------|---------|------------|-----------|
 | 11/27       | L32: Work on Final Project  |  |  |  |
 | 11/29       | L33: Work on Final Project  |     |     |     |
-| 12/01       | L34: **Final Project: Prototype I**{: .label .label-purple}  |     |     |     | 
+| 12/01       | L34: **Final Project: Prototype I**{: .label .label-purple}  |     |     |     |
 
 <!-- **Final Project: Functions and Tests**{: .label .label-purple} -->
 
@@ -145,4 +145,3 @@ published: false
 |-------------|-----------|---------|------------|-----------|
 | 12/11       | L38: **Final Project Demo (practice)**{: .label .label-green }  |  |  | Demo Day 12/12 |
 | 12/13       | L39: Wrap-Up  |      |   Complete Final Project   |  Complete Final Project Due 12/20    |
-

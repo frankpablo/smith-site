@@ -4,6 +4,7 @@ layout: default
 parent: CSC110
 grand_parent: Teaching
 nav_order: 2
+published: false
 #permalink: /docs/teaching/csc110/
 ---
 
@@ -162,7 +163,7 @@ nav_order: 2
 
 
 
-<!-- 
+<!--
 
 # Week 05: Project Planning
 
@@ -242,7 +243,7 @@ nav_order: 2
 |------------|-----------|---------|------------|-----------|
 | 04/14     | L29: [File I/O](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-29.html)<br>**Review of Quiz-07** |  Ch 11    |     |     |
 | 04/16      | L30: [Math-Time-and-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-30.html)|   |     |     |     |
-| 04/18   | L31: Work on Final Project | **DUE: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey}<br> FP: Prototype II Due Before L36 |  | 
+| 04/18   | L31: Work on Final Project | **DUE: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey}<br> FP: Prototype II Due Before L36 |  |
 
 
 
