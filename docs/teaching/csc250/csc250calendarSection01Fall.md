@@ -1,9 +1,10 @@
 ---
 layout: default
-title: CSC250calendar-Fall
+# title: CSC250calendar-Fall
 parent: CSC250
 grand_parent: Teaching
 nav_order: 1
+published: false
 #permalink: /docs/teaching/csc250/
 ---
 
@@ -101,13 +102,13 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/03      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
+| 11/03      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
 | 11/05      | L18: [More on Reductions](lecture-18.html)|  |  |  |
 | 11/07      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **HW06 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
 
-<!-- 
+<!--
 
 # Week 07: Turing Machines
 
@@ -123,7 +124,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/27      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  | 
+| 10/27      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
 | 10/29      | L18: [More on Reductions](lecture-17.html)|  |  |  |
 | 10/31      | L19: [Practice/Catch-up](lecture-18.html) | **Homework 05**{: .label .label-purple} | **Study for Midterm (During Week 09)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
@@ -148,7 +149,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | 11/10      | L20: [Enumeration](lecture-20.html) |  |  |  |
 | 11/12      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
-| 11/14      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | | 
+| 11/14      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | |
 
 
 
@@ -192,7 +193,7 @@ nav_order: 1
 | 12/10      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
 
 
-<!-- 
+<!--
 
 | 12/08      | L34: [Practice/Catch-up](lecture-32.html) | **Homework 08**{: .label .label-purple}  | **QUIZ-08-Complexity**{: .label .label-yellow } | |
 
@@ -211,7 +212,7 @@ nav_order: 1
  -->
 
 
-<!-- 
+<!--
 
 # Schedule for CSC 250 Fall 2024
 
@@ -276,7 +277,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/14      | **NO CLASSES**  |   |            |           | 
+| 10/14      | **NO CLASSES**  |   |            |           |
 | 10/16      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
 | 10/18      | L18 + L19: [More on Reductions](lecture-18.html) <br>**QUIZ-05-TMs**{: .label .label-yellow }| **Homework 05**{: .label .label-purple} | Study for Midterm<br>(During Week 08) |  |
 
@@ -297,8 +298,8 @@ nav_order: 1
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/28      | L23: [Enumeration](lecture-23.html) |  |  |  |
-| 10/30      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  |  | 
-| 11/01      | L25: [Catch-up on Reductions](lecture-25.html) |  | **HW06 Due 11/08<br>Reductions, Ennumeration and Mapping Reductions** | | 
+| 10/30      | L24: [Mapping Reducibitlity](lecture-24.html) |  |  |  |
+| 11/01      | L25: [Catch-up on Reductions](lecture-25.html) |  | **HW06 Due 11/08<br>Reductions, Ennumeration and Mapping Reductions** | |
 
 
 # Week 10: Rice's Theorem and Computability Summary
@@ -354,7 +355,7 @@ nav_order: 1
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/09      | L39: Wrap-Up   |       |     |     |     | 
+| 12/09      | L39: Wrap-Up   |       |     |     |     |
 
 
 -->
