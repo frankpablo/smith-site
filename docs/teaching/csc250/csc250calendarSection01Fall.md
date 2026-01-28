@@ -71,6 +71,7 @@ published: false
 # Week 06: Practice and  Linear Temporal Logic Practice
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
 | 10/13      | **NO CLASSES: Columbus Day**  | | | |
 | 10/15      | L_Practice: [Practice](lecture-Practice.html)  | | | |
 | 10/17      | L_LTL: [Linear-Temporal-Logic](lecture-LTL.html)|  **Homework 04**{: .label .label-purple}| <br>**QUIZ-04-RLs-PLs-CFGs-PDAs**{: .label .label-yellow } |  |
