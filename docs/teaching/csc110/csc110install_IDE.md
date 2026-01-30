@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Install_Python_and_IDE
+title: Python_and_IDE
 parent: CSC110
 grand_parent: Teaching
 nav_order: 4
 #permalink: /docs/teaching/csc110/
 ---  
 
-<!-- 
+<!--
 Setting up Pytest in VSCode
 https://code.visualstudio.com/docs/python/testing
  -->
@@ -17,7 +17,7 @@ https://code.visualstudio.com/docs/python/testing
 In order to write Python programs and execute (or run) them, you need to have a editor (to write) and an interpreter (to run) the program. Depending on your individual setup, you will take a different approach.
 
 
-<!-- 
+<!--
 ## Option A: I'm using a Laptop (or Desktop)
 
 ### 0. Download Starter Files
@@ -38,7 +38,7 @@ On Windows 11, open Settings by pressing the key combination – Win + I. Click 
 Instal Visual Studio Code (VS Code): Go to [https://code.visualstudio.com](https://code.visualstudio.com) and click the blue download button.
 Follow the installation instructions.
 
-_If it doesn't work then go to [https://code.visualstudio.com/download](https://code.visualstudio.com/download), select the appropriate download. 
+_If it doesn't work then go to [https://code.visualstudio.com/download](https://code.visualstudio.com/download), select the appropriate download.
 Make sure you click the correct version, based on your operating system (Windows/Mac) and chip (x64/ARM). Ask if you don't understand._
 
 
@@ -96,13 +96,13 @@ _If you have trouble with any of these steps, ask for help._
 _If you have trouble with any of these steps, ask for help._
 
 
-<!-- 
+<!--
 ### 4. Remove automatic suggestions (they are annoying)
 
 1. Open the settings by pressing the following combination: On Mac: press the command button and then the comma (CMD + ",")  or (⌘,). On Windows: press Control and comma (Ctrl + ",")
 2. On the search bar, write: *Editor:Suggest*
 3. On the resulting list of matches, one has the name *Editor: Quick Suggestions*. Under it, there is a link to *Editor: Suggest On Trigger Characters*. Select that link.
-4. On the resulting page, you will see a series of selected options that start with *Editor:Suggest:*. There are many of them... please unselect them all. 
+4. On the resulting page, you will see a series of selected options that start with *Editor:Suggest:*. There are many of them... please unselect them all.
 
 
 
@@ -120,7 +120,7 @@ We recommend that you use Visual Studio Code for Education: [https://vscodeedu.c
 1. Open a browser to [https://vscodeedu.com/](https://vscodeedu.com/).
 2. Sign in with a Microsoft account. If you do not have one, create an account with your personal email (gmail/hotmail). If you want to used your Smith email and credentials, you will need to sign up for [Office 365 Education](https://www.microsoft.com/en-us/education/products/office).
 3. Click `My Work` -> `My Projects` -> `New project`. Give your project a name (e.g., CSC110) then click `Create Project`.
-4. A new project will be created, and you will be given a main.py file. From here you can drag files into the browser and they will be added to your project. 
+4. A new project will be created, and you will be given a main.py file. From here you can drag files into the browser and they will be added to your project.
 
 <br>
 
@@ -136,11 +136,11 @@ We recommend that you use Visual Studio Code for Education: [https://vscodeedu.c
 Download and Install Anaconda.
 
 1. Visit the Anaconda Website at:  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-2. Select the download option for your operating system (Windows, macOS, or Linux). 
+2. Select the download option for your operating system (Windows, macOS, or Linux).
 3. Click the `Download` button to start the download of the Anaconda installer.
 4. Follow these instructions on-screen instructions: [Windows](https://docs.anaconda.com/free/anaconda/install/windows/) or [Apple](https://docs.anaconda.com/free/anaconda/install/mac-os/)
 
-Once Anaconda (or “conda” for short) has installed follow these steps to finish setup and use anaconda: Find and launch the Anaconda Navigator application. 
+Once Anaconda (or “conda” for short) has installed follow these steps to finish setup and use anaconda: Find and launch the Anaconda Navigator application.
 
 Install Visual Studio Code (see above) and then ask for help.
 
@@ -165,7 +165,7 @@ Now we need to pick which version of Python to connect to Thonny. First, go to t
 
   2. make a note of where python is saved on your system
   3. Now go back to Thonny
-     1. Select Tools > Options > 
+     1. Select Tools > Options >
      2. In the window that opens, select the `Interpreter` tab, and then the three dots menu to select the python executable you found before.
      3. You should be able to see where we installed the new python3.13
         1. in my case, it's the line that reads `/usr/local/bin/python3`
@@ -176,7 +176,7 @@ Now we need to pick which version of Python to connect to Thonny. First, go to t
 
 ### Setting python version for Thonny in Windows
 
-  1. We need to tell Thonny to use our newest version of Python 
+  1. We need to tell Thonny to use our newest version of Python
   2. Run, in a Command Prompt or PowerShell, the command:
   `where python`
   or inspect the Windows Registry
@@ -190,14 +190,14 @@ Now we need to pick which version of Python to connect to Thonny. First, go to t
      3. Browse to the location where you installed Python 3.13 python.exe executable.
 
 
-<!-- 
+<!--
 Here's a quick overview of how to use Thonny to program in Python. There are two distinct ways of typing in Python statements:
 
 1. You can use the _shell_, where each line you type is
-interpreted by Python as soon as you hit `return`. 
+interpreted by Python as soon as you hit `return`.
 2. You can also use the _editor_, which allows you to write a
 collection of statements (a program), save the collection in a file, and then
-have Python execute the contents of the program. 
+have Python execute the contents of the program.
  -->
 
 
@@ -205,5 +205,5 @@ have Python execute the contents of the program.
 
 There are some free services that allow you to run Python, but you will have to create an account.
 
-* [Trinket](https://trinket.io/) 
+* [Trinket](https://trinket.io/)
 * [Python Anywhere](https://www.pythonanywhere.com/)
