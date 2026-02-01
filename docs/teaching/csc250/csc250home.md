@@ -19,18 +19,16 @@ These sections contain information about how the class is run
 
 **Research interests**: *Human-Robot Interaction, Robotic Perception, STEM education*
 
-**Class Schedule**: 
-
-Check Moodle
+**Class Schedule**: Monday/Wednesday/Friday, 9:25 AM - 10:40 PM / Ford 241
 
 Attendance is mandatory.
 
 **Contact for Class stuff**: Use *Slack* (fastest), office hours (most
 detailed), or can also email me (slowest).
 
-**Office Hours**: 
+**Office Hours**:
 
-<!-- TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca) 
+  <!-- - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca)
 
   - Wednesday 3:15 PM to 4:15 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
   - Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
@@ -38,11 +36,14 @@ detailed), or can also email me (slowest).
   - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
 
 Location of OHs (Ford Hall, Third Floor):
-![OH location](../../../assets/images/Office-OHs.png){width=500px}
-
 -->
 
-Check Moodle for the details (General section).
+<!-- ![OH location](../../common-resources/Office-OHs.png){width=500px} -->
+
+  * Wednesdays, Bass 102, 3:30 PM to 5:30 PM
+  * By Calendly appointment on Thursdays (11 AM to 1 PM)
+
+We might also reserve the classroom for OHs.
 
 **Office Hour Rules**:
 
@@ -51,22 +52,22 @@ Check Moodle for the details (General section).
   * Check Slack: Check the thread for the lecture/assignment in which you have an issue and see if someone already asked/answered what you need help with
   * Bring questions prepared: Once you know what you need help with, it is best to write down the questions you want to ask and to have the materials ready (slides/assignment/...)
   * If you and a group of people want to review a topic, agree to meet up and attend office hours together. Group office hours is often better because more people means more questions answered!
-  * "open office hours" (TBD) are available to everyone, in groups or individually. 
+  * "open office hours" (TBD) are available to everyone, in groups or individually.
   * If I open calendar appointment slots:
       * "appointment slots" (TBD) are by request (usually reserved for 1-on-1 and to deal with acute issues)
       * If you solve your question before a scheduled appointment, cancel the appointment. No-Shows are bad!
       * Show up on time! and Have your question/program ready, otherwise your time will not be enough.
-      * You cant book an appointment fewer than 2 hours before the desired time.
+      * You cant book an appointment fewer than 18 hours before the desired time.
 
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
 
-<!-- 
+<!--
 **In-Class TA**: Skye Worster
 
 See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#disciplines) for details. There basics are: Sunday (1-3pm) and M/T/W/Th/F (7-9pm)
  -->
 
-## Objectives and Structure 
+## Objectives and Structure
 
 
 **Objectives**
@@ -78,19 +79,19 @@ This course provides a challenging introduction to some of the core theoretical 
   * Explain core computer science topics, such as automata, grammars, Turing machines, complexity, and more
   * Propose algorithms in order to transform and analyze problems using the tools and structures we will develop in class
 
-**Effort Expectations**: This class has the expectation that you have mathematical maturity and programming experience, but most imporrtantly: that you can devote the time to the necessary work and study to do well in class. The course is a 4-credit course, which means you should expect to work around **12 hours per week**. 
+**Effort Expectations**: This class has the expectation that you have mathematical maturity and programming experience, but most imporrtantly: that you can devote the time to the necessary work and study to do well in class. The course is a 4-credit course, which means you should expect to work around **12 hours per week**.
 
-The recommended distribution is: 
+The recommended distribution is:
 
-  * approximately 4 hours of class time
+  * approximately 4.5 hours of class time
   * approximately 5 hours every week on homework assignments
-  * approximately **3 hours every week reading or studying** (before and after class).
+  * approximately **2.5 hours every week reading or studying** (before and after class).
 
-If you follow this general routine, the class should not be too challenging. If you do not follow this time investment, you will feel accumulating pressure. 
+If you follow this general routine, the class should not be too challenging. If you do not follow this time investment, you will feel accumulating pressure.
 
-Summary: Please put the time in to make sure you don't feel unnecessary stress.  
+Summary: Please put the time in to make sure you don't feel unnecessary stress.
 
-**Content**: 
+**Content**:
 
   * We'll begin with very simple computational machinery (automata and finite state machines, regular sets, context-free languages).
   * We'll then move on to Turing machines and computability, efficient algorithms and reducibility, NP-completeness, the P versus NP problem, the power of randomness.
@@ -120,7 +121,7 @@ If I can't understand what you mean, an answer that is hard to read (because it 
 
 All assignment submissions must be in PDF format, and must be organized and legible (typed is preferable). A LaTeX template is available for typesetting your assignments.
 
-## Prerequisites and Student Responsibilities 
+## Prerequisites and Student Responsibilities
 
 **Prerequisites**:
 
@@ -151,7 +152,7 @@ Throughout the class, students should focus on adhering to the following general
 
 -   **Moodle**: Course full name "CSC250-01: Theory of Computation"
 -   **Slack**: You\'ll receive an invitation to the workspace:
-    *csc250-01-s25* 
+    *CSC-250-01-202603*
 
 
 **Books:**
@@ -161,7 +162,7 @@ There is no required textbook for the course. However, there are several recomme
   * Sipser, Michael.  [Introduction to the Theory of Computation](https://openlibrary.org/search?q=Introduction+to+the+theory+of+computation&mode=everything). Course Technology, 2006. ISBN: 9780534950972. (Note: there is a newer edition available, but it is not necessary - the 2nd edition will suffice.)
   * Moore, Cristopher and Stephan Mertens. [The Nature of Computation](http://nature-of-computation.org/). Oxford University Press, 2011. ISBN: 9780199233212.
   * Arora, Sanjeev and Boaz Barak. [Computational Complexity: A Modern Approach](http://theory.cs.princeton.edu/complexity/). Cambridge University Press, 2009. ISBN: 9780521424264.
-  * Critchlow, Carol and David Eck. Foundations of Computation. Available free online as [pdf](https://math.hws.edu/FoundationsOfComputation/) and also in [html](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)). 
+  * Critchlow, Carol and David Eck. Foundations of Computation. Available free online as [pdf](https://math.hws.edu/FoundationsOfComputation/) and also in [html](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)).
   * Maheshwari, Anil, and Michiel Smid. "Introduction to Theory of Computation." (2019). [Introduction to Theory of Computation](https://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf). Available free online.
 
   * Webpage for the course: [Course-Schedule](https://frankpablo.github.io/classes/csc250/schedule.html)
@@ -175,8 +176,8 @@ There is no required textbook for the course. However, there are several recomme
 
 (The following grade calculation may be modified slightly depending on how the semester progresses)
 
-  - Homework Grades **40%**:
-  - Quiz Grades **20**
+  - Homework Grades **50%**:
+  - Quiz Grades **10**
   - Quiz completion (regardless of grade) **5%**
   - Attendance and Participation **5%**
          - in-class Q/A (just ask questions!!)
@@ -186,13 +187,13 @@ There is no required textbook for the course. However, there are several recomme
   - Midterm Exam:     **15%**
   - Final Exam:     **15%**
 
-**Note**: Any changes in grading will be explained in class and will only be made to benefit the students and fit any refinements done during the semester. Example: If a student exempts the final exam, the exam's 15% will be placed on the HW grade category (which will become 55%) and the result may no go below the grade used to decide the final exam exemption (80% or above). 
+**Note**: Any changes in grading will be explained in class and will only be made to benefit the students and fit any refinements done during the semester. Example: If a student exempts the final exam, the exam's 15% will be placed on the HW grade category (which will become 65%) and the result may no go below the grade used to decide the final exam exemption (80% or above).
 
 ### Note on Letter grading:
 
-The grade split in this class is as follows: 
+The grade split in this class is as follows:
 
-  * A  = \[95%, 100%\], 
+  * A  = \[95%, 100%\],
   * A- = \[90%, 95%),
   * B+ = \[87%, 90%),
   * B  = \[83%, 87%),
@@ -208,26 +209,50 @@ The grade split in this class is as follows:
 
 ### A note on expectations
 
-  * In this class, a B- is a good grade. The average in the last 3 semesters has been a B+. The median in the last 3 semesters has been an A-. 
+  * In this class, a B- is a good grade. The average in the last 3 semesters has been a B+. The median in the last 3 semesters has been an A-.
   * A grade of 89.999999 is a B- so don't discard the value of participation.
   * I do not curve. You get what you get. If the whole class gets all A's, you all get A's. I am also not shy about giving you what you got, so make sure you talk to me often about your grades so I can set your expectations, clarify any doubts, and explain your options.
 
 **Quizzes**:
 
-We will have one quiz per subject after the subject's homework has been submitted. We will obtain grades from them to try to identify misconceptions and recurring errors. 
+We will have one quiz per subject after the subject's homework has been submitted. We will obtain grades from them to try to identify misconceptions and recurring errors.
 
-**Late Submissions**:
+<!-- **Late Submissions**:
 
-We will accept no late submissions without a valid excuse (see exceptions). Failing to finish a homework on time excludes you from the active grading exercise where much of the actual learning happens. Submitting "what you were able to get done" is better than nothing. 
+We will accept no late submissions without a valid excuse (see exceptions). Failing to finish a homework on time excludes you from the active grading exercise where much of the actual learning happens. Submitting "what you were able to get done" is better than nothing.
 
-Also, for Office Hours, you must show progress up to the point where you got stuck. 
+Also, for Office Hours, you must show progress up to the point where you got stuck.
 
-*Exceptions*: 
+*Exceptions*:
 
 That said, we will have the following "stress release" policies in place:
 
   - If you have a justification (like a medical one), you get an extension depending on what makes most sense.
-  - If you feel overwhelmed come talk to me before the due date and we will find a solution.
+  - If you feel overwhelmed come talk to me before the due date and we will find a solution. -->
+
+  ### Late Work Policy
+  Everyone has a tough week from time to time and we want to be able to accommodate these situations fairly for everyone.
+
+  Late work *up to three calendar days (i.e., up to Monday night at 10pm if work is due on Friday)* will be accepted for Homework Assignments as long as you meet the following conditions:
+
+    1. You must send your instructor a **direct message (DM) on Slack** by the original assignment deadline, detailing the following: that the assignment will be late (**include assignment number**), **how many prior late assignments you have submitted**, and **when it will be submitted by**. (Requests will not be accepted by email.)
+    2. You must submit a partially completed assignment on Moodle by the original assignment deadline, showing what you have completed thus far. **Include the word INCOMPLETE in all file names that are submitted.**
+    3. Acknowledge that there is no instructor support over the weekend.
+    4. Acknowledge that your assignment will be graded and returned late.
+    5. Submit your work by the agreed upon deadline with the original file names (i.e., remove the word INCOMPLETE), **additional extensions cannot be granted**.
+
+  Below is a template for your late work request:
+
+  ```markdown
+  Hi <instructor name>, I request to submit Homework Assignment #<number> late. This is my second late work request. I have submitted my incomplete assignment to Moodle and will update this with my final submission by Monday night at 10pm. I acknowledge that there is no instructor help over the weekend. I agree that my assignment will be returned late.
+  ```
+
+  Late work will NOT be accepted after the original extension deadline. The only exception to this is in extenuating circumstances with notification from the class deans office.
+
+  * If you are requesting an extension longer than three calendar days, then you must discuss this with the instructor well in advance of the deadline.
+
+  Also, for Office Hours, you must show progress up to the point where you got stuck.
+
 
 **Recovery options**:
 
@@ -237,23 +262,23 @@ We will have a few ways of alleviating grade pressure:
 
   * Discarding the worst quiz: the worst in the first few quizzes (all but the last 2) will be discarded.
 
-  * HW Points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
+  * HW Points back: By the end of the semester, I will allow you to get up to 50% of your lost HW points on one HW assignment. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
 
-  * Quiz points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
-
-  * A student that obtains a running average equivalent to a B- (80% or above), may chose to exempt the final exam. Note: If you chose to take the final, whatever you obtain will be included in your final grade.
+  * Quiz points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points on one quiz. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
+<!--
+  * A student that obtains a running average equivalent to a B- (80% or above), may chose to exempt the final exam. Note: If you chose to take the final, whatever you obtain will be included in your final grade. -->
 
 
 **Collaborations**:
 
-  * Students can choose to complete homework assignments in groups of 1, 2, or 3. 
+  * Students can choose to complete homework assignments in groups of 1, 2, or 3.
   * Students are strongly encouraged to form study groups and to collaborate on problem sets because this helps develop the following skilles:
       * team management and communication (this is often an important aspect in recommendation letters!)
       * developping the skilles to discuss theoretical concepts out loud (good for job interviews!)
       * gives you the chance to hear other approaches (this is how science gets done!)
   * Each team of will be required to submit a single problem set and **report the names of their collaborators** (or lose points). The following information is required for all submitted work:
 
-     1. The names of all collaborating students be listed at the top of the submission. 
+     1. The names of all collaborating students be listed at the top of the submission.
      2. A "References" section, with in-line citations to any resources you used. Citations should include page numbers (if a printed resource) or a direct URL (if an online resource). If you did not use any resources in completing the assignment, please state: "I did not utilize any external resources in completing this assignment."
 
 **Accommodations**:
@@ -261,24 +286,21 @@ We will have a few ways of alleviating grade pressure:
 As individuals, we learn in different ways. I try to vary the activities used during the course to suit a variety of learning patterns, and I am always open for suggestions. Please come talk to me if you have an idea that will make the course more accessible to you and/or other students. If you need special accommodation, like extended exam time, please submit requests for accommodations in writing with proof of College support from the Office of Disabilities Service within the first two weeks of class. Let me know if you need help with this process.
 
 
-## Academic Honesty
+
+## Academic Integrity Statement
 
 Team assignments require collaboration amidst each team, but no
-collaboration between teams is permitted. If you did not work in a team
-then you are not allowed to collaborate on the homework assignments. We
-use software to compare submissions, so please don't risk it. If
-you're having significant trouble with an assignment, please contact
-me.
+collaboration between teams is permitted without explicit permission. If you did not work in a team then you are not allowed to collaborate on the homework assignments. We use software to compare submissions, so please don't risk it. If you're having significant trouble with an assignment, please contact us.
 
 Please check the [Student
-Handbook](https://www.smith.edu/about-smith/offices/student-affairs/student-handbook)
-to see the rules for Academic Integrity.
+Handbook](https://www.smith.edu/about-smith/offices/student-affairs/student-handbook) to see the rules for Academic Integrity.
 
-Just as you can do a google search for code online, it is trivial for us
+Just as you can do a Google search for code online, it is trivial for us
 to do the same. If you feel pressured about an assignment, please come
 see me instead of cheating.
 
-## Academic and Mental Health Resources 
+
+## Academic and Mental Health Resources
 
 The following are resources available to you that may provide assistance
 and support during the semester.
@@ -308,7 +330,7 @@ They provide help for learning, mental health, and wellness.
     discrimination](https://smith.ethicspoint.com/)
 
 
-## Anonymous Feedback Form 
+## Anonymous Feedback Form
 
 We will add a link inside Moodle to an anonymous feedback form so you
 can let us know if there is anything getting in the way of your
@@ -340,16 +362,16 @@ I usually add a section with the exact copies of recomendations from students in
   * Q: **Can I submit Homework Assignments late?**
       * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); HWs build on each other so the maximum extension is 4 days (given sparingly).
   * Q: **Can I complete a quiz late?**
-      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); Quizzes are used for attendance AND formative assessments so you only get 1 free late attempt.      
+      * A: Only with prior permission (Slack) given an explanation or because of emergency (e.g. health); Quizzes are used for attendance AND formative assessments so you only get 1 free late attempt.
   * Q: **Will you record classes?**
-      * A: No. 
+      * A: No.
   * Q: **Can I "attend" classes over Zoom?**
-      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instructor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.  
+      * A: Only due to health reasons and with previous permission from the instructor. In addition, the instructor will not manage the zoom call so you need to get a classmate to: 1) sit in front, and 2) manage the zoom call and your questions. I can lend that person a webcam for easy setup.
   * Q: **What do I need to get started?**
       * A: Access to the [website](https://frankpablo.github.io/smith-site/docs/teaching/csc250home/), access to Moodle for the course, access to the Slack workspace for the course.
   * Q: **What do I do if I am not officially registered (I don't have Moodle)?**
       * A: The course has a cap, and only if students leave will I let other students in. I will pick students based on the waitlist with no preference given to anyone.
-      
+
 
 
 #### Acknowledgement
