@@ -2,10 +2,10 @@
 % This is all preamble stuff that you don't have to worry about.
 % Head down to where it says "Start here"
 % --------------------------------------------------------------
- 
+
 \documentclass[12pt]{article}
- 
-\usepackage[margin=1in]{geometry} 
+
+\usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{graphicx}
 \usepackage{enumerate}
@@ -15,10 +15,10 @@
 
 \usepackage[parfill]{parskip}
 \parskip=\baselineskip
- 
+
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
- 
+
 
 \newenvironment{exercise}[2][Exercise]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
@@ -31,14 +31,14 @@
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Fall 2025 - Homework 02\\
+\rhead{CSC250 Spring 2026 - Homework 02\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
 \begin{document}
- 
+
 % --------------------------------------------------------------
 %                         Start here
 % --------------------------------------------------------------
@@ -63,7 +63,7 @@ For each of the following REs on the alphabet $\Sigma = [a,b,c]$, identify one w
 % -------------------------------------------
 %  Write your answer to Q1a below
 % -------------------------------------------
-\begin{solution} 
+\begin{solution}
 \quad\\
 Your solution Here
 \end{solution}
@@ -83,7 +83,7 @@ Your solution Here
 % -------------------------------------------
 \begin{solution}
 \quad\\
-Your solution Here 
+Your solution Here
 \end{solution}
 
 \end{enumerate}
@@ -105,7 +105,7 @@ Give a regular expression for each of the following languages. In all cases, the
 	\begin{solution}
 Your solution Here
 	\end{solution}
-	
+
 	\item $\{w \in \Sigma^* \ | \ w \texttt{ starts in a triple letter (000 or 111)}\}$
 	% -------------------------------------------
 	%  Write your answer to Q2b below
@@ -113,7 +113,7 @@ Your solution Here
 	\begin{solution}
 Your solution Here
 	\end{solution}
-	
+
 	\item $\{w \in \Sigma^* \ | \ w \texttt{ contains exactly three 1s or at least two 0s}\}$
 	% -------------------------------------------
 	%  Write your answer to Q2c below
@@ -121,7 +121,7 @@ Your solution Here
 	\begin{solution}
 Your solution Here
 	\end{solution}
-	
+
 \end{enumerate}
 
 \end{exercise}
@@ -192,8 +192,8 @@ Remember, proving a language is regular is all about proving it has a regular ex
     \end{itemize}
     \item\textbf{ Induction Hypothesis}: assume that there exist two reversible regular languages, $L_1 = L(R_1)$ and $L_2 = L(R_2)$ such that $L^R_1 = L(R^R_1)$ and $L^R_2 = L(R^R_2)$.
 
-    \item \textbf{Induction Step}: Using the hypotheses, show that the reverse of any regular expression is also a regular expression (
-    the reverse of regular expressions that use alternation, concatenation, and Kleene star are also regular expressions); 
+    \item \textbf{Induction Step}: Using the hypotheses ($L_1$ and $L_2$ are reversible into Regular languages), show that the reverse of \textbf{any} regular expression is also a regular expression (
+    the reverse of \texbf{any} regular expressions that use alternation, concatenation, and Kleene star are also regular expressions);
 \end{enumerate}
 
 \end{exercise}
@@ -211,8 +211,8 @@ Your solution Here
 % -----------------
 \vfill
 \begin{thebibliography}{9}
-\bibitem{sipser} 
-Sipser, Michael. 
+\bibitem{sipser}
+Sipser, Michael.
 \textit{Introduction to the Theory of Computation.}
 Course Technology, 2005. ISBN: 9780534950972
 
@@ -226,5 +226,5 @@ Critchlow Carol, 2011
 % --------------------------------------------------------------
 %     You don't have to mess with anything below this line.
 % --------------------------------------------------------------
- 
+
 \end{document}
