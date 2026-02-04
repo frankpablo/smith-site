@@ -28,18 +28,6 @@ detailed), or can also email me (slowest).
 
 **Office Hours**:
 
-  <!-- - TBD : Fill this ASAP: [5-minute intro poll](https://www.when2meet.com/?23288198-ImNca)
-
-  - Wednesday 3:15 PM to 4:15 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
-  - Friday 1:30 PM to 2:30 PM Ford 316 or the Study Nook next to Ford 322 (both shown below).
-  - Zoom discussion (Priority questions to students that can't attend OHs in person): Thursday 3:30 PM to 4:40 PM.
-  - Open Door Policy: If you find my office door open and I'm inside, feel free to ask for help.
-
-Location of OHs (Ford Hall, Third Floor):
--->
-
-<!-- ![OH location](../../common-resources/Office-OHs.png){width=500px} -->
-
   * Wednesdays, Bass 102, 3:30 PM to 5:30 PM
   * By Calendly appointment on Thursdays (11 AM to 1 PM)
 
@@ -60,12 +48,6 @@ We might also reserve the classroom for OHs.
       * You cant book an appointment fewer than 18 hours before the desired time.
 
 Note: if you have a non-conceptual question and you wanna ask/chat about it, you are also welcome!... no need to "prep questions" in that case.
-
-<!--
-**In-Class TA**: Skye Worster
-
-See [online calendar](https://www.smith.edu/academics/applied-learning-research/spinelli-center-quantitative-learning/tutoring#disciplines) for details. There basics are: Sunday (1-3pm) and M/T/W/Th/F (7-9pm)
- -->
 
 ## Objectives and Structure
 
@@ -217,18 +199,6 @@ The grade split in this class is as follows:
 
 We will have one quiz per subject after the subject's homework has been submitted. We will obtain grades from them to try to identify misconceptions and recurring errors.
 
-<!-- **Late Submissions**:
-
-We will accept no late submissions without a valid excuse (see exceptions). Failing to finish a homework on time excludes you from the active grading exercise where much of the actual learning happens. Submitting "what you were able to get done" is better than nothing.
-
-Also, for Office Hours, you must show progress up to the point where you got stuck.
-
-*Exceptions*:
-
-That said, we will have the following "stress release" policies in place:
-
-  - If you have a justification (like a medical one), you get an extension depending on what makes most sense.
-  - If you feel overwhelmed come talk to me before the due date and we will find a solution. -->
 
   ### Late Work Policy
   Everyone has a tough week from time to time and we want to be able to accommodate these situations fairly for everyone.
@@ -265,8 +235,6 @@ We will have a few ways of alleviating grade pressure:
   * HW Points back: By the end of the semester, I will allow you to get up to 50% of your lost HW points on one HW assignment. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
 
   * Quiz points back: By the end of the semester, I will allow you to get up to 50% of your lost quiz points on one quiz. You can do this by scheduling a 15-minute meeting with me, where we will **talk** about what you missed and what you learned after checking the feedback I gave you. Restudy pays! Note that you'll get as many points as we clarify in those 15 minutes (usually around 5 questions worth of points back).
-<!--
-  * A student that obtains a running average equivalent to a B- (80% or above), may chose to exempt the final exam. Note: If you chose to take the final, whatever you obtain will be included in your final grade. -->
 
 
 **Collaborations**:
