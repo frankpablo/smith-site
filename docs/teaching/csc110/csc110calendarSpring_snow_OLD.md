@@ -1,10 +1,10 @@
 ---
 layout: default
-title: CSC110calendar-Spring-Snow2
+#title: CSC110calendar-Spring-Snow
 parent: CSC110
 grand_parent: Teaching
 nav_order: 2
-published: true
+published: false
 #permalink: /docs/teaching/csc110/
 ---
 
@@ -105,21 +105,22 @@ published: true
 
 
 
-# Week 10: Files and Modules
+# Week 10: Graphics (slides being checked)
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
-| 04/01      | L23: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 04/03      | L24: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   | **DUE: Homework 06: Lists**{: .label .label-purple} <br> **DUE: FP: Project Proposal**{: .label .label-blue}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Project Design**{: .label .label-grey} | FP: Project Design Due by L27 8PM |     |
+| 03/30      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} | **OUT: FP: Project Proposal**{: .label .label-grey}    |    |
+| 04/01      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
+| 04/03      | L24: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple} <br> **DUE: FP: Project Proposal**{: .label .label-blue}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Project Design**{: .label .label-grey} | FP: Project Design Due by L27 8PM |     |
 
-# Week 11: Graphics (slides being checked)
+
+# Week 11: Files and Modules
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/06      | L25: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} | **OUT: FP: Project Proposal**{: .label .label-grey}    |    |
-| 04/08      | L26: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
-| 04/10      | L27: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   |   **DUE: FP: Project Design**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
+| 04/06      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
+| 04/08      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
+| 04/10      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Project Design**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
 
 
 # Week 12: Learning-by-designing OR Project Design

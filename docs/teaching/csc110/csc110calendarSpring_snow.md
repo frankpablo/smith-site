@@ -101,144 +101,60 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/23      | L19: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html)   | Ch 10-A | Ch 10-B (10.17 to 10.26)  Due before L24<br> **Pick Learning Path**{: .label .label-blue}    |  Reminder: **Homework 05: Nested Loops**{: .label .label-grey}<br>HW05 Due Before L21  |
 | 03/25      | L20: **TODO: Update to +2D** [Lists and Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-20.html)  | Ch 10-B  |  Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7) Both Due Before L25 |      |
-| 03/27      | L21: **TODO: Update more Dictionaries**[2D-Lists and other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
+| 03/27      | L21: **TODO: Update more Dictionaries**[2D-Lists and other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 6**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **TODO:** **QUIZ-05: Strings and Nested Loops**{: .label .label-yellow }<br>**OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
 
 
 
-# Week 10: Graphics (slides being checked)
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 03/30      | L22: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     **Discuss Project Ideas (in OHs)**{: .label .label-blue} | **OUT: FP: Project Proposal**{: .label .label-grey}    |    |
-| 04/01      | L23: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
-| 04/03      | L24: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   | **DUE: Homework 06: Lists**{: .label .label-purple} <br> **DUE: FP: Project Proposal**{: .label .label-blue}    |  **QUIZ-05: Lists/Strings/Loops**{: .label .label-yellow }<br>   **OUT: FP: Project Design**{: .label .label-grey} | FP: Project Design Due by L27 8PM |     |
-
-
-# Week 11: Files and Modules
+# Week 10: Files and Modules
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/06      | L25: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  |  | |    |
-| 04/08      | L26: [More File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 04/10      | L27: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |   **DUE: FP: Project Design**{: .label .label-blue}  |   **QUIZ-06: File-IO**{: .label .label-yellow }<br>**OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31  |     |
+| 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  | **Discuss Project Ideas (in OHs)**{: .label .label-blue}  |  |    |
+| 04/01      | L23: [More File IO + **TODO** Dictionaries](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
+| 04/03      | L24: [**TODO**: Practice with Files and Modules]()  | **DUE: Homework 06: Lists**{: .label .label-purple}    |   **TODO:** **QUIZ-06: Lists**{: .label .label-yellow }<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | FP: Project Proposal Due by L26 Before Class |     |
 
-
-# Week 12: Learning-by-designing OR Project Design
+<!-- # Week 11: Extra stuff Project Design
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 04/13      | L28: [In-Class-Work](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-28.html)|   |     |     |
 | 04/15      | L29: In-Class-Work  |   |     |     |
 | 04/17      | L30: In-Class-Work  |   |     |     |
+-->
+
+# Week 11: Extra stuff and Project Design
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/06      | L25: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)    |   |     |     |
+| 04/08      | L26: [**TODO**: Thinking in Modules (vs single script)]()  |  **DUE: FP: Project Proposal**{: .label .label-blue}   |     |     |
+| 04/10      | L27: [**TODO**: Your final project in Modules (vs single script)]()  |     |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
+
+
+# Week 12: Graphics (slides being checked)
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/06      | L28: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     |    |    |
+| 04/08      | L29: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) | **DUE: FP: Project Design**{: .label .label-blue}  |    **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31      |
+| 04/10      | L30: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   |     |   |    |     |
+
 
 
 # Week 13: Learning-by-designing OR Project Design
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/20      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey} | FP: Demo-package Due Before L35    |
+| 04/20      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey} |  |
 | 04/22      | L32: In-Class-Work  |   |     |     |
-| 04/24      | L33: In-Class-Work  | **Due: FP: Prototype II**{: .label .label-blue}  |   **OUT: FP: Demo-Package**{: .label .label-grey}    |     |
+| 04/24      | L33: In-Class-Work  |  |    |     |
 
 
 # Week 14: Learning-by-designing OR Project Design
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/27      | L34: In-Class-Work  |   |     |     |
+| 04/27      | L34: In-Class-Work  |  **Due: FP: Prototype II**{: .label .label-blue}   |   **OUT: FP: Demo-Package**{: .label .label-grey}   |   FP: Demo-package Due Before Demo Day     |
 | 04/29      | L35: In-Class-Work  |   |     |     |
 | 04/30      | **Demo Day**{:  .fs-7 .label .label-green }  | **Due: FP: Demo-package**{: .label .label-blue}  |     |     |
 | 05/01      | L36: Wrap-Up  |   |   **FP: Final-package**{: .label .label-grey} Due 12/19 by 3PM |     |
-
-<!--
-# Week 15: Learning-by-designing OR Project Design
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 12/08      | L35: In-Class Demo  |       |     |     |
-| 12/09      | **Demo Day**{:  .fs-7 .label .label-green }  | **Due: FP: Demo-package**{: .label .label-blue}  |     |     |
-| 12/10      | L36: Wrap-Up  |   |   **FP: Final-package**{: .label .label-grey} Due 12/19 by 3PM |     |
-
-
-
- -->
-
-
-___
-___
-___
-___
-___
-
-<!--
-# Lectures with Exercises:
-
-| **Date**   | **Lecture** | **Subject** | **Exercise #** | **Notes** |
-|------------|-------------|---------|-----------|-----------|
-| TBD      | L04:         | **Input** |  e01 |    Expressions   |
-| TBD      | L06:         | **Turtles** |  e02 |    Functions   |
-| TBD      | L07:         | **Functions** |  e03 |    Functions   |
-| TBD      | L08:         | **Main and Importing** |  e04 and e05 |    Functions   |
-| TBD      | L13:        | **Fancy Functions** |  e06  |   Project Planning        |
-| TBD      | L15:        | **While** |  e07  |   Basic Loops         |
-| TBD      | L17:        | **Debugging** | e08  |   Basic Loops          |
-| TBD      | L26:        | **Dictionary** | e09  |   Dictionaries, FileIO, and Graphics |
-| TBD      | L27:        | **Files and Modules** | e10 and e11  |   Dictionaries, FileIO, and Graphics |
-| TBD      | L28:        | **Graphics and Buttons** | e12 and e13  |   Dictionaries, FileIO, and Graphics |
-| TBD      | L29:        | **Structure** | e14  |   Project Design |
-| TBD      | L31:        | **Math/Time/Randomness** | e15  |   Math-Time-Randomness |
-
-
-
-# Lectures with Model Project:
-
-| **Date**   | **Lecture** | **TTT** | **Files** | **Notes** |
-|------------|-------------|---------|-----------|-----------|
-| TBD      | L5:         | **The TTT Model Project 1** |  ttt01.py  |   Basic Expressions    |
-| TBD      | L7:         | **The TTT Model Project 2** |  ttt02.py  |   Functions            |
-| TBD      | L8:         | **The TTT Model Project 3** |  ttt03.py  |   Basic Expressions    |
-| TBD      | L12:        | **The TTT Model Project 4** |  ttt04.py  |   Conditionals         |
-| TBD      | L17:        | **The TTT Model Project 5** |  ttt05.py  |   Basic Loops          |
-| TBD      | L25:        | **The TTT Model Project 6** |  ttt06.py  |   Nested Loops/Lists   |
-| TBD      | L??:        | **The TTT Model Project 7** |  ttt07.py  |   File I/O   |
-| TBD      | L??:        | **The TTT Model Project 8** | TTTproject  |   Multi-Module-Graphics |
-
-
-# Lectures with Quiz Reviews (Attendance needed for Recovery):
-
-| **Date**   | **Lecture** | **QUIZ** | **Notes** |
-|------------|-------------|---------|-----------|
-| TBD      | L6:         | **Quiz 1 Review** |   Intro Basics   |
-| TBD      | L10:        | **Quiz 2 Review** |   Basic Expressions |
-| TBD      | L12:        | **Quiz 3 Review** |   Functions    |
-| TBD      | L16:        | **Quiz 4 Review** |   Conditionals         |
-| TBD      | L21:        | **Quiz 5 Review** |   Basic Loops          |
-| TBD      | L23:        | **Quiz 6 Review** |   Nested Loops/Lists   |
-| TBD      | L26:        | **Quiz 6 Review** |   Nested Loops/Lists  |
-| TBD      | L29:        | **Quiz 7 Review** |   Fancy Strings   |
-
-
-# Lectures After which Homework is expected :
-
-| **Date**   | **Lecture** | **HW** | **Notes** |
-|------------|-------------|---------|-----------|
-| TBD      | L8:         | **HW 1** | Basic Expressions |
-| TBD      | L11:        | **HW 2** | Functions    |
-| TBD      | L14:        | **HW 3** | Conditionals         |
-| TBD      | L17:        | **HW 4** | *Project Ideas*           |
-| TBD      | L19:        | **HW 5** | Basic Loops     |
-| TBD      | L25:        | **HW 6** | Nested Loops/Lists    |
-| TBD      | L31:        | **HW 7** | Strings, Loops, and Lists  |
-
-
-# Lectures After which Final Project deliverables are expected :
-
-| **Date**   | **Lecture** | **Deliverable** | **Notes** |
-|------------|-------------|---------|-----------|
-| TBD      | L??:          | **Form** | Teams Decided |
-| TBD      | L17:        | **HW 4** | *Project Ideas*           |
-| TBD      |  ALL WEEK   | **OH meeting** | Refines Project Ideas (Office Hours discussion)     |
-| TBD      | L34:        | **FP Documentation** | FP Prototype I   |
-| TBD      | L38:        | **FP Code** | FP Prototype II  |
-| TBD      | Tuesday Lunch   | **FP Code + Demo** | DEMO Day |
-| TBD      | Online Submission   | **Full FP Project** | Final Submission | -->
