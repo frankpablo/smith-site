@@ -11,4 +11,4 @@ Students frequently choose correct answers for incorrect reasons, leav- ing trad
 
 # Appendices
 
-[SPEIR paper (CCSCNE 26) Appendices](https://frankpablo.github.io/smith-site/docs/research/csc110/SPEIR_appendices.html)
+[SPEIR paper (CCSCNE 26) Appendices](https://frankpablo.github.io/smith-site/docs/research/SPEIR_appendices.html)
