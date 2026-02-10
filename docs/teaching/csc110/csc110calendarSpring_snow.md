@@ -69,7 +69,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/02      | L14: [Nested Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-14.html)  |  Ch 8-B   |     |      |
 | 03/04      | L15: [Catch-Up with advanced Loops](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15.html)
-| 03/05 | THURSDAY-DUE-DAY  | **DUE: Homework 04: : Loops**{: .label .label-purple} | **QUIZ-04: Loops**{: .label .label-yellow }  |
+| 03/05      | THURSDAY-DUE-DAY  | **DUE: Homework 04: : Loops**{: .label .label-purple} | **QUIZ-04: Loops**{: .label .label-yellow }  |
 | 03/06      | L15b: [Forrest Day](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-15b.html)<br>**Self-Scheduled Midterm**{: .label .label-green } |     |  <br>**OUT: Homework 05: Nested Loops**{: .label .label-grey}<br>HW05 Due Before L21  **START EARLY**<br>Ch 9 (9.1 to 9.22) Due before L21|  |
 | 03/07      | **Self-Scheduled Midterm**{: .label .label-green } |   |   |   |
 | 03/08      | **Self-Scheduled Midterm**{: .label .label-green } |   |   |   |
