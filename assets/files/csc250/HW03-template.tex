@@ -2,10 +2,10 @@
 % This is all preamble stuff that you don't have to worry about.
 % Head down to where it says "Start here"
 % --------------------------------------------------------------
- 
+
 \documentclass[12pt]{article}
- 
-\usepackage[margin=1in]{geometry} 
+
+\usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{graphicx}
 \usepackage{enumerate}
@@ -16,10 +16,10 @@
 
 \usepackage[parfill]{parskip}
 \parskip=\baselineskip
- 
+
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
- 
+
 \newenvironment{exercise}[2][Exercise]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 
@@ -30,14 +30,14 @@
 \pagestyle{fancy}
 \lhead{Submitted by: \studentName\\
 \collaborators}
-\rhead{CSC250 Fall 2025 - Assignment 3\\
+\rhead{CSC250 Spring 2026 - Assignment 3\\
 \today{}}
 \cfoot{p. \thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
 \begin{document}
- 
+
 % --------------------------------------------------------------
 %                         Start here
 % --------------------------------------------------------------
@@ -70,9 +70,9 @@ In all cases, the alphabet is $\Sigma = \{0, 1\}$.
 	\begin{solution}\; \\
 
 
- 
+
 	\end{solution}
-	
+
 	\item $\{ w \in \Sigma^* \ | \ w \ contains \ the \ substring \ 1010  \}$ using five states.
 	% -------------------------------------------
 	%  Write your answer to Q1b below
@@ -80,23 +80,23 @@ In all cases, the alphabet is $\Sigma = \{0, 1\}$.
 	\begin{solution}\; \\
 
 	\end{solution}
-	
+
 	\item$\{ w \in \Sigma^* \ | \ w \ contains \ exactly \ two \ 0s, \ or \ at \ least \ two \ 1s \}$ using six states.
 	% -------------------------------------------
 	%  Write your answer to Q1c below
 	% -------------------------------------------
 	\begin{solution}
- 
+
 	\end{solution}
-	
+
 \end{enumerate} \; \\
 \end{exercise}
 
 \newpage
 
-% \vskip 2em 
+% \vskip 2em
 % \hrule
-% \vskip 2em 
+% \vskip 2em
 
 % --------------
 % Exercise 2
@@ -111,25 +111,25 @@ Convert each of the FAs you built in Question 1 to regular expressions (just wri
 	%  Write your answer to Q2a below
 	% -------------------------------------------
 	\begin{solution} \;\\
-	
+
 	\end{solution}
-	
+
 	\item
 	% -------------------------------------------
 	%  Write your answer to Q2b below
 	% -------------------------------------------
 	\begin{solution}  \;\\
-	
+
 	\end{solution}
-	
+
 	\item
 	% -------------------------------------------
 	%  Write your answer to Q2c below
 	% -------------------------------------------
 	\begin{solution}
-	
+
 	\end{solution}
-	
+
 \end{enumerate}
 
 \clearpage
@@ -141,12 +141,12 @@ Convert each of the FAs you built in Question 1 to regular expressions (just wri
 
 Prove (or disprove), \textbf{using closure properties} of Regular Languages or Finite Automata, that the language $L_F$ (described below) is Regular.
 
-We will describe language $L_F$ the following way: 
+We will describe language $L_F$ the following way:
 
 \begin{itemize}
     \item start with the set of all the binary words that have any zeroes occur before any ones;
-    \item then remove the subset of words that have exactly two ones;
-    \item then remove the subset of words that have an even number of zeros and no ones;
+    \item then remove, from that set, the subset of words that have exactly two ones;
+    \item then remove, from that set, the subset of words that have an even number of zeros and no ones;
 \end{itemize}
 
 \end{exercise}
@@ -160,9 +160,9 @@ We will describe language $L_F$ the following way:
 
 \newpage
 
-% \vskip 2em 
+% \vskip 2em
 % \hrule
-% \vskip 2em 
+% \vskip 2em
 
 % --------------
 % Exercise 4
@@ -172,12 +172,12 @@ We will describe language $L_F$ the following way:
 Show that the language $L_G$ (described below) is Regular by \textbf{1) constructing a Regular expression} and \textbf{ 2) one finite automaton}.
 
 
-We will describe language $L_G$ the following way: 
+We will describe language $L_G$ the following way:
 
 \begin{itemize}
     \item start with all the binary words that have all the zeroes before all the ones;
-    \item add all the words that have exactly two ones;
-    \item then add all the words that have an even number of zeros;
+    \item add, to that set, all the words that have exactly two ones;
+    \item then add, to that set, all the words that have an even number of zeros;
 \end{itemize}
 
 \end{exercise}
@@ -214,8 +214,8 @@ In lecture, we demonstrated a process for converting any NFA to a (purportedly e
 % -----------------
 \vfill
 \begin{thebibliography}{9}
- \bibitem{sipser} 
-Sipser, Michael. 
+ \bibitem{sipser}
+Sipser, Michael.
 \textit{Introduction to the Theory of Computation.}
 Course Technology, 2005. ISBN: 9780534950972
 
@@ -229,5 +229,5 @@ Critchlow Carol, 2011
 % --------------------------------------------------------------
 %     You don't have to mess with anything below this line.
 % --------------------------------------------------------------
- 
+
 \end{document}
