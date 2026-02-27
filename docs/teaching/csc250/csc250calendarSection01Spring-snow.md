@@ -72,9 +72,9 @@ published: true
 | 03/02      | L14: [Turing Machines](lecture-14.html)|  |   |  |
 | 03/04      | L15: [Decidability](lecture-15.html) |  |  | |
 | 03/05 | THURSDAY-DUE-DAY  | **DUE: Homework 04**{: .label .label-purple} | **QUIZ-04: PL, CFGs, PDAs**{: .label .label-yellow }  |
-| 03/06      | L16: [Practice/Catch-up](lecture-16.html)<br>**Self-Scheduled Midterm**{: .label .label-green }  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
-| 03/07      | **Self-Scheduled Midterm**{: .label .label-green } |   |   |   |
-| 03/08      | **Self-Scheduled Midterm**{: .label .label-green } |   |   |   |
+| 03/06      | L16: [Practice/Catch-up](lecture-16.html)<br>**Midterm**{: .label .label-green }  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
+| 03/07      | **Midterm**{: .label .label-green } |   |   |   |
+| 03/08      | **Midterm**{: .label .label-green } |   |   |   |
 
 
 
