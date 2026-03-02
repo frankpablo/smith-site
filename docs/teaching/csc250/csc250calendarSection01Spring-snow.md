@@ -94,7 +94,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/09      | L14: [Turing Machines](lecture-14.html)|  |   |  |
 | 03/11      | L15: [Decidability](lecture-15.html) |  |  | |
-| 03/13      | L16: [Practice/Catch-up](lecture-16.html)<br>**Midterm**{: .label .label-green }  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
+| 03/13      | L16: [Practice/Catch-up](lecture-16.html) |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
 
 
 # Week 08: Spring Recess
