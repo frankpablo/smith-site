@@ -56,35 +56,45 @@ published: true
 
 
 
-# Week 05: Context-Free Grammars and Push-Down Automata
+<!-- # Week 05: Context-Free Grammars and Push-Down Automata
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 02/23      | L12: [Context-Free Grammars](lecture-11.html)| | | |
 | 02/25      | L13: [Push-Down Automata](lecture-12.html)  | | | |
-| 02/27      | L13b:[Practice/Catch-up](lecture-13.html)  |  |   |  |
+| 02/27      | L13b:[Practice/Catch-up](lecture-13.html)  |  |   |  | -->
 
 
-# Week 06: Turing Machines and Midterm Week
+# Week 05: Context-Free Grammars and Push-Down Automata
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/02      | L14: [Turing Machines](lecture-14.html)|  |   |  |
-| 03/04      | L15: [Decidability](lecture-15.html) |  |  | |
+| 02/23      | SNOW DAY | | | |
+| 02/25      | L11: [Context-Free Grammars](lecture-11.html)  | | | |
+| 02/27      | L11b:[Context-Free Grammars](lecture-11.html)  |  |   |  |
+
+
+
+# Week 06: PDAs and Midterm Week
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 03/02      | L12: [Push-Down Automata](lecture-12.html)|  |   |  |
+| 03/04      | L12b: [Push-Down Automata](lecture-12.html) |  |  | |
 | 03/05 | THURSDAY-DUE-DAY  | **DUE: Homework 04**{: .label .label-purple} | **QUIZ-04: PL, CFGs, PDAs**{: .label .label-yellow }  |
-| 03/06      | L16: [Practice/Catch-up](lecture-16.html)<br>**Midterm**{: .label .label-green }  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
+| 03/06      | L13: [Practice/Catch-up](lecture-13.html)<br>**Midterm**{: .label .label-green }  |  |  |  |
 | 03/07      | **Midterm**{: .label .label-green } |   |   |   |
 | 03/08      | **Midterm**{: .label .label-green } |   |   |   |
 
 
 
-# Week 07: Uncecidability and Reductions
+# Week 07: Turing Machines
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/09      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
-| 03/11      | L18: [More on Reductions](lecture-18.html)|  |  |  |
-| 03/13      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **HW06 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
+| 03/09      | L14: [Turing Machines](lecture-14.html)|  |   |  |
+| 03/11      | L15: [Decidability](lecture-15.html) |  |  | |
+| 03/13      | L16: [Practice/Catch-up](lecture-16.html)<br>**Midterm**{: .label .label-green }  |  | **HW05 Due before L19 (Turing Machines and Decidability)**|  |
 
 
 # Week 08: Spring Recess
@@ -96,57 +106,69 @@ published: true
 | 03/20      | **NO CLASSES**:  Spring Recess   |   |     |     |
 
 
-
-# Week 09: Enumeration and Mapping Reductions
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 03/23      | L20: [Enumeration](lecture-20.html) |  |  |  |
-| 03/25      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
-| 03/27      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | |
-
-
-
-# Week 10: Rice's Theorem and Computability Summary
+# Week 09:  Uncecidability and Reductions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/30      | L23: [Rice theorem](lecture-23.html) |   |   |   |
-| 04/01      | L24: [Summary: Computability](lecture-24.html)|  |  |   |
-| 04/03      | L25: [Practice/Catch-up](lecture-25.html) | **Homework 07**{: .label .label-purple} | **HW06 Due before L28 (Computability)**<br>**QUIZ-07-Ennumeration and Mapping**{: .label .label-yellow }  | |
+| 03/23      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
+| 03/25      | L18: [More on Reductions](lecture-18.html)|  |  |  |
+| 03/27      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **HW06 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
-# Week 11: Complexity Intro
 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 04/06      | L26: [Intro to Complexity and P Vs NP](lecture-26.html) |  |   |  |
-| 04/08      | L27: [More Complexity and P Vs NP](lecture-27.html)  |  |  |  |
-| 04/10      | L28: [Practice/Catch-up](lecture-28.html) | **Homework 08**{: .label .label-purple} | **QUIZ-08-Computability**{: .label .label-yellow } | |
-
-
-# Week 12: P Vs NP vs NP-Complete and Poly-Time Reductions
+# Week 10: Enumeration and Mapping Reductions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/13      | L29: [P Vs NP and NP-Completeness](lecture-29.html) |  |  |  |
-| 04/15      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
-| 04/17      | L31: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
+| 03/30      | L20: [Enumeration](lecture-20.html) |  |  |  |
+| 04/01      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
+| 04/03      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | |
 
 
-# Week 13: More Poly-Time Reductions and Complexity Summary
+
+# Week 11: Rice's Theorem and Computability Summary
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/20      | L32: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
-| 04/22      | L33: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
-| 04/24      | L34: [Complexity Summary](lecture-30.html)  |   |     |     |
+| 04/06      | L23: [Rice theorem](lecture-23.html) |   |   |   |
+| 04/08      | L24: [Summary: Computability](lecture-24.html)|  |  |   |
+| 04/10      | L25: [Practice/Catch-up](lecture-25.html) | **Homework 07**{: .label .label-purple} | **HW06 Due before L28 (Computability)**<br>**QUIZ-07-Ennumeration and Mapping**{: .label .label-yellow }  | |
 
 
+
+# Week 12: Complexity Intro
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/13      | L26: [Intro to Complexity and P Vs NP](lecture-26.html) |  |   |  |
+| 04/15      | L27: [More Complexity and P Vs NP](lecture-27.html)  |  |  |  |
+| 04/17      | L28: [Practice/Catch-up](lecture-28.html) | **Homework 08**{: .label .label-purple} | **QUIZ-08-Computability**{: .label .label-yellow } | |
+
+
+
+# Week 13: P Vs NP vs NP-Complete and Poly-Time Reductions
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/20      | L29: [P Vs NP and NP-Completeness](lecture-29.html) |  |  |  |
+| 04/22      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
+| 04/24      | L31: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
+
+
+# Week 14: More Poly-Time Reductions and Complexity Summary
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/27      | L32: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
+| 04/29      | L33: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
+| 05/01      | L34: [Complexity Summary](lecture-30.html)  |   |     |     |
+
+
+<!--
 # Week 14: Presentations Week
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 04/27      | L35: In-Class Presentations  |   |     |     |
 | 04/29      | L36: In-Class Presentations  |   |     |     |
-| 05/01      | L37: In-Class Presentations  |   |     |     |
+| 05/01      | L37: In-Class Presentations  |   |     |     | -->
