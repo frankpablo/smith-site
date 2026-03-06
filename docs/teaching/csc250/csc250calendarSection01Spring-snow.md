@@ -152,7 +152,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/20      | L29: [P Vs NP and NP-Completeness](lecture-29.html) |  |  |  |
 | 04/22      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
-| 04/24      | L31: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
+| 04/24      | L31: [Bonus Lecture: LTL](lecture-LTL.html)  |   |     |     |
 
 
 # Week 14: More Poly-Time Reductions and Complexity Summary
