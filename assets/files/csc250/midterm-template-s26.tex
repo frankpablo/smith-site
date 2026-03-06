@@ -125,23 +125,23 @@ Answer each of the following with no more than three sentences. Think before ans
 
     \begin{solution}
   \;\\
-    Your solution here
+  Your solution here
     \end{solution}
 
 
 	\item \textit{(2 points) In the Language categories map (the diagram with concentric ovals, each with a different language group), what differentiates each category of languages (Finite, Regular, Context-Free, etc)?}
 
     \begin{solution}
-       \;\\
-    Your solution here
+         \;\\
+  Your solution here
     \end{solution}
 
 
         \item \textit{(2 points) What is the idea behind using the Pumping Lemma to prove a language is not Regular?}
 
     \begin{solution}
-       \;\\
-    Your solution here
+         \;\\
+  Your solution here
     \end{solution}
 
 \end{enumerate}
@@ -224,10 +224,10 @@ Note: Consider all the word structures that might make this true!
 \end{question}
 
 \begin{solution}
+
 \;
 
             Your solution here
-
 
 
 \end{solution}
@@ -336,7 +336,7 @@ Note: NFAs are allowed.
 \begin{solution}
 \;
 
-Drawn in the board.
+Your solution here
 
 
 \end{solution}
@@ -345,14 +345,14 @@ Drawn in the board.
 \begin{solution}
 \;
 
-Drawn in the board.
+Your solution here
 \end{solution}
 
 	\item $\{ w \in \Sigma^* \ | \ w \texttt{ does not contain the substring } 10 \}$.
 \begin{solution}
 \;
 
-Drawn in the board.
+Your solution here
 \end{solution}
 
 \end{enumerate}
@@ -363,37 +363,38 @@ Drawn in the board.
 \begin{question}{7}\textbf{Short proofs (8 points)}\\\\
 
 Determine whether each of the following statements is \texttt{true} or \texttt{false}.\\ If it is \texttt{true}, provide a short proof. If it is \texttt{false}, give a counterexample.
+
 \begin{enumerate}[(a)]
 \item The intersection of two regular languages is \textbf{finite}.
 \begin{solution}
     \;
 
-    FALSE. \\
-    $L1 = L(0^*) \quad \text{ and }  L2 = L(0^*1^*),  \text{ which are regular, } \\
-    \text{ is simply the set of words that have only zeros, or } L(0^*), \text{ which is infinite and regular.} $
+Your solution here
+
 \end{solution}
 
 \item The complement of a finite language must be \textbf{regular}.
 \begin{solution}
     \;
 
-    TRUE. If L is regular, then it has an FA. The complement of L, or $L^C$ can be obtained by switching accept and reject states. This means $L^C$ has a FA and is therefore regular.
+    Your solution here
 \end{solution}
 
 \item A finite automaton with more than one state cant accept the empty string $\varepsilon$.
 \begin{solution}
    \;
 
-   FALSE. drawn on the board.
+   Your solution here
 \end{solution}
 
 \item There exists some finite automaton that accepts the empty string $\varepsilon$.
 \begin{solution}
 \;
 
-TRUE. Drawn on the board.
+Your solution here
 \end{solution}
 \end{enumerate}
+
 \end{question}
 
 \clearpage
@@ -407,26 +408,7 @@ $\epsilon, 1110, 11111100,...$
 \end{question}
 
 \begin{solution}
-\;
-
-\begin{itemize}
-    \item We'll assume $L_{aba}$ is regular
-    \item Therefore, it must have a finite automaton. And since the language is infinite, that automaton must have a loop.
-    \item We can pick the word $w = 1^N01^{N}$ with $N$ being the pumping length.
-    \item we can express $w$ in the following way: $w = xyz$ such that:\\
-    \begin{align*}
-        &x = 1^p \qquad \text{ since } \quad |xy| \leq N \\
-        &y = 1^q \qquad \text{ since } \quad |xy| \leq N  \\
-        &z = 1^r01^{N} \qquad \text{ the leftover symbols in } w \\
-        &\text{with } p+q+r = N
-    \end{align*}
-    \item If we pump $w$ into $w^1 = xyyz$ we obtain \\$w^1 = 1^p1^q1^q1^r01^{N}$ and since $q>0$ then \\
-    $p+q+q+r + 1 \geq N$\\
-    which means $w^1 \notin L_{aba}$
-    \item Which is a contradiction
-    \item  And therefore, $L_{aba}$ is NOT regular
-
-\end{itemize}
+Your solution here
 \end{solution}
 
 \clearpage
@@ -470,7 +452,7 @@ Your solution here
 
 
 \clearpage
-\begin{question}{BONUS}\textbf{(4 points)} \\\\
+\begin{question}{BONUS}\textbf{(2 points)} \\\\
 
 Prove that a Finite Automaton with N states, that accepts an infinite number of words, must have a loop.
 
