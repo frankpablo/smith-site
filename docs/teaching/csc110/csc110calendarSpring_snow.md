@@ -101,7 +101,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/23      | L19: [Intro to Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-19.html)   | Ch 10-A | Ch 10-B (10.17 to 10.26)  Due before L24<br> **Pick Learning Path**{: .label .label-blue}    |  Reminder: **Homework 05: Nested Loops**{: .label .label-grey}<br>HW05 Due Before L21  |
 | 03/25      | L20: [Lists, Loops, and 2D Lists](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-20.html)  | Ch 10-B  |  Ch 10-C (10.27 to 10.31)<br>Ch 12 (12.1 to 12.7) Both Due Before L25 |      |
-| 03/27      | L21: [Dictionaries and other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 4**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **TODO:** **QUIZ-05: Strings and Nested Loops**{: .label .label-yellow }<br>**OUT: Homework 06: Lists**{: .label .label-grey}<br>HW06 Due Before L24 |   |
+| 03/27      | L21: [Dictionaries and other Collections](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-21.html)<br>**TTT Model Project Step 4**     |   Ch 10-C and Ch 12 <br>**DUE: Homework 05: Nested Loops**{: .label .label-purple}   |  **TODO:** **QUIZ-05: Strings and Nested Loops**{: .label .label-yellow } |   |
 
 
 
@@ -111,7 +111,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  | **Discuss Project Ideas (in OHs)**{: .label .label-blue}  |  |    |
 | 04/01      | L23: [More File IO + **TODO** Dictionaries](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 04/03      | L24: [**TODO**: Practice with Files and Modules]()  | **DUE: Homework 06: Lists**{: .label .label-purple}    |   **TODO:** **QUIZ-06: Lists**{: .label .label-yellow }<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | FP: Project Proposal Due by L26 Before Class |     |
+| 04/03      | L24: [**TODO**: Practice with Files and Modules]()  |   | **OUT: Homework 06: Dictionaries and Files**{: .label .label-grey}<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | HW06 Due Before L27 <br> FP: Project Proposal Due by L26 Before Class |
 
 <!-- # Week 11: Extra stuff Project Design
 
@@ -128,7 +128,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L25: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)    |   |     |     |
 | 04/08      | L26: [**TODO**: Thinking in Modules (vs single script)]()  |  **DUE: FP: Project Proposal**{: .label .label-blue}   |     |     |
-| 04/10      | L27: [**TODO**: Your final project in Modules (vs single script)]()  |     |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
+| 04/10      | L27: [**TODO**: Your final project in Modules (vs single script)]()  |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}   |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
 
 
 # Week 12: Graphics (slides being checked)
