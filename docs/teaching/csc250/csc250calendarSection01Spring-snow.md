@@ -112,7 +112,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/23      | L17: [Undecidability and Intro to Reductions](lecture-17.html)|  |  |  |
 | 03/25      | L18: [More on Reductions](lecture-18.html)|  |  |  |
-| 03/27      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | **HW06 Due before L22 (Undecidability and Reductions)**<br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
+| 03/27      | L19: [Practice/Catch-up](lecture-19.html) | **Homework 05**{: .label .label-purple} | ~~HW06 Due before L22 (Undecidability and Reductions)~~ <br><br>**QUIZ-05-TMs**{: .label .label-yellow } |  |
 
 
 
@@ -122,8 +122,10 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/30      | L20: [Enumeration](lecture-20.html) |  |  |  |
 | 04/01      | L21: [Mapping Reducibitlity](lecture-21.html) |  |  | |
-| 04/03      | L22: [Practice/Catch-up](lecture-22.html) | **Homework 06**{: .label .label-purple}  | **HW07 Due before L25 (Ennumeration and Mapping Reductions)**<br><br>**QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }   | |
+| 04/03      | L22: [Practice/Catch-up](lecture-22.html) | <!--**Homework 06**{: .label .label-light-grey}-->  | **Homework 06**{: .label .label-purple} <br> ~~HW07 Due before L25 (Ennumeration and Mapping Reductions)~~ <br> ~~QUIZ-06-Undecidability and Reductions**{: .label .label-yellow }~~   | HW06 Due before L25 |
 
+<!-- **Homework 06**{: .label .label-purple}
+*HW07 Due before L25 (Ennumeration and Mapping Reductions)** -->
 
 
 # Week 11: Rice's Theorem and Computability Summary
@@ -132,7 +134,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L23: [Rice theorem](lecture-23.html) |   |   |   |
 | 04/08      | L24: [Summary: Computability](lecture-24.html)|  |  |   |
-| 04/10      | L25: [Practice/Catch-up](lecture-25.html) | **Homework 07**{: .label .label-purple} | **HW06 Due before L28 (Computability)**<br>**QUIZ-07-Ennumeration and Mapping**{: .label .label-yellow }  | |
+| 04/10      | L25: [Practice/Catch-up](lecture-25.html) | <!--**Homework 07**{: .label .label-purple}--> **Homework 06**{: .label .label-purple} | **HW07 Due before L28** <!--<br>**QUIZ-07-Ennumeration and Mapping**{: .label .label-yellow }-->  | |
 
 
 
@@ -142,7 +144,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/13      | L26: [Intro to Complexity and P Vs NP](lecture-26.html) |  |   |  |
 | 04/15      | L27: [More Complexity and P Vs NP](lecture-27.html)  |  |  |  |
-| 04/17      | L28: [Practice/Catch-up](lecture-28.html) | **Homework 08**{: .label .label-purple} | **QUIZ-08-Computability**{: .label .label-yellow } | |
+| 04/17      | L28: [Practice/Catch-up](lecture-28.html) | **Homework 07**{: .label .label-purple} | **Homework 08**{: .label .label-purple}<!--**QUIZ-08-Computability**{: .label .label-yellow }--> | |
 
 
 
@@ -152,7 +154,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/20      | L29: [P Vs NP and NP-Completeness](lecture-29.html) |  |  |  |
 | 04/22      | L30: [Poly-Time Reductions](lecture-30.html)  |   |    |    |
-| 04/24      | L31: [Bonus Lecture: LTL](lecture-LTL.html)  |   |     |     |
+| 04/24      | L31: [Bonus Lecture: LTL](lecture-LTL.html)  |  |     |     |
 
 
 # Week 14: More Poly-Time Reductions and Complexity Summary
@@ -161,7 +163,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/27      | L32: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
 | 04/29      | L33: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
-| 05/01      | L34: [Complexity Summary](lecture-30.html)  |   |     |     |
+| 05/01      | L34: [Complexity Summary](lecture-30.html)  |  **Homework 08**{: .label .label-purple}   |     |     |
 
 
 <!--
