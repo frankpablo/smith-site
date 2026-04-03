@@ -111,7 +111,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  | **Discuss Project Ideas (in OHs)**{: .label .label-blue}  |  |    |
 | 04/01      | L23: [More File IO + **TODO** Dictionaries](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
-| 04/03      | L24: [**TODO**: Practice with Files and Modules]()  |   | **OUT: Homework 06: Dictionaries and Files**{: .label .label-grey}<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | HW06 Due Before L27 <br> FP: Project Proposal Due by L26 Before Class |
+| 04/03      | L24: [: Practice with Files and Modules](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)  |   | **OUT: Homework 06: Dictionaries and Files**{: .label .label-grey}<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | HW06 Due Before L27 <br> FP: Project Proposal Due by L26 Before Class |
 
 <!-- # Week 11: Extra stuff Project Design
 

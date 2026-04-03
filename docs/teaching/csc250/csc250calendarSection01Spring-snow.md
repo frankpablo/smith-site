@@ -163,7 +163,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/27      | L32: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
 | 04/29      | L33: [More Poly-Time Reductions](lecture-30.html)  |   |     |     |
-| 05/01      | L34: [Complexity Summary](lecture-30.html)  |  **Homework 08**{: .label .label-purple}   |     |     |
+| 05/01      | L34: [Complexity Summary](lecture-30.html)  |    |     |     |
 
 
 <!--
