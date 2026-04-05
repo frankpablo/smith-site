@@ -109,8 +109,8 @@ published: true
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br>  | **Discuss Project Ideas (in OHs)**{: .label .label-blue}  |  |    |
-| 04/01      | L23: [More File IO + **TODO** Dictionaries](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  |     |     |
+| 03/30      | L22: [Intro to File IO](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br>  | **Discuss Project Ideas (in OHs)**{: .label .label-blue}  |  |    |
+| 04/01      | L23: [More File IO + **TODO** Dictionaries](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) |  |     |     |
 | 04/03      | L24: [: Practice with Files and Modules](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)  |   | **OUT: Homework 06: Dictionaries and Files**{: .label .label-grey}<br>**OUT: FP: Project Proposal**{: .label .label-grey}  | HW06 Due Before L27 <br> FP: Project Proposal Due by L26 Before Class |
 
 <!-- # Week 11: Extra stuff Project Design
@@ -122,22 +122,31 @@ published: true
 | 04/17      | L30: In-Class-Work  |   |     |     |
 -->
 
-# Week 11: Extra stuff and Project Design
+# Week 11: Graphics (slides being checked)
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/06      | L25: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)    |   |     |     |
-| 04/08      | L26: [**TODO**: Thinking in Modules (vs single script)]()  |  **DUE: FP: Project Proposal**{: .label .label-blue}   |     |     |
-| 04/10      | L27: [**TODO**: Your final project in Modules (vs single script)]()  |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}   |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
+| 04/06      | L25: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br> |     |    |    |
+| 04/08      | L26: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) | **DUE: FP: Project Design**{: .label .label-blue}  |    **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31      |
+| 04/10      | L27: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |     |   |    |     |
 
 
-# Week 12: Graphics (slides being checked)
+# Week 12: Extra stuff and Project Design
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 04/06      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |   |     |     |
+| 04/08      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |  **DUE: FP: Project Proposal**{: .label .label-blue}   |     |     |
+| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}   |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
+
+
+<!-- # Week 12: Graphics (slides being checked)
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L28: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-22.html)<br> |     |    |    |
 | 04/08      | L29: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-23.html) | **DUE: FP: Project Design**{: .label .label-blue}  |    **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31      |
-| 04/10      | L30: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   |     |   |    |     |
+| 04/10      | L30: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-24.html)   |     |   |    |     | -->
 
 
 
