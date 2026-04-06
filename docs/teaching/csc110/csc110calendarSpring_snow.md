@@ -128,7 +128,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L25: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br> |     |    |    |
 | 04/08      | L26: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |   |    **OUT: FP: Project Proposal**{: .label .label-blue}   | FP: Project Proposal Before L28      |
-| 04/10      | L27: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}    |   |    |     |
+| 04/10      | L27: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}    |   |    |
 
 
 # Week 12: Extra stuff and Project Design
@@ -137,7 +137,7 @@ published: true
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |  **DUE: FP: Project Proposal**{: .label .label-blue}   |  **OUT: FP: Project Design**{: .label .label-grey}    |  FP: Project Design Due Before L31 Before Class   |
 | 04/08      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |   |     |     |
-| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |     |     |  
+| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |     |     |   |
 
 
 <!-- # Week 12: Graphics (slides being checked)
