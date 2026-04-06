@@ -122,12 +122,12 @@ published: true
 | 04/17      | L30: In-Class-Work  |   |     |     |
 -->
 
-# Week 11: Graphics (slides being checked)
+# Week 11: Graphics
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 04/06      | L25: [Intro to Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-25.html)<br> |     |    |    |
-| 04/08      | L26: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) | **DUE: FP: Project Design**{: .label .label-blue}  |    **OUT: FP: Prototype I**{: .label .label-grey} | FP: Prototype Due Before L31      |
+| 04/08      | L26: [More Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-26.html) |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}  |    **OUT: FP: Project Proposal**{: .label .label-blue}   | FP: Project Proposal Before L28      |
 | 04/10      | L27: **TODO: Update + basic paradigms**[Practice with Graphics](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-27.html)   |     |   |    |     |
 
 
@@ -135,9 +135,9 @@ published: true
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/06      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |   |     |     |
-| 04/08      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |  **DUE: FP: Project Proposal**{: .label .label-blue}   |     |     |
-| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |  **DUE: Homework 06: Dictionaries and Files**{: .label .label-purple}   |   **OUT: FP: Project Design**{: .label .label-blue}   |  FP: Project Design Due Before L29 Before Class   |
+| 04/06      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |  **DUE: FP: Project Proposal**{: .label .label-blue}   |  **OUT: FP: Project Design**{: .label .label-grey}    |  FP: Project Design Due Before L31 Before Class   |
+| 04/08      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |   |     |     |
+| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |     |     |     |
 
 
 <!-- # Week 12: Graphics (slides being checked)
@@ -154,7 +154,7 @@ published: true
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/20      | L31: In-Class-Work  |  **Due: FP: Prototype I**{: .label .label-blue}  | **OUT: FP: Prototype II**{: .label .label-grey} |  |
+| 04/20      | L31: In-Class-Work  |  **Due: FP: Project Design**{: .label .label-blue}  | **OUT: FP: Prototype**{: .label .label-grey} | FP: Prototype Due Before L34  |
 | 04/22      | L32: In-Class-Work  |   |     |     |
 | 04/24      | L33: In-Class-Work  |  |    |     |
 
@@ -163,7 +163,7 @@ published: true
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/27      | L34: In-Class-Work  |  **Due: FP: Prototype II**{: .label .label-blue}   |   **OUT: FP: Demo-Package**{: .label .label-grey}   |   FP: Demo-package Due Before Demo Day     |
+| 04/27      | L34: In-Class-Work  |  **Due: FP: Prototype**{: .label .label-blue}   |   **OUT: FP: Demo-Package**{: .label .label-grey}   |   FP: Demo-package Due Before Demo Day     |
 | 04/29      | L35: In-Class-Work  |   |     |     |
 | 04/30      | **Demo Day**{:  .fs-7 .label .label-green }  | **Due: FP: Demo-package**{: .label .label-blue}  |     |     |
 | 05/01      | L36: Wrap-Up  |   |   **FP: Final-package**{: .label .label-grey} Due 12/19 by 3PM |     |
