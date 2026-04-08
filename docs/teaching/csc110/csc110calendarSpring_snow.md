@@ -135,9 +135,9 @@ published: true
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 04/06      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |  **DUE: FP: Project Proposal**{: .label .label-blue}   |  **OUT: FP: Project Design**{: .label .label-grey}    |  FP: Project Design Due Before L31 Before Class   |
-| 04/08      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |   |     |     |
-| 04/10      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |     |     |   |
+| 04/13      | L28: [Extras: Math-Time-Randomness](https://frankpablo.github.io/smith-site/docs/teaching/csc110/lecture-2.html)    |  **DUE: FP: Project Proposal**{: .label .label-blue}   |  **OUT: FP: Project Design**{: .label .label-grey}    |  FP: Project Design Due Before L31 Before Class   |
+| 04/15      | L29: [**TODO**: Thinking in Modules (vs single script)]()  |   |     |     |
+| 04/17      | L30: [**TODO**: Your final project in Modules (vs single script)]()  |     |     |   |
 
 
 <!-- # Week 12: Graphics (slides being checked)
