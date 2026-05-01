@@ -1,0 +1,451 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Enter your name here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage[names]{xcolor}
+\usepackage[multiple,hang,flushmargin]{footmisc}
+\usepackage{lastpage}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage[parfill]{parskip}
+\parskip=\baselineskip
+
+
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{solution}[1][Solution:]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries}]\color{blue}}{\end{trivlist}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{Due: \duedate}
+\lhead{CSC250 - Midterm}
+\cfoot{p. \thepage \ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+\begin{document}
+\newcommand{\duedate}{11:59AM EST Friday May 8th, 2026}
+
+% --------------------------------------------------------------------------------------------
+%  Great, now skip ahead to where you see *** START EXAM HERE ***
+% --------------------------------------------------------------------------------------------
+
+\topskip0pt
+\vspace*{\fill}
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\begin{center}
+\vspace{1em}
+This is the second of two examinations for\\ \textbf{CSC250: Theory of Computation}\\ as taught by Pablo Frank Bolton in Spring 2026.\\
+\vspace{1em}
+\begin{itemize}
+  \item your own notes
+  \item lecture slides / videos
+  \item scribe notes
+  \item homework solutions
+  \item any of the recommended textbooks
+\end{itemize}
+\vspace{1em}
+\textbf{Honor code: no other resources are permitted during this exam.}\\
+This includes (but is not limited to): online materials, tutors, teaching assistants, and other students.
+\end{center}
+\vspace{5em}
+ \ \ \ YOUR NAME: \underline{\hspace{10cm}}
+\vspace{3em}}}}
+\end{center}
+\vspace{3em}
+\vspace*{\fill}
+
+
+% ---------------------------------------
+%   *** START EXAM HERE ***
+% ---------------------------------------
+
+\clearpage
+\bigskip
+
+\textbf{How to answer this exam}
+
+\begin{itemize}
+    \item There are a \textbf{total of 40 points}.
+    \item Read the questions twice. Sometimes, you answer something other than what is asked, so make sure you understand what it is I am asking for.
+    \item Consider the following 4 principles for answering:
+    \begin{itemize}
+        \item \textbf{Correctness}: first and foremost, answer with truthful statements only.
+        \item \textbf{Completeness}: check your answer to make sure you answered the whole question.
+        \item \textbf{Clarity}: before answering, think about the structure of your response so that it is straightforward, simple, and it satisfies the two previous principles.
+        \item \textbf{Conciseness}: longer is not better... it is in fact worse, so only answer what is asked for, in a simple way, and as long as it is correct and complete, it will be good enough.
+    \end{itemize}
+
+\textbf{IMPORTANT}: If I cannot read or see your answers (images too small or wording is confusing, I will take points away).
+\end{itemize}
+
+
+\bigskip
+
+% ---------------------------------------
+%   *** START EXAM HERE ***
+% ---------------------------------------
+
+
+\clearpage
+
+
+% ---------------------------------------
+%   Question 1: Propositional Logic (4 pnts) (4/40)
+% ---------------------------------------
+\begin{question}{1}\textbf{Regular expressions} (4 points)
+
+\begin{enumerate}[(a)]
+\item (2 points) Give a regular expression that starts with 11 and is followed by either an odd number of groups of $10$ or an even number of groups of $00$.
+
+Valid Examples: $11$, $1101$, $110000$, $11101010$ etc.
+
+Invalid Examples: $\epsilon$, $1100$, $111010$, $11000000$, $111010$ etc.
+
+
+% TODO Uncomment for template
+\vspace{16em}
+
+
+\item (2 points) Explain, in English, what is the Language that the following regular expression represents, and give four examples of valid words and four examples of invalid words.:
+
+$$0(\Sigma\Sigma)^*1 \quad|\quad 1(\Sigma)^*0$$
+
+
+
+\end{enumerate}
+\end{question}
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 2: Interpreting Finite Automata (4 pnts) (8/40)
+% ---------------------------------------
+
+\begin{question}{2}\textbf{Interpreting  Finite Automata} (4 points)
+
+Consider the following finite automaton (assume $\Sigma = \{0,1\}$):
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (13.9,-21.5) circle (3);
+\draw (13.9,-21.5) node {$A$};
+\draw [black] (24.1,-21.5) circle (3);
+\draw (24.1,-21.5) node {$B$};
+\draw [black] (34.7,-21.5) circle (3);
+\draw (34.7,-21.5) node {$C$};
+\draw [black] (34.7,-21.5) circle (2.4);
+\draw [black] (46,-21.5) circle (3);
+\draw (46,-21.5) node {$D$};
+\draw [black] (56.2,-21.5) circle (3);
+\draw (56.2,-21.5) node {$E$};
+\draw [black] (16.9,-21.5) -- (21.1,-21.5);
+\fill [black] (21.1,-21.5) -- (20.3,-21) -- (20.3,-22);
+\draw (19,-22) node [below] {$0$};
+\draw [black] (27.1,-21.5) -- (31.7,-21.5);
+\fill [black] (31.7,-21.5) -- (30.9,-21) -- (30.9,-22);
+\draw (29.4,-22) node [below] {$0$};
+\draw [black] (37.7,-21.5) -- (43,-21.5);
+\fill [black] (43,-21.5) -- (42.2,-21) -- (42.2,-22);
+\draw (40.35,-22) node [below] {$0$};
+\draw [black] (34.7,-13.6) -- (34.7,-18.5);
+\draw (34.7,-13.1) node [above] {$S$};
+\fill [black] (34.7,-18.5) -- (35.2,-17.7) -- (34.2,-17.7);
+\draw [black] (33.497,-24.238) arc (-31.67457:-148.32543:10.807);
+\fill [black] (15.1,-24.24) -- (15.1,-25.18) -- (15.95,-24.66);
+\draw (24.3,-29.87) node [below] {$1$};
+\draw [black] (49,-21.5) -- (53.2,-21.5);
+\fill [black] (53.2,-21.5) -- (52.4,-21) -- (52.4,-22);
+\draw (51.1,-22) node [below] {$0$};
+\draw [black] (54.809,-24.148) arc (-35.22075:-144.77925:11.456);
+\fill [black] (36.09,-24.15) -- (36.14,-25.09) -- (36.96,-24.51);
+\draw (45.45,-29.5) node [below] {$1$};
+\end{tikzpicture}
+\end{center}
+
+
+\begin{enumerate}[(a)]
+	\item (1 point) What is the start state?
+ % TODO Uncomment for template
+  \vspace{7em}
+
+	\item (1 point) What is the set of accepting states?
+  % TODO Uncomment for template
+\vspace{7em}
+
+	\item (2 points) What is the Regular Expression for the Language accepted by this FA?
+  % TODO Uncomment for template
+ \vspace{7em}
+
+\end{enumerate}
+\end{question}
+
+\clearpage
+
+% ---------------------------------------
+%   Question 3: CFGs and PDAs (4 pnts) (12/40)
+% ---------------------------------------
+\begin{question}{3}\textbf{CFGs and PDAs} (4 points)
+
+Consider the following Language:
+
+\begin{align*}
+L_{sandwitch} &= \\
+&\{\\
+& \quad w \in \Sigma^* \ \vert \;  \ w  \texttt{ has: } \\
+& \quad \texttt{ a zero sandwitched between an equal number of ones on either side or} \\
+& \quad \texttt{ a one sandwitched between an equal number of zeros on either side}\\
+&\}
+\end{align*}
+
+Valid Examples: $101$, $010$, $11011$, $00100$, $1110111$, $0001000$, etc.
+
+\begin{enumerate}[a)]
+    \item showing its Context-Free-Grammar
+ \vspace{10em}
+
+    \item a Push-Down-Automaton $P$ such that: $L(P) = L_{sandwitch}$
+     \vspace{10em}
+\end{enumerate}
+
+
+
+
+\vspace{13em}
+
+\end{question}
+
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 4: Turing Machines (6 pnts) (18/40)
+% ---------------------------------------
+\begin{question}{4}\textbf{Undecidability} (6 points)
+
+Consider the language $A_{|n|}$:
+
+
+    \begin{align*}
+        &A_{|n|} = \\
+        &\{ < M > \vert \;  \ M   \texttt{ is a TM: } \\
+        &\texttt{ and M accepts only words of length |n| }
+        \}\\
+    \end{align*}
+
+Note: n is fixed here. The language would be $A_5$ or $A_{73}$, defining the n for each language.
+
+\begin{enumerate}
+    \item (4 points) Prove that $A_{|n|}$ is Undecidable using a \textbf{Reduction} and \textbf{without using Rice's Theorem}
+
+Tip: Try a Reduction like this: $ATM\leq A_{|n|}$ and think about a proper Helper
+% TODO Uncomment for template
+\vspace{13em}
+
+    \item (2 points) Prove that $A_{|n|}$ is Undecidable using Rice's Theorem.
+\end{enumerate}
+
+
+\end{question}
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 5: Complexity (4 pnts) (22/40)
+% ---------------------------------------
+\begin{question}{5}\textbf{Complexity} (4 points)
+Consider the following Language: $JUMP_{UP}$:
+    \begin{align*}
+        &JUMP_{UP} = \{ < G, s, t, k > \vert \;  \ G= \{V,E\} \texttt{ is a graph with numbered vertices} \\
+        &\quad  \texttt{ and there is a path  <s, $v_{1}$, $v_{2}$, $\dots$, $v_{k-2}$, t> } \\
+        &\quad \texttt{ such that s<$v_{1}$< $v_{2}$< ...<$v_{k-2}$<t, }\\
+        &\quad  \texttt{ and the total number of vertices in the path is k}\\
+        % & \quad \texttt{ the path <s, v1, v2, .., t> has k vertices and s<v1<v2< ...<$v_{k-2}$, t}\}\\
+        % & \quad \texttt{ you can take exactly k edges from s to t through vertices of increasing value}\}\\
+    \end{align*}
+Examples: For the graph $G1$ shown below,
+
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (30.9,-10.4) circle (3);
+\draw (30.9,-10.4) node {$7$};
+\draw [black] (21.5,-19) circle (3);
+\draw (21.5,-19) node {$6$};
+\draw [black] (30.9,-23.2) circle (3);
+\draw (30.9,-23.2) node {$5$};
+\draw [black] (40.4,-18.3) circle (3);
+\draw (40.4,-18.3) node {$4$};
+\draw [black] (41,-32.4) circle (3);
+\draw (41,-32.4) node {$2$};
+\draw [black] (30.9,-41.4) circle (3);
+\draw (30.9,-41.4) node {$1$};
+\draw [black] (20.3,-32.4) circle (3);
+\draw (20.3,-32.4) node {$3$};
+\draw [black] (28.16,-21.98) -- (24.24,-20.22);
+\fill [black] (24.24,-20.22) -- (24.77,-21.01) -- (25.17,-20.09);
+\draw [black] (38.09,-16.38) -- (33.21,-12.32);
+\fill [black] (33.21,-12.32) -- (33.5,-13.21) -- (34.14,-12.45);
+\draw [black] (37.73,-19.68) -- (33.57,-21.82);
+\fill [black] (33.57,-21.82) -- (34.51,-21.9) -- (34.05,-21.01);
+\draw [black] (22.57,-30.43) -- (28.63,-25.17);
+\fill [black] (28.63,-25.17) -- (27.7,-25.31) -- (28.36,-26.07);
+\draw [black] (20.57,-29.41) -- (21.23,-21.99);
+\fill [black] (21.23,-21.99) -- (20.66,-22.74) -- (21.66,-22.83);
+\draw [black] (28.61,-39.46) -- (22.59,-34.34);
+\fill [black] (22.59,-34.34) -- (22.87,-35.24) -- (23.52,-34.48);
+\draw [black] (38.76,-34.4) -- (33.14,-39.4);
+\fill [black] (33.14,-39.4) -- (34.07,-39.25) -- (33.4,-38.5);
+\draw [black] (40.53,-21.3) -- (40.87,-29.4);
+\fill [black] (40.87,-29.4) -- (41.34,-28.58) -- (40.34,-28.62);
+\draw [black] (33.12,-25.22) -- (38.78,-30.38);
+\fill [black] (38.78,-30.38) -- (38.53,-29.47) -- (37.85,-30.21);
+\draw [black] (23.71,-16.97) -- (28.69,-12.43);
+\fill [black] (28.69,-12.43) -- (27.76,-12.6) -- (28.43,-13.33);
+\draw [black] (38,-32.4) -- (23.3,-32.4);
+\fill [black] (23.3,-32.4) -- (24.1,-32.9) -- (24.1,-31.9);
+\end{tikzpicture}
+\end{center}
+
+
+\begin{itemize}
+    \item for the accepted word $<G1,2,7,3>$ a valid \textbf{jump-up} path of size 3 from vertex 2 to vertex 7 is: $2 \rightarrow 3 \rightarrow 6 \rightarrow 7$ (three jumps, increasing vertices)
+    \item for the accepted word $<G1,2,7,4>$ a valid \textbf{jump-up} path of size 4 from vertex 2 to vertex 7 is: $2 \rightarrow 3 \rightarrow 5 \rightarrow 6 \rightarrow 7$ (four jumps, increasing vertices)
+    \item for the accepted word $<G1,2,7,4>$ an \textbf{invalid} \textbf{jump-up} path of size 4 from vertex 2 to vertex 7 is: $2 \rightarrow 1 \rightarrow 3 \rightarrow 6 \rightarrow 7$ (because after 2 we go to a smaller number 1)
+    \item the word $<G1,2,7,5>$ is rejected, since there is NO path from 2 to 7 consisting of 5 jumps of increasing value.
+\end{itemize}
+
+
+\begin{enumerate}
+    \item (2 points) Prove that $JUMP_{UP}$ is in $NP$ using the Verifier approach.
+
+    \item (2 points) Prove that $JUMP_{UP}$ is in $NP$ using the Non-deterministic polynomial solution approach (using clones).
+
+
+\end{enumerate}
+
+\end{question}
+
+\newpage
+
+
+% ---------------------------------------
+%   Question 6: NP (4 pnts) (26/40)
+% ---------------------------------------
+\begin{question}{6}\textbf{NP} (4 points)
+Consider the following Language: $HAMILTONIAN\text{-}PATH$:
+    \begin{align*}
+        &HAMILTONIAN\text{-}PATH = \{ < G > \vert \;  \ G= \{V,E\} \texttt{ is a graph and there is a path }\\
+        & \quad \texttt{that passes through every  vertex exactly once}\}\\
+    \end{align*}
+
+\begin{itemize}
+    \item Example: For the graph $G1$ in the previous problem, \\
+    the word $<G1>$ is in $HAMILTONIAN\text{-}PATH$ since $G1$  has a path: \\
+    $4 \rightarrow 2 \rightarrow 1 \rightarrow 3 \rightarrow 5 \rightarrow 6 \rightarrow 7$\\
+    (passes through all vertices once)
+    \item Example: For the graph $G2$ shown below, there is no path that covers all nodes so $<G2>$ is not in $HAMILTONIAN\text{-}PATH$.
+\end{itemize}
+
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (34.4,-22.5) circle (3);
+\draw (34.4,-22.5) node {$2$};
+\draw [black] (34.4,-37.9) circle (3);
+\draw (34.4,-37.9) node {$4$};
+\draw [black] (18.4,-37.9) circle (3);
+\draw (18.4,-37.9) node {$3$};
+\draw [black] (18.4,-22.5) circle (3);
+\draw (18.4,-22.5) node {$1$};
+\draw [black] (18.4,-34.9) -- (18.4,-25.5);
+\fill [black] (18.4,-25.5) -- (17.9,-26.3) -- (18.9,-26.3);
+\draw [black] (34.4,-25.5) -- (34.4,-34.9);
+\fill [black] (34.4,-34.9) -- (34.9,-34.1) -- (33.9,-34.1);
+\draw [black] (32.24,-35.82) -- (20.56,-24.58);
+\fill [black] (20.56,-24.58) -- (20.79,-25.5) -- (21.48,-24.77);
+\draw [black] (21.4,-37.9) -- (31.4,-37.9);
+\fill [black] (31.4,-37.9) -- (30.6,-37.4) -- (30.6,-38.4);
+\draw [black] (31.4,-22.5) -- (21.4,-22.5);
+\fill [black] (21.4,-22.5) -- (22.2,-23) -- (22.2,-22);
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}
+    \item (2 points) Prove that $HAMILTONIAN\text{-}PATH$ is in $NP$ using the Verifier approach
+
+    \item (2 points) Prove that $HAMILTONIAN\text{-}PATH$ is in $NP$ using the Non-deterministic polynomial solution approach (using clones).
+
+\end{enumerate}
+
+\end{question}
+
+\newpage
+
+% ---------------------------------------
+%   Question 7: P vs NP vs NPC (14 pnts) (40/40)
+% ---------------------------------------
+\begin{question}{7}\textbf{P vs NP vs NP-Complete} (14 points)
+
+Considering these languages:
+\begin{itemize}
+    \item $L_A$ that takes $\mathcal{O}(n^4)$ to solve.
+    \item $L_B$ that that takes $\mathcal{O}(2^n)$ to solve and $\mathcal{O}(n^4)$ to verify.
+    \item $L_C$ that is at least as hard as the hardest problems in $NP$.
+\end{itemize}
+
+Answer the following questions with a Yes/No and a short reason Why:
+
+\begin{itemize}
+    \item (2 points) Is there is a TM $M_A$ such that it can decide $L_A$ in P-time?
+    \vspace{3em}
+    \item (2 points) If there is an $M_A$ such that it decides $L_A$ in P-time, does that mean $L_A$ is Not in $NP$?
+    \vspace{3em}
+    \item (2 points) What is required for $L_B$ to be in $NP\textrm{--}COMPLETE$?
+    \vspace{3em}
+    \item (2 points) What is required for $L_C$ to be in $NP\textrm{--}COMPLETE$?
+    \vspace{3em}
+    \item (2 points) What is the relation between $SAT$ and $L_B$?
+    \vspace{3em}
+\end{itemize}
+
+\begin{itemize}
+    \item (4 points) Imagine you find a Polynomial-Time Reduction from $SAT$ to the language $JUMP_{UP}$ (from question 5),\\
+    What would that mean for the sets $P$, $NP$, $NP\textrm{--}HARD$, and $NP\textrm{--}COMPLETE$?
+    HINT: Is there a P-Time solver for $JUMP_{UP}$ ? If we can't know this, what is the most we can say?
+    \vspace{4em}
+
+\end{itemize}
+
+\end{question}
+
+\newpage
+
+\clearpage
+
+\begin{center}
+\vspace{-3em}
+\textit{This page intentionally left blank as scratch paper.}
+\end{center}
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+
+\end{document}
