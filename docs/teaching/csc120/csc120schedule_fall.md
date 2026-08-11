@@ -65,6 +65,7 @@ IN CONSTRUCTION
 
 
 # Week 08: Skill check
+
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/14 | L14: 	Midterm Skill Check |  |  |  |
