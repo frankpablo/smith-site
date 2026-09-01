@@ -32,92 +32,113 @@ IN CONSTRUCTION
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/14 | L4: Introduction to Java |   |  |   |
-| 09/16 | L5: SW Eng Skill: Requirements and Interfaces | A2| A3 (before L7) | |
+| 09/21 | L4: Introduction to Java |   |  |   |
+| 09/23 | L5: SW Eng Skill: Requirements and Interfaces | A2| A3 (before L7) | |
 
 # Week 04: OO-Concepts
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/21 | L6: Encapsulation |   |  |   |
-| 09/23 | L7: Association | A3 | A4 (before L9) |  |
+| 09/28 | L6: Encapsulation |   |  |   |
+| 09/30 | L7: Association | A3 | A4 (before L9) |  |
 
 # Week 05: More OO-Concepts
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/28 | L8: Memory Model Diagrams |   |  |   |
-| 09/30 | L9: Handling Exceptions | A4 | A5 (before L11) |  |
+| 10/05 | L8: Memory Model Diagrams |   |  |   |
+| 10/07 | L9: Handling Exceptions | A4 | A5 (before L10) |  |
 
-# Week 06: More OO-Concepts
 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 10/05 | L10: SW Eng Skill: Unit Testing | |  |  |
-| 10/07 | L11*: Real-World Application: Introduction to Graphics |  A5 | A6 (before L13) |  |
-
-# Week 07: Catch-Up and Recap
+# Week 06: Catch-Up and Recap
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/05 | L12*: Theory and Practice: Catch-Up  |  |  |  |
-| 10/14 | L13: 	Mid-semester Recap | A6 |  |  |
+| 10/14 | L10: Catch-Up and Recap | A5 |  |  |
 
-
-# Week 08: Skill check
+# Skill check Weekend
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/14 | L14: 	Midterm Skill Check |  |  |  |
+| 10/16 | Midterm Skill Check 3:00 PM – 9:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
+| 10/17 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
+| 10/18 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
 
 
-# Week 09: Inheritance
 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 10/19 | L15: 	Inheritance |  | A7 (due before L17) |  |
-| 10/21 | L16: 	Inheritance in Java Classes |  |  |  |
-
-# Week 10: Polymorphism
+# Week 07: Testing and Applications
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/26 | L17: Polymorphism 1: Method Overriding | A7 | A8 (due before L19) |  |
-| 10/28 | L18: Polymorphism 2: Method Overloading |  |  |  |
+| 10/19 | L11: SW Eng Skill: Unit Testing | |  |  |
+| 10/21 | L12*: Real-World Application: Introduction to Graphics |   | A6 (before L14) |  |
 
-# Week 11: Abstraction
 
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 11/02 | L19: Abstraction: Generics and Abstract Classes | A8 | FP1: Project Proposal |  |
-| 11/04 | L20: Final Project Workshop 1 |  |  |  |
-
-# Week 12: Project Week
+# Week 08: Inheritance
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/09 | L21: SW Eng Skill: Architecture Diagrams | FP1 | 	FP2: Draft Codebase, Architecture Diagram (due before L24) |  |
-| 11/11 | L22: Final Project Workshop + Code Review |  |  |  |
+| 10/26 | L13: 	Inheritance |  |  |  |
+| 10/28 | L14: 	Inheritance in Java Classes | A6 | A7 (due before L16) |  |
 
-
-# Week 13: Real World Applications and Final Project
-
-| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
-|------------|-----------|---------|------------|-----------|
-| 11/16 | L23*: Real World Application: Data Structures |  | 	 |  |
-| 11/18 | L24: Final Project Workshop + Code Review | FP2 | FP3: Revised Codebase, Architecture Diagram |  |
-
-
-# Week 14: Real World Applications
+# Week 09: Polymorphism
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/23 | L25*: Real World Application: TBD |  | 	 |  |
+| 11/02 | L15: Polymorphism 1: Method Overriding |  |  |  |
+| 11/04 | L16: Polymorphism 2: Method Overloading | A7 | A8 (due before L18) |  |
 
+
+# Week 10: Abstraction
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/09 | L17: Abstraction: Generics and Abstract Classes |  |  |  |
+| 11/10 | L18: Final Project Workshop | A8 | FP1: Project Proposal (Before L19) |  |
+
+
+# Week 11: Diagrams and Data Structures
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/16 | L19: SW Eng Skill: Architecture Diagrams | FP1 | 	FP2: Draft Codebase, Architecture Diagram (due before L21) |  |
+| 11/18 | L20: Real World Application: Data Structures |  | 	 |  |
+
+
+# Week 12: Final Project
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/23 | L21: Final Project Workshop + Code Review | FP2 | FP3: Revised Codebase and Architecture Diagram (Before L23) |  |
+
+
+# Week 13: Final Project Workshop
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 11/30 | L22: Final Project Workshop + Code Review |  | 	 |  |
+| 12/02 | L23: Final Project Workshop + Code Review | FP3 | FP4: Demo version (Before L26) |  |
+
+
+# Week 14: Final Project Workshop
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/07 | L24: Final Project Workshop + Code Review |  | 	 |  |
+| 12/09 | L25: Final Project Workshop + Code Review |  |  |  |
 
 # Week 15: Project Demo
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/30 | L26*: Final Project Workshop + Code Review |  | 	 |  |
-| 12/02 | L27: Final Project Demonstration Day | FP3 | FP4: Final Deliverables (Due end of finals) |  |
+| 12/14 | L26: Final Project Workshop + Code Review | FP4 | FP5: Final Deliverables (Due end of finals)	 |  |
+| 12/15 | Final Project Demonstration Day |   |  |  |
+
+# Finals
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 12/19 (Saturday) | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start) |
+| 12/20 (Sunday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start) |
+| 12/21 (Monday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start)|
+| 12/22 (Tuesday)  | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start)|
