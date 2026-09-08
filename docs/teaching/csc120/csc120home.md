@@ -30,36 +30,27 @@ Attendance is mandatory
 
 **Office Hours**:
 
-  * Pablo: TBD
-
-**Location of OHs**:
-
-  * Pablo: Bass 102 (or check my office: Bass 217) / Zoom link with Calendly appointment (link in Moodle)
+ * ALL office hours should be scheduled using [this Calendly Link](https://calendly.com/pablo-frank/office-hours)
+    * Wednesdays are IN PERSON at Ford 342 (see Calendly for times)
+    * Thursdays are THROUGH ZOOM (see Calendly for times and Zoom Link)
+ * IF you did not make an appointment on time, message me through Slack and I'll tell you when/where to meet me.
 
 **Office Hour Rules**:
 
-  * "open office hours" (TBD) are available to everyone, in groups or individually.
-  * "appointment slots" (TBD) are by request (usually reserved for 1-on-1)
   * If you need in-person coding help, bring your question/bug prepared.
   * If you solve your issue before a scheduled appointment, cancel the appointment. No-Shows are bad!
   * Check the class notes / Slack before to check if questions have been answered already.
   * Show up on time! and have your question/program ready, otherwise your time will not be enough.
-  * You can't book an appointment fewer than 4 hours before the desired time.
+  * You can't book an appointment fewer than 18 hours before the desired time.
+  * Walk-Ins need to Slack message me to see where/when to meet me.
 
 
-**Class TA**:
-
-TBD
-
-
-**Tutoring**: TBD
+**Tutoring**:
 
 
 See [Tutoring information](https://www.smith.edu/academics/integrative-learning/spinelli-center-quantitative-learning/tutoring#computer-science-2) for details.
 
 Note that this will get updated once all tutors/hours/locations are settled.
-
-Drop-in Schedule: TBD
 
 
 ## Objectives and Structure
@@ -100,7 +91,7 @@ CSC110 or equivalent.
 
 **Responsibilities**:
 
-  -  **Attendance**: You should attend all classes unless you have a valid excuse. Unexcused missed classes mean a loss of points in "Attendance and Participation".
+  - **Attendance**: You should attend all classes unless you have a valid excuse. Unexcused missed classes mean a loss of points in "Attendance and Participation".
   - **START EARLY**: the hardest part of any assignment is starting it. This is doubly so in programming, since the assignments have a lot of instructions and moving parts. We recommend starting assignments the same day they are issued so that you "break the ice". We promise that if you develop this habit, you will see the results immediately.
   - **Communication**: The college and your instructor will really try to be there for you. We want you to succeed and enjoy your experience. To do so, we need to know how you are doing. So: please see us in office hours, participate in class (asking questions is the best way!), and keep an eye out for discussions on Slack.
 
@@ -161,9 +152,19 @@ There are three forms of assessment in this course:
 
 
 # Assignments, Lateness Policy, and Resubmissions
-Weekly programming assignments will be introduced in class, and we will work together to get started on them during class time. Final submissions will be due one week later at 11:59PM EST. Because our lives and learning do not always go as planned, every student will be able grant themselves extensions on homework assignments. Read details on [how to request an extension here](https://csc120-instructors.github.io/CSC120/late-policy.html).
+Weekly programming assignments will be introduced in class, and we will work together to get started on them during class time. Final submissions will be due one week later at 11:59PM EST.
 
+  * Due dates are Fixed. However, regrading is allowed.
+  * Regrading: Homework assignments must have completed at least 50% of the correctness requirements to be granted a resubmission. This means you should start early and make decent progress soon.
+  * Students will be allowed a maximum of two resubmissions (no questions asked). Any more that needs to be approved by your instructor.
+  * Fully graded homework assignments require a Code walkthrough that should be completed in class or in office hours (within a week of submitting the original code unless a resubmission is requested.)
 
+## Homework Grading
+
+All homeworks will be grading using two parts: the code correctness and the code walkthrough.
+
+  * **Code Correctness** will be evaluated, in part, by automatically run tests that the students can use to self-assess the progress of their work.
+  * **Code Walkthroughs** are short discussions where the instructor and the student team go over the code and where we make sure all participants understand and can explain each part of the program.
 
 ## Collaboration and Academic Integrity
 
@@ -171,12 +172,22 @@ Programming is more fun in groups! Students are strongly encouraged to form stud
 
 The following information is required for all submitted work:
 
-**The names of all collaborating students be listed at the top of the submission; Failure to do so will cause your assignment to be marked down or marked not-submitted**. If you worked alone, please state: “I did not collaborate with anyone on this assignment.”
-A References section, with in-line citations to any external resources you used. Citations should include page numbers (if a printed resource) or a direct URL (if an online resource). If you did not use any resources in completing the assignment, please state: “I did not utilize any external resources in completing this assignment.” If you include a fragment of code from any source, you should also credit that source with a comment directly in the code.
+  * The Top comment section of your submission's main file should contain **the names of all collaborating students be listed at the top of the submission; Failure to do so will cause your assignment to be marked down or marked not-submitted**.
+  * If you worked alone, please state: “I did not collaborate with anyone on this assignment.”
+  * A References section, with in-line citations to any external resources you used (Including the use of AI). Citations should include page numbers (if a printed resource) or a direct URL (if an online resource). If you did not use any resources in completing the assignment, please state: “I did not utilize any external resources in completing this assignment.” If you include a fragment of code from any source, you should also credit that source with a comment directly in the code.
 
+### Use of AI Code-Completion with Attribution
 
+Read In Full:
 
+**AI replies are useful but flawed**: Generative AI services like Google Gemini is developed by other humans and trained on data generated by millions of our peers. Generative AI regurgitates and remixes existing information. Do not be fooled into thinking it “knows” more than you. It can produce good suggestions for questions or problems that are properly explained and described to it, which include historical facts, logical or mathematical calculations, and blocks of code to address a series of requirements. These suggestions may act as an excellent starting point or structural scaffolding that can help develop a proper answer, but using these directly, as full answers, should be avoided. In terms of code, many issues are known to arise from AI-generated code, including (but not limited to) security vulnerabilities, errors involving edge cases, hallucinated functions and classes, etc.
 
+**AI in this class**: The largest concern for our purposes is the stunting of creativity and problem solving vision (which is what you are here to learn). So, the way we will deal with this is to follow two basic principles: 1) AI-code is to be treated as an "external suggestion", and 2) everything you submit needs to be explained. What this means is that, we will allow the use of AI as a resource, but anyone using it must be ready to submit a full attribution of the resource, must not use the code directly (you must write your ow version with no copy-paste), and you must explain the "AI-inspired" fragments during a Code Walkthrough. Note that trying to pass AI-inspired code as your own will be treated as a breach of academic integrity. Note that it is easy for us to detect differences in style, structure, level of abstraction, and other details, so just be open and ethical.
+
+## Guidelines for Using AI Code-Completion:
+  1. Attribution: We’ll treat AI code-completion tools as “collaborators” in this class. Whenever you get help with your programming tasks, it is crucial to provide clear and transparent attribution. Include a comment or annotation in your code specifying that certain sections were *inspired* by AI. Proper attribution includes submitting a PDF copy of your **entire AI prompt/answer transcript**.
+  2. Honor Code: Always prioritize academic integrity. Plagiarism, which includes submitting someone else’s work (including AI-generated content) without proper attribution, is a violation of our community’s ethical standards and course policy.
+  3.
 
 ### Grade Calculation
 
@@ -185,13 +196,15 @@ A References section, with in-line citations to any external resources you used.
 **Foundation Learning Path**:
 
   - Homework Assignments (6-8 graded assignments):      **60%**
+    - Code Effectiveness (50%)
+    - Code Walkthrough  (50%)
   - Participation (many ways to do it):                 **5%**
       - Class attendance
       - In-class participation
       - Attendance to office hours
       - Polls and surveys
   - Skill checks (Midterm/Final)                        **20%**
-      - Final Project:                                  **15%**
+  - Final Project:                                      **15%**
 
 ## Accessibility & Accommodations
 We aim to make this course accessible to all and welcome feedback about changes we can make to meet that goal. If you encounter barriers to participation in this or any other course, please [register with the Accessibility Resource Center (ARC)](https://www.smith.edu/your-campus/offices-services/accessibility-resource-center) to request support and accommodations.
