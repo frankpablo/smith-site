@@ -185,9 +185,9 @@ Read In Full:
 **AI in this class**: The largest concern for our purposes is the stunting of creativity and problem solving vision (which is what you are here to learn). So, the way we will deal with this is to follow two basic principles: 1) AI-code is to be treated as an "external suggestion", and 2) everything you submit needs to be explained. What this means is that, we will allow the use of AI as a resource, but anyone using it must be ready to submit a full attribution of the resource, must not use the code directly (you must write your ow version with no copy-paste), and you must explain the "AI-inspired" fragments during a Code Walkthrough. Note that trying to pass AI-inspired code as your own will be treated as a breach of academic integrity. Note that it is easy for us to detect differences in style, structure, level of abstraction, and other details, so just be open and ethical.
 
 ## Guidelines for Using AI Code-Completion:
-  1. Attribution: We’ll treat AI code-completion tools as “collaborators” in this class. Whenever you get help with your programming tasks, it is crucial to provide clear and transparent attribution. Include a comment or annotation in your code specifying that certain sections were *inspired* by AI. Proper attribution includes submitting a PDF copy of your **entire AI prompt/answer transcript**.
-  2. Honor Code: Always prioritize academic integrity. Plagiarism, which includes submitting someone else’s work (including AI-generated content) without proper attribution, is a violation of our community’s ethical standards and course policy.
-  3.
+  1. Attribution: We’ll treat AI code-completion tools as “collaborators” in this class. Whenever you get help with your programming tasks, it is crucial to provide clear and transparent attribution. Include a comment or annotation in your code specifying that certain sections were *inspired* by AI. 
+  2. Proper attribution includes submitting a PDF copy of your **entire AI prompt/answer transcript for each block of code where you used AI inspiration**.
+  3. Each block of code inspired by AI should be written in the class style, with your own variables, and following your own structure. You can think of this as "paraphrased" code.
 
 ### Grade Calculation
 
