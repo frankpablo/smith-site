@@ -8,16 +8,18 @@ nav_order: 1
 ---
 
 
-# Schedule for CSC 353 Fall 2023
+# Schedule for CSC 353 Fall 2026
 
 
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 1** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/07      | Class Intro<br>Definitions and Funny videos |  | R1a: [Ch1 1: Introduction to Robotics and Perception (Dellaert)](https://www.roboticsbook.org/intro.html) <br> R1b: [Ch 1-3: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0)  | R1a ~ 45min; R1b ~ 3h  |
+| 09/07      | Class Intro |  | R1a: "Wood Wide Webs" in Ways of Being (James Bridle) File <br> R1b: "The Communicating Plant" in The Light Eaters (Zoë Schlanger) Filee  | R1a ~ 30min; R1b ~ 30min  |
 
+TBD
 
+{% comment %}
 
 |------------|-----------|---------|------------|-----------|
 | **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
@@ -111,3 +113,5 @@ nav_order: 1
 | **WEEK 15** | **Topic** | **Due** | **Issued** | **Notes** |
 |-------------|-----------|---------|------------|-----------|
 | 12/14     | Final Presentations |  |  |  |
+
+{% endcomment %}
