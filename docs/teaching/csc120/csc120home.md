@@ -41,7 +41,7 @@ Attendance is mandatory
   * If you solve your issue before a scheduled appointment, cancel the appointment. No-Shows are bad!
   * Check the class notes / Slack before to check if questions have been answered already.
   * Show up on time! and have your question/program ready, otherwise your time will not be enough.
-  * You can't book an appointment fewer than 10 hours before the desired time.
+  * You can't book an appointment fewer than 4 hours before the desired time.
   * Walk-Ins need to Slack message me to see where/when to meet me.
 
 
