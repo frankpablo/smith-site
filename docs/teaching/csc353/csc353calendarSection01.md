@@ -15,7 +15,14 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 1** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/07      | Class Intro |  | R1a: "Wood Wide Webs" in Ways of Being (James Bridle) File <br> R1b: "The Communicating Plant" in The Light Eaters (Zoë Schlanger) Filee  | R1a ~ 30min; R1b ~ 30min  |
+| 09/14      | Class Intro |  | R1a: "Wood Wide Webs" in Ways of Being (James Bridle) File <br> R1b: "The Communicating Plant" in The Light Eaters (Zoë Schlanger) Filee  | R1a ~ 30min; R1b ~ 30min  |
+
+
+|------------|-----------|---------|------------|-----------|
+| **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 09/21      |Visit to the Botanic Garden | R1a and R1b |  |  |
+
 
 TBD
 
@@ -24,7 +31,7 @@ TBD
 |------------|-----------|---------|------------|-----------|
 | **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/14      | Mobile Robotics Theory | R1a and R1b | R2a: [Ch 6-7: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0) <br> R2b: TBD | R2a ~ 1h; R2b TBD |
+| 09/21      | Mobile Robotics Theory | R1a and R1b | R2a: [Ch 6-7: Introduction to Autonomous Robots (Correll)](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases/tag/v3.0) <br> R2b: TBD | R2a ~ 1h; R2b TBD |
 
 
 
