@@ -45,9 +45,11 @@ IN CONSTRUCTION
 |------------|-----------|---------|------------|-----------|
 | 09/28 | L6: SW Eng Skill: Requirements and Interfaces |  | A3 (before L7) | |
 | 09/30 | L7: Encapsulation |   |  |   |
+
 <!--
 | 09/28 | L6: Encapsulation |   |  |   |
-| 09/30 | L7: Association | A3 | A4 (before L9) |  | -->
+| 09/30 | L7: Association | A3 | A4 (before L9) |  |
+-->
 
 # Week 05: More OO-Concepts
 
@@ -55,8 +57,10 @@ IN CONSTRUCTION
 |------------|-----------|---------|------------|-----------|
 | 10/05 | L8: Association | A3 | A4 (before L10) |  |
 | 10/07 | L9: Memory Model Diagrams |   |  |   |
+
 <!-- | 10/05 | L8: Memory Model Diagrams |   |  |   |
-| 10/07 | L9: Handling Exceptions | A4 | A5 (before L10) |  | -->
+| 10/07 | L9: Handling Exceptions | A4 | A5 (before L10) |  |
+-->
 
 
 # Week 06: Catch-Up and Recap
@@ -64,6 +68,7 @@ IN CONSTRUCTION
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/14 | L10: Handling Exceptions | A4 | A5 (before L12) |  |
+
 <!-- | 10/14 | L10: Catch-Up and Recap | A5 |  |  | -->
 
 <!--
