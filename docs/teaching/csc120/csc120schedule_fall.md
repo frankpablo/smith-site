@@ -33,29 +33,40 @@ IN CONSTRUCTION
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 09/21 | L4: Introduction to Java |   |  |   |
-| 09/23 | L5: SW Eng Skill: Requirements and Interfaces | A2| A3 (before L7) | |
+| 09/23 | L5: MOUNTAIN DAY | A2 |  |
+
+<!--
+| 09/21 | L4: Introduction to Java |   |  |   |
+| 09/23 | L5: SW Eng Skill: Requirements and Interfaces | A2| A3 (before L7) | | -->
 
 # Week 04: OO-Concepts
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
+| 09/28 | L6: SW Eng Skill: Requirements and Interfaces |  | A3 (before L7) | |
+| 09/30 | L7: Encapsulation |   |  |   |
+<!--
 | 09/28 | L6: Encapsulation |   |  |   |
-| 09/30 | L7: Association | A3 | A4 (before L9) |  |
+| 09/30 | L7: Association | A3 | A4 (before L9) |  | -->
 
 # Week 05: More OO-Concepts
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/05 | L8: Memory Model Diagrams |   |  |   |
-| 10/07 | L9: Handling Exceptions | A4 | A5 (before L10) |  |
+| 10/05 | L8: Association | A3 | A4 (before L10) |  |
+| 10/07 | L9: Memory Model Diagrams |   |  |   |
+<!-- | 10/05 | L8: Memory Model Diagrams |   |  |   |
+| 10/07 | L9: Handling Exceptions | A4 | A5 (before L10) |  | -->
 
 
 # Week 06: Catch-Up and Recap
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 10/14 | L10: Catch-Up and Recap | A5 |  |  |
+| 10/14 | L10: Handling Exceptions | A4 | A5 (before L12) |  |
+<!-- | 10/14 | L10: Catch-Up and Recap | A5 |  |  | -->
 
+<!--
 # Skill check Weekend
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
@@ -63,15 +74,23 @@ IN CONSTRUCTION
 | 10/16 | Midterm Skill Check 3:00 PM – 9:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
 | 10/17 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
 | 10/18 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | [Info](https://www.science.smith.edu/self-scheduled-exams/) |
-
-
+-->
 
 # Week 07: Testing and Applications
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
 | 10/19 | L11: SW Eng Skill: Unit Testing | |  |  |
-| 10/21 | L12*: Real-World Application: Introduction to Graphics |   | A6 (before L14) |  |
+| 10/21 | L12*: Real-World Application: Introduction to Graphics | A5 | A6 (before L14) |  |
+
+
+# Skill check Weekend
+
+| **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
+|------------|-----------|---------|------------|-----------|
+| 10/23 | Midterm Skill Check 3:00 PM – 9:00 PM |  |  |  Moodle Skill Check |
+| 10/24 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | Moodle Skill Check |
+| 10/25 | Midterm Skill Check 12:00 PM – 6:00 PM |  |  | Moodle Skill Check |
 
 
 # Week 08: Inheritance

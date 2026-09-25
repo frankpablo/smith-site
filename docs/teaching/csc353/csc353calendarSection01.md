@@ -21,7 +21,7 @@ nav_order: 1
 |------------|-----------|---------|------------|-----------|
 | **WEEK 2** | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/21      |Visit to the Botanic Garden | R1a and R1b |  |  |
+| 09/21      | Visit to the Botanic Garden | R1a and R1b |  |  |
 
 
 TBD
