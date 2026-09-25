@@ -63,7 +63,7 @@ IN CONSTRUCTION
 -->
 
 
-# Week 06: Catch-Up and Recap
+# Week 06: Exceptions
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
