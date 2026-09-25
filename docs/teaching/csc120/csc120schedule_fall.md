@@ -43,7 +43,7 @@ IN CONSTRUCTION
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 09/28 | L6: SW Eng Skill: Requirements and Interfaces |  | A3 (before L7) | |
+| 09/28 | L6: SW Eng Skill: Requirements and Interfaces |  | A3 (before L8) | |
 | 09/30 | L7: Encapsulation |   |  |   |
 
 <!--
