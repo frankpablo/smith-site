@@ -31,7 +31,7 @@ Attendance is mandatory
 **Office Hours**:
 
  * ALL office hours should be scheduled using [this Calendly Link](https://calendly.com/pablo-frank/office-hours)
-    * Wednesdays are IN PERSON at Ford 342 (see Calendly for times)
+    * Wednesdays are IN PERSON at Bass 217 (see Calendly for times)
     * Thursdays are THROUGH ZOOM (see Calendly for times and Zoom Link)
  * IF you did not make an appointment on time, message me through Slack and I'll tell you when/where to meet me.
 
