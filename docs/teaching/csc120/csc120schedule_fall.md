@@ -162,7 +162,7 @@ IN CONSTRUCTION
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 12/19 (Saturday) | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start) |
-| 12/20 (Sunday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start) |
-| 12/21 (Monday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start)|
-| 12/22 (Tuesday)  | Final Skill Check 9:00 AM – 4:30 PM |  |  | [Info](https://www.smith.edu/academics/registrar/examinations#FinalExams:~:text=19%E2%80%9322%2C%202026-,Instructions,-Students%20may%20start)|
+| 12/19 (Saturday) | Final Skill Check 9:00 AM – 4:30 PM |  |  |     Moodle Skill check |
+| 12/20 (Sunday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | Moodle Skill check |
+| 12/21 (Monday)   | Final Skill Check 9:00 AM – 4:30 PM |  |  | Moodle Skill check|
+| 12/22 (Tuesday)  | Final Skill Check 9:00 AM – 4:30 PM |  |  | Moodle Skill check |
