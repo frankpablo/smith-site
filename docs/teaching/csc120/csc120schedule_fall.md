@@ -129,7 +129,7 @@ IN CONSTRUCTION
 | 11/18 | L20: Real World Application: Data Structures |  | 	 |  |
 
 
-# Week 12: Final Project
+# Week 12: Final Project Workshop
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
