@@ -117,8 +117,8 @@ IN CONSTRUCTION
 
 | **Date**   | **Topic** | **Due** | **Issued** | **Notes** |
 |------------|-----------|---------|------------|-----------|
-| 11/09 | L17: Abstraction: Generics and Abstract Classes |  |  |  |
-| 11/10 | L18: Final Project Workshop and Graphics | A8 | FP1: Project Proposal (Before L19) |  |
+| 11/09 | L17: Final Project Workshop | A8 | FP1: Project Proposal (Before L19) |  |
+| 11/11 | L18: Abstraction: Generics and Abstract Classes |  |  |  |
 
 
 # Week 11: Diagrams and Data Structures
